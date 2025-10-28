@@ -1,0 +1,27 @@
+{
+  "total_households": {
+    "owner": 138050,
+    "renter": 223175,
+    "total": 361220
+  },
+  "moderate_burden": {
+    "owner": 18925,
+    "renter": 38435,
+    "total": 57360
+  },
+  "severe_burden": {
+    "owner": 18915,
+    "renter": 36880,
+    "total": 55795
+  },
+  "moderate_burden_share": {
+    "owner": 0.1371,
+    "renter": 0.1722,
+    "total": 0.1588
+  },
+  "severe_burden_share": {
+    "owner": 0.137,
+    "renter": 0.1653,
+    "total": 0.1545
+  }
+}

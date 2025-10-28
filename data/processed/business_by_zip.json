@@ -1,0 +1,9036 @@
+{
+  "total_businesses": 281789,
+  "top_naics_citywide": [
+    {
+      "sector": "Real Estate and Rental and Leasing Services",
+      "count": 27851
+    },
+    {
+      "sector": "Professional, Scientific, and Technical Services",
+      "count": 25484
+    },
+    {
+      "sector": "Food Services",
+      "count": 15070
+    },
+    {
+      "sector": "Retail Trade",
+      "count": 14002
+    },
+    {
+      "sector": "Private Education and Health Services",
+      "count": 9610
+    },
+    {
+      "sector": "Arts, Entertainment, and Recreation",
+      "count": 9224
+    },
+    {
+      "sector": "Accommodations",
+      "count": 9010
+    },
+    {
+      "sector": "Construction",
+      "count": 8203
+    },
+    {
+      "sector": "Multiple",
+      "count": 6184
+    },
+    {
+      "sector": "Financial Services",
+      "count": 5200
+    }
+  ],
+  "entries": [
+    {
+      "zip": "94110",
+      "business_count": 22878,
+      "share_of_city": 0.08119,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1823
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1653
+        },
+        {
+          "sector": "Food Services",
+          "count": 1507
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 16356
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 5366
+        },
+        {
+          "neighborhood": "Noe Valley",
+          "count": 485
+        }
+      ],
+      "centroid": {
+        "lat": 37.754847,
+        "lon": -122.415482
+      }
+    },
+    {
+      "zip": "94107",
+      "business_count": 19978,
+      "share_of_city": 0.0709,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2691
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1998
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1109
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 6175
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 6105
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3824
+        }
+      ],
+      "centroid": {
+        "lat": 37.772106,
+        "lon": -122.400153
+      }
+    },
+    {
+      "zip": "94103",
+      "business_count": 19845,
+      "share_of_city": 0.07043,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1757
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1569
+        },
+        {
+          "sector": "Food Services",
+          "count": 1348
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 11026
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 5926
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1300
+        }
+      ],
+      "centroid": {
+        "lat": 37.772552,
+        "lon": -122.40852
+      }
+    },
+    {
+      "zip": "94109",
+      "business_count": 16150,
+      "share_of_city": 0.05731,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2535
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1170
+        },
+        {
+          "sector": "Food Services",
+          "count": 830
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 4960
+        },
+        {
+          "neighborhood": "Russian Hill",
+          "count": 4379
+        },
+        {
+          "neighborhood": "Tenderloin",
+          "count": 2533
+        }
+      ],
+      "centroid": {
+        "lat": 37.791793,
+        "lon": -122.420071
+      }
+    },
+    {
+      "zip": "94102",
+      "business_count": 13921,
+      "share_of_city": 0.0494,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1210
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1156
+        },
+        {
+          "sector": "Food Services",
+          "count": 1030
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 5707
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 4120
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1629
+        }
+      ],
+      "centroid": {
+        "lat": 37.781847,
+        "lon": -122.417658
+      }
+    },
+    {
+      "zip": "94111",
+      "business_count": 12260,
+      "share_of_city": 0.04351,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2213
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1022
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 936
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 7403
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 2993
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 855
+        }
+      ],
+      "centroid": {
+        "lat": 37.790731,
+        "lon": -122.401277
+      }
+    },
+    {
+      "zip": "94105",
+      "business_count": 12248,
+      "share_of_city": 0.04347,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2063
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 790
+        },
+        {
+          "sector": "Food Services",
+          "count": 753
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 11569
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 34
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 9
+        }
+      ],
+      "centroid": {
+        "lat": 37.790528,
+        "lon": -122.398929
+      }
+    },
+    {
+      "zip": "94114",
+      "business_count": 12240,
+      "share_of_city": 0.04344,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1290
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1239
+        },
+        {
+          "sector": "Accommodations",
+          "count": 760
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 7984
+        },
+        {
+          "neighborhood": "Noe Valley",
+          "count": 3563
+        },
+        {
+          "neighborhood": "Twin Peaks",
+          "count": 284
+        }
+      ],
+      "centroid": {
+        "lat": 37.758614,
+        "lon": -122.435696
+      }
+    },
+    {
+      "zip": "94122",
+      "business_count": 11937,
+      "share_of_city": 0.04236,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1236
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 827
+        },
+        {
+          "sector": "Food Services",
+          "count": 675
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 7056
+        },
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 4620
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 17
+        }
+      ],
+      "centroid": {
+        "lat": 37.747544,
+        "lon": -122.477816
+      }
+    },
+    {
+      "zip": "94124",
+      "business_count": 11870,
+      "share_of_city": 0.04212,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1108
+        },
+        {
+          "sector": "Food Services",
+          "count": 941
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 652
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 11284
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 93
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 32
+        }
+      ],
+      "centroid": {
+        "lat": 37.729892,
+        "lon": -122.387416
+      }
+    },
+    {
+      "zip": "94118",
+      "business_count": 11772,
+      "share_of_city": 0.04178,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1551
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 937
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 785
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 5908
+        },
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 3167
+        },
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1308
+        }
+      ],
+      "centroid": {
+        "lat": 37.78195,
+        "lon": -122.462553
+      }
+    },
+    {
+      "zip": "94112",
+      "business_count": 11532,
+      "share_of_city": 0.04092,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 879
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 643
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 597
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Excelsior",
+          "count": 4359
+        },
+        {
+          "neighborhood": "Outer Mission",
+          "count": 3402
+        },
+        {
+          "neighborhood": "Oceanview/Merced/Ingleside",
+          "count": 2210
+        }
+      ],
+      "centroid": {
+        "lat": 37.71958,
+        "lon": -122.447158
+      }
+    },
+    {
+      "zip": "94117",
+      "business_count": 11297,
+      "share_of_city": 0.04009,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1510
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 873
+        },
+        {
+          "sector": "Accommodations",
+          "count": 639
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 5115
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 2699
+        },
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1583
+        }
+      ],
+      "centroid": {
+        "lat": 37.770088,
+        "lon": -122.441779
+      }
+    },
+    {
+      "zip": "94115",
+      "business_count": 11088,
+      "share_of_city": 0.03935,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1328
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 988
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 898
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 5251
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 2008
+        },
+        {
+          "neighborhood": "Japantown",
+          "count": 1430
+        }
+      ],
+      "centroid": {
+        "lat": 37.785991,
+        "lon": -122.437103
+      }
+    },
+    {
+      "zip": "94104",
+      "business_count": 10638,
+      "share_of_city": 0.03775,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2219
+        },
+        {
+          "sector": "Financial Services",
+          "count": 805
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 719
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 10451
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 14
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 13
+        }
+      ],
+      "centroid": {
+        "lat": 37.790567,
+        "lon": -122.39898
+      }
+    },
+    {
+      "zip": "94133",
+      "business_count": 10376,
+      "share_of_city": 0.03682,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1317
+        },
+        {
+          "sector": "Food Services",
+          "count": 770
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 752
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 5363
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 3030
+        },
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1024
+        }
+      ],
+      "centroid": {
+        "lat": 37.799732,
+        "lon": -122.409283
+      }
+    },
+    {
+      "zip": "94108",
+      "business_count": 9770,
+      "share_of_city": 0.03467,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1066
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 957
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 851
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 5239
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 2985
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1407
+        }
+      ],
+      "centroid": {
+        "lat": 37.792259,
+        "lon": -122.403585
+      }
+    },
+    {
+      "zip": "94123",
+      "business_count": 9663,
+      "share_of_city": 0.03429,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1431
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 782
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 550
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 8809
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 280
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 19
+        }
+      ],
+      "centroid": {
+        "lat": 37.798404,
+        "lon": -122.435127
+      }
+    },
+    {
+      "zip": "94121",
+      "business_count": 8756,
+      "share_of_city": 0.03107,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1112
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 601
+        },
+        {
+          "sector": "Accommodations",
+          "count": 395
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 8232
+        },
+        {
+          "neighborhood": "Seacliff",
+          "count": 275
+        },
+        {
+          "neighborhood": "Lincoln Park",
+          "count": 36
+        }
+      ],
+      "centroid": {
+        "lat": 37.779455,
+        "lon": -122.488678
+      }
+    },
+    {
+      "zip": "94116",
+      "business_count": 7106,
+      "share_of_city": 0.02522,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 549
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 526
+        },
+        {
+          "sector": "Construction",
+          "count": 485
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 5362
+        },
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1223
+        },
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 340
+        }
+      ],
+      "centroid": {
+        "lat": 37.741741,
+        "lon": -122.479136
+      }
+    },
+    {
+      "zip": "94131",
+      "business_count": 5744,
+      "share_of_city": 0.02038,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 598
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 463
+        },
+        {
+          "sector": "Accommodations",
+          "count": 380
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Noe Valley",
+          "count": 1854
+        },
+        {
+          "neighborhood": "Glen Park",
+          "count": 1793
+        },
+        {
+          "neighborhood": "Twin Peaks",
+          "count": 950
+        }
+      ],
+      "centroid": {
+        "lat": 37.745331,
+        "lon": -122.440241
+      }
+    },
+    {
+      "zip": "94134",
+      "business_count": 5032,
+      "share_of_city": 0.01786,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 380
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 325
+        },
+        {
+          "sector": "Food Services",
+          "count": 227
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Portola",
+          "count": 2067
+        },
+        {
+          "neighborhood": "Visitacion Valley",
+          "count": 1767
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 624
+        }
+      ],
+      "centroid": {
+        "lat": 37.722296,
+        "lon": -122.409426
+      }
+    },
+    {
+      "zip": "94132",
+      "business_count": 4688,
+      "share_of_city": 0.01664,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 364
+        },
+        {
+          "sector": "Food Services",
+          "count": 337
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 330
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lakeshore",
+          "count": 2071
+        },
+        {
+          "neighborhood": "Oceanview/Merced/Ingleside",
+          "count": 1199
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 786
+        }
+      ],
+      "centroid": {
+        "lat": 37.727624,
+        "lon": -122.476802
+      }
+    },
+    {
+      "zip": "94127",
+      "business_count": 4537,
+      "share_of_city": 0.0161,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 461
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 419
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 244
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 4383
+        },
+        {
+          "neighborhood": "Twin Peaks",
+          "count": 13
+        },
+        {
+          "neighborhood": "Treasure Island",
+          "count": 7
+        }
+      ],
+      "centroid": {
+        "lat": 37.734886,
+        "lon": -122.455548
+      }
+    },
+    {
+      "zip": "94158",
+      "business_count": 2010,
+      "share_of_city": 0.00713,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 245
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 237
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 171
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1913
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 40
+        },
+        {
+          "neighborhood": "Golden Gate Park",
+          "count": 10
+        }
+      ],
+      "centroid": {
+        "lat": 37.771373,
+        "lon": -122.394694
+      }
+    },
+    {
+      "zip": "94129",
+      "business_count": 1288,
+      "share_of_city": 0.00457,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 165
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 159
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 58
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Presidio",
+          "count": 1192
+        },
+        {
+          "neighborhood": "Marina",
+          "count": 7
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.785505,
+        "lon": -122.438742
+      }
+    },
+    {
+      "zip": "94130",
+      "business_count": 928,
+      "share_of_city": 0.00329,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 86
+        },
+        {
+          "sector": "Manufacturing",
+          "count": 46
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 42
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Treasure Island",
+          "count": 840
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 11
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 7
+        }
+      ],
+      "centroid": {
+        "lat": 37.764363,
+        "lon": -122.412686
+      }
+    },
+    {
+      "zip": "94128",
+      "business_count": 251,
+      "share_of_city": 0.00089,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 42
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 23
+        },
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 18
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 3
+        },
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 2
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.768841,
+        "lon": -122.426033
+      }
+    },
+    {
+      "zip": "94188",
+      "business_count": 155,
+      "share_of_city": 0.00055,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 11
+        },
+        {
+          "sector": "Food Services",
+          "count": 10
+        },
+        {
+          "sector": "Administrative and Support Services",
+          "count": 10
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 46
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 2
+        },
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.735029,
+        "lon": -122.394708
+      }
+    },
+    {
+      "zip": "94143",
+      "business_count": 124,
+      "share_of_city": 0.00044,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 50
+        },
+        {
+          "sector": "Food Services",
+          "count": 11
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 11
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 99
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 14
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.758202,
+        "lon": -122.45442
+      }
+    },
+    {
+      "zip": "94017",
+      "business_count": 115,
+      "share_of_city": 0.00041,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 92
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 7
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 4
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 97
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 8
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 5
+        }
+      ],
+      "centroid": {
+        "lat": 37.775627,
+        "lon": -122.405503
+      }
+    },
+    {
+      "zip": "99999",
+      "business_count": 95,
+      "share_of_city": 0.00034,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 8
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 4
+        },
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.771645,
+        "lon": -122.428739
+      }
+    },
+    {
+      "zip": "94142",
+      "business_count": 78,
+      "share_of_city": 0.00028,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 18
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 5
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 12
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 3
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.776345,
+        "lon": -122.413359
+      }
+    },
+    {
+      "zip": "94147",
+      "business_count": 76,
+      "share_of_city": 0.00027,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 9
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 8
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 6
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 24
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 3
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.792544,
+        "lon": -122.432584
+      }
+    },
+    {
+      "zip": "94141",
+      "business_count": 70,
+      "share_of_city": 0.00025,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 8
+        },
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 5
+        },
+        {
+          "sector": "Construction",
+          "count": 5
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 32
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.760243,
+        "lon": -122.414437
+      }
+    },
+    {
+      "zip": "94119",
+      "business_count": 68,
+      "share_of_city": 0.00024,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 4
+        },
+        {
+          "sector": "Information",
+          "count": 3
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 12
+        },
+        {
+          "neighborhood": "Tenderloin",
+          "count": 2
+        },
+        {
+          "neighborhood": "Russian Hill",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.781288,
+        "lon": -122.421272
+      }
+    },
+    {
+      "zip": "94101",
+      "business_count": 61,
+      "share_of_city": 0.00022,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 11
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 7
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 35
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 7
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.783564,
+        "lon": -122.40686
+      }
+    },
+    {
+      "zip": "94159",
+      "business_count": 59,
+      "share_of_city": 0.00021,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 10
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 7
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 4
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 15
+        },
+        {
+          "neighborhood": "Presidio",
+          "count": 4
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.778288,
+        "lon": -122.457699
+      }
+    },
+    {
+      "zip": "94080",
+      "business_count": 46,
+      "share_of_city": 0.00016,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 9
+        },
+        {
+          "sector": "Food Services",
+          "count": 7
+        },
+        {
+          "sector": "Financial Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Mission",
+          "count": 2
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 2
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.76268,
+        "lon": -122.439745
+      }
+    },
+    {
+      "zip": "94126",
+      "business_count": 46,
+      "share_of_city": 0.00016,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 5
+        },
+        {
+          "sector": "Financial Services",
+          "count": 5
+        },
+        {
+          "sector": "Information",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 24
+        },
+        {
+          "neighborhood": "North Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.784321,
+        "lon": -122.401792
+      }
+    },
+    {
+      "zip": "94146",
+      "business_count": 44,
+      "share_of_city": 0.00016,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 7
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 6
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 5
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Noe Valley",
+          "count": 14
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.745956,
+        "lon": -122.432
+      }
+    },
+    {
+      "zip": "94113",
+      "business_count": 40,
+      "share_of_city": 0.00014,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 8
+        },
+        {
+          "sector": "Food Services",
+          "count": 4
+        },
+        {
+          "sector": "Financial Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 10
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 5
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.779213,
+        "lon": -122.421483
+      }
+    },
+    {
+      "zip": "94164",
+      "business_count": 40,
+      "share_of_city": 0.00014,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 6
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 4
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 6
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.778973,
+        "lon": -122.426947
+      }
+    },
+    {
+      "zip": "94140",
+      "business_count": 36,
+      "share_of_city": 0.00013,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 7
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 3
+        },
+        {
+          "sector": "Multiple",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 4
+        },
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        },
+        {
+          "neighborhood": "Portola",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.750324,
+        "lon": -122.411756
+      }
+    },
+    {
+      "zip": "94015",
+      "business_count": 31,
+      "share_of_city": 0.00011,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 6
+        },
+        {
+          "sector": "Multiple",
+          "count": 5
+        },
+        {
+          "sector": "Food Services",
+          "count": 4
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 19
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 2
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.784985,
+        "lon": -122.410508
+      }
+    },
+    {
+      "zip": "94014",
+      "business_count": 27,
+      "share_of_city": 0.0001,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 3
+        },
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Information",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 15
+        },
+        {
+          "neighborhood": "Outer Mission",
+          "count": 2
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.773004,
+        "lon": -122.414753
+      }
+    },
+    {
+      "zip": "94013",
+      "business_count": 26,
+      "share_of_city": 9e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 7
+        },
+        {
+          "sector": "Accommodations",
+          "count": 4
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 14
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 6
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.773847,
+        "lon": -122.408741
+      }
+    },
+    {
+      "zip": "94120",
+      "business_count": 25,
+      "share_of_city": 9e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 4
+        },
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Information",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 4
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.774699,
+        "lon": -122.409937
+      }
+    },
+    {
+      "zip": "94019",
+      "business_count": 24,
+      "share_of_city": 9e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 4
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 3
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 7
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 5
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.790119,
+        "lon": -122.418955
+      }
+    },
+    {
+      "zip": "94012",
+      "business_count": 20,
+      "share_of_city": 7e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 5
+        },
+        {
+          "sector": "Food Services",
+          "count": 3
+        },
+        {
+          "sector": "Accommodations",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 8
+        },
+        {
+          "neighborhood": "Tenderloin",
+          "count": 8
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.780012,
+        "lon": -122.418923
+      }
+    },
+    {
+      "zip": "94125",
+      "business_count": 20,
+      "share_of_city": 7e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 7
+        },
+        {
+          "sector": "Wholesale Trade",
+          "count": 2
+        },
+        {
+          "sector": "Construction",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 10
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 2
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.745831,
+        "lon": -122.395628
+      }
+    },
+    {
+      "zip": "94010",
+      "business_count": 17,
+      "share_of_city": 6e-05,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 2
+        },
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 3
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 2
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.767233,
+        "lon": -122.409431
+      }
+    },
+    {
+      "zip": "94106",
+      "business_count": 17,
+      "share_of_city": 6e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 2
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 8
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 4
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.780819,
+        "lon": -122.405744
+      }
+    },
+    {
+      "zip": "94301",
+      "business_count": 14,
+      "share_of_city": 5e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 2
+        },
+        {
+          "sector": "Information",
+          "count": 2
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 4
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 3
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.776505,
+        "lon": -122.423552
+      }
+    },
+    {
+      "zip": "94172",
+      "business_count": 13,
+      "share_of_city": 5e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 6
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94213",
+      "business_count": 11,
+      "share_of_city": 4e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 9
+        },
+        {
+          "neighborhood": "Marina",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790621,
+        "lon": -122.436688
+      }
+    },
+    {
+      "zip": "94016",
+      "business_count": 9,
+      "share_of_city": 3e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 3
+        },
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 2
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777298,
+        "lon": -122.410996
+      }
+    },
+    {
+      "zip": "94044",
+      "business_count": 9,
+      "share_of_city": 3e-05,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 2
+        },
+        {
+          "sector": "Multiple",
+          "count": 2
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 2
+        },
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.772025,
+        "lon": -122.420523
+      }
+    },
+    {
+      "zip": "94066",
+      "business_count": 9,
+      "share_of_city": 3e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 2
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        },
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.765837,
+        "lon": -122.421321
+      }
+    },
+    {
+      "zip": "94518",
+      "business_count": 9,
+      "share_of_city": 3e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 4
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 5
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.769069,
+        "lon": -122.405776
+      }
+    },
+    {
+      "zip": "94137",
+      "business_count": 7,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 2
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 2
+        },
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.756133,
+        "lon": -122.421834
+      }
+    },
+    {
+      "zip": "94583",
+      "business_count": 7,
+      "share_of_city": 2e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 6
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94608",
+      "business_count": 7,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 4
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 4
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781392,
+        "lon": -122.405857
+      }
+    },
+    {
+      "zip": "94610",
+      "business_count": 7,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 2
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.765948,
+        "lon": -122.409019
+      }
+    },
+    {
+      "zip": "94901",
+      "business_count": 7,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.787155,
+        "lon": -122.40824
+      }
+    },
+    {
+      "zip": "94177",
+      "business_count": 6,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 4
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781133,
+        "lon": -122.445757
+      }
+    },
+    {
+      "zip": "94530",
+      "business_count": 6,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784019,
+        "lon": -122.423123
+      }
+    },
+    {
+      "zip": "94612",
+      "business_count": 6,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 2
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.780575,
+        "lon": -122.406563
+      }
+    },
+    {
+      "zip": "94002",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 3
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775301,
+        "lon": -122.418766
+      }
+    },
+    {
+      "zip": "94005",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94100",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 4
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.755787,
+        "lon": -122.414914
+      }
+    },
+    {
+      "zip": "94607",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781978,
+        "lon": -122.404525
+      }
+    },
+    {
+      "zip": "94611",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.765782,
+        "lon": -122.423103
+      }
+    },
+    {
+      "zip": "94920",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.785661,
+        "lon": -122.420899
+      }
+    },
+    {
+      "zip": "94941",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 3
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        },
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.792603,
+        "lon": -122.422217
+      }
+    },
+    {
+      "zip": "95014",
+      "business_count": 5,
+      "share_of_city": 2e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.760408,
+        "lon": -122.471726
+      }
+    },
+    {
+      "zip": "94018",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        },
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.788237,
+        "lon": -122.415747
+      }
+    },
+    {
+      "zip": "94070",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 2
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.754622,
+        "lon": -122.439739
+      }
+    },
+    {
+      "zip": "94139",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        },
+        {
+          "neighborhood": "Treasure Island",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94401",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784149,
+        "lon": -122.403095
+      }
+    },
+    {
+      "zip": "94410",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 2
+        },
+        {
+          "neighborhood": "Bernal Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.753307,
+        "lon": -122.415093
+      }
+    },
+    {
+      "zip": "94605",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        },
+        {
+          "neighborhood": "Visitacion Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.744012,
+        "lon": -122.398391
+      }
+    },
+    {
+      "zip": "94707",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        },
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.774174,
+        "lon": -122.411376
+      }
+    },
+    {
+      "zip": "94801",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 2
+        },
+        {
+          "sector": "Wholesale Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784149,
+        "lon": -122.403095
+      }
+    },
+    {
+      "zip": "94904",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.748185,
+        "lon": -122.416816
+      }
+    },
+    {
+      "zip": "94965",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775262,
+        "lon": -122.407518
+      }
+    },
+    {
+      "zip": "95105",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 4
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95107",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.776403,
+        "lon": -122.402634
+      }
+    },
+    {
+      "zip": "95158",
+      "business_count": 4,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        },
+        {
+          "sector": "Manufacturing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 3
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.768625,
+        "lon": -122.394805
+      }
+    },
+    {
+      "zip": "84103",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        },
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775627,
+        "lon": -122.402954
+      }
+    },
+    {
+      "zip": "84115",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 2
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 2
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.782088,
+        "lon": -122.450671
+      }
+    },
+    {
+      "zip": "90842",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91408",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.791693,
+        "lon": -122.403163
+      }
+    },
+    {
+      "zip": "94011",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781643,
+        "lon": -122.407026
+      }
+    },
+    {
+      "zip": "94022",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775494,
+        "lon": -122.432214
+      }
+    },
+    {
+      "zip": "94025",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790537,
+        "lon": -122.404856
+      }
+    },
+    {
+      "zip": "94041",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771151,
+        "lon": -122.435076
+      }
+    },
+    {
+      "zip": "94062",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        },
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766139,
+        "lon": -122.437819
+      }
+    },
+    {
+      "zip": "94086",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94135",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 2
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Portola",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729347,
+        "lon": -122.409793
+      }
+    },
+    {
+      "zip": "94304",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 3
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Portola",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.729347,
+        "lon": -122.409793
+      }
+    },
+    {
+      "zip": "94418",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.780959,
+        "lon": -122.46658
+      }
+    },
+    {
+      "zip": "94501",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.792029,
+        "lon": -122.401744
+      }
+    },
+    {
+      "zip": "94509",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "94511",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.79003,
+        "lon": -122.411542
+      }
+    },
+    {
+      "zip": "94544",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.765923,
+        "lon": -122.397701
+      }
+    },
+    {
+      "zip": "94546",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.767476,
+        "lon": -122.42072
+      }
+    },
+    {
+      "zip": "94596",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.785114,
+        "lon": -122.44402
+      }
+    },
+    {
+      "zip": "94602",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Mission",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.745678,
+        "lon": -122.420001
+      }
+    },
+    {
+      "zip": "94618",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 2
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.77796,
+        "lon": -122.395659
+      }
+    },
+    {
+      "zip": "94621",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        },
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.755085,
+        "lon": -122.4178
+      }
+    },
+    {
+      "zip": "94704",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Lakeshore",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.74879,
+        "lon": -122.424061
+      }
+    },
+    {
+      "zip": "94705",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94803",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 2
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "94960",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        },
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790312,
+        "lon": -122.421894
+      }
+    },
+    {
+      "zip": "95103",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        },
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.779314,
+        "lon": -122.413702
+      }
+    },
+    {
+      "zip": "95104",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95112",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 2
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.769259,
+        "lon": -122.422105
+      }
+    },
+    {
+      "zip": "95605",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "98104",
+      "business_count": 3,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 3
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "90401",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "zip": "91403",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784149,
+        "lon": -122.403095
+      }
+    },
+    {
+      "zip": "91458",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "92124",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "92614",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.792712,
+        "lon": -122.403215
+      }
+    },
+    {
+      "zip": "92618",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "93103",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "93104",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "93123",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "93134",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        },
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Visitacion Valley",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.720687,
+        "lon": -122.398186
+      }
+    },
+    {
+      "zip": "94021",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786659,
+        "lon": -122.450562
+      }
+    },
+    {
+      "zip": "94030",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Manufacturing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7786,
+        "lon": -122.448313
+      }
+    },
+    {
+      "zip": "94061",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.788765,
+        "lon": -122.437021
+      }
+    },
+    {
+      "zip": "94089",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "94144",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "zip": "94145",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94150",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94155",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        },
+        {
+          "neighborhood": "Japantown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786693,
+        "lon": -122.435737
+      }
+    },
+    {
+      "zip": "94157",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94163",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94207",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94211",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766365,
+        "lon": -122.442379
+      }
+    },
+    {
+      "zip": "94214",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94217",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "zip": "94306",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.785104,
+        "lon": -122.417211
+      }
+    },
+    {
+      "zip": "94402",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "94404",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94506",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784149,
+        "lon": -122.403095
+      }
+    },
+    {
+      "zip": "94533",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94549",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794782,
+        "lon": -122.428046
+      }
+    },
+    {
+      "zip": "94566",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94586",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94601",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94619",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.773037,
+        "lon": -122.43269
+      }
+    },
+    {
+      "zip": "94702",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Noe Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.747134,
+        "lon": -122.43522
+      }
+    },
+    {
+      "zip": "94706",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        },
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.788765,
+        "lon": -122.437021
+      }
+    },
+    {
+      "zip": "94709",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.792208,
+        "lon": -122.405344
+      }
+    },
+    {
+      "zip": "94728",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94903",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.789714,
+        "lon": -122.417912
+      }
+    },
+    {
+      "zip": "94908",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94930",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794819,
+        "lon": -122.416996
+      }
+    },
+    {
+      "zip": "94947",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.795731,
+        "lon": -122.408937
+      }
+    },
+    {
+      "zip": "95051",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95108",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95115",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        },
+        {
+          "neighborhood": "Japantown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781686,
+        "lon": -122.445975
+      }
+    },
+    {
+      "zip": "95120",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        },
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.769213,
+        "lon": -122.427228
+      }
+    },
+    {
+      "zip": "95123",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "95124",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.76639,
+        "lon": -122.397647
+      }
+    },
+    {
+      "zip": "95125",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        },
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95608",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        },
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.780237,
+        "lon": -122.408016
+      }
+    },
+    {
+      "zip": "95616",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        },
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786251,
+        "lon": -122.434691
+      }
+    },
+    {
+      "zip": "95762",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        },
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "95833",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        },
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.792712,
+        "lon": -122.403215
+      }
+    },
+    {
+      "zip": "97104",
+      "business_count": 2,
+      "share_of_city": 1e-05,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 2
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 2
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "10012",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.788765,
+        "lon": -122.437021
+      }
+    },
+    {
+      "zip": "10016",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "11206",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "1267",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "13850",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "19404",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "19808",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "2110",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Wholesale Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "2138",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "22314",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "25778",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "32250",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "34124",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "4107",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Manufacturing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "4110",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "4111",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "4118",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.780959,
+        "lon": -122.46658
+      }
+    },
+    {
+      "zip": "4123",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "4131",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.756195,
+        "lon": -122.443079
+      }
+    },
+    {
+      "zip": "4525",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "48110",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "60611",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.77875,
+        "lon": -122.457496
+      }
+    },
+    {
+      "zip": "64104",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "64111",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "64114",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "zip": "64117",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "64131",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Noe Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.747134,
+        "lon": -122.43522
+      }
+    },
+    {
+      "zip": "64140",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "74111",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "84102",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "84104",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "84107",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "84109",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Wholesale Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.800799,
+        "lon": -122.419072
+      }
+    },
+    {
+      "zip": "84110",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "84133",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "zip": "84141",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "90026",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "zip": "90067",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "90230",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "90404",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "90715",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.800799,
+        "lon": -122.419072
+      }
+    },
+    {
+      "zip": "90716",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.719748,
+        "lon": -122.445914
+      }
+    },
+    {
+      "zip": "90755",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "91006",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "9103",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "91104",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91112",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "zip": "91205",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91345",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91364",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91402",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "91404",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91405",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "91407",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "91409",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "91422",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "91448",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.780959,
+        "lon": -122.46658
+      }
+    },
+    {
+      "zip": "91789",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "91801",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "92025",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "92104",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "92109",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "92116",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "92117",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.77875,
+        "lon": -122.457496
+      }
+    },
+    {
+      "zip": "92123",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "92127",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "zip": "92322",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "92626",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "92868",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "93001",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Glen Park",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.740065,
+        "lon": -122.43466
+      }
+    },
+    {
+      "zip": "93644",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "93730",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "93940",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94009",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Russian Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.800799,
+        "lon": -122.419072
+      }
+    },
+    {
+      "zip": "94020",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "94028",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "94040",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "94065",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94085",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94136",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.715086,
+        "lon": -122.43995
+      }
+    },
+    {
+      "zip": "94153",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94165",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94166",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "94170",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94175",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Japantown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784622,
+        "lon": -122.434453
+      }
+    },
+    {
+      "zip": "94184",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "zip": "94194",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94197",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94198",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "94203",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94208",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "94210",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "94224",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94310",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Treasure Island",
+          "count": 1
+        }
+      ],
+      "centroid": null
+    },
+    {
+      "zip": "94311",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94312",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "94321",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "94333",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94403",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.779565,
+        "lon": -122.489239
+      }
+    },
+    {
+      "zip": "94412",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Oceanview/Merced/Ingleside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.715969,
+        "lon": -122.464196
+      }
+    },
+    {
+      "zip": "94430",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94503",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94505",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "94507",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94510",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "zip": "94513",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "94515",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Presidio",
+          "count": 1
+        }
+      ],
+      "centroid": null
+    },
+    {
+      "zip": "94519",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94520",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759676,
+        "lon": -122.396959
+      }
+    },
+    {
+      "zip": "94525",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94531",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94534",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94536",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "94539",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94547",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94555",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "94556",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94558",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Multiple",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94563",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "94564",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94565",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94576",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94578",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94587",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission Bay",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "zip": "94590",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.755411,
+        "lon": -122.466577
+      }
+    },
+    {
+      "zip": "94598",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.715086,
+        "lon": -122.43995
+      }
+    },
+    {
+      "zip": "94606",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94609",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94614",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "94660",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94701",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759676,
+        "lon": -122.396959
+      }
+    },
+    {
+      "zip": "94703",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Financial Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94710",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94719",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "94804",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Administrative and Support Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Visitacion Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.711905,
+        "lon": -122.409458
+      }
+    },
+    {
+      "zip": "94806",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94896",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Excelsior",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.715086,
+        "lon": -122.43995
+      }
+    },
+    {
+      "zip": "94905",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "94911",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Professional, Scientific, and Technical Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "94913",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "zip": "94914",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "94915",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.77875,
+        "lon": -122.457496
+      }
+    },
+    {
+      "zip": "94921",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Outer Richmond",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.779565,
+        "lon": -122.489239
+      }
+    },
+    {
+      "zip": "94924",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "94925",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94931",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "North Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "zip": "94933",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "94939",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "94943",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Marina",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "zip": "94945",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Chinatown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "zip": "94946",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Private Education and Health Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786228,
+        "lon": -122.450276
+      }
+    },
+    {
+      "zip": "94949",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786228,
+        "lon": -122.450276
+      }
+    },
+    {
+      "zip": "94952",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "94954",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Oceanview/Merced/Ingleside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.715969,
+        "lon": -122.464196
+      }
+    },
+    {
+      "zip": "94966",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Treasure Island",
+          "count": 1
+        }
+      ],
+      "centroid": null
+    },
+    {
+      "zip": "94978",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Hayes Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "zip": "95003",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Arts, Entertainment, and Recreation",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759676,
+        "lon": -122.396959
+      }
+    },
+    {
+      "zip": "95008",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95010",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "95030",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.755411,
+        "lon": -122.466577
+      }
+    },
+    {
+      "zip": "95060",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "95062",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "95073",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Potrero Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759676,
+        "lon": -122.396959
+      }
+    },
+    {
+      "zip": "95102",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Wholesale Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "95111",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95113",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95118",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Presidio Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.786228,
+        "lon": -122.450276
+      }
+    },
+    {
+      "zip": "95121",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95127",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "West of Twin Peaks",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "zip": "95132",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95133",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95134",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Visitacion Valley",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.711905,
+        "lon": -122.409458
+      }
+    },
+    {
+      "zip": "95214",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "95376",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "95403",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "95405",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Pacific Heights",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.788765,
+        "lon": -122.437021
+      }
+    },
+    {
+      "zip": "95411",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Food Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Japantown",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.784622,
+        "lon": -122.434453
+      }
+    },
+    {
+      "zip": "95472",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "95476",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95482",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "South of Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "zip": "95603",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95650",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Western Addition",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "zip": "95658",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95662",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Inner Sunset",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.755411,
+        "lon": -122.466577
+      }
+    },
+    {
+      "zip": "95667",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "95668",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.793752,
+        "lon": -122.411885
+      }
+    },
+    {
+      "zip": "95758",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "zip": "95765",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95819",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Real Estate and Rental and Leasing Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "95821",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Utilities",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95827",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Nob Hill",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.793752,
+        "lon": -122.411885
+      }
+    },
+    {
+      "zip": "95834",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "95937",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Castro/Upper Market",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "zip": "96140",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Tenderloin",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "zip": "96150",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Transportation and Warehousing",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "zip": "96753",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Sunset/Parkside",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "zip": "96815",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Retail Trade",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "97107",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "98021",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Information",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "98108",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Certain Services",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Financial District/South Beach",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "zip": "98118",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Lone Mountain/USF",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.77875,
+        "lon": -122.457496
+      }
+    },
+    {
+      "zip": "98250",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Accommodations",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Haight Ashbury",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "zip": "98349",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Bayview Hunters Point",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "zip": "98409",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "99103",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [],
+      "centroid": null
+    },
+    {
+      "zip": "99410",
+      "business_count": 1,
+      "share_of_city": 0.0,
+      "top_sectors": [
+        {
+          "sector": "Construction",
+          "count": 1
+        }
+      ],
+      "top_neighborhoods": [
+        {
+          "neighborhood": "Mission",
+          "count": 1
+        }
+      ],
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    }
+  ]
+}

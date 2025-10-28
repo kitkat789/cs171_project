@@ -1,0 +1,168 @@
+{
+  "entries": [
+    {
+      "neighborhood": "Financial District/South Beach",
+      "business_count": 42197
+    },
+    {
+      "neighborhood": "Mission",
+      "business_count": 22662
+    },
+    {
+      "neighborhood": "South of Market",
+      "business_count": 17597
+    },
+    {
+      "neighborhood": "Sunset/Parkside",
+      "business_count": 13309
+    },
+    {
+      "neighborhood": "Bayview Hunters Point",
+      "business_count": 12740
+    },
+    {
+      "neighborhood": "Outer Richmond",
+      "business_count": 9269
+    },
+    {
+      "neighborhood": "Marina",
+      "business_count": 9198
+    },
+    {
+      "neighborhood": "Chinatown",
+      "business_count": 9171
+    },
+    {
+      "neighborhood": "Castro/Upper Market",
+      "business_count": 8515
+    },
+    {
+      "neighborhood": "Tenderloin",
+      "business_count": 8451
+    },
+    {
+      "neighborhood": "Nob Hill",
+      "business_count": 8111
+    },
+    {
+      "neighborhood": "West of Twin Peaks",
+      "business_count": 7822
+    },
+    {
+      "neighborhood": "Pacific Heights",
+      "business_count": 7551
+    },
+    {
+      "neighborhood": "Hayes Valley",
+      "business_count": 6986
+    },
+    {
+      "neighborhood": "Potrero Hill",
+      "business_count": 6349
+    },
+    {
+      "neighborhood": "Mission Bay",
+      "business_count": 6212
+    },
+    {
+      "neighborhood": "Inner Sunset",
+      "business_count": 6003
+    },
+    {
+      "neighborhood": "Inner Richmond",
+      "business_count": 6000
+    },
+    {
+      "neighborhood": "North Beach",
+      "business_count": 5972
+    },
+    {
+      "neighborhood": "Noe Valley",
+      "business_count": 5950
+    },
+    {
+      "neighborhood": "Bernal Heights",
+      "business_count": 5796
+    },
+    {
+      "neighborhood": "Russian Hill",
+      "business_count": 5502
+    },
+    {
+      "neighborhood": "Haight Ashbury",
+      "business_count": 5204
+    },
+    {
+      "neighborhood": "Excelsior",
+      "business_count": 4806
+    },
+    {
+      "neighborhood": "Western Addition",
+      "business_count": 4652
+    },
+    {
+      "neighborhood": "Presidio Heights",
+      "business_count": 3906
+    },
+    {
+      "neighborhood": "Outer Mission",
+      "business_count": 3445
+    },
+    {
+      "neighborhood": "Oceanview/Merced/Ingleside",
+      "business_count": 3433
+    },
+    {
+      "neighborhood": "Lone Mountain/USF",
+      "business_count": 3285
+    },
+    {
+      "neighborhood": "Portola",
+      "business_count": 2101
+    },
+    {
+      "neighborhood": "Lakeshore",
+      "business_count": 2101
+    },
+    {
+      "neighborhood": "Glen Park",
+      "business_count": 1834
+    },
+    {
+      "neighborhood": "Visitacion Valley",
+      "business_count": 1783
+    },
+    {
+      "neighborhood": "Japantown",
+      "business_count": 1566
+    },
+    {
+      "neighborhood": "Twin Peaks",
+      "business_count": 1264
+    },
+    {
+      "neighborhood": "Presidio",
+      "business_count": 1221
+    },
+    {
+      "neighborhood": "Treasure Island",
+      "business_count": 910
+    },
+    {
+      "neighborhood": "Seacliff",
+      "business_count": 308
+    },
+    {
+      "neighborhood": "Golden Gate Park",
+      "business_count": 114
+    },
+    {
+      "neighborhood": "McLaren Park",
+      "business_count": 49
+    },
+    {
+      "neighborhood": "Lincoln Park",
+      "business_count": 37
+    }
+  ]
+}

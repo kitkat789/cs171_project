@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "district": "1",
+      "total_acres": 611.04
+    },
+    {
+      "district": "2",
+      "total_acres": 262.43
+    },
+    {
+      "district": "3",
+      "total_acres": 33.79
+    },
+    {
+      "district": "4",
+      "total_acres": 509.77
+    },
+    {
+      "district": "5",
+      "total_acres": 126.96
+    },
+    {
+      "district": "6",
+      "total_acres": 40.07
+    },
+    {
+      "district": "7",
+      "total_acres": 1083.05
+    },
+    {
+      "district": "8",
+      "total_acres": 198.14
+    },
+    {
+      "district": "9",
+      "total_acres": 200.51
+    },
+    {
+      "district": "10",
+      "total_acres": 272.74
+    },
+    {
+      "district": "11",
+      "total_acres": 183.75
+    }
+  ]
+}

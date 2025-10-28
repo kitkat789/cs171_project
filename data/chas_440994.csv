@@ -1,0 +1,85 @@
+
+Summary Level: County,
+Data for: San Francisco County; California,
+Year Selected: 2017-2021 ACS,
+Income Distribution Overview,Owner,Renter,Total,
+Household Income <= 30% HAMFI,"16,125","57,475","73,600",
+Household Income >30% to <=50% HAMFI,"12,740","23,945","36,685",
+Household Income >50% to <=80% HAMFI,"21,205","30,250","51,455",
+Household Income >80% to <=100% HAMFI,"12,265","17,080","29,345",
+Household Income >100% HAMFI,"75,710","94,420","170,130",
+Total,"138,050","223,175","361,220",
+
+Housing Problems Overview 1,Owner,Renter,Total,
+Household has at least 1 of 4 Housing Problems,"43,115","92,135","135,250",
+Household has none of 4 Housing Problems OR cost burden not available no other problems,"94,930","131,035","225,965",
+Total,"138,050","223,175","361,220",
+
+Severe Housing Problems Overview 2,Owner,Renter,Total,
+Household has at least 1 of 4 Severe Housing Problems,"25,080","60,185","85,265",
+Household has none of 4 Severe Housing Problems OR cost burden not available no other problems,"112,965","162,990","275,955",
+Total,"138,050","223,175","361,220",
+
+Housing Cost Burden Overview 3,Owner,Renter,Total,
+Cost Burden <=30%,"98,870","144,495","243,365",
+Cost Burden >30% to <=50%,"18,925","38,435","57,360",
+Cost Burden >50%,"18,915","36,880","55,795",
+Cost Burden not available,"1,330","3,365","4,695",
+Total,"138,050","223,175","361,220",
+
+Income by Housing Problems (Owners and Renters),Household has at least 1 of 4 Housing Problems,Household has none of 4 Housing Problems OR cost burden not available no other problems,Total,
+Household Income <= 30% HAMFI,"55,315","18,290","73,600",
+Household Income >30% to <=50% HAMFI,"24,390","12,300","36,685",
+Household Income >50% to <=80% HAMFI,"25,235","26,220","51,455",
+Household Income >80% to <=100% HAMFI,"10,880","18,465","29,345",
+Household Income >100% HAMFI,"19,430","150,700","170,130",
+Total,"135,250","225,965","361,220",
+
+Income by Housing Problems (Renters only),Household has at least 1 of 4 Housing Problems,Household has none of 4 Housing Problems OR cost burden not available no other problems,Total,
+Household Income <= 30% HAMFI,"44,000","13,480","57,475",
+Household Income >30% to <=50% HAMFI,"17,500","6,450","23,945",
+Household Income >50% to <=80% HAMFI,"16,305","13,940","30,250",
+Household Income >80% to <=100% HAMFI,"6,050","11,030","17,080",
+Household Income >100% HAMFI,"8,280","86,140","94,420",
+Total,"92,135","131,035","223,175",
+
+Income by Housing Problems (Owners only),Household has at least 1 of 4 Housing Problems,Household has none of 4 Housing Problems OR cost burden not available no other problems, Total,
+Household Income <= 30% HAMFI,"11,315","4,810","16,125",
+Household Income >30% to <=50% HAMFI,"6,890","5,850","12,740",
+Household Income >50% to <=80% HAMFI,"8,930","12,280","21,205",
+Household Income >80% to <=100% HAMFI,"4,830","7,435","12,265",
+Household Income >100% HAMFI,"11,150","64,560","75,710",
+Total,"43,115","94,930","138,050",
+
+Income by Cost Burden (Owners and Renters),Cost burden > 30% ,Cost burden > 50% ,Total,
+Household Income <= 30% HAMFI,"51,090","36,480","73,600",
+Household Income >30% to <=50% HAMFI,"20,850","10,615","36,685",
+Household Income >50% to <=80% HAMFI,"20,270","6,035","51,455",
+Household Income >80% to <=100% HAMFI,"8,650","1,490","29,345",
+Household Income >100% HAMFI,"12,300","1,175","170,130",
+Total,"113,160","55,795","361,220",
+
+Income by Cost Burden (Renters only),Cost burden > 30% ,Cost burden > 50% ,Total
+Household Income <= 30% HAMFI,"40,040","27,515","57,475",
+Household Income >30% to <=50% HAMFI,"14,310","6,160","23,945",
+Household Income >50% to <=80% HAMFI,"12,610","2,650","30,250",
+Household Income >80% to <=100% HAMFI,"4,635","430","17,080",
+Household Income >100% HAMFI,"3,720","125","94,420",
+Total,"75,315","36,880","223,175",
+
+Income by Cost Burden (Owners only),Cost burden > 30% ,Cost burden > 50% ,Total,
+Household Income <= 30% HAMFI,"11,045","8,965","16,125",
+Household Income >30% to <=50% HAMFI,"6,540","4,450","12,740",
+Household Income >50% to <=80% HAMFI,"7,655","3,385","21,205",
+Household Income >80% to <=100% HAMFI,"4,015","1,060","12,265",
+Household Income >100% HAMFI,"8,585","1,055","75,710",
+Total,"37,840","18,915","138,050",
+
+1. The four housing problems are: incomplete kitchen facilities; incomplete  plumbing facilities  more than 1 person per room; and cost burden greater than 30%.
+
+2. The four severe housing problems are: incomplete kitchen facilities; incomplete plumbing facilities; more than 1 person per room; and cost burden greater than 50%.
+
+3. Cost burden is the ratio of housing costs to household income. For renters- housing cost is gross rent (contract rent plus utilities),
+ For owners- housing cost is "select monthly owner costs" which includes mortgage payment; utilities; association fees; insurance; and real estate taxes. 
+
+

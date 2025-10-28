@@ -1,0 +1,5170 @@
+{
+  "entries": [
+    {
+      "name": "240 6th St",
+      "district": "6",
+      "address": "240 6th St",
+      "coordinates": {
+        "lat": 37.778959617000055,
+        "lon": -122.40679770699995
+      }
+    },
+    {
+      "name": "500 Pine Rooftop Park",
+      "district": "3",
+      "address": "500 Pine St",
+      "coordinates": {
+        "lat": 37.79187874400003,
+        "lon": -122.40458094299998
+      }
+    },
+    {
+      "name": "900 Innes Ave",
+      "district": "10",
+      "address": "900 Innes Ave",
+      "coordinates": {
+        "lat": 37.73218698100004,
+        "lon": -122.37578143499996
+      }
+    },
+    {
+      "name": "Adam Rogers Park Bathrooms",
+      "district": "10",
+      "address": "45 George Ct",
+      "coordinates": {
+        "lat": 37.73087956100005,
+        "lon": -122.38370521099995
+      }
+    },
+    {
+      "name": "Alamo Square Bathrooms",
+      "district": "5",
+      "address": "1081 Fulton St",
+      "coordinates": {
+        "lat": 37.776069505000066,
+        "lon": -122.43433764499997
+      }
+    },
+    {
+      "name": "Alice Chalmers Clubhouse",
+      "district": "11",
+      "address": "670 Brunswick St",
+      "coordinates": {
+        "lat": 37.709531742000024,
+        "lon": -122.447003258
+      }
+    },
+    {
+      "name": "Alioto Gazebo",
+      "district": "9",
+      "address": "490 Capp St",
+      "coordinates": {
+        "lat": 37.75891530900003,
+        "lon": -122.41825073899997
+      }
+    },
+    {
+      "name": "Alta Plaza Bathrooms",
+      "district": "2",
+      "address": "2599 Jackson St",
+      "coordinates": {
+        "lat": 37.791239380000036,
+        "lon": -122.43816191599996
+      }
+    },
+    {
+      "name": "Alta Plaza Maintenance Facilities",
+      "district": "2",
+      "address": "2599 Jackson St",
+      "coordinates": {
+        "lat": 37.79120498700007,
+        "lon": -122.43822817099999
+      }
+    },
+    {
+      "name": "Anglers Lodge",
+      "district": "4",
+      "address": "1232 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76800921800003,
+        "lon": -122.496615212
+      }
+    },
+    {
+      "name": "Anglers Lodge Maint Bldg",
+      "district": "4",
+      "address": "1232 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.768018436000034,
+        "lon": -122.49736905699996
+      }
+    },
+    {
+      "name": "Anglers Lodge Parking Lot Trailer",
+      "district": "4",
+      "address": "Angler's Lodge",
+      "coordinates": {
+        "lat": 37.76814715300003,
+        "lon": -122.49624885099996
+      }
+    },
+    {
+      "name": "Aptos Clubhouse",
+      "district": "7",
+      "address": "139 Aptos Ave",
+      "coordinates": {
+        "lat": 37.72852776800005,
+        "lon": -122.46601428999998
+      }
+    },
+    {
+      "name": "Aptos Maintenance Facility",
+      "district": "7",
+      "address": "139 Aptos Ave",
+      "coordinates": {
+        "lat": 37.72912068900007,
+        "lon": -122.46644188699997
+      }
+    },
+    {
+      "name": "Aquavista & Skyview Pump Station",
+      "district": "7",
+      "address": "2 Aquavista Way",
+      "coordinates": {
+        "lat": 37.75102742400003,
+        "lon": -122.44991424099999
+      }
+    },
+    {
+      "name": "Arboretum Bookstore",
+      "district": "7",
+      "address": "1199 09TH AVE",
+      "coordinates": {
+        "lat": 37.768998271000044,
+        "lon": -122.47037794899995
+      }
+    },
+    {
+      "name": "Arboretum Gardeners Compound",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76623084600004,
+        "lon": -122.47109549199996
+      }
+    },
+    {
+      "name": "Arboretum North Bathroom",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76889158200004,
+        "lon": -122.47087744199996
+      }
+    },
+    {
+      "name": "Arboretum South Bathroom",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76684125400004,
+        "lon": -122.46834362099997
+      }
+    },
+    {
+      "name": "Argonne Clubhouse",
+      "district": "1",
+      "address": "455 18th Ave",
+      "coordinates": {
+        "lat": 37.77958605300006,
+        "lon": -122.47766661199995
+      }
+    },
+    {
+      "name": "Auto Shop",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76870197900007,
+        "lon": -122.46107817999996
+      }
+    },
+    {
+      "name": "Balboa Park Community Pool",
+      "district": "11",
+      "address": "51 Havelock St",
+      "coordinates": {
+        "lat": 37.72634633900003,
+        "lon": -122.44318335599996
+      }
+    },
+    {
+      "name": "Balboa Park East Bathrooms",
+      "district": "11",
+      "address": "51 Havelock St",
+      "coordinates": {
+        "lat": 37.72518273700007,
+        "lon": -122.44425062899995
+      }
+    },
+    {
+      "name": "Balboa Park West Bathrooms",
+      "district": "11",
+      "address": "51 Havelock St",
+      "coordinates": {
+        "lat": 37.72518273700007,
+        "lon": -122.44425062899995
+      }
+    },
+    {
+      "name": "Ball Diamond 1 Grandstand",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.714979018000065,
+        "lon": -122.43185752
+      }
+    },
+    {
+      "name": "Ball Diamond 2 Grandstand",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.71285819700006,
+        "lon": -122.43044229599997
+      }
+    },
+    {
+      "name": "Bandshell-Spreckels Temple of Music",
+      "district": "7",
+      "address": "50 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.76988405800006,
+        "lon": -122.46854445899999
+      }
+    },
+    {
+      "name": "Bandstand Public Restrooms",
+      "district": "7",
+      "address": "50 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.76974555400005,
+        "lon": -122.46874093999998
+      }
+    },
+    {
+      "name": "Bay View Bathrooms",
+      "district": "10",
+      "address": "5701 03rd St",
+      "coordinates": {
+        "lat": 37.72555868400008,
+        "lon": -122.393033162
+      }
+    },
+    {
+      "name": "Beach Chalet",
+      "district": "4",
+      "address": "1000 Great Hwy",
+      "coordinates": {
+        "lat": 37.76946017800003,
+        "lon": -122.51020566699998
+      }
+    },
+    {
+      "name": "BEACH CHALET Shed",
+      "district": "4",
+      "address": "1000 Great Hwy",
+      "coordinates": {
+        "lat": 37.76904896600007,
+        "lon": -122.51005211699999
+      }
+    },
+    {
+      "name": "Bercut Dressage Ring",
+      "district": "4",
+      "address": "Bercut Access Rd & Chain of Lakes Dr",
+      "coordinates": {
+        "lat": 37.76608150100003,
+        "lon": -122.50299400799997
+      }
+    },
+    {
+      "name": "Bercut Equitation Field",
+      "district": "4",
+      "address": "Bercut Access Rd & Chain of Lakes Dr",
+      "coordinates": {
+        "lat": 37.76639263100003,
+        "lon": -122.50126166599995
+      }
+    },
+    {
+      "name": "Bercut Maintenance Bldgs",
+      "district": "4",
+      "address": "Bercut Access Rd & Chain of Lakes Dr",
+      "coordinates": {
+        "lat": 37.766391586000054,
+        "lon": -122.50255292699995
+      }
+    },
+    {
+      "name": "Bernal Heights Rec Center",
+      "district": "9",
+      "address": "500 Moultrie St",
+      "coordinates": {
+        "lat": 37.73821272500004,
+        "lon": -122.41609980899995
+      }
+    },
+    {
+      "name": "Betty Ong Rec Center",
+      "district": "3",
+      "address": "1199 Mason St",
+      "coordinates": {
+        "lat": 37.794209350000074,
+        "lon": -122.41178566499997
+      }
+    },
+    {
+      "name": "Big Rec Bathroom",
+      "district": "7",
+      "address": "Nancy Pelosi Dr & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76854517700008,
+        "lon": -122.465363363
+      }
+    },
+    {
+      "name": "Big Rec Handball/Racquetball Courts",
+      "district": "7",
+      "address": "Nancy Pelosi Dr & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76871915800007,
+        "lon": -122.46485359299999
+      }
+    },
+    {
+      "name": "Bison Paddock",
+      "district": "1",
+      "address": "1237 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76908395800007,
+        "lon": -122.49932677899994
+      }
+    },
+    {
+      "name": "Boeddeker Park Clubhouse",
+      "district": "5",
+      "address": "295 Eddy St",
+      "coordinates": {
+        "lat": 37.78432481800007,
+        "lon": -122.41182835399997
+      }
+    },
+    {
+      "name": "Bowling Green Clubhouse",
+      "district": "7",
+      "address": "310 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.768761780000034,
+        "lon": -122.45995907499997
+      }
+    },
+    {
+      "name": "Bowling Green Maintenance Sheds",
+      "district": "7",
+      "address": "310 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.76896670200006,
+        "lon": -122.45879447399994
+      }
+    },
+    {
+      "name": "Buena Vista maintenance facility",
+      "district": "8",
+      "address": "Buena Vista Ave East & Haight St",
+      "coordinates": {
+        "lat": 37.76797121900006,
+        "lon": -122.44135349099997
+      }
+    },
+    {
+      "name": "Buena Vista Park Bathrooms",
+      "district": "8",
+      "address": "Buena Vista Ave East & Haight St",
+      "coordinates": {
+        "lat": 37.76929036400003,
+        "lon": -122.43967901299999
+      }
+    },
+    {
+      "name": "Bunk House",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881376887000044,
+        "lon": -119.85475671799998
+      }
+    },
+    {
+      "name": "Cabin #001",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #10",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #100",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #101",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #11",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #12",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin # 121",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin 13",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #14",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #15",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #16",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #17",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #18",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #19",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #2",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #20",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #21",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #22",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #23",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #24",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #25",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #26",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #27",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #28",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #29",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #3",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #30",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin 31",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #32",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #33",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #34",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #35",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #36",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #37",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #38",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin 39",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #4",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #40",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #41",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #42",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #43",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #44",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #45",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #46",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #47",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #5",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin # 58",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #59",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin # 59",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #6",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #60",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #61",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #68 & #69",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #69",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #7",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #70 & #71",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #71",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #72 & #73",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #73",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #74 & #75",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #75",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #78",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #8",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #81",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #82",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #84",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #85",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #9",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #90",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #91",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #92",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #93",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #94",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #95",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #96",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabin #97",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #102 & #103",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #104 & #105",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #106 & #107",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #108 & #109",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #110 & #111",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #112 & #114",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #115 & #116",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #117 & #118",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #119 & #120",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #66 & #67",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #76 & #77",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabins #79 & #80",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880830367000044,
+        "lon": -119.85373773099997
+      }
+    },
+    {
+      "name": "Cabrillo Clubhouse",
+      "district": "1",
+      "address": "858 38th Ave",
+      "coordinates": {
+        "lat": 37.77309409700007,
+        "lon": -122.49847352999996
+      }
+    },
+    {
+      "name": "Cabrillo Storage Shed",
+      "district": "1",
+      "address": "858 38th Ave",
+      "coordinates": {
+        "lat": 37.77310620900005,
+        "lon": -122.49871645999997
+      }
+    },
+    {
+      "name": "Camp Mather",
+      "district": "",
+      "address": "25250 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Camp Mather First Aid Cabin",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881932981000034,
+        "lon": -119.857534397
+      }
+    },
+    {
+      "name": "Camp Mather General Store",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.883013781000045,
+        "lon": -119.85542499299999
+      }
+    },
+    {
+      "name": "Camp Mather Nurse's Cabin",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88203507600008,
+        "lon": -119.85717913499997
+      }
+    },
+    {
+      "name": "Camp Mather Office",
+      "district": "",
+      "address": "35250 Mather Rd",
+      "coordinates": {
+        "lat": 37.88270314400006,
+        "lon": -119.85569019599995
+      }
+    },
+    {
+      "name": "Camp Mather Priest Cabin",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Camp Mather Rest Room D",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88060417300005,
+        "lon": -119.85422531999995
+      }
+    },
+    {
+      "name": "Camp Mather Stage",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88295816700003,
+        "lon": -119.85667237499996
+      }
+    },
+    {
+      "name": "Carousel Concession Stand",
+      "district": "7",
+      "address": "320 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.768042241000046,
+        "lon": -122.45823527299996
+      }
+    },
+    {
+      "name": "Carousel Maint Bldg",
+      "district": "7",
+      "address": "320 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.76772648900004,
+        "lon": -122.45823034399996
+      }
+    },
+    {
+      "name": "Cayuga Clubhouse",
+      "district": "11",
+      "address": "301 Naglee Ave",
+      "coordinates": {
+        "lat": 37.71421200200007,
+        "lon": -122.44981270799997
+      }
+    },
+    {
+      "name": "Central Pump Station",
+      "district": "4",
+      "address": "Overlook Dr & Transverse Dr",
+      "coordinates": {
+        "lat": 37.769367514000066,
+        "lon": -122.482150478
+      }
+    },
+    {
+      "name": "Chain of Lakes Bathroom",
+      "district": "1",
+      "address": "Chain of Lakes Dr & John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76790293500005,
+        "lon": -122.50196414999999
+      }
+    },
+    {
+      "name": "Chalet Soccer Fields Restrooms",
+      "district": "4",
+      "address": "1901 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76727100000005,
+        "lon": -122.50796999999994
+      }
+    },
+    {
+      "name": "Charlie Sava Community Pool",
+      "district": "4",
+      "address": "2695 19th Ave",
+      "coordinates": {
+        "lat": 37.73778723600003,
+        "lon": -122.47569805199998
+      }
+    },
+    {
+      "name": "Chinese Pavilion",
+      "district": "7",
+      "address": "50 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.768383707000055,
+        "lon": -122.47361367099995
+      }
+    },
+    {
+      "name": "Chlorine Station",
+      "district": "3",
+      "address": "Hyde St & Greenwich St",
+      "coordinates": {
+        "lat": 37.80116592600007,
+        "lon": -122.41972577499996
+      }
+    },
+    {
+      "name": "Christopher Clubhouse",
+      "district": "8",
+      "address": "5210 Diamond Heights Blvd",
+      "coordinates": {
+        "lat": 37.74398632300006,
+        "lon": -122.44023304499996
+      }
+    },
+    {
+      "name": "Christopher Performance Space",
+      "district": "8",
+      "address": "5210 Diamond Heights Blvd",
+      "coordinates": {
+        "lat": 37.74375239200003,
+        "lon": -122.44027150799997
+      }
+    },
+    {
+      "name": "Coffman Community Pool",
+      "district": "10",
+      "address": "1701 Visitacion Ave",
+      "coordinates": {
+        "lat": 37.71325907800008,
+        "lon": -122.41581462899995
+      }
+    },
+    {
+      "name": "Coit Tower",
+      "district": "3",
+      "address": "1 Telegraph Hill Blvd",
+      "coordinates": {
+        "lat": 37.80236885100004,
+        "lon": -122.40576431799997
+      }
+    },
+    {
+      "name": "Compost Area",
+      "district": "1",
+      "address": "Overlook Dr & Transverse Dr",
+      "coordinates": {
+        "lat": 37.771428824000054,
+        "lon": -122.48175930599996
+      }
+    },
+    {
+      "name": "Connolly CPA Maintenance Facility",
+      "district": "5",
+      "address": "Kezar Dr & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76705866400005,
+        "lon": -122.45791941599998
+      }
+    },
+    {
+      "name": "Conservatory Bathroom",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.773141949000035,
+        "lon": -122.46014081399994
+      }
+    },
+    {
+      "name": "Conservatory Greenhouse 1",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77312000200004,
+        "lon": -122.46038418599994
+      }
+    },
+    {
+      "name": "Conservatory Greenhouse 2",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77305305300007,
+        "lon": -122.46015973699997
+      }
+    },
+    {
+      "name": "Conservatory Greenhouse 3",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77300185800004,
+        "lon": -122.46008376399999
+      }
+    },
+    {
+      "name": "Conservatory Greenhouse 4",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77310240600008,
+        "lon": -122.46013021199997
+      }
+    },
+    {
+      "name": "Conservatory Greenhouse 6",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77305884700007,
+        "lon": -122.46050155899997
+      }
+    },
+    {
+      "name": "Conservatory Lath House",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77283541800006,
+        "lon": -122.46063628899998
+      }
+    },
+    {
+      "name": "Conservatory Maintenance Building",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77299628700007,
+        "lon": -122.46030894199998
+      }
+    },
+    {
+      "name": "Conservatory Maintenance Building 2",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77304524600004,
+        "lon": -122.46026337599994
+      }
+    },
+    {
+      "name": "Conservatory of Flowers",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772642519000044,
+        "lon": -122.46020818699998
+      }
+    },
+    {
+      "name": "Conservatory Orchid House",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772709364000036,
+        "lon": -122.46036309399994
+      }
+    },
+    {
+      "name": "Conservatory Rose House",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772709364000036,
+        "lon": -122.46036309399994
+      }
+    },
+    {
+      "name": "Conservatory Staff Bathroom/Storage",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772709364000036,
+        "lon": -122.46036309399994
+      }
+    },
+    {
+      "name": "Conservatory Storage",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772709364000036,
+        "lon": -122.46036309399994
+      }
+    },
+    {
+      "name": "Conservatory Workroom & Kitchen",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.772709364000036,
+        "lon": -122.46036309399994
+      }
+    },
+    {
+      "name": "Corp Cabin",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Corporate Yard Maintenance Facility",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76866940300005,
+        "lon": -122.46093503099996
+      }
+    },
+    {
+      "name": "Corporate Yard Storage",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768505495000056,
+        "lon": -122.46110759499999
+      }
+    },
+    {
+      "name": "Corp Yard Gas Station",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76894882000005,
+        "lon": -122.46061627999995
+      }
+    },
+    {
+      "name": "CORP. YARD MAIN OFFICE/SHOP*",
+      "district": "7",
+      "address": "501 Stanyan St",
+      "coordinates": {
+        "lat": 37.76870077900003,
+        "lon": -122.46036739199997
+      }
+    },
+    {
+      "name": "CORP. YARD P.PATROL/SHOPS*",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76739270000007,
+        "lon": -122.46120279899998
+      }
+    },
+    {
+      "name": "CORP YARD / Warehouse",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76739270000007,
+        "lon": -122.46120279899998
+      }
+    },
+    {
+      "name": "County Fair Building -  Hall of Flowers",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.766555210000035,
+        "lon": -122.46713567999996
+      }
+    },
+    {
+      "name": "Cow Hollow Clubhouse",
+      "district": "2",
+      "address": "1 Miley St",
+      "coordinates": {
+        "lat": 37.79741037900004,
+        "lon": -122.44473816899995
+      }
+    },
+    {
+      "name": "CREW Building (near Forestry Center)",
+      "district": "4",
+      "address": "1000 Great Hwy",
+      "coordinates": {
+        "lat": 37.76753983900005,
+        "lon": -122.483741512
+      }
+    },
+    {
+      "name": "Crocker Amazon Clubhouse",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.71518406300004,
+        "lon": -122.43191401999997
+      }
+    },
+    {
+      "name": "Crocker Amazon Fieldhouse",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.71387872400004,
+        "lon": -122.42928147599997
+      }
+    },
+    {
+      "name": "Crocker Amazon Maintenance",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.713712255000075,
+        "lon": -122.42750108599995
+      }
+    },
+    {
+      "name": "Crocker Amazon Soccer Field Grandstand",
+      "district": "11",
+      "address": "799 Moscow St",
+      "coordinates": {
+        "lat": 37.713554473000045,
+        "lon": -122.430006274
+      }
+    },
+    {
+      "name": "Double Dutch Head House",
+      "district": "1",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.77044896900003,
+        "lon": -122.50917300299994
+      }
+    },
+    {
+      "name": "Douglass Clubhouse",
+      "district": "8",
+      "address": "1100 Douglass St",
+      "coordinates": {
+        "lat": 37.74782261400003,
+        "lon": -122.43839254899996
+      }
+    },
+    {
+      "name": "Douglass Restrooms",
+      "district": "8",
+      "address": "1100 Douglass St",
+      "coordinates": {
+        "lat": 37.74782079300007,
+        "lon": -122.43843593799994
+      }
+    },
+    {
+      "name": "Dupont Courts Restrooms",
+      "district": "1",
+      "address": "340 31st Ave",
+      "coordinates": {
+        "lat": 37.782877702000064,
+        "lon": -122.49085497299995
+      }
+    },
+    {
+      "name": "Dutch Windmill",
+      "district": "1",
+      "address": "John F Kennedy Dr & Great Hwy",
+      "coordinates": {
+        "lat": 37.770453545000066,
+        "lon": -122.50938264899997
+      }
+    },
+    {
+      "name": "Dutch Windmill Maintenance Fac 1",
+      "district": "1",
+      "address": "John F Kennedy Dr & Great Hwy",
+      "coordinates": {
+        "lat": 37.77032728800003,
+        "lon": -122.50914525999997
+      }
+    },
+    {
+      "name": "Dutch Windmill Maintenance Fac 2",
+      "district": "1",
+      "address": "John F Kennedy Dr & Great Hwy",
+      "coordinates": {
+        "lat": 37.77028491400006,
+        "lon": -122.50907217699995
+      }
+    },
+    {
+      "name": "Dutch Windmill Pump Station",
+      "district": "1",
+      "address": "John F Kennedy Dr & Great Hwy",
+      "coordinates": {
+        "lat": 37.77025603300007,
+        "lon": -122.50916897899998
+      }
+    },
+    {
+      "name": "Electrical & Iron Shops",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76842861700004,
+        "lon": -122.461981977
+      }
+    },
+    {
+      "name": "Elk Glen Pump Station",
+      "district": "4",
+      "address": "Martin Luther King  Jr Dr & 25th Ave",
+      "coordinates": {
+        "lat": 37.76768243200007,
+        "lon": -122.48246276399999
+      }
+    },
+    {
+      "name": "Emergency Equipment Storage",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76837306700003,
+        "lon": -122.46156374799995
+      }
+    },
+    {
+      "name": "Equestrian Center Stables",
+      "district": "4",
+      "address": "Golden Gate Equestrian Center",
+      "coordinates": {
+        "lat": 37.76937736800005,
+        "lon": -122.49415588699998
+      }
+    },
+    {
+      "name": "Equestrian Ctr Shed 1",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76942094300006,
+        "lon": -122.49443037199995
+      }
+    },
+    {
+      "name": "Equestrian Ctr. Shed 2",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.769094592000044,
+        "lon": -122.49429278499997
+      }
+    },
+    {
+      "name": "Esprit Park Maintenance Facility",
+      "district": "10",
+      "address": "700 Minnesota St",
+      "coordinates": {
+        "lat": 37.761104816000056,
+        "lon": -122.39101348699995
+      }
+    },
+    {
+      "name": "Eureka Valley Rec Center",
+      "district": "8",
+      "address": "100 Collingwood St",
+      "coordinates": {
+        "lat": 37.76017079300004,
+        "lon": -122.43641240399995
+      }
+    },
+    {
+      "name": "Excelsior Clubhouse",
+      "district": "11",
+      "address": "579  Madrid St",
+      "coordinates": {
+        "lat": 37.72024711300003,
+        "lon": -122.43360155999994
+      }
+    },
+    {
+      "name": "Fay House",
+      "district": "3",
+      "address": "2366 Leavenworth St",
+      "coordinates": {
+        "lat": 37.80303625400006,
+        "lon": -122.41787340899998
+      }
+    },
+    {
+      "name": "Fillmore/Turk Performance Spaces",
+      "district": "5",
+      "address": "1140 Fillmore St",
+      "coordinates": {
+        "lat": 37.78021077000005,
+        "lon": -122.43167115899996
+      }
+    },
+    {
+      "name": "Franklin Square Maint Facilities",
+      "district": "9",
+      "address": "2500 17th St",
+      "coordinates": {
+        "lat": 37.76535087800005,
+        "lon": -122.40844859199996
+      }
+    },
+    {
+      "name": "Fulton Clubhouse",
+      "district": "1",
+      "address": "855 27th Ave",
+      "coordinates": {
+        "lat": 37.773549983000066,
+        "lon": -122.48683658799996
+      }
+    },
+    {
+      "name": "Fulton Storage Shed",
+      "district": "1",
+      "address": "855 27th Ave",
+      "coordinates": {
+        "lat": 37.77354795600007,
+        "lon": -122.48732230799999
+      }
+    },
+    {
+      "name": "Funston Senior Center",
+      "district": "2",
+      "address": "1800 Chestnut St",
+      "coordinates": {
+        "lat": 37.801412783000046,
+        "lon": -122.43317250599995
+      }
+    },
+    {
+      "name": "Garfield Square Clubhouse",
+      "district": "9",
+      "address": "3100 26th St",
+      "coordinates": {
+        "lat": 37.74993629200003,
+        "lon": -122.41198604099998
+      }
+    },
+    {
+      "name": "Garfield Square Community Pool",
+      "district": "9",
+      "address": "3100 26th St",
+      "coordinates": {
+        "lat": 37.74994650600007,
+        "lon": -122.41244032899999
+      }
+    },
+    {
+      "name": "General Manager's Cabin",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881445142000075,
+        "lon": -119.85278212499998
+      }
+    },
+    {
+      "name": "Geneva Carbarn",
+      "district": "11",
+      "address": "2301 San Jose Ave",
+      "coordinates": {
+        "lat": 37.71977094600004,
+        "lon": -122.44594845499995
+      }
+    },
+    {
+      "name": "GGP -- Convenience Station",
+      "district": "4",
+      "address": "Middle Dr  Gg Park",
+      "coordinates": {
+        "lat": 37.76930802000004,
+        "lon": -122.481128609
+      }
+    },
+    {
+      "name": "GGP Equestrian Center",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76970571100003,
+        "lon": -122.49399566699998
+      }
+    },
+    {
+      "name": "GGP -- Gardener's Shack",
+      "district": "4",
+      "address": "4050 Lincoln Way",
+      "coordinates": {
+        "lat": 37.764610005000065,
+        "lon": -122.50148460099996
+      }
+    },
+    {
+      "name": "GGP Golf Club and Restaurant",
+      "district": "1",
+      "address": "970 47th Ave",
+      "coordinates": {
+        "lat": 37.76903766200007,
+        "lon": -122.50657858299996
+      }
+    },
+    {
+      "name": "GGP Golf Club Maintenance Bldg",
+      "district": "1",
+      "address": "970 47th Ave",
+      "coordinates": {
+        "lat": 37.76903766200007,
+        "lon": -122.50657858299996
+      }
+    },
+    {
+      "name": "GGP Golf Club Restroom (westend)",
+      "district": "1",
+      "address": "970 47th Ave",
+      "coordinates": {
+        "lat": 37.76903766200007,
+        "lon": -122.50657858299996
+      }
+    },
+    {
+      "name": "GGP Golf Course Clubhouse",
+      "district": "1",
+      "address": "970 47th Ave",
+      "coordinates": {
+        "lat": 37.76910127700006,
+        "lon": -122.50658690099999
+      }
+    },
+    {
+      "name": "GGP Greenhouses",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76870797600003,
+        "lon": -122.46184330999995
+      }
+    },
+    {
+      "name": "GGP Maintenance Bldg",
+      "district": "1",
+      "address": "970 47th Ave",
+      "coordinates": {
+        "lat": 37.76903766200007,
+        "lon": -122.50657858299996
+      }
+    },
+    {
+      "name": "GGP -- McQueen Reclamation Plant",
+      "district": "4",
+      "address": "Gg Park  Middle Dr Nr Elk Glen",
+      "coordinates": {
+        "lat": 37.767537050000044,
+        "lon": -122.48263511199997
+      }
+    },
+    {
+      "name": "GGP -- North Lake Pump Station",
+      "district": "1",
+      "address": "21 CHAIN OF LAKES DR",
+      "coordinates": {
+        "lat": 37.770865884000045,
+        "lon": -122.50292579899997
+      }
+    },
+    {
+      "name": "GGP Nursery",
+      "district": "7",
+      "address": "100 Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.767527607000034,
+        "lon": -122.46158911899994
+      }
+    },
+    {
+      "name": "GGP -- Reservoir and Pump Station",
+      "district": "1",
+      "address": "20 Overlook Dr",
+      "coordinates": {
+        "lat": 37.77057286500008,
+        "lon": -122.48059726099996
+      }
+    },
+    {
+      "name": "Ghirardelli Rustic Structure",
+      "district": "1",
+      "address": "201 Conservatory Dr West",
+      "coordinates": {
+        "lat": 37.77313797700003,
+        "lon": -122.46155807999997
+      }
+    },
+    {
+      "name": "Gilman Bathrooms",
+      "district": "10",
+      "address": "993 Gilman Ave",
+      "coordinates": {
+        "lat": 37.716828649000036,
+        "lon": -122.38833113999999
+      }
+    },
+    {
+      "name": "Gilman Clubhouse",
+      "district": "10",
+      "address": "993 Gilman Ave",
+      "coordinates": {
+        "lat": 37.716828649000036,
+        "lon": -122.38833113999999
+      }
+    },
+    {
+      "name": "Gleneagles Golf Course Clubhouse",
+      "district": "10",
+      "address": "2100 Sunnydale Ave",
+      "coordinates": {
+        "lat": 37.71602401300004,
+        "lon": -122.42439110799995
+      }
+    },
+    {
+      "name": "Glen Park Rec Center",
+      "district": "8",
+      "address": "70 Elk St",
+      "coordinates": {
+        "lat": 37.73713482800008,
+        "lon": -122.44084568999995
+      }
+    },
+    {
+      "name": "GOLDEN GATE HEIGHTS PK RESTRM",
+      "district": "7",
+      "address": "12th Ave & Rockridge Dr",
+      "coordinates": {
+        "lat": 37.75021465800006,
+        "lon": -122.46878054099994
+      }
+    },
+    {
+      "name": "Golden Gate Park Senior Center",
+      "district": "1",
+      "address": "6101 Fulton St",
+      "coordinates": {
+        "lat": 37.77154730800004,
+        "lon": -122.49706020899998
+      }
+    },
+    {
+      "name": "Golden Gate Yacht Club",
+      "district": "2",
+      "address": "1 Yacht Rd",
+      "coordinates": {
+        "lat": 37.807189599000026,
+        "lon": -122.44690617699996
+      }
+    },
+    {
+      "name": "Grattan Clubhouse",
+      "district": "8",
+      "address": "1180 Stanyan St",
+      "coordinates": {
+        "lat": 37.76265664300007,
+        "lon": -122.45198715799995
+      }
+    },
+    {
+      "name": "Guy Place Mini Park",
+      "district": "6",
+      "address": "4 Guy Pl",
+      "coordinates": {
+        "lat": 37.78667542100004,
+        "lon": -122.39438597199995
+      }
+    },
+    {
+      "name": "Haight St Entrance Bathrooms",
+      "district": "5",
+      "address": "Stanyan St & Haight St",
+      "coordinates": {
+        "lat": 37.769853726000065,
+        "lon": -122.45423098999999
+      }
+    },
+    {
+      "name": "Hamilton Community Pool",
+      "district": "5",
+      "address": "1900 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78455750000006,
+        "lon": -122.43548922499997
+      }
+    },
+    {
+      "name": "Hamilton Pool Administration Bldg",
+      "district": "5",
+      "address": "1900 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78460997600007,
+        "lon": -122.43502743599998
+      }
+    },
+    {
+      "name": "Hamilton Rec Center",
+      "district": "5",
+      "address": "1900 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78457367300007,
+        "lon": -122.43528773699995
+      }
+    },
+    {
+      "name": "Hand/Raquetball Maint. Facility",
+      "district": "7",
+      "address": "Nancy Pelosi Dr & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76867678100007,
+        "lon": -122.46467587599994
+      }
+    },
+    {
+      "name": "Harbormasters Office",
+      "district": "",
+      "address": "3950 Scott St",
+      "coordinates": {
+        "lat": 37.80664163600005,
+        "lon": -122.44264538099998
+      }
+    },
+    {
+      "name": "Harding Golf Cart House",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.72631819800006,
+        "lon": -122.49282680099998
+      }
+    },
+    {
+      "name": "Harding Park Concession",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.72632121500004,
+        "lon": -122.49272233899995
+      }
+    },
+    {
+      "name": "Harding Park Equipment Storage",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.718999875000065,
+        "lon": -122.48548695999995
+      }
+    },
+    {
+      "name": "Harding Park Maintenance Bldg",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.71836911100007,
+        "lon": -122.48576749399996
+      }
+    },
+    {
+      "name": "Harding Park Storage Bldg",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.71801603200004,
+        "lon": -122.48625251499999
+      }
+    },
+    {
+      "name": "HARDING SPORTS CENTER*",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.72550797700006,
+        "lon": -122.49944140499997
+      }
+    },
+    {
+      "name": "Harvey Milk Recreational Arts Bldg",
+      "district": "8",
+      "address": "50 Scott St",
+      "coordinates": {
+        "lat": 37.76945790800005,
+        "lon": -122.43456497399995
+      }
+    },
+    {
+      "name": "Hayes Valley Clubhouse",
+      "district": "5",
+      "address": "689 Hayes St",
+      "coordinates": {
+        "lat": 37.77609101100006,
+        "lon": -122.427570334
+      }
+    },
+    {
+      "name": "Helen Crocker Russell Library of Horticulture",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76696902400005,
+        "lon": -122.46741594399998
+      }
+    },
+    {
+      "name": "Helen Wills Clubhouse",
+      "district": "3",
+      "address": "1401 Broadway",
+      "coordinates": {
+        "lat": 37.79576853900005,
+        "lon": -122.42027993299996
+      }
+    },
+    {
+      "name": "Hellman Hollow Restrooms",
+      "district": "4",
+      "address": "800 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76952793100003,
+        "lon": -122.48471988099999
+      }
+    },
+    {
+      "name": "Herschell-Spillman Carousel",
+      "district": "7",
+      "address": "Martin Luther King Jr Dr & Kezar Dr",
+      "coordinates": {
+        "lat": 37.76790318900004,
+        "lon": -122.45802537199995
+      }
+    },
+    {
+      "name": "Herz Clubhouse",
+      "district": "10",
+      "address": "1700 Visitacion Ave",
+      "coordinates": {
+        "lat": 37.71379318400005,
+        "lon": -122.41635652499997
+      }
+    },
+    {
+      "name": "Hilltop Park Bathrooms",
+      "district": "10",
+      "address": "2 Willie B Kennedy Dr",
+      "coordinates": {
+        "lat": 37.733070578000024,
+        "lon": -122.38255426199999
+      }
+    },
+    {
+      "name": "Hilltop Park Performance Spaces",
+      "district": "10",
+      "address": "2 Willie B Kennedy Dr",
+      "coordinates": {
+        "lat": 37.73297175300007,
+        "lon": -122.38381575499994
+      }
+    },
+    {
+      "name": "Holly Park Bathrooms",
+      "district": "9",
+      "address": "Holly Park Cir & Highland Ave",
+      "coordinates": {
+        "lat": 37.736765424000055,
+        "lon": -122.42005676199994
+      }
+    },
+    {
+      "name": "Horseshoe Pits Bathroom",
+      "district": "1",
+      "address": "Stanyan St & Fulton St",
+      "coordinates": {
+        "lat": 37.77375408300003,
+        "lon": -122.45598033699997
+      }
+    },
+    {
+      "name": "Huntington Park Fountains",
+      "district": "3",
+      "address": "1000 Taylor St",
+      "coordinates": {
+        "lat": 37.79216575600003,
+        "lon": -122.41215294699998
+      }
+    },
+    {
+      "name": "Huntington Park Maint Bldgs",
+      "district": "3",
+      "address": "1000 Taylor St",
+      "coordinates": {
+        "lat": 37.791885516000036,
+        "lon": -122.41208713599997
+      }
+    },
+    {
+      "name": "HUNTINGTON PARK: RESTROOM",
+      "district": "3",
+      "address": "California St & Taylor St",
+      "coordinates": {
+        "lat": 37.792064940000046,
+        "lon": -122.41228723599994
+      }
+    },
+    {
+      "name": "Hyde St. Harbor \u2013 JOS Building",
+      "district": "2",
+      "address": "2949 Hyde St",
+      "coordinates": {
+        "lat": 37.807840095000074,
+        "lon": -122.42084937999999
+      }
+    },
+    {
+      "name": "Jackson Clubhouse",
+      "district": "10",
+      "address": "1645 17th St",
+      "coordinates": {
+        "lat": 37.76431491900007,
+        "lon": -122.39960726099997
+      }
+    },
+    {
+      "name": "Jackson Maintenance Facilities",
+      "district": "10",
+      "address": "1645 17th St",
+      "coordinates": {
+        "lat": 37.764765698000076,
+        "lon": -122.40039780199999
+      }
+    },
+    {
+      "name": "Jack Spring Dining Hall",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88350151900005,
+        "lon": -119.85711392499996
+      }
+    },
+    {
+      "name": "Jake Sigg Stewardship Center (Park AID)",
+      "district": "5",
+      "address": "811 Stanyan St",
+      "coordinates": {
+        "lat": 37.76699204200003,
+        "lon": -122.45329733999995
+      }
+    },
+    {
+      "name": "James Lang Fieldhouse & Bleachers",
+      "district": "5",
+      "address": "1016 Laguna St",
+      "coordinates": {
+        "lat": 37.78122560200006,
+        "lon": -122.42533582599998
+      }
+    },
+    {
+      "name": "James Rolph Jr Clubhouse",
+      "district": "9",
+      "address": "1451 HAMPSHIRE ST",
+      "coordinates": {
+        "lat": 37.74997568200007,
+        "lon": -122.40664924199996
+      }
+    },
+    {
+      "name": "Japanese Pagoda",
+      "district": "5",
+      "address": "1610 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78511398200004,
+        "lon": -122.42984262099998
+      }
+    },
+    {
+      "name": "Japanese Pagoda",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.77011686900005,
+        "lon": -122.47035465899995
+      }
+    },
+    {
+      "name": "Japanese Peace Pz Performance Space",
+      "district": "5",
+      "address": "1610 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78520062500007,
+        "lon": -122.42987823399994
+      }
+    },
+    {
+      "name": "Japanese Tea Garden Entry Kiosk",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.76982409200008,
+        "lon": -122.47000825599997
+      }
+    },
+    {
+      "name": "Japanese Tea Garden (gardener shack)",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.77002467700004,
+        "lon": -122.46985810899997
+      }
+    },
+    {
+      "name": "Japanese Tea Garden Giftshop",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.77001860300004,
+        "lon": -122.46968514299999
+      }
+    },
+    {
+      "name": "Japanese Tea Garden Men's Bathroom",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.770076259000064,
+        "lon": -122.47019668099995
+      }
+    },
+    {
+      "name": "Japanese Tea Garden Women's Bathrm",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.77030733600003,
+        "lon": -122.46991392299998
+      }
+    },
+    {
+      "name": "Japanese Teahouse",
+      "district": "7",
+      "address": "75 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.76994780800004,
+        "lon": -122.470420349
+      }
+    },
+    {
+      "name": "Jefferson Square Bathrooms",
+      "district": "5",
+      "address": "997 Gough St",
+      "coordinates": {
+        "lat": 37.78154837300008,
+        "lon": -122.42548988399994
+      }
+    },
+    {
+      "name": "Jerry Garcia Amphitheatre",
+      "district": "9",
+      "address": "61 John F Shelley Dr",
+      "coordinates": {
+        "lat": 37.72055504600007,
+        "lon": -122.41739818899998
+      }
+    },
+    {
+      "name": "Jerry Garcia Amphitheatre Restroom",
+      "district": "9",
+      "address": "61 John F Shelley Dr",
+      "coordinates": {
+        "lat": 37.720889302000046,
+        "lon": -122.41690810799997
+      }
+    },
+    {
+      "name": "Joe Dimaggio Bathrooms",
+      "district": "3",
+      "address": "651 Lombard St",
+      "coordinates": {
+        "lat": 37.80278223800008,
+        "lon": -122.41212309099996
+      }
+    },
+    {
+      "name": "Joe Dimaggio Clubhouse",
+      "district": "3",
+      "address": "651 Lombard St",
+      "coordinates": {
+        "lat": 37.80278223800008,
+        "lon": -122.41212309099996
+      }
+    },
+    {
+      "name": "Jose Coronado Clubhouse",
+      "district": "9",
+      "address": "2498 Folsom St",
+      "coordinates": {
+        "lat": 37.757563263000065,
+        "lon": -122.41512752399996
+      }
+    },
+    {
+      "name": "Joseph Lee Rec Center",
+      "district": "10",
+      "address": "1395 Mendell St",
+      "coordinates": {
+        "lat": 37.73489373100006,
+        "lon": -122.38959952699997
+      }
+    },
+    {
+      "name": "J. P. Murphy Clubhouse",
+      "district": "7",
+      "address": "1960 09th Ave",
+      "coordinates": {
+        "lat": 37.75157433500004,
+        "lon": -122.46524647399997
+      }
+    },
+    {
+      "name": "Julius Kahn Clubhouse",
+      "district": "2",
+      "address": "3550 West Pacific Ave",
+      "coordinates": {
+        "lat": 37.791085689000056,
+        "lon": -122.45419487899994
+      }
+    },
+    {
+      "name": "Junipero Serra Clubhouse",
+      "district": "7",
+      "address": "300 Stonecrest Dr",
+      "coordinates": {
+        "lat": 37.72510858800007,
+        "lon": -122.47409187399995
+      }
+    },
+    {
+      "name": "Justin Herman Vaillancourt Fountain",
+      "district": "3",
+      "address": "2 Market St",
+      "coordinates": {
+        "lat": 37.79545531800005,
+        "lon": -122.39528152999998
+      }
+    },
+    {
+      "name": "Kelloch/Velasco Gazebo",
+      "district": "10",
+      "address": "100 Velasco Ave",
+      "coordinates": {
+        "lat": 37.70858567100004,
+        "lon": -122.41329579799998
+      }
+    },
+    {
+      "name": "Kelloch/Velasco Maintenance Shed",
+      "district": "",
+      "address": "100 Velasco Ave",
+      "coordinates": {
+        "lat": 37.70825467000003,
+        "lon": -122.41295723899998
+      }
+    },
+    {
+      "name": "Kezar Fieldhouse N",
+      "district": "5",
+      "address": "755 Stanyan St",
+      "coordinates": {
+        "lat": 37.767522574000054,
+        "lon": -122.45600697699996
+      }
+    },
+    {
+      "name": "Kezar Fieldhouse S",
+      "district": "5",
+      "address": "755 Stanyan St",
+      "coordinates": {
+        "lat": 37.76624106100007,
+        "lon": -122.45601493499998
+      }
+    },
+    {
+      "name": "Kezar Pavilion",
+      "district": "5",
+      "address": "755 Stanyan St",
+      "coordinates": {
+        "lat": 37.767538459000036,
+        "lon": -122.45362952699998
+      }
+    },
+    {
+      "name": "Kezar Stadium",
+      "district": "5",
+      "address": "755 Stanyan St",
+      "coordinates": {
+        "lat": 37.76689179300007,
+        "lon": -122.45597946799995
+      }
+    },
+    {
+      "name": "Kezar Stadium Maintenance Facility",
+      "district": "5",
+      "address": "755 Stanyan St",
+      "coordinates": {
+        "lat": 37.767332354000075,
+        "lon": -122.45444687899999
+      }
+    },
+    {
+      "name": "Lafayette maintenance facility",
+      "district": "2",
+      "address": "1925 Gough St",
+      "coordinates": {
+        "lat": 37.79183243400007,
+        "lon": -122.42738115199995
+      }
+    },
+    {
+      "name": "Lafayette Park Bathrooms",
+      "district": "2",
+      "address": "1925 Gough St",
+      "coordinates": {
+        "lat": 37.791706677000036,
+        "lon": -122.42811694999995
+      }
+    },
+    {
+      "name": "Lafayette Park Maintenance Shed",
+      "district": "2",
+      "address": "1925 Gough St",
+      "coordinates": {
+        "lat": 37.79183243400007,
+        "lon": -122.42738115199995
+      }
+    },
+    {
+      "name": "La Grande Pump Station/Tanks",
+      "district": "11",
+      "address": "Ina Ct & La Grande Ave",
+      "coordinates": {
+        "lat": 37.72356859900003,
+        "lon": -122.42317721699999
+      }
+    },
+    {
+      "name": "Lake Merced Boathouse",
+      "district": "7",
+      "address": "1 Harding Rd",
+      "coordinates": {
+        "lat": 37.72558906800003,
+        "lon": -122.49967527199999
+      }
+    },
+    {
+      "name": "Lake Merced maintenance facility 1",
+      "district": "7",
+      "address": "991 Lake Merced Blvd",
+      "coordinates": {
+        "lat": 37.71700492900004,
+        "lon": -122.48643254299998
+      }
+    },
+    {
+      "name": "Lake Merced maintenance facility 2",
+      "district": "7",
+      "address": "991 Lake Merced Blvd",
+      "coordinates": {
+        "lat": 37.71685036000008,
+        "lon": -122.48617064099994
+      }
+    },
+    {
+      "name": "Lake Merced Park Pump Station",
+      "district": "7",
+      "address": "991 Lake Merced Blvd",
+      "coordinates": {
+        "lat": 37.71633699900008,
+        "lon": -122.48578024699998
+      }
+    },
+    {
+      "name": "Lakeside Bathouse",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.880072219000056,
+        "lon": -119.85434807499996
+      }
+    },
+    {
+      "name": "Larsen Park Bathrooms",
+      "district": "4",
+      "address": "850 Vicente St",
+      "coordinates": {
+        "lat": 37.73958747800003,
+        "lon": -122.47615459699995
+      }
+    },
+    {
+      "name": "Laurel Hill Clubhouse",
+      "district": "2",
+      "address": "301 Euclid Ave",
+      "coordinates": {
+        "lat": 37.783718573000044,
+        "lon": -122.45118102299995
+      }
+    },
+    {
+      "name": "Leach Fields",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Lessing/Sears Maintenance Facility",
+      "district": "11",
+      "address": "10 Lessing St",
+      "coordinates": {
+        "lat": 37.708631068000045,
+        "lon": -122.45527610299996
+      }
+    },
+    {
+      "name": "Lincoln Park Golf Cart Bldg",
+      "district": "1",
+      "address": "300 34th Ave",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lincoln Park Golf Course Clubhouse",
+      "district": "1",
+      "address": "300 34th Ave",
+      "coordinates": {
+        "lat": 37.78226354100008,
+        "lon": -122.49432812099997
+      }
+    },
+    {
+      "name": "Lincoln Park Maintenance Buildings",
+      "district": "1",
+      "address": "300 34th Ave",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lincoln Park Pump Station",
+      "district": "1",
+      "address": "36th Ave & Clement St",
+      "coordinates": {
+        "lat": 37.78170641500003,
+        "lon": -122.49669138799999
+      }
+    },
+    {
+      "name": "Lincoln Park Restrooms - 300 34th Ave",
+      "district": "1",
+      "address": "300 34th Ave",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lincoln Park Restrooms - 32nd/Clement",
+      "district": "1",
+      "address": "32nd Ave & Clement St",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lincoln Park Sm Maint Bldg",
+      "district": "1",
+      "address": "300 34th Ave",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lincoln Park Tank",
+      "district": "1",
+      "address": "39th Ave & Clement St",
+      "coordinates": {
+        "lat": 37.784258410000064,
+        "lon": -122.49832261499995
+      }
+    },
+    {
+      "name": "Lindley Meadow Corral",
+      "district": "4",
+      "address": "John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77065319700006,
+        "lon": -122.49081428199997
+      }
+    },
+    {
+      "name": "Little Hollywood Maint Facilities",
+      "district": "10",
+      "address": "400 Lathrop Ave",
+      "coordinates": {
+        "lat": 37.71027229400005,
+        "lon": -122.39828783299998
+      }
+    },
+    {
+      "name": "Little Speedway Mdw Equestrian Ring",
+      "district": "4",
+      "address": "MIddle Drive West",
+      "coordinates": {
+        "lat": 37.76674054400007,
+        "lon": -122.49646705599997
+      }
+    },
+    {
+      "name": "Lloyd Lake Pump Station",
+      "district": "1",
+      "address": "John F Kennedy Dr & Transverse Dr",
+      "coordinates": {
+        "lat": 37.77120213300003,
+        "lon": -122.48127821599996
+      }
+    },
+    {
+      "name": "Louis Sutter Clubhouse",
+      "district": "9",
+      "address": "600 University St",
+      "coordinates": {
+        "lat": 37.72238434900004,
+        "lon": -122.41438610899996
+      }
+    },
+    {
+      "name": "Lower Great Hwy Judah Bathrooms",
+      "district": "4",
+      "address": "1401 Great Hwy",
+      "coordinates": {
+        "lat": 37.76022757100003,
+        "lon": -122.50956014999997
+      }
+    },
+    {
+      "name": "Lower Great Hwy Taraval Bathrooms",
+      "district": "4",
+      "address": "Great Hwy & Taraval St",
+      "coordinates": {
+        "lat": 37.74144460900004,
+        "lon": -122.50708415799994
+      }
+    },
+    {
+      "name": "Lower Great Hwy Wawona Bathrooms",
+      "district": "4",
+      "address": "Great Hwy & Wawona St",
+      "coordinates": {
+        "lat": 37.73657958600006,
+        "lon": -122.50644929899994
+      }
+    },
+    {
+      "name": "Lower Shang",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Main Head House",
+      "district": "1",
+      "address": "100 Conservatory Dr East",
+      "coordinates": {
+        "lat": 37.772896600000024,
+        "lon": -122.45951024599998
+      }
+    },
+    {
+      "name": "Margaret S. Hayward Recreation Center",
+      "district": "5",
+      "address": "800 Golden Gate Ave",
+      "coordinates": {
+        "lat": 37.78065675900007,
+        "lon": -122.42687415299997
+      }
+    },
+    {
+      "name": "Marina Green Bathrooms East",
+      "district": "2",
+      "address": "150 Marina Blvd",
+      "coordinates": {
+        "lat": 37.80646592100004,
+        "lon": -122.43453979699996
+      }
+    },
+    {
+      "name": "Marina Green Bathrooms West",
+      "district": "2",
+      "address": "800 Marina Blvd",
+      "coordinates": {
+        "lat": 37.80584413200006,
+        "lon": -122.44743086299997
+      }
+    },
+    {
+      "name": "Marina Green Shops/Restaurants",
+      "district": "2",
+      "address": "1 Yacht Rd",
+      "coordinates": {
+        "lat": 37.80700236100006,
+        "lon": -122.44565731699998
+      }
+    },
+    {
+      "name": "Marini Plaza Garden Pond",
+      "district": "3",
+      "address": "600 Columbus Ave",
+      "coordinates": {
+        "lat": 37.80095578100003,
+        "lon": -122.41069183999997
+      }
+    },
+    {
+      "name": "Martin Luther King Jr Pool",
+      "district": "10",
+      "address": "5701 03rd St",
+      "coordinates": {
+        "lat": 37.72553316700004,
+        "lon": -122.39372042599996
+      }
+    },
+    {
+      "name": "Masonry Shop",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76866134900007,
+        "lon": -122.46237010299996
+      }
+    },
+    {
+      "name": "Mather Bath House A",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88308764000004,
+        "lon": -119.85752439599997
+      }
+    },
+    {
+      "name": "Mather Bath House B",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88370370100006,
+        "lon": -119.85603588999999
+      }
+    },
+    {
+      "name": "Mather Bath House C",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88096186000007,
+        "lon": -119.85305408999994
+      }
+    },
+    {
+      "name": "Mather Bath House E",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88092411700006,
+        "lon": -119.85186267799997
+      }
+    },
+    {
+      "name": "Mather Birch Lake Pool Bath House",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.879523205000055,
+        "lon": -119.85439485199998
+      }
+    },
+    {
+      "name": "Mather Bunkhouse",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.88192392000008,
+        "lon": -119.85510896099998
+      }
+    },
+    {
+      "name": "Matthew Boxer Stadium",
+      "district": "11",
+      "address": "165 HAVELOCK ST",
+      "coordinates": {
+        "lat": 37.72610151200007,
+        "lon": -122.44503660099997
+      }
+    },
+    {
+      "name": "Mccoppin Square Clubhouse",
+      "district": "4",
+      "address": "2354 24th Ave",
+      "coordinates": {
+        "lat": 37.74353836200004,
+        "lon": -122.48075886699996
+      }
+    },
+    {
+      "name": "Mccoppin Square Restrooms",
+      "district": "4",
+      "address": "2354 24th Ave",
+      "coordinates": {
+        "lat": 37.74352929200006,
+        "lon": -122.48090223599996
+      }
+    },
+    {
+      "name": "McCoppin Square Storage Unit",
+      "district": "4",
+      "address": "24th & Taraval",
+      "coordinates": {
+        "lat": 37.744100407000076,
+        "lon": -122.47930539099997
+      }
+    },
+    {
+      "name": "McLaren Lodge",
+      "district": "1",
+      "address": "501 Stanyan St",
+      "coordinates": {
+        "lat": 37.77217608900003,
+        "lon": -122.45450307099998
+      }
+    },
+    {
+      "name": "McLaren Lodge Annex",
+      "district": "1",
+      "address": "501 Stanyan St",
+      "coordinates": {
+        "lat": 37.77230508700006,
+        "lon": -122.45494985199997
+      }
+    },
+    {
+      "name": "McLaren maintenance building",
+      "district": "9",
+      "address": "University St & Woolsey St",
+      "coordinates": {
+        "lat": 37.72173764000007,
+        "lon": -122.41338374299994
+      }
+    },
+    {
+      "name": "McLaren maintenance shed",
+      "district": "9",
+      "address": "University St & Woolsey St",
+      "coordinates": {
+        "lat": 37.72179887800007,
+        "lon": -122.41308664799999
+      }
+    },
+    {
+      "name": "McLaren maintenance yard",
+      "district": "9",
+      "address": "University St & Woolsey St",
+      "coordinates": {
+        "lat": 37.72192978100003,
+        "lon": -122.41285102399996
+      }
+    },
+    {
+      "name": "Mclaren Park Bathrooms",
+      "district": "9",
+      "address": "1100 Mansell St",
+      "coordinates": {
+        "lat": 37.719160352000074,
+        "lon": -122.41266359199994
+      }
+    },
+    {
+      "name": "McLaren Park Caretaker's Cabin",
+      "district": "9",
+      "address": "John F Shelley Dr & Cambridge St",
+      "coordinates": {
+        "lat": 37.720623395000075,
+        "lon": -122.41648072199996
+      }
+    },
+    {
+      "name": "Mclaren Park La Grande Tank",
+      "district": "11",
+      "address": "61 John F Shelley Dr",
+      "coordinates": {
+        "lat": 37.72312695800008,
+        "lon": -122.42420507599996
+      }
+    },
+    {
+      "name": "Mclaren Park Mansell Clubhouse",
+      "district": "10",
+      "address": "1701 Visitacion Ave",
+      "coordinates": {
+        "lat": 37.71369383100006,
+        "lon": -122.41622166199994
+      }
+    },
+    {
+      "name": "Mclaren Park - Wilde Tower",
+      "district": "10",
+      "address": "895 Mansell St",
+      "coordinates": {
+        "lat": 37.71874717600008,
+        "lon": -122.40992127599998
+      }
+    },
+    {
+      "name": "Mclaren Upper Reservoir Water Tanks",
+      "district": "10",
+      "address": "1100 Mansell St",
+      "coordinates": {
+        "lat": 37.71805159300004,
+        "lon": -122.41914188799996
+      }
+    },
+    {
+      "name": "Merced Heights Clubhouse",
+      "district": "11",
+      "address": "801 Shields St",
+      "coordinates": {
+        "lat": 37.71771849000004,
+        "lon": -122.47007230399998
+      }
+    },
+    {
+      "name": "Michelangelo Gardeners Shed",
+      "district": "3",
+      "address": "1055 Greenwich St",
+      "coordinates": {
+        "lat": 37.80126911800005,
+        "lon": -122.41678040399995
+      }
+    },
+    {
+      "name": "MICHELANGELO PLAYGROUND CTR",
+      "district": "3",
+      "address": "1055 Greenwich St",
+      "coordinates": {
+        "lat": 37.801214480000056,
+        "lon": -122.41693187399994
+      }
+    },
+    {
+      "name": "Midtown Terrace Clubhouse",
+      "district": "7",
+      "address": "210 Olympia Way",
+      "coordinates": {
+        "lat": 37.751588552000044,
+        "lon": -122.45585129899996
+      }
+    },
+    {
+      "name": "Millwright's House",
+      "district": "1",
+      "address": "2100 Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.77034555700004,
+        "lon": -122.50900831499996
+      }
+    },
+    {
+      "name": "Minnie & Lovie Ward Rec Center",
+      "district": "11",
+      "address": "650 Capitol Ave",
+      "coordinates": {
+        "lat": 37.71626964400008,
+        "lon": -122.45817562899998
+      }
+    },
+    {
+      "name": "Miraloma Clubhouse",
+      "district": "7",
+      "address": "25 Omar Way",
+      "coordinates": {
+        "lat": 37.73916391000006,
+        "lon": -122.44941089399998
+      }
+    },
+    {
+      "name": "Mission Community Pool",
+      "district": "9",
+      "address": "3555 19th St",
+      "coordinates": {
+        "lat": 37.75947939800005,
+        "lon": -122.42265676499994
+      }
+    },
+    {
+      "name": "Mission Dolores Park Clubhouse",
+      "district": "8",
+      "address": "646 Dolores St",
+      "coordinates": {
+        "lat": 37.759575924000046,
+        "lon": -122.42686802499998
+      }
+    },
+    {
+      "name": "Mission PG Clubhouse",
+      "district": "9",
+      "address": "3555 19th St",
+      "coordinates": {
+        "lat": 37.759537428000044,
+        "lon": -122.42248002699995
+      }
+    },
+    {
+      "name": "Mission Rec Center",
+      "district": "9",
+      "address": "2450 Harrison St",
+      "coordinates": {
+        "lat": 37.75814873400003,
+        "lon": -122.41258602199997
+      }
+    },
+    {
+      "name": "Model Yacht Clubhouse",
+      "district": "1",
+      "address": "John F Kennedy Dr & 36th Ave",
+      "coordinates": {
+        "lat": 37.770207603000074,
+        "lon": -122.49560091799998
+      }
+    },
+    {
+      "name": "Moscone Bathrooms",
+      "district": "2",
+      "address": "1800 Chestnut St",
+      "coordinates": {
+        "lat": 37.80219691700006,
+        "lon": -122.43460643999998
+      }
+    },
+    {
+      "name": "Moscone Fieldhouse and Bleachers",
+      "district": "2",
+      "address": "1800 Chestnut St",
+      "coordinates": {
+        "lat": 37.80274379000008,
+        "lon": -122.43392199999994
+      }
+    },
+    {
+      "name": "Moscone Maintenance Facility",
+      "district": "2",
+      "address": "1800 Chestnut St",
+      "coordinates": {
+        "lat": 37.801560952000045,
+        "lon": -122.43285588899994
+      }
+    },
+    {
+      "name": "Moscone Rec Center",
+      "district": "2",
+      "address": "1800 Chestnut St",
+      "coordinates": {
+        "lat": 37.80145337000005,
+        "lon": -122.43304599299995
+      }
+    },
+    {
+      "name": "Mothers Meadow Bathroom",
+      "district": "7",
+      "address": "Martin Luther King Dr & 19th Ave",
+      "coordinates": {
+        "lat": 37.766398378000076,
+        "lon": -122.47668739299996
+      }
+    },
+    {
+      "name": "Mountain Lake Park Bathrooms",
+      "district": "1",
+      "address": "1 11th Ave",
+      "coordinates": {
+        "lat": 37.78697414700008,
+        "lon": -122.47176622099994
+      }
+    },
+    {
+      "name": "Mountain Lake Park Card Shelter",
+      "district": "1",
+      "address": "1 11th Ave",
+      "coordinates": {
+        "lat": 37.78747903300007,
+        "lon": -122.46832685099997
+      }
+    },
+    {
+      "name": "MS Hayward Historic Clubhouse",
+      "district": "5",
+      "address": "1016 Laguna St",
+      "coordinates": {
+        "lat": 37.780747493000035,
+        "lon": -122.42671429999996
+      }
+    },
+    {
+      "name": "Murphy Windmill",
+      "district": "4",
+      "address": "2100 Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76497993100003,
+        "lon": -122.50868981499997
+      }
+    },
+    {
+      "name": "Murphy Windmill Pump Station",
+      "district": "4",
+      "address": "Martin Luther King Dr & Lincoln Way",
+      "coordinates": {
+        "lat": 37.76516858800005,
+        "lon": -122.50843094599998
+      }
+    },
+    {
+      "name": "Music Concourse",
+      "district": "7",
+      "address": "50 Hagiwara Tea Garden Dr",
+      "coordinates": {
+        "lat": 37.77033578000004,
+        "lon": -122.46788277799999
+      }
+    },
+    {
+      "name": "Music Concourse Garage",
+      "district": "7",
+      "address": "10th Ave & Fulton St",
+      "coordinates": {
+        "lat": 37.77063553200003,
+        "lon": -122.46748755899995
+      }
+    },
+    {
+      "name": "Noe Valley Courts Bathrooms",
+      "district": "8",
+      "address": "780 Douglass St",
+      "coordinates": {
+        "lat": 37.751480566000055,
+        "lon": -122.43920196699997
+      }
+    },
+    {
+      "name": "North Beach Swimming Pool",
+      "district": "3",
+      "address": "651 Lombard St",
+      "coordinates": {
+        "lat": 37.80279643600005,
+        "lon": -122.41231917399995
+      }
+    },
+    {
+      "name": "North Deep Well Pump Station",
+      "district": "1",
+      "address": "Fulton St & Chain of Lakes Dr",
+      "coordinates": {
+        "lat": 37.771245031000035,
+        "lon": -122.50590553099994
+      }
+    },
+    {
+      "name": "Nursery Bathrooms",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76850063000006,
+        "lon": -122.46235822899996
+      }
+    },
+    {
+      "name": "Nursery Cold Frames",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76868561600003,
+        "lon": -122.46226988099994
+      }
+    },
+    {
+      "name": "NURSERY-COLD HOUSE",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76864642700008,
+        "lon": -122.46231568899998
+      }
+    },
+    {
+      "name": "NURSERY-HOT HOUSE",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768329315000074,
+        "lon": -122.46215383699996
+      }
+    },
+    {
+      "name": "Nursery Potting Sheds",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76833210900003,
+        "lon": -122.46104701099995
+      }
+    },
+    {
+      "name": "Nursery Shade Houses",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76809895400004,
+        "lon": -122.46204837599998
+      }
+    },
+    {
+      "name": "Nursery Storage Sheds*",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76739270000007,
+        "lon": -122.46120279899998
+      }
+    },
+    {
+      "name": "Paint & Carpentry Shop",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768630933000054,
+        "lon": -122.46251106599999
+      }
+    },
+    {
+      "name": "Palace Of Fine Arts",
+      "district": "2",
+      "address": "3601 Lyon St",
+      "coordinates": {
+        "lat": 37.80281810500003,
+        "lon": -122.44916839499996
+      }
+    },
+    {
+      "name": "Palace Of Fine Arts - Rotunda",
+      "district": "2",
+      "address": "3601 Lyon St",
+      "coordinates": {
+        "lat": 37.802898551000055,
+        "lon": -122.44841429099995
+      }
+    },
+    {
+      "name": "Palace of Fine Arts -Theater",
+      "district": "2",
+      "address": "3601 Lyon St",
+      "coordinates": {
+        "lat": 37.80281810500003,
+        "lon": -122.44916839499996
+      }
+    },
+    {
+      "name": "Palega Recreation Center",
+      "district": "9",
+      "address": "500 Felton St",
+      "coordinates": {
+        "lat": 37.72908430100006,
+        "lon": -122.409679988
+      }
+    },
+    {
+      "name": "Palega Storage Shed",
+      "district": "9",
+      "address": "500 Felton St",
+      "coordinates": {
+        "lat": 37.72921318500005,
+        "lon": -122.41027279199994
+      }
+    },
+    {
+      "name": "PALOU/PHELPS OPEN SPACE",
+      "district": "10",
+      "address": "1801 Palou Ave",
+      "coordinates": {
+        "lat": 37.73612041700005,
+        "lon": -122.39516122799995
+      }
+    },
+    {
+      "name": "Panhandle Bathroom & Staff Bldg",
+      "district": "5",
+      "address": "Oak St & Ashbury St",
+      "coordinates": {
+        "lat": 37.77311564200005,
+        "lon": -122.44144448199995
+      }
+    },
+    {
+      "name": "Parkside Square Bathrooms",
+      "district": "4",
+      "address": "2680 28th Ave",
+      "coordinates": {
+        "lat": 37.738344865000045,
+        "lon": -122.48375776399996
+      }
+    },
+    {
+      "name": "Parque Ninos Unidos Clubhouse",
+      "district": "9",
+      "address": "990 Treat Ave",
+      "coordinates": {
+        "lat": 37.75426231400007,
+        "lon": -122.41393355799994
+      }
+    },
+    {
+      "name": "Patricias Green Art Installation",
+      "district": "5",
+      "address": "450 Octavia St",
+      "coordinates": {
+        "lat": 37.77622710800006,
+        "lon": -122.42442162999998
+      }
+    },
+    {
+      "name": "Patricias Green Gardeners Shed",
+      "district": "5",
+      "address": "450 Octavia St",
+      "coordinates": {
+        "lat": 37.77591066400004,
+        "lon": -122.42444253299999
+      }
+    },
+    {
+      "name": "Peixotto Clubhouse",
+      "district": "8",
+      "address": "199 Museum Way",
+      "coordinates": {
+        "lat": 37.76561555400008,
+        "lon": -122.437645095
+      }
+    },
+    {
+      "name": "PEIXOTTO PLAYGRND: NRSRY SCH.*",
+      "district": "8",
+      "address": "2475 15th St",
+      "coordinates": {
+        "lat": 37.765767924000045,
+        "lon": -122.43783266799994
+      }
+    },
+    {
+      "name": "Pine Lake Park Clubhouse",
+      "district": "4",
+      "address": "200 Crestlake Dr",
+      "coordinates": {
+        "lat": 37.736064568000074,
+        "lon": -122.48723097799996
+      }
+    },
+    {
+      "name": "Pine Lake Pumping Station",
+      "district": "4",
+      "address": "Wawona St & 24th Ave",
+      "coordinates": {
+        "lat": 37.736499381000044,
+        "lon": -122.48634826199998
+      }
+    },
+    {
+      "name": "Pioneer Log Cabin",
+      "district": "7",
+      "address": "1 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.770850077000034,
+        "lon": -122.47548343299997
+      }
+    },
+    {
+      "name": "Plumbing Shop",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768741463000026,
+        "lon": -122.46232246099999
+      }
+    },
+    {
+      "name": "Police Stables",
+      "district": "4",
+      "address": "1475 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76875664000005,
+        "lon": -122.49534691299999
+      }
+    },
+    {
+      "name": "Police Stables Shed",
+      "district": "4",
+      "address": "1475 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76893631200005,
+        "lon": -122.495377083
+      }
+    },
+    {
+      "name": "Polo Field Bathroom",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76916081500008,
+        "lon": -122.49456934999995
+      }
+    },
+    {
+      "name": "Polo Field North Restrooms",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76894349200006,
+        "lon": -122.49439744699998
+      }
+    },
+    {
+      "name": "Polo Field North Training Qtrs",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.768864241000074,
+        "lon": -122.49528773699996
+      }
+    },
+    {
+      "name": "Polo Fields and Stadium",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76824199300006,
+        "lon": -122.49268606199996
+      }
+    },
+    {
+      "name": "Polo Fields Corral",
+      "district": "4",
+      "address": "John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76984261400003,
+        "lon": -122.49056291
+      }
+    },
+    {
+      "name": "Polo Field South Training Qtrs",
+      "district": "4",
+      "address": "1451 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.76705359700003,
+        "lon": -122.49240765699994
+      }
+    },
+    {
+      "name": "Portsmouth Square Bathrooms",
+      "district": "3",
+      "address": "733 Kearny St",
+      "coordinates": {
+        "lat": 37.79480852100005,
+        "lon": -122.405403348
+      }
+    },
+    {
+      "name": "Portsmouth Square Clubhouse",
+      "district": "3",
+      "address": "733 Kearny St",
+      "coordinates": {
+        "lat": 37.794593054000075,
+        "lon": -122.40558573499999
+      }
+    },
+    {
+      "name": "Potrero del Sol maintenance shed",
+      "district": "9",
+      "address": "1440 San Bruno Ave",
+      "coordinates": {
+        "lat": 37.75013172600006,
+        "lon": -122.40538290099994
+      }
+    },
+    {
+      "name": "Potrero Del Sol Performance Spaces",
+      "district": "9",
+      "address": "1440 San Bruno Ave",
+      "coordinates": {
+        "lat": 37.75039878500007,
+        "lon": -122.40469653599996
+      }
+    },
+    {
+      "name": "Potrero Hill Community Garden",
+      "district": "10",
+      "address": "20th St and San Bruno Ave",
+      "coordinates": {
+        "lat": 37.75978410400006,
+        "lon": -122.40529972699994
+      }
+    },
+    {
+      "name": "Potrero Hill Rec Center",
+      "district": "10",
+      "address": "801 Arkansas St",
+      "coordinates": {
+        "lat": 37.75616262500006,
+        "lon": -122.39744311699997
+      }
+    },
+    {
+      "name": "Potrero Hill Restrooms",
+      "district": "10",
+      "address": "801 Arkansas St",
+      "coordinates": {
+        "lat": 37.756066530000055,
+        "lon": -122.39700259499995
+      }
+    },
+    {
+      "name": "Potrero Rec Center Maintenance Bldg",
+      "district": "10",
+      "address": "801 Arkansas St",
+      "coordinates": {
+        "lat": 37.756164529000046,
+        "lon": -122.39700352499995
+      }
+    },
+    {
+      "name": "Powell St. Railroad Station",
+      "district": "1",
+      "address": "Fulton St & 07th Ave",
+      "coordinates": {
+        "lat": 37.77332654800006,
+        "lon": -122.46479495599999
+      }
+    },
+    {
+      "name": "Prayer Book Cross",
+      "district": "1",
+      "address": "653 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.771733495000035,
+        "lon": -122.47833316999998
+      }
+    },
+    {
+      "name": "Presidio Heights Clubhouse",
+      "district": "2",
+      "address": "3437 Clay St",
+      "coordinates": {
+        "lat": 37.78853606600006,
+        "lon": -122.44978472999998
+      }
+    },
+    {
+      "name": "Randall Museum",
+      "district": "8",
+      "address": "199 Museum Way",
+      "coordinates": {
+        "lat": 37.76442323800006,
+        "lon": -122.43814775799996
+      }
+    },
+    {
+      "name": "Raymond Kimbell Fieldhouse",
+      "district": "5",
+      "address": "1901 Geary Blvd",
+      "coordinates": {
+        "lat": 37.78235183800007,
+        "lon": -122.43566194999994
+      }
+    },
+    {
+      "name": "Rhoda Goldman Concert Meadow",
+      "district": "4",
+      "address": "2899 19th Ave",
+      "coordinates": {
+        "lat": 37.736263758000064,
+        "lon": -122.47974587399995
+      }
+    },
+    {
+      "name": "Rhododendron Dell Maintenance Shed",
+      "district": "7",
+      "address": "364 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77201879900008,
+        "lon": -122.46442974799999
+      }
+    },
+    {
+      "name": "Richmond PG Clubhouse",
+      "district": "1",
+      "address": "149 18th Ave",
+      "coordinates": {
+        "lat": 37.78531344400005,
+        "lon": -122.47786859999997
+      }
+    },
+    {
+      "name": "Richmond Recreation Center",
+      "district": "1",
+      "address": "251 18th Ave",
+      "coordinates": {
+        "lat": 37.783270077000054,
+        "lon": -122.47797676799996
+      }
+    },
+    {
+      "name": "Richmond/Sunset Treatment Plant",
+      "district": "4",
+      "address": "Lincoln Way & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76464645500005,
+        "lon": -122.50050060699999
+      }
+    },
+    {
+      "name": "Richmond/Sunset TRT PLT Maint Bldg",
+      "district": "4",
+      "address": "Lincoln Way & Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.767311318000054,
+        "lon": -122.48329272399997
+      }
+    },
+    {
+      "name": "Rochambeau Clubhouse",
+      "district": "1",
+      "address": "250 25th Ave",
+      "coordinates": {
+        "lat": 37.78498685200003,
+        "lon": -122.48456648899997
+      }
+    },
+    {
+      "name": "Roofing Shop",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76882559300003,
+        "lon": -122.46211589699999
+      }
+    },
+    {
+      "name": "Rose Garden Bathroom",
+      "district": "1",
+      "address": "700 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.771635178000054,
+        "lon": -122.47132463199995
+      }
+    },
+    {
+      "name": "Rose Garden Maintenance Shed",
+      "district": "1",
+      "address": "700 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77161670700008,
+        "lon": -122.47124433099998
+      }
+    },
+    {
+      "name": "Rossi Annex Bathrooms",
+      "district": "1",
+      "address": "2 Willard St North",
+      "coordinates": {
+        "lat": 37.77801057600004,
+        "lon": -122.45770011899998
+      }
+    },
+    {
+      "name": "Rossi Community Pool",
+      "district": "1",
+      "address": "600 Arguello Blvd",
+      "coordinates": {
+        "lat": 37.779060825000045,
+        "lon": -122.45820436999998
+      }
+    },
+    {
+      "name": "Rossi maintenance facility 1",
+      "district": "1",
+      "address": "600 Arguello Blvd",
+      "coordinates": {
+        "lat": 37.77931218900005,
+        "lon": -122.45706684199996
+      }
+    },
+    {
+      "name": "Rossi maintenance facility 2",
+      "district": "1",
+      "address": "600 Arguello Blvd",
+      "coordinates": {
+        "lat": 37.779394585000034,
+        "lon": -122.45711564099997
+      }
+    },
+    {
+      "name": "Sandy Tatum Clubhouse",
+      "district": "7",
+      "address": "99 Harding Rd",
+      "coordinates": {
+        "lat": 37.72466641200003,
+        "lon": -122.49372364999999
+      }
+    },
+    {
+      "name": "Sea Cliff #1 Sewage Pump",
+      "district": "1",
+      "address": "498 Sea Cliff Ave",
+      "coordinates": {
+        "lat": 37.78732292300003,
+        "lon": -122.49160200799997
+      }
+    },
+    {
+      "name": "Sect 1 Gardener Cpd@Conservatory",
+      "district": "1",
+      "address": "100 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.77272836100008,
+        "lon": -122.45976408299998
+      }
+    },
+    {
+      "name": "Sect 2 Gardener Cpd @ Band Shell",
+      "district": "7",
+      "address": "Music Concourse Dr & Music Concourse Access Rd",
+      "coordinates": {
+        "lat": 37.77095524600003,
+        "lon": -122.46702210499996
+      }
+    },
+    {
+      "name": "Sect 4 Gardener Cpd @ Boathouse",
+      "district": "7",
+      "address": "John F Kennedy Dr & Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.77061459200007,
+        "lon": -122.47718192999997
+      }
+    },
+    {
+      "name": "Sect 4 Gardener Cpd @ Middle Dr W",
+      "district": "4",
+      "address": "Middle West Dr & Overlook Dr",
+      "coordinates": {
+        "lat": 37.76947013600005,
+        "lon": -122.48052392599999
+      }
+    },
+    {
+      "name": "Sect 5 Gardener Cpd@Model Yacht",
+      "district": "1",
+      "address": "John F Kennedy Dr & 36th Ave",
+      "coordinates": {
+        "lat": 37.77086125900007,
+        "lon": -122.49609638699997
+      }
+    },
+    {
+      "name": "Sect 6 Gardener Cpd@Bercut",
+      "district": "4",
+      "address": "Bercut Access Rd & Chain of Lakes Dr",
+      "coordinates": {
+        "lat": 37.766682107000065,
+        "lon": -122.50281627899994
+      }
+    },
+    {
+      "name": "Selby Palou Park Annex",
+      "district": "10",
+      "address": "1321 Selby St",
+      "coordinates": {
+        "lat": 37.738900167000054,
+        "lon": -122.40041557899997
+      }
+    },
+    {
+      "name": "SEWAGE PLANT",
+      "district": "4",
+      "address": "100 Martin Luther King Jr Dr",
+      "coordinates": {
+        "lat": 37.76573474700007,
+        "lon": -122.50898410299999
+      }
+    },
+    {
+      "name": "Sewage Pumping Station",
+      "district": "2",
+      "address": "3700 Lyon St",
+      "coordinates": {
+        "lat": 37.80639823400003,
+        "lon": -122.44854466399994
+      }
+    },
+    {
+      "name": "SFPD Radio Equipment",
+      "district": "10",
+      "address": "McLaren Park",
+      "coordinates": {
+        "lat": 37.718205442000055,
+        "lon": -122.41929857899999
+      }
+    },
+    {
+      "name": "Sgt. John Macaulay Storage Area",
+      "district": "5",
+      "address": "801 Larkin St",
+      "coordinates": {
+        "lat": 37.78550355100003,
+        "lon": -122.41829188399998
+      }
+    },
+    {
+      "name": "Sharon Arts Studio",
+      "district": "7",
+      "address": "320 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.76861758100006,
+        "lon": -122.45899175499994
+      }
+    },
+    {
+      "name": "Sharon Meadow Bathroom",
+      "district": "7",
+      "address": "320 Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.768321582000056,
+        "lon": -122.45828314599999
+      }
+    },
+    {
+      "name": "SHARP PARK CLUBHOUSE & REST.",
+      "district": "",
+      "address": "2600 Francisco Blvd",
+      "coordinates": {
+        "lat": 37.62493476900005,
+        "lon": -122.48881604099995
+      }
+    },
+    {
+      "name": "SHARP PARK GARDENERS SHED",
+      "district": "",
+      "address": "2600 Francisco Blvd",
+      "coordinates": {
+        "lat": 37.62531098900007,
+        "lon": -122.48846401099996
+      }
+    },
+    {
+      "name": "Silver Terrace Clubhouse",
+      "district": "10",
+      "address": "1700 Silver Ave",
+      "coordinates": {
+        "lat": 37.73253420800006,
+        "lon": -122.40247224099994
+      }
+    },
+    {
+      "name": "Silver Terrace Fieldhouse/Bleachers",
+      "district": "10",
+      "address": "1700 Silver Ave",
+      "coordinates": {
+        "lat": 37.73294230400006,
+        "lon": -122.40299701599997
+      }
+    },
+    {
+      "name": "Silver Terrace Maint Facilities",
+      "district": "10",
+      "address": "1700 Silver Ave",
+      "coordinates": {
+        "lat": 37.73253420800006,
+        "lon": -122.40247224099994
+      }
+    },
+    {
+      "name": "Silver Tree Day Camp",
+      "district": "8",
+      "address": "Diamond & Farnum St",
+      "coordinates": {
+        "lat": 37.74086530900007,
+        "lon": -122.44252843399994
+      }
+    },
+    {
+      "name": "SOMA Eugene Friend Rec Center",
+      "district": "6",
+      "address": "270 06th St",
+      "coordinates": {
+        "lat": 37.778794230000074,
+        "lon": -122.40652312099996
+      }
+    },
+    {
+      "name": "SoMa West Skate Park",
+      "district": "6",
+      "address": "Duboce St & Otis St",
+      "coordinates": {
+        "lat": 37.770250367000074,
+        "lon": -122.42076927999994
+      }
+    },
+    {
+      "name": "South Deep Well Pump Station",
+      "district": "4",
+      "address": "Martin Luther King Jr Dr & Lincoln Way",
+      "coordinates": {
+        "lat": 37.76583555800005,
+        "lon": -122.48214119099998
+      }
+    },
+    {
+      "name": "South End Rowing Club",
+      "district": "2",
+      "address": "500 Jefferson St",
+      "coordinates": {
+        "lat": 37.807701036000026,
+        "lon": -122.42097260099996
+      }
+    },
+    {
+      "name": "South Sunset Clubhouse",
+      "district": "4",
+      "address": "2601 40th Ave",
+      "coordinates": {
+        "lat": 37.738077944000054,
+        "lon": -122.49818747199998
+      }
+    },
+    {
+      "name": "States Street Restrooms",
+      "district": "8",
+      "address": "122 States St",
+      "coordinates": {
+        "lat": 37.763752699000065,
+        "lon": -122.43846243699994
+      }
+    },
+    {
+      "name": "Stationary Engineers & Electric Rm",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76885049600003,
+        "lon": -122.46261616199996
+      }
+    },
+    {
+      "name": "Stern Grove - Dressing Rm 4",
+      "district": "4",
+      "address": "2899 19TH AVE",
+      "coordinates": {
+        "lat": 37.73614553200008,
+        "lon": -122.47926297899994
+      }
+    },
+    {
+      "name": "Stern Grove - Dressing Rooms 1, 2 & 3",
+      "district": "4",
+      "address": "2899 19TH AVE",
+      "coordinates": {
+        "lat": 37.73614553200008,
+        "lon": -122.47926297899994
+      }
+    },
+    {
+      "name": "Stern Grove Maint. Facility 2",
+      "district": "4",
+      "address": "19th Ave & Sloat",
+      "coordinates": {
+        "lat": 37.73640057400007,
+        "lon": -122.48027098099999
+      }
+    },
+    {
+      "name": "Stern Grove - New Stage",
+      "district": "4",
+      "address": "2899 19TH AVE",
+      "coordinates": {
+        "lat": 37.73614553200008,
+        "lon": -122.47926297899994
+      }
+    },
+    {
+      "name": "Stern Grove Restrooms",
+      "district": "4",
+      "address": "2899 19th Ave",
+      "coordinates": {
+        "lat": 37.736196077000045,
+        "lon": -122.47820984499998
+      }
+    },
+    {
+      "name": "Stern Grove - stage deck",
+      "district": "4",
+      "address": "2899 19TH AVE",
+      "coordinates": {
+        "lat": 37.73614553200008,
+        "lon": -122.47926297899994
+      }
+    },
+    {
+      "name": "Stern maintenance facility",
+      "district": "4",
+      "address": "2899 19th Ave",
+      "coordinates": {
+        "lat": 37.735091229000034,
+        "lon": -122.47698999399995
+      }
+    },
+    {
+      "name": "St Francis Yacht Club",
+      "district": "2",
+      "address": "99 Yacht Rd",
+      "coordinates": {
+        "lat": 37.807237239000074,
+        "lon": -122.44640195299996
+      }
+    },
+    {
+      "name": "St Mary's BF Maintenance Shed",
+      "district": "9",
+      "address": "95 Justin Dr",
+      "coordinates": {
+        "lat": 37.73366979800005,
+        "lon": -122.42065802599996
+      }
+    },
+    {
+      "name": "St Mary's DPA Maintenance Shed",
+      "district": "9",
+      "address": "95 Justin Dr",
+      "coordinates": {
+        "lat": 37.73366979800005,
+        "lon": -122.42065802599996
+      }
+    },
+    {
+      "name": "St Mary's PG Restrooms",
+      "district": "9",
+      "address": "95 Justin Dr",
+      "coordinates": {
+        "lat": 37.73340144300005,
+        "lon": -122.42164757499995
+      }
+    },
+    {
+      "name": "St Mary's RC Maintenance Shed",
+      "district": "9",
+      "address": "95 Justin Dr",
+      "coordinates": {
+        "lat": 37.73366979800005,
+        "lon": -122.42065802599996
+      }
+    },
+    {
+      "name": "St Mary's Rec Center",
+      "district": "9",
+      "address": "95 Justin Dr",
+      "coordinates": {
+        "lat": 37.734235341000044,
+        "lon": -122.42170980499998
+      }
+    },
+    {
+      "name": "St Mary's Square Bathrooms",
+      "district": "3",
+      "address": "633 California St",
+      "coordinates": {
+        "lat": 37.791724163000026,
+        "lon": -122.40510939799998
+      }
+    },
+    {
+      "name": "St Mary's Square Performance Space",
+      "district": "3",
+      "address": "633 California St",
+      "coordinates": {
+        "lat": 37.791818087000024,
+        "lon": -122.40491172499998
+      }
+    },
+    {
+      "name": "Stow Lake Boat Dock",
+      "district": "7",
+      "address": "50 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.77053775200005,
+        "lon": -122.47697555599996
+      }
+    },
+    {
+      "name": "Stow Lake Boathouse",
+      "district": "7",
+      "address": "50 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.77061364900004,
+        "lon": -122.47707659799994
+      }
+    },
+    {
+      "name": "Stow Lake Boat Launching Ramp",
+      "district": "7",
+      "address": "50 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.77047119000008,
+        "lon": -122.47692902499995
+      }
+    },
+    {
+      "name": "Stow Lake Restrooms",
+      "district": "7",
+      "address": "50 Stow Lake Dr",
+      "coordinates": {
+        "lat": 37.77100685100004,
+        "lon": -122.47689159199996
+      }
+    },
+    {
+      "name": "Struct Maint Storage Lot",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768154278000054,
+        "lon": -122.46159150999995
+      }
+    },
+    {
+      "name": "Structural Maintenance Office",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76879677100004,
+        "lon": -122.46197134399995
+      }
+    },
+    {
+      "name": "Structural Maint Multi-trade Bldg.",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76781721100008,
+        "lon": -122.46068634599999
+      }
+    },
+    {
+      "name": "Strybing Greenhouse",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.766128673000026,
+        "lon": -122.47105649299999
+      }
+    },
+    {
+      "name": "Strybing Lath House",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76736959600004,
+        "lon": -122.47261718899995
+      }
+    },
+    {
+      "name": "Strybing Nursery",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.766151095000055,
+        "lon": -122.47122351099995
+      }
+    },
+    {
+      "name": "Strybing Pump Stn",
+      "district": "7",
+      "address": "Lincoln Way and 09th Ave",
+      "coordinates": {
+        "lat": 37.766102008000075,
+        "lon": -122.46694192199999
+      }
+    },
+    {
+      "name": "Strybing Storage Shed",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76747760000006,
+        "lon": -122.47252949999995
+      }
+    },
+    {
+      "name": "Strybing Storage Shed 2",
+      "district": "7",
+      "address": "1199 09th Ave",
+      "coordinates": {
+        "lat": 37.76747760000006,
+        "lon": -122.47252949999995
+      }
+    },
+    {
+      "name": "Sue Bierman Maintenance Facility",
+      "district": "3",
+      "address": "248 Drumm St",
+      "coordinates": {
+        "lat": 37.79615549400006,
+        "lon": -122.39606153399995
+      }
+    },
+    {
+      "name": "Sunnyside Clubhouse",
+      "district": "7",
+      "address": "233 Melrose Ave",
+      "coordinates": {
+        "lat": 37.73366775300008,
+        "lon": -122.44721460399995
+      }
+    },
+    {
+      "name": "Sunnyside Conservatory",
+      "district": "7",
+      "address": "236 Monterey Blvd",
+      "coordinates": {
+        "lat": 37.73186080000005,
+        "lon": -122.44082399499996
+      }
+    },
+    {
+      "name": "Sunnyside Maintenance Facilities",
+      "district": "7",
+      "address": "233 Melrose Ave",
+      "coordinates": {
+        "lat": 37.73388441800006,
+        "lon": -122.44825516699996
+      }
+    },
+    {
+      "name": "Sunset Rec Center",
+      "district": "4",
+      "address": "2201 Lawton St",
+      "coordinates": {
+        "lat": 37.75704134500006,
+        "lon": -122.48660969199994
+      }
+    },
+    {
+      "name": "Swimming Pool",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.87901196900003,
+        "lon": -119.85412106099994
+      }
+    },
+    {
+      "name": "Tenderloin Rec Center",
+      "district": "5",
+      "address": "570 Ellis St",
+      "coordinates": {
+        "lat": 37.78480887100005,
+        "lon": -122.41544357899994
+      }
+    },
+    {
+      "name": "Tennis & Pro Shop",
+      "district": "7",
+      "address": "Nancy Pelosi Dr & Bowling Green Dr",
+      "coordinates": {
+        "lat": 37.769829610000045,
+        "lon": -122.45974146599997
+      }
+    },
+    {
+      "name": "Tire Store",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76860096100006,
+        "lon": -122.46185493399997
+      }
+    },
+    {
+      "name": "Treat Street Building",
+      "district": "9",
+      "address": "745 Treat Ave",
+      "coordinates": {
+        "lat": 37.75818114500004,
+        "lon": -122.41338459399998
+      }
+    },
+    {
+      "name": "Tree Fern Dell Maintenance Facility",
+      "district": "7",
+      "address": "Conservatory Dr West & John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.771327566000025,
+        "lon": -122.460990402
+      }
+    },
+    {
+      "name": "Triumph of Light Monument",
+      "district": "8",
+      "address": "Upper Terrace",
+      "coordinates": {
+        "lat": 37.763314534000074,
+        "lon": -122.44555426899996
+      }
+    },
+    {
+      "name": "Trocadero Clubhouse",
+      "district": "4",
+      "address": "2899 19th Ave",
+      "coordinates": {
+        "lat": 37.736184336000065,
+        "lon": -122.47798148299995
+      }
+    },
+    {
+      "name": "Union Square Concessions",
+      "district": "3",
+      "address": "225 Stockton St",
+      "coordinates": {
+        "lat": 37.78787976700005,
+        "lon": -122.40797902799994
+      }
+    },
+    {
+      "name": "Union Square Office",
+      "district": "3",
+      "address": "225 Stockton St",
+      "coordinates": {
+        "lat": 37.78787976700005,
+        "lon": -122.40797902799994
+      }
+    },
+    {
+      "name": "Union Square Performance Spaces",
+      "district": "3",
+      "address": "225 Stockton St",
+      "coordinates": {
+        "lat": 37.78787976700005,
+        "lon": -122.40797902799994
+      }
+    },
+    {
+      "name": "Union Square Storage",
+      "district": "3",
+      "address": "225 Stockton St",
+      "coordinates": {
+        "lat": 37.78787976700005,
+        "lon": -122.40797902799994
+      }
+    },
+    {
+      "name": "Upper Noe Rec Center building",
+      "district": "8",
+      "address": "295 Day St",
+      "coordinates": {
+        "lat": 37.742332658000066,
+        "lon": -122.42837335099995
+      }
+    },
+    {
+      "name": "Upper Shang",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Urban Forestry Center",
+      "district": "4",
+      "address": "Overlook Dr & Middle West Dr",
+      "coordinates": {
+        "lat": 37.76921268800004,
+        "lon": -122.48108142999996
+      }
+    },
+    {
+      "name": "Vehicle Base",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.768743517000075,
+        "lon": -122.46219084999996
+      }
+    },
+    {
+      "name": "Vehicle & Materials Storage",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76860409000005,
+        "lon": -122.46214438899995
+      }
+    },
+    {
+      "name": "Vicente Maintenance Facility",
+      "district": "4",
+      "address": "Great Hwy & Vicente St",
+      "coordinates": {
+        "lat": 37.73822732000008,
+        "lon": -122.50664481399997
+      }
+    },
+    {
+      "name": "Victoria Manalo Draves Bathrooms",
+      "district": "6",
+      "address": "55 Sherman St",
+      "coordinates": {
+        "lat": 37.77676358800005,
+        "lon": -122.40602660899998
+      }
+    },
+    {
+      "name": "Visitacion Valley Clubhouse",
+      "district": "10",
+      "address": "251 Leland Ave",
+      "coordinates": {
+        "lat": 37.712749415000076,
+        "lon": -122.40862575599999
+      }
+    },
+    {
+      "name": "Visitacion Valley Daycare Center",
+      "district": "10",
+      "address": "103 Tucker Ave",
+      "coordinates": {
+        "lat": 37.71591970900005,
+        "lon": -122.40631526199996
+      }
+    },
+    {
+      "name": "Vis Vly Grnwy Bathrooms*",
+      "district": "10",
+      "address": "159 Teddy Ave",
+      "coordinates": {
+        "lat": 37.71406300000007,
+        "lon": -122.40565999999995
+      }
+    },
+    {
+      "name": "VMD Maintenance Facility",
+      "district": "6",
+      "address": "55 Sherman St",
+      "coordinates": {
+        "lat": 37.77730399200004,
+        "lon": -122.40647884299995
+      }
+    },
+    {
+      "name": "Warehouse",
+      "district": "7",
+      "address": "100 Martin Luther King Dr",
+      "coordinates": {
+        "lat": 37.76860608700008,
+        "lon": -122.46195696599995
+      }
+    },
+    {
+      "name": "Washington/Hyde Maint Facility",
+      "district": "3",
+      "address": "1464 Washington St",
+      "coordinates": {
+        "lat": 37.79409657900004,
+        "lon": -122.41741408599995
+      }
+    },
+    {
+      "name": "Washington Square Bathrooms",
+      "district": "3",
+      "address": "600 Columbus Ave",
+      "coordinates": {
+        "lat": 37.80096862000005,
+        "lon": -122.41054163099994
+      }
+    },
+    {
+      "name": "Water Plant",
+      "district": "",
+      "address": "32560 Mather Rd",
+      "coordinates": {
+        "lat": 37.881269985000074,
+        "lon": -119.85613576899999
+      }
+    },
+    {
+      "name": "Wawona Clubhouse",
+      "district": "4",
+      "address": "899 Wawona St",
+      "coordinates": {
+        "lat": 37.737179310000045,
+        "lon": -122.47626210799996
+      }
+    },
+    {
+      "name": "Western Addition Community Technology Center",
+      "district": "5",
+      "address": "1003 Turk St",
+      "coordinates": {
+        "lat": 37.781139332000066,
+        "lon": -122.42560599599994
+      }
+    },
+    {
+      "name": "West Marina Harbor",
+      "district": "2",
+      "address": "5 Yacht Rd",
+      "coordinates": {
+        "lat": 37.80700236100006,
+        "lon": -122.44565731699998
+      }
+    },
+    {
+      "name": "West Portal Clubhouse",
+      "district": "7",
+      "address": "131 Lenox Way",
+      "coordinates": {
+        "lat": 37.741752424000026,
+        "lon": -122.46528256099998
+      }
+    },
+    {
+      "name": "West Sunset Clubhouse building",
+      "district": "4",
+      "address": "3223 Ortega St",
+      "coordinates": {
+        "lat": 37.75073088000005,
+        "lon": -122.49833514699998
+      }
+    },
+    {
+      "name": "Willie Woo Woo Wong Clubhouse",
+      "district": "3",
+      "address": "850 Sacramento St",
+      "coordinates": {
+        "lat": 37.79367666400003,
+        "lon": -122.40715229099999
+      }
+    },
+    {
+      "name": "Windmills Pump Station",
+      "district": "1",
+      "address": "1691 John F Kennedy Dr",
+      "coordinates": {
+        "lat": 37.770353054000054,
+        "lon": -122.50885350099998
+      }
+    },
+    {
+      "name": "Woh Hei Yuen Rec Center building",
+      "district": "3",
+      "address": "922 Jackson St",
+      "coordinates": {
+        "lat": 37.79580212400003,
+        "lon": -122.41027048499996
+      }
+    },
+    {
+      "name": "W Sunset 2 Fieldhouse/Bleachers",
+      "district": "4",
+      "address": "3223 Ortega St",
+      "coordinates": {
+        "lat": 37.74941539900004,
+        "lon": -122.49836824799996
+      }
+    },
+    {
+      "name": "W Sunset Erle Fieldhouse/Bleachers",
+      "district": "4",
+      "address": "3223 Ortega St",
+      "coordinates": {
+        "lat": 37.74807394800007,
+        "lon": -122.49940636499997
+      }
+    },
+    {
+      "name": "Yacht Harbor Degaussing Station",
+      "district": "2",
+      "address": "3950 Scott St",
+      "coordinates": {
+        "lat": 37.80700236100006,
+        "lon": -122.44565731699998
+      }
+    },
+    {
+      "name": "Youngblood Coleman Clubhouse",
+      "district": "10",
+      "address": "1398 Hudson Ave",
+      "coordinates": {
+        "lat": 37.738022288000025,
+        "lon": -122.38418438199994
+      }
+    },
+    {
+      "name": "ZOO - ANIMAL HOSPITAL*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.731741286000045,
+        "lon": -122.50391334399995
+      }
+    },
+    {
+      "name": "ZOO - AVIARY*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73255940700005,
+        "lon": -122.50322252299998
+      }
+    },
+    {
+      "name": "ZOO - BEAR DENS*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.731500855000036,
+        "lon": -122.50190865999997
+      }
+    },
+    {
+      "name": "ZOO - CAPYBARA SHELTER*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73156711400003,
+        "lon": -122.50154321099996
+      }
+    },
+    {
+      "name": "ZOO - CAROUSEL",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73359632100005,
+        "lon": -122.50379054599995
+      }
+    },
+    {
+      "name": "ZOO - CHILDRENS ZOO - BARN",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.733714951000024,
+        "lon": -122.50337248599999
+      }
+    },
+    {
+      "name": "ZOO - CHILDRENS ZOO - NURSERY*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73353506700005,
+        "lon": -122.50335684199996
+      }
+    },
+    {
+      "name": "ZOO- FLEISHACKER BUILDING",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73350769700005,
+        "lon": -122.50647769799997
+      }
+    },
+    {
+      "name": "ZOO - GIRAFFE BARN*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.731162733000076,
+        "lon": -122.50262322299994
+      }
+    },
+    {
+      "name": "ZOO - GORILLA WORLD",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73169762400005,
+        "lon": -122.50446302699999
+      }
+    },
+    {
+      "name": "ZOO - GREAT APES BLDG*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.732927662000066,
+        "lon": -122.50224953699995
+      }
+    },
+    {
+      "name": "ZOO - HAY BARNS*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.731148285000074,
+        "lon": -122.50296846899994
+      }
+    },
+    {
+      "name": "ZOO - HEATING PLANT/RESTRM*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73202222800006,
+        "lon": -122.50403973199997
+      }
+    },
+    {
+      "name": "ZOO - HOOFED STOCK EXHIBIT*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73271040100008,
+        "lon": -122.49988900699998
+      }
+    },
+    {
+      "name": "ZOO - INSECT ZOO / CONCESSION*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73469135300007,
+        "lon": -122.50497583799995
+      }
+    },
+    {
+      "name": "ZOO - IRRIGATION PUMP HOUSE*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73492776300003,
+        "lon": -122.50519825099997
+      }
+    },
+    {
+      "name": "ZOO - KANGAROO BLDG.*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73207805000004,
+        "lon": -122.50025002899997
+      }
+    },
+    {
+      "name": "ZOO - KOALA HABITAT*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.733548649000056,
+        "lon": -122.50255790199998
+      }
+    },
+    {
+      "name": "ZOO - LION HOUSE*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73216623400003,
+        "lon": -122.50162415299997
+      }
+    },
+    {
+      "name": "ZOO - LOWER CONCESSION BLDG.*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73297203300007,
+        "lon": -122.50367649799995
+      }
+    },
+    {
+      "name": "ZOO - LOWER RESTROOM*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73236557400003,
+        "lon": -122.50402739299994
+      }
+    },
+    {
+      "name": "ZOO - MONKEY ISLAND*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.733599824000066,
+        "lon": -122.50156555799998
+      }
+    },
+    {
+      "name": "ZOO - MOTHERS BUILDING",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73478688900008,
+        "lon": -122.50389826099996
+      }
+    },
+    {
+      "name": "ZOO - PACHYDERM BARN/PIGMY HIPPO",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73277699000005,
+        "lon": -122.50202944999995
+      }
+    },
+    {
+      "name": "ZOO - PRIMATE DISC CTR*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73274309400006,
+        "lon": -122.50351911199999
+      }
+    },
+    {
+      "name": "ZOO - RESIDENCE*8",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73068948100007,
+        "lon": -122.50270768299998
+      }
+    },
+    {
+      "name": "ZOO - SEALS*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.733226400000035,
+        "lon": -122.50132866899997
+      }
+    },
+    {
+      "name": "ZOO - SEWAGE PUMPHOUSE*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73510525800003,
+        "lon": -122.50535425799995
+      }
+    },
+    {
+      "name": "ZOO - TERRACE CAF\u00c9",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73321831900006,
+        "lon": -122.49978386199996
+      }
+    },
+    {
+      "name": "ZOO - WELDING SHOP*",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.73210362000003,
+        "lon": -122.50379349999997
+      }
+    },
+    {
+      "name": "Zoo Wet Weather Lift Station",
+      "district": "7",
+      "address": "1 Zoo Rd",
+      "coordinates": {
+        "lat": 37.732909482000025,
+        "lon": -122.50323956399995
+      }
+    }
+  ]
+}

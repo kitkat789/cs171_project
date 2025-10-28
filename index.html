@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Same City, Different Worlds | San Francisco Resource Story</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero" id="top">
+        <p class="eyebrow">San Francisco Spatial Equity Story</p>
+        <h1>Your ZIP Code Is Your Destiny</h1>
+        <p class="lede">
+          Parks, businesses, and public facilities cluster in different corners of San Francisco. This dashboard
+          reveals how geography shapes opportunity—determining who works near green space, who can access city
+          services, and who shoulders the heaviest housing costs.
+        </p>
+        <div class="hero-actions">
+          <a class="cta" href="#hook-map">Jump to the maps</a>
+          <a class="ghost" href="#insight-business">See the first insight</a>
+        </div>
+      </header>
+
+      <nav class="story-nav" aria-label="Section navigation">
+        <button type="button" data-target="#hook-map">Hook</button>
+        <button type="button" data-target="#insight-business">Business Density</button>
+        <button type="button" data-target="#insight-colocation">Resource Gaps</button>
+        <button type="button" data-target="#insight-housing">Housing Pressure</button>
+        <button type="button" data-target="#insight-rent">Rent Trends</button>
+        <button type="button" data-target="#solutions">Solutions</button>
+      </nav>
+
+      <main>
+        <section id="hook-map" class="story-section section-hook">
+          <div class="section-header">
+            <h2>Same City, Different Worlds</h2>
+            <p>
+              Parks sprawl along the western edge while businesses pack tightly into the downtown core. Toggle the
+              layers to see how Mission and Sunset residents experience two different San Franciscos.
+            </p>
+          </div>
+          <form class="zip-search" id="zip-search" aria-label="Look up a San Francisco ZIP code">
+            <label for="zip-input">Find your ZIP code</label>
+            <div class="zip-search-controls">
+              <input
+                id="zip-input"
+                name="zip"
+                type="text"
+                inputmode="numeric"
+                pattern="\d{5}"
+                maxlength="5"
+                placeholder="e.g., 94107"
+                list="zip-options"
+                aria-describedby="zip-hint"
+                required
+              />
+              <button type="submit" class="btn-primary">Show my insights</button>
+              <button type="button" class="btn-reset" id="zip-reset">Clear</button>
+            </div>
+            <p class="zip-search-hint" id="zip-hint">Enter any San Francisco ZIP code to spotlight its businesses, parks, and facilities.</p>
+            <datalist id="zip-options"></datalist>
+            <div class="address-divider" role="presentation"></div>
+            <label for="address-input">Or search an address</label>
+            <div class="zip-search-controls">
+              <input
+                id="address-input"
+                name="address"
+                type="text"
+                placeholder="e.g., 1 Dr Carlton B Goodlett Pl"
+                list="address-options"
+                aria-describedby="address-hint"
+              />
+              <button type="button" class="btn-secondary" id="address-search">Locate address</button>
+            </div>
+            <p class="zip-search-hint" id="address-hint">Matches use city datasets for parks and facilities. Partial names are fine.</p>
+            <datalist id="address-options"></datalist>
+          </form>
+          <div class="hook-grid">
+            <div class="map-panel">
+              <h3>Parks by Acreage</h3>
+              <div id="parks-map" class="map-frame" role="img" aria-label="Map of San Francisco parks sized by acreage"></div>
+            </div>
+            <div class="map-panel">
+              <h3>Business Concentration</h3>
+              <div
+                id="business-map"
+                class="map-frame"
+                role="img"
+                aria-label="Map of San Francisco business density by neighborhood"
+              ></div>
+            </div>
+            <article class="chart-card hook-chart">
+              <header>
+                <h3>Active businesses by ZIP code</h3>
+                <p class="chart-meta">Sorted by share of all San Francisco business locations</p>
+              </header>
+              <div class="controls-row" role="group" aria-label="Business chart view controls">
+                <label class="toggle">
+                  <input type="radio" name="business-sort" value="share" checked />
+                  <span>Share of city total</span>
+                </label>
+                <label class="toggle">
+                  <input type="radio" name="business-sort" value="count" />
+                  <span>Total businesses</span>
+                </label>
+              </div>
+              <p class="chart-hint">Hover a bar to spotlight its dominant neighborhoods on the maps.</p>
+              <p
+                class="chart-highlight"
+                id="business-highlight"
+                data-default="Hover a ZIP bar or a business bubble to see which neighborhoods are linked."
+                aria-live="polite"
+              >
+                Hover a ZIP bar or a business bubble to see which neighborhoods are linked.
+              </p>
+              <figure>
+                <svg id="business-zip-chart" aria-labelledby="business-zip-title business-zip-desc"></svg>
+                <figcaption id="business-zip-desc">
+                  Hover to reveal counts and dominant sectors for each ZIP code.
+                </figcaption>
+              </figure>
+            </article>
+          </div>
+          <aside class="callout">
+            <h4>Key takeaway</h4>
+            <p>
+              Regional parks over 100 acres cluster west of <span aria-hidden="true">-122.45°</span>, while 45% of the
+              city's businesses are located within five ZIP codes east of <span aria-hidden="true">-122.42°</span>.
+            </p>
+          </aside>
+          <article class="chart-card zip-summary" id="zip-summary" aria-live="polite">
+            <h3>ZIP-specific insight</h3>
+            <p>Select a ZIP code above to see business density, dominant sectors, and nearby neighborhoods highlighted on the maps.</p>
+          </article>
+        </section>
+
+        <section id="insight-business" class="story-section">
+          <div class="section-header">
+            <h2>Insight 1 · Opportunity deserts</h2>
+            <p>
+              A handful of central ZIP codes host an outsized share of business addresses, locking outer neighborhoods
+              out of day-to-day commerce and job growth.
+            </p>
+          </div>
+          <div class="viz-layout">
+            <aside class="story-card">
+              <h3 id="business-zip-title">Mission vs. Outer Sunset</h3>
+              <p>
+                ZIP <strong>94110 (Mission)</strong> alone hosts nearly <strong>8%</strong> of all listings, dominated by
+                professional and food services. In contrast, <strong>94112 (Excelsior)</strong> supports less than
+                <strong>4%</strong>, limiting nearby employment and services for residents.
+              </p>
+              <ul>
+                <li><span class="dot dot-business"></span>Top five ZIPs = 45% of businesses</li>
+                <li><span class="dot dot-facility"></span>Outer districts rely on smaller commercial strips</li>
+                <li><span class="dot dot-park"></span>Patterns mirror park and facility gaps</li>
+              </ul>
+              <p class="chart-reference">
+                <a href="#hook-map">The chart to the right updates live with the maps.</a>
+              </p>
+            </aside>
+            <aside class="story-card">
+              <h3>How to read the highlights</h3>
+              <p>
+                When you hover a ZIP bar or business bubble, its major neighborhoods glow across both maps and the chart.
+                Bars outlined in white correspond to the highlighted neighborhoods; dim bars show areas receiving fewer
+                spillover benefits.
+              </p>
+              <p class="chart-reference">
+                <a href="#business-zip-chart">Jump to the chart</a>
+              </p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="insight-colocation" class="story-section">
+          <div class="section-header">
+            <h2>Insight 2 · Layered inequities</h2>
+            <p>
+              Workers in SOMA and the Financial District find themselves surrounded by service jobs but without large
+              parks or civic facilities. Toggle each layer to reveal the overlap—or lack of it.
+            </p>
+          </div>
+          <div class="viz-layout stacked">
+            <div class="chart-card wide">
+              <header>
+                <h3>Resource overlap map</h3>
+                <p class="chart-meta">Toggle layers to compare access within the same neighborhoods</p>
+              </header>
+              <div class="controls-row" role="group" aria-label="Resource layers">
+                <label class="toggle" data-color="park">
+                  <input type="checkbox" data-layer="parks" checked />
+                  <span>Parks</span>
+                </label>
+                <label class="toggle" data-color="business">
+                  <input type="checkbox" data-layer="businesses" checked />
+                  <span>Businesses</span>
+                </label>
+                <label class="toggle" data-color="facility">
+                  <input type="checkbox" data-layer="facilities" checked />
+                  <span>City facilities</span>
+                </label>
+                <label class="toggle" data-color="school">
+                  <input type="checkbox" data-layer="schools" checked />
+                  <span>Schools</span>
+                </label>
+              </div>
+              <div
+                id="resource-map"
+                class="map-frame tall"
+                role="img"
+                aria-label="Composite map of parks, businesses, and city facilities across San Francisco"
+              ></div>
+            </div>
+            <aside class="story-card">
+              <h3>Downtown imbalance</h3>
+              <p>
+                Along Market Street, business density peaks yet only mini-parks fall within walking distance. Civic
+                facilities also skew to Districts 3 and 6—already resource dense—leaving western residents with longer
+                trips for community services.
+              </p>
+              <dl>
+                <div>
+                  <dt>District 6 facilities</dt>
+                  <dd>293</dd>
+                </div>
+                <div>
+                  <dt>District 7 facilities</dt>
+                  <dd>64</dd>
+                </div>
+                <div>
+                  <dt>Average distance SOMA to regional park</dt>
+                  <dd>4.3 miles</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </section>
+
+        <section id="insight-housing" class="story-section">
+          <div class="section-header">
+            <h2>Insight 3 · Housing pressure aligns with resource gaps</h2>
+            <p>
+              Renters bear the brunt of housing costs. Neighborhoods with fewer parks and facilities also carry the
+              highest rates of severe cost burden.
+            </p>
+          </div>
+          <div class="viz-layout">
+            <div class="chart-card">
+              <header>
+                <h3>Share of households facing housing cost burden</h3>
+              </header>
+              <figure>
+                <svg
+                  id="housing-burden-chart"
+                  aria-labelledby="housing-burden-title housing-burden-desc"
+                ></svg>
+                <figcaption id="housing-burden-desc">
+                  Stacked bars compare owner, renter, and total households experiencing moderate and severe housing
+                  cost burdens.
+                </figcaption>
+              </figure>
+            </div>
+            <aside class="story-card">
+              <h3 id="housing-burden-title">Renters carry double the severe burden</h3>
+              <p>
+                Over <strong>36,000 renter households</strong> spend more than half their income on housing—mirroring
+                eviction hotspots across Mission, Bayview, and Tenderloin. These are also neighborhoods with limited
+                park acreage and scarce city facilities.
+              </p>
+              <p class="note">Data: HUD CHAS 2017-2021 5-year estimates</p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="insight-rent" class="story-section">
+          <div class="section-header">
+            <h2>Insight 4 · Rents stay high despite recent cooling</h2>
+            <p>
+              Zillow’s Observed Rent Index shows long-term escalation. Even after the 2020 dip, prices rebound—keeping
+              resource-poor neighborhoods under sustained pressure.
+            </p>
+          </div>
+          <div class="viz-layout stacked">
+            <div class="chart-card wide">
+              <header>
+                <h3>San Francisco Rent Index (2015–2025)</h3>
+                <p class="chart-meta">Seasonally adjusted median asking rent for multi-family units</p>
+              </header>
+              <div class="controls-row rent-controls" role="group" aria-label="Rent chart controls">
+                <label class="slider-label" for="rent-start">
+                  <span>Start year: <strong id="rent-start-label">2015</strong></span>
+                  <input type="range" id="rent-start" min="2015" max="2025" value="2015" step="1" />
+                </label>
+                <label class="toggle">
+                  <input type="checkbox" id="rent-yoy" />
+                  <span>Show year-over-year change</span>
+                </label>
+                <button type="button" class="btn-reset" id="rent-reset">Reset view</button>
+              </div>
+              <p class="chart-mode" id="rent-mode-label">Viewing rent level ($)</p>
+              <figure>
+                <svg id="rent-trend-chart" aria-labelledby="rent-trend-desc"></svg>
+                <figcaption id="rent-trend-desc">
+                  Annotated timeline with notable inflection points: tech boom plateau (2018), pandemic dip (2020), and
+                  rebound driven by service-sector demand (2023 onward).
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section id="solutions" class="story-section section-solutions">
+          <div class="section-header">
+            <h2>Rebalancing San Francisco’s resources</h2>
+            <p>
+              Data-driven steps can close the opportunity gap. Each recommendation below stems from the patterns exposed
+              in the dashboard.
+            </p>
+          </div>
+          <div class="solutions-grid">
+            <article>
+              <h3>1 · Target facility investments</h3>
+              <p>
+                Direct new libraries, community centers, and recreation hubs to Districts 1, 4, and 7, where facility
+                counts trail downtown districts by a factor of three.
+              </p>
+            </article>
+            <article>
+              <h3>2 · Require green space in business cores</h3>
+              <p>
+                Tie development approvals in SOMA and the Financial District to the creation of pocket parks or rooftop
+                public plazas to offset the lack of large parks.
+              </p>
+            </article>
+            <article>
+              <h3>3 · Bridge jobs and parks through transit</h3>
+              <p>
+                Expand rapid transit links between park-rich western neighborhoods and central job hubs, cutting travel
+                time for residents who currently commute across the city for work.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="page-footer">
+        <p>Built by the CS171 Team · Data as of October 2025 · View in LiveServer for full interactivity</p>
+        <a href="#top" class="back-to-top">Back to top</a>
+      </footer>
+    </div>
+
+    <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "district": "1",
+      "facility_count": 71
+    },
+    {
+      "district": "2",
+      "facility_count": 27
+    },
+    {
+      "district": "3",
+      "facility_count": 29
+    },
+    {
+      "district": "4",
+      "facility_count": 66
+    },
+    {
+      "district": "5",
+      "facility_count": 28
+    },
+    {
+      "district": "6",
+      "facility_count": 6
+    },
+    {
+      "district": "7",
+      "facility_count": 129
+    },
+    {
+      "district": "8",
+      "facility_count": 19
+    },
+    {
+      "district": "9",
+      "facility_count": 30
+    },
+    {
+      "district": "10",
+      "facility_count": 34
+    },
+    {
+      "district": "11",
+      "facility_count": 19
+    }
+  ]
+}

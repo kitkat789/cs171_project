@@ -1,0 +1,5789 @@
+{
+  "entries": [
+    {
+      "name": "C5 Childrens School - Sf City Building Center",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "525 GOLDEN GATE AVE, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.781109,
+        "lon": -122.418922
+      }
+    },
+    {
+      "name": "C5 Childrens School - State Building Center",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "455 GOLDEN GATE AVE, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.78104,
+        "lon": -122.417915
+      }
+    },
+    {
+      "name": "Chinese American International School",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "42 WALLER ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.772228,
+        "lon": -122.424232
+      }
+    },
+    {
+      "name": "Chinese American International School",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "150 OAK ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.775429,
+        "lon": -122.422424
+      }
+    },
+    {
+      "name": "City College of San Francisco Civic Center",
+      "zip": "94102",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "1170 MARKET ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.779545,
+        "lon": -122.414299
+      }
+    },
+    {
+      "name": "Compass Childrens Center",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "144 LEAVENWORTH ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.782429,
+        "lon": -122.413719
+      }
+    },
+    {
+      "name": "Compass Clara House",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "111 PAGE ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.773743,
+        "lon": -122.423042
+      }
+    },
+    {
+      "name": "Cross Cultural Family Center - Turk Street Center",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-4",
+      "address": "201 TURK ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.782799,
+        "lon": -122.412865
+      }
+    },
+    {
+      "name": "De Marillac Academy",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "4-8",
+      "address": "175 GOLDEN GATE AVE, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.781658,
+        "lon": -122.413345
+      }
+    },
+    {
+      "name": "Faces Sf Child Development Program - Hayes Valley",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "305 BUCHANAN ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.772907,
+        "lon": -122.428032
+      }
+    },
+    {
+      "name": "French American International School",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "150 OAK ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.775456,
+        "lon": -122.421577
+      }
+    },
+    {
+      "name": "Glide Family Youth And Childcare Center",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "330 ELLIS ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.78529,
+        "lon": -122.411697
+      }
+    },
+    {
+      "name": "Larkin Street Youth Services Academy",
+      "zip": "94102",
+      "ownership": "SFUSD",
+      "category": "USD County School",
+      "general_type": "PS",
+      "grades": "7-12",
+      "address": "134 GOLDEN GATE AVE, SAN FRANCISCO CA 94102",
+      "coordinates": {
+        "lat": 37.782265,
+        "lon": -122.412987
+      }
+    },
+    {
+      "name": "Marin Day School - Market Street",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "INF",
+      "address": "1390 MARKET ST, STE 108, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.777226,
+        "lon": -122.417358
+      }
+    },
+    {
+      "name": "Marin Day School - San Francisco City Hall",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1 DR CARLTON B GOODLETT PL, RM 68, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.779324,
+        "lon": -122.418816
+      }
+    },
+    {
+      "name": "Muir, John Muir Elementary / Early Education",
+      "zip": "94102",
+      "ownership": "SFUSD",
+      "category": "USD PreK, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "380 WEBSTER ST, San Francisco, CA 94102",
+      "coordinates": {
+        "lat": 37.773758,
+        "lon": -122.42868
+      }
+    },
+    {
+      "name": "Proof School",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-12",
+      "address": "555 POST ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.787655,
+        "lon": -122.410942
+      }
+    },
+    {
+      "name": "San Francisco City Academy",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "230 JONES ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.783505,
+        "lon": -122.412201
+      }
+    },
+    {
+      "name": "San Francisco County Civic Center Secondary School",
+      "zip": "94102",
+      "ownership": "SFUSD",
+      "category": "USD County School",
+      "general_type": "PS",
+      "grades": "7-12",
+      "address": "727 GOLDEN GATE AVE, San Francisco, CA 94102",
+      "coordinates": {
+        "lat": 37.780296,
+        "lon": -122.422943
+      }
+    },
+    {
+      "name": "Tenderloin Elementary / Early Education",
+      "zip": "94102",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "627 TURK ST, San Francisco, CA 94102",
+      "coordinates": {
+        "lat": 37.781796,
+        "lon": -122.419777
+      }
+    },
+    {
+      "name": "Walden Academy",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "8-12",
+      "address": "214 HAIGHT ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.772942,
+        "lon": -122.426147
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Cadillac",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "398 EDDY ST, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.784054,
+        "lon": -122.41394
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Golden Gate",
+      "zip": "94102",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "177 GOLDEN GATE AVE, SAN FRANCISCO, CA 94102",
+      "coordinates": {
+        "lat": 37.78167,
+        "lon": -122.413559
+      }
+    },
+    {
+      "name": "Alt School - Soma",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-8",
+      "address": "1245 FOLSOM ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.774181,
+        "lon": -122.410484
+      }
+    },
+    {
+      "name": "Bright Horizons - Kansas St",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-4",
+      "address": "200 KANSAS ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.766731,
+        "lon": -122.404213
+      }
+    },
+    {
+      "name": "Carmichael, Bessie Carmichael K-5 Campus / Early Education",
+      "zip": "94103",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "375 07TH ST, San Francisco, CA 94103",
+      "coordinates": {
+        "lat": 37.776382,
+        "lon": -122.406456
+      }
+    },
+    {
+      "name": "City College of San Francisco Downtown Center",
+      "zip": "94103",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "88 4TH ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.784565,
+        "lon": -122.404724
+      }
+    },
+    {
+      "name": "City College of San Francisco Gough Street Location",
+      "zip": "94103",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "33 GOUGH ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.771988,
+        "lon": -122.421211
+      }
+    },
+    {
+      "name": "Holy Family Day Home",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "299 DOLORES ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.764992,
+        "lon": -122.425796
+      }
+    },
+    {
+      "name": "Kids By The Bay Preschool",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "90 7TH ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.779549,
+        "lon": -122.412102
+      }
+    },
+    {
+      "name": "Love And Learn Nursery School",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1419 HOWARD ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.77335,
+        "lon": -122.414795
+      }
+    },
+    {
+      "name": "Marshall Elementary School",
+      "zip": "94103",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1575 15TH ST, San Francisco, CA 94103",
+      "coordinates": {
+        "lat": 37.766289,
+        "lon": -122.419022
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Stevenson",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1320 STEVENSON ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.771469,
+        "lon": -122.421883
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Valencia Gardens",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "380 VALENCIA ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.767098,
+        "lon": -122.423202
+      }
+    },
+    {
+      "name": "Presidio Knolls School",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "250 10TH ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.77319,
+        "lon": -122.413704
+      }
+    },
+    {
+      "name": "San Francisco Friends School",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "250 VALENCIA ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.768978,
+        "lon": -122.422905
+      }
+    },
+    {
+      "name": "South Of Market Child Care - Judith Baker Child Development Center",
+      "zip": "94103",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "685 NATOMA ST, SAN FRANCISCO, CA 94103",
+      "coordinates": {
+        "lat": 37.776806,
+        "lon": -122.411476
+      }
+    },
+    {
+      "name": "Bright Horizons - Pacific Gas And Electric",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "77 BEALE ST, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.791763,
+        "lon": -122.395592
+      }
+    },
+    {
+      "name": "Bright Horizons - Pacific Gas And Electric",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "1-4",
+      "address": "77 BEALE ST, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.791672,
+        "lon": -122.395721
+      }
+    },
+    {
+      "name": "Marin Day School - Fremont St",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "199 FREMONT ST, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.789883,
+        "lon": -122.39489
+      }
+    },
+    {
+      "name": "Marin Day School - Hills Plaza",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "INF",
+      "address": "2 HARRISON ST, STE 150, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.789803,
+        "lon": -122.389755
+      }
+    },
+    {
+      "name": "Marin Day School - Spear St",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "101 HOWARD ST, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.790878,
+        "lon": -122.392525
+      }
+    },
+    {
+      "name": "Youth Chance High School",
+      "zip": "94105",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "169 STEUART ST, SAN FRANCISCO, CA 94105",
+      "coordinates": {
+        "lat": 37.792519,
+        "lon": -122.392021
+      }
+    },
+    {
+      "name": "Alt School - Dogpatch 1",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "TK-2",
+      "address": "2265 03RD ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.761177,
+        "lon": -122.38813
+      }
+    },
+    {
+      "name": "Alt School - Dogpatch 2",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "TK-2",
+      "address": "610 20TH ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.760662,
+        "lon": -122.387962
+      }
+    },
+    {
+      "name": "Alt School - Potrero Hill",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "TK-8",
+      "address": "99 MISOURI ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.765507,
+        "lon": -122.396584
+      }
+    },
+    {
+      "name": "Alt School - Yerba Buena",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "TK-8",
+      "address": "300 04TH ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.781742,
+        "lon": -122.401199
+      }
+    },
+    {
+      "name": "Bright Horizons - 2Nd St",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-4",
+      "address": "303 02ND ST STE 250, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.785294,
+        "lon": -122.395569
+      }
+    },
+    {
+      "name": "Carmichael, Bessie Carmichael (6-8 Campus)",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "824 HARRISON ST, San Francisco, CA 94107",
+      "coordinates": {
+        "lat": 37.78056,
+        "lon": -122.40049
+      }
+    },
+    {
+      "name": "Downtown High School",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "693 VERMONT ST, San Francisco, CA 94107",
+      "coordinates": {
+        "lat": 37.761398,
+        "lon": -122.403702
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Cleo Wallace Childcare",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "65 TURNER TER, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.755669,
+        "lon": -122.394699
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Oscaryne Williams Center Of Hope",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "65 TURNER TER, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.755798,
+        "lon": -122.394974
+      }
+    },
+    {
+      "name": "Five Keys Charter",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "8-12",
+      "address": "70 OAK GROVE ST, San Francisco, CA 94107",
+      "coordinates": {
+        "lat": 37.777107,
+        "lon": -122.402229
+      }
+    },
+    {
+      "name": "Friends Of Potrero Hill Preschool",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1060 TENNESSEE ST STE A, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.75856,
+        "lon": -122.389587
+      }
+    },
+    {
+      "name": "International Studies Academy",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-12",
+      "general_type": "PS",
+      "grades": "6-12",
+      "address": "655 DE HARO ST, SAN FRANCISCO CA 94107",
+      "coordinates": {
+        "lat": 37.761704,
+        "lon": -122.400688
+      }
+    },
+    {
+      "name": "King, Thomas Starr King Elementary / Preschool",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD PreK, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "1215 CAROLINA ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.753288,
+        "lon": -122.399193
+      }
+    },
+    {
+      "name": "La Piccola Scuola Italiana Preschool",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "728 20TH ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.760681,
+        "lon": -122.389198
+      }
+    },
+    {
+      "name": "Live Oak School",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1555 MARIPOSA ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.763557,
+        "lon": -122.399467
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Mission Bay",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "150 BERRY ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.776493,
+        "lon": -122.39299
+      }
+    },
+    {
+      "name": "South Of Market Child Care - Yerba Buena Gardens Child Development Center",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "790 FOLSOM ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.783512,
+        "lon": -122.40081
+      }
+    },
+    {
+      "name": "Webster, Daniel Webster Elementary School",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-12",
+      "general_type": "PS",
+      "grades": "6-12",
+      "address": "655 DE HARO ST, SAN FRANCISCO CA 94107",
+      "coordinates": {
+        "lat": 37.762009,
+        "lon": -122.400772
+      }
+    },
+    {
+      "name": "Webster, Daniel Webster Out-Of-School (OST) Program",
+      "zip": "94107",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "465 MISSOURI ST, San Francisco, CA 94107",
+      "coordinates": {
+        "lat": 37.760521,
+        "lon": -122.395843
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Potrero Hill",
+      "zip": "94107",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "824 CAROLINA ST, SAN FRANCISCO, CA 94107",
+      "coordinates": {
+        "lat": 37.758236,
+        "lon": -122.400314
+      }
+    },
+    {
+      "name": "Alt School - North Beach",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "TK-8",
+      "address": "838 KEARNY STREET, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.795811,
+        "lon": -122.404892
+      }
+    },
+    {
+      "name": "Cathedral School For Boys",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1275 SACRAMENTO ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.79229,
+        "lon": -122.413414
+      }
+    },
+    {
+      "name": "Chinatown Community Childrens Center",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "979 CLAY ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.79361,
+        "lon": -122.409103
+      }
+    },
+    {
+      "name": "City College of San Francisco Chinatown North Beach Center",
+      "zip": "94108",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "808 KEARNY ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.795555,
+        "lon": -122.404701
+      }
+    },
+    {
+      "name": "Ecole Notre Dame Des Victoires",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "659 PINE ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.791115,
+        "lon": -122.406464
+      }
+    },
+    {
+      "name": "Grace Cathederal Community Preschool",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1100 CALIFORNIA ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.792183,
+        "lon": -122.413597
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Tkl Center (Dr T Kong Lee)",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "952 POWELL ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.79372,
+        "lon": -122.409294
+      }
+    },
+    {
+      "name": "Lau, Gordon J. Lau Elementary / Preschool",
+      "zip": "94108",
+      "ownership": "SFUSD",
+      "category": "USD PreK, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "950 CLAY ST, San Francisco, CA 94108",
+      "coordinates": {
+        "lat": 37.794399,
+        "lon": -122.408806
+      }
+    },
+    {
+      "name": "Saint Marys School",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "838 KEARNY STREET, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.795944,
+        "lon": -122.404907
+      }
+    },
+    {
+      "name": "Stockton, Commodore Stockton Early Education School",
+      "zip": "94108",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK-4",
+      "general_type": "PS",
+      "grades": "PK-4",
+      "address": "1 TRENTON ST, San Francisco, CA 94108",
+      "coordinates": {
+        "lat": 37.795082,
+        "lon": -122.40908
+      }
+    },
+    {
+      "name": "True Sunshine Preschool Center",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "777 STOCKTON ST STE 201, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.792976,
+        "lon": -122.407844
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Lok Yuen",
+      "zip": "94108",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "930 STOCKTON ST, SAN FRANCISCO, CA 94108",
+      "coordinates": {
+        "lat": 37.794365,
+        "lon": -122.407791
+      }
+    },
+    {
+      "name": "Galileo High School",
+      "zip": "94109",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1150 FRANCISCO ST, San Francisco, CA 94109",
+      "coordinates": {
+        "lat": 37.803791,
+        "lon": -122.424149
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Saint Luke Center",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1755 CLAY ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.792061,
+        "lon": -122.42215
+      }
+    },
+    {
+      "name": "Montessori House Of Children",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-1",
+      "address": "1187 FRANKLIN ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.785046,
+        "lon": -122.423416
+      }
+    },
+    {
+      "name": "Peekadoodle Of San Francisco",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "900 NORTH POINT ST STE F100, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.805534,
+        "lon": -122.423187
+      }
+    },
+    {
+      "name": "Redding Elementary / Early Education",
+      "zip": "94109",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1421 PINE ST, San Francisco, CA 94109",
+      "coordinates": {
+        "lat": 37.78952,
+        "lon": -122.41925
+      }
+    },
+    {
+      "name": "Sacred Heart Cathedral Preparatory",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "1055 ELLIS ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.783287,
+        "lon": -122.423187
+      }
+    },
+    {
+      "name": "Saint Brigid School",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2230 FRANKLIN ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.795147,
+        "lon": -122.424759
+      }
+    },
+    {
+      "name": "Saint Luke School (Sls Preschool)",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1335 SUTTER ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.787209,
+        "lon": -122.42234
+      }
+    },
+    {
+      "name": "Spring Valley Elementary / Early Education",
+      "zip": "94109",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1451 JACKSON ST, San Francisco, CA 94109",
+      "coordinates": {
+        "lat": 37.794006,
+        "lon": -122.418816
+      }
+    },
+    {
+      "name": "Stuart Hall High School",
+      "zip": "94109",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "1715 OCTAVIA ST, SAN FRANCISCO, CA 94109",
+      "coordinates": {
+        "lat": 37.788628,
+        "lon": -122.427238
+      }
+    },
+    {
+      "name": "Adda Clevenger School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "198 FAIR OAKS ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.753738,
+        "lon": -122.424461
+      }
+    },
+    {
+      "name": "Brightworks",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1900 BRYANT ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.762238,
+        "lon": -122.410377
+      }
+    },
+    {
+      "name": "Bryant Early Education / Bryant Elementary",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "2641 25TH ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.751453,
+        "lon": -122.404694
+      }
+    },
+    {
+      "name": "Buen Dia Family School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "589 GUERRERO ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.761932,
+        "lon": -122.423454
+      }
+    },
+    {
+      "name": "Buena Vista / Horace Mann",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "3351 23RD ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.753033,
+        "lon": -122.420181
+      }
+    },
+    {
+      "name": "Buena Vista Child Care",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-5",
+      "address": "3351 23RD ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.753567,
+        "lon": -122.42028
+      }
+    },
+    {
+      "name": "Centro Las Olas - Centro De Desarrollo Infantil",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3737 26TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.748364,
+        "lon": -122.424049
+      }
+    },
+    {
+      "name": "Chavez, Cesar Chavez Elementary School / Preschool",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "825 SHOTWELL ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.754921,
+        "lon": -122.414879
+      }
+    },
+    {
+      "name": "Childrens Day School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-8",
+      "address": "333 DOLORES ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.764256,
+        "lon": -122.425201
+      }
+    },
+    {
+      "name": "City College of San Francisco Mission Center",
+      "zip": "94110",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "1125 VALENCIA ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.754791,
+        "lon": -122.420616
+      }
+    },
+    {
+      "name": "Family School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3101 MISSION ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.747994,
+        "lon": -122.418137
+      }
+    },
+    {
+      "name": "Flynn, Leonard Flynn Elementary / Early Education",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "3125 CESAR CHAVEZ ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.747746,
+        "lon": -122.411964
+      }
+    },
+    {
+      "name": "Golden Bridges School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "3358 22ND ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.755467,
+        "lon": -122.42231
+      }
+    },
+    {
+      "name": "Good Samaritan Child Development Center",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1294 POTRERO AVE, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.751873,
+        "lon": -122.40657
+      }
+    },
+    {
+      "name": "Hilltop Child Development Center",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2728 BRYANT ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.750465,
+        "lon": -122.409149
+      }
+    },
+    {
+      "name": "Hilltop High Special Services Center",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD County School",
+      "general_type": "PS",
+      "grades": "8-12",
+      "address": "1325 FLORIDA ST, SAN FRANCISCO CA 94110",
+      "coordinates": {
+        "lat": 37.750454,
+        "lon": -122.40963
+      }
+    },
+    {
+      "name": "Immaculate Conception Academy",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "3625 24TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.751667,
+        "lon": -122.423416
+      }
+    },
+    {
+      "name": "Katherine Michiels School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-5",
+      "address": "1335 GUERRERO ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.749817,
+        "lon": -122.42231
+      }
+    },
+    {
+      "name": "Little Tree Preschool",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3161 MISSION ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.746403,
+        "lon": -122.419037
+      }
+    },
+    {
+      "name": "Meadows-Livingstone School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-6",
+      "address": "1497 POTRERO AVE STE 1, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.749626,
+        "lon": -122.404839
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - 24Th St Head Start",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3013 24TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.752457,
+        "lon": -122.412224
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Bernal Dwellings Child Development",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3185 26TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.748848,
+        "lon": -122.41262
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Capp Head Start",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "362 CAPP ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.760986,
+        "lon": -122.418495
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Edificio De Mujeres / Womens Building",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3543 18TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.761421,
+        "lon": -122.422615
+      }
+    },
+    {
+      "name": "Moscone, George Moscone Elementary / Las Americas Early Education",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "2576 HARRISON ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.756741,
+        "lon": -122.41262
+      }
+    },
+    {
+      "name": "O'Connell, John O'Connell High School",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "2355 FOLSOM ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.759514,
+        "lon": -122.413559
+      }
+    },
+    {
+      "name": "Oakes Childrens Center",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1550 TREAT AVE, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.74593,
+        "lon": -122.412697
+      }
+    },
+    {
+      "name": "Preschool, The",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "102 SAN JOSE AVE, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.753262,
+        "lon": -122.421791
+      }
+    },
+    {
+      "name": "Revere, Paul Revere School / Preschool",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD PreK-8",
+      "general_type": "PS",
+      "grades": "PK-8",
+      "address": "555 TOMPKINS AVE, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.737614,
+        "lon": -122.413116
+      }
+    },
+    {
+      "name": "Rodriguez, Zaida T. Rodriguez Early Education School",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK",
+      "general_type": "PS",
+      "grades": "PK-TK",
+      "address": "421 BARTLETT ST, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.749821,
+        "lon": -122.418556
+      }
+    },
+    {
+      "name": "Room To Grow Preschool",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3786 MISSION ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.73621,
+        "lon": -122.424728
+      }
+    },
+    {
+      "name": "Saint Anthony - Immaculate Conception School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "295 PRECITA AVE, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.747536,
+        "lon": -122.414223
+      }
+    },
+    {
+      "name": "Saint Charles School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "376 SHOTWELL ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.762322,
+        "lon": -122.416443
+      }
+    },
+    {
+      "name": "Saint James Catholic School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "325 FAIR OAKS ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.751137,
+        "lon": -122.423592
+      }
+    },
+    {
+      "name": "Saint Peters School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1255 ALABAMA ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.751701,
+        "lon": -122.410362
+      }
+    },
+    {
+      "name": "San Francisco International High School",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1050 YORK ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.75523,
+        "lon": -122.408859
+      }
+    },
+    {
+      "name": "Sand Paths Academy",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "8-12",
+      "address": "1218 S VAN NESS AVE, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.753468,
+        "lon": -122.416717
+      }
+    },
+    {
+      "name": "Serra, Junipero Serra Elementary School",
+      "zip": "94110",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "625 HOLLY PARK CIR, San Francisco, CA 94110",
+      "coordinates": {
+        "lat": 37.736912,
+        "lon": -122.421486
+      }
+    },
+    {
+      "name": "Sweet Peas Preschool - East",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2730 17TH ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.764515,
+        "lon": -122.411102
+      }
+    },
+    {
+      "name": "Synergy Elementary School",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1387 VALENCIA ST, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.750885,
+        "lon": -122.420326
+      }
+    },
+    {
+      "name": "Valdivia Family Day Care",
+      "zip": "94110",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1227 HAMPSHIRE ST APT 43, SAN FRANCISCO, CA 94110",
+      "coordinates": {
+        "lat": 37.752579,
+        "lon": -122.406807
+      }
+    },
+    {
+      "name": "Chinese Education Center Elementary School",
+      "zip": "94111",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "657 MERCHANT ST, SAN FRANCISCO, CA 94111",
+      "coordinates": {
+        "lat": 37.794769,
+        "lon": -122.40406
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Battery Center",
+      "zip": "94111",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "820 BATTERY ST, SAN FRANCISCO, CA 94111",
+      "coordinates": {
+        "lat": 37.798973,
+        "lon": -122.400581
+      }
+    },
+    {
+      "name": "Archbishop Riordan High School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "175 PHELAN AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.727902,
+        "lon": -122.453056
+      }
+    },
+    {
+      "name": "Balboa High School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1000 CAYUGA AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.721142,
+        "lon": -122.441399
+      }
+    },
+    {
+      "name": "City Arts And Tech High School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "325 LA GRANDE AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.718784,
+        "lon": -122.424667
+      }
+    },
+    {
+      "name": "City College of San Francisco Ocean Campus",
+      "zip": "94112",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "50 PHELAN AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.725716,
+        "lon": -122.451134
+      }
+    },
+    {
+      "name": "Cleveland Elementary School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "455 ATHENS ST, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.720341,
+        "lon": -122.429192
+      }
+    },
+    {
+      "name": "Crayon Box Preschool",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "65 OCEAN AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.72329,
+        "lon": -122.438774
+      }
+    },
+    {
+      "name": "Denman, James Denman Middle School / Leadership Charter High",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "241 ONEIDA AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.72131,
+        "lon": -122.443184
+      }
+    },
+    {
+      "name": "Epiphany Elementary School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "600 ITALY AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.715725,
+        "lon": -122.434532
+      }
+    },
+    {
+      "name": "Gates And Bridges Preschool",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1601 10TH AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.758255,
+        "lon": -122.467148
+      }
+    },
+    {
+      "name": "Guadalupe Elementary School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "859 PRAGUE ST, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.710182,
+        "lon": -122.434029
+      }
+    },
+    {
+      "name": "Jordan, June Jordan High School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "325 LA GRANDE AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.719536,
+        "lon": -122.425148
+      }
+    },
+    {
+      "name": "Lick-Wilmerding High School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "755 OCEAN AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.722321,
+        "lon": -122.448982
+      }
+    },
+    {
+      "name": "Little Bear School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "65 OCEAN AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.723179,
+        "lon": -122.438095
+      }
+    },
+    {
+      "name": "Little Sunshine Childcare",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "308 JULES AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.7239,
+        "lon": -122.46096
+      }
+    },
+    {
+      "name": "Living Hope Christian School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1209 GENEVA AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.714336,
+        "lon": -122.435829
+      }
+    },
+    {
+      "name": "Longfellow Elementary School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "755 MORSE ST, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.710423,
+        "lon": -122.446739
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Alemany Head Start",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "956 ELLSWORTH ST, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.733013,
+        "lon": -122.417885
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Jean Jacobs",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "459 VIENNA ST, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.720951,
+        "lon": -122.429695
+      }
+    },
+    {
+      "name": "Monroe Elementary / Excelsior Monroe Early Education",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "260 MADRID ST, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.725399,
+        "lon": -122.430489
+      }
+    },
+    {
+      "name": "Saint Finn Barr Catholic School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "419 HEARST AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.730446,
+        "lon": -122.447411
+      }
+    },
+    {
+      "name": "San Francisco Adventist",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "66 GENEVA AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.721714,
+        "lon": -122.451187
+      }
+    },
+    {
+      "name": "San Francisco Christian School",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "25 WHITTIER ST, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.710037,
+        "lon": -122.447754
+      }
+    },
+    {
+      "name": "San Francisco Community Alternative School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "125 EXCELSIOR AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.726105,
+        "lon": -122.432136
+      }
+    },
+    {
+      "name": "San Miguel Early Education School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "300 SENECA AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.721645,
+        "lon": -122.44471
+      }
+    },
+    {
+      "name": "Sheridan Elementary School / Preschool",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD PreK, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "431 CAPITOL AVE, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.714478,
+        "lon": -122.459633
+      }
+    },
+    {
+      "name": "Stratford School - San Francisco",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-8",
+      "address": "301 DE MONTFORT AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.723126,
+        "lon": -122.461632
+      }
+    },
+    {
+      "name": "Sunnyside Elementary School",
+      "zip": "94112",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "250 FOERSTER ST, San Francisco, CA 94112",
+      "coordinates": {
+        "lat": 37.730293,
+        "lon": -122.448257
+      }
+    },
+    {
+      "name": "Wen Jian Ying",
+      "zip": "94112",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "259 JUDSON AVE, SAN FRANCISCO, CA 94112",
+      "coordinates": {
+        "lat": 37.72802,
+        "lon": -122.447571
+      }
+    },
+    {
+      "name": "Alvarado Elementary School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "625 DOUGLASS ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.753681,
+        "lon": -122.438194
+      }
+    },
+    {
+      "name": "Childrens After School Arts",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-6",
+      "address": "584 CASTRO ST STE 264, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.75959,
+        "lon": -122.435242
+      }
+    },
+    {
+      "name": "Edison Charter K-8",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "3531 22ND ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.754467,
+        "lon": -122.426041
+      }
+    },
+    {
+      "name": "Eureka Learning Center",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "464 DIAMOND ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.754967,
+        "lon": -122.437004
+      }
+    },
+    {
+      "name": "Everett Middle School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "450 CHURCH ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.763577,
+        "lon": -122.429367
+      }
+    },
+    {
+      "name": "Friends Of Saint Francis Child Care Center",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "50 BELCHER ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.768589,
+        "lon": -122.430344
+      }
+    },
+    {
+      "name": "Lick, James Lick Middle School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "1220 NOE ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.749363,
+        "lon": -122.432785
+      }
+    },
+    {
+      "name": "Mahler, Theresa S. Mahler Early Education School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD PreK",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "990 CHURCH ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.755276,
+        "lon": -122.428093
+      }
+    },
+    {
+      "name": "Marin Preparatory School",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "117 DIAMOND ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.760124,
+        "lon": -122.436798
+      }
+    },
+    {
+      "name": "Mckinley Elementary School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1025 14TH ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.766884,
+        "lon": -122.436279
+      }
+    },
+    {
+      "name": "Milk, Harvey Milk Elementary School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "4235 19TH ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.758926,
+        "lon": -122.436447
+      }
+    },
+    {
+      "name": "Mission Dolores Academy",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "3399 16TH ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.764122,
+        "lon": -122.428284
+      }
+    },
+    {
+      "name": "Mission High School",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "3750 18TH ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.76202,
+        "lon": -122.427307
+      }
+    },
+    {
+      "name": "Moldovan Academy",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "1270 SANCHEZ ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.748898,
+        "lon": -122.42968
+      }
+    },
+    {
+      "name": "My City School",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-8",
+      "address": "199 MUSEUM WAY, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.764423,
+        "lon": -122.438148
+      }
+    },
+    {
+      "name": "Phoebe A Hearst Learning Center",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1315 ELLIS ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.782681,
+        "lon": -122.427948
+      }
+    },
+    {
+      "name": "Rocky Mountain Participation Nursery School",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2475 15TH ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.74184,
+        "lon": -122.471603
+      }
+    },
+    {
+      "name": "Rooftop (5-8 Mayeda Campus)",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD Grades PK-8",
+      "general_type": "PS",
+      "grades": "PK-8",
+      "address": "500 CORBETT AVE, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.757397,
+        "lon": -122.444496
+      }
+    },
+    {
+      "name": "Saint Philip School",
+      "zip": "94114",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "665 ELIZABETH ST, SAN FRANCISCO, CA 94114",
+      "coordinates": {
+        "lat": 37.751759,
+        "lon": -122.435539
+      }
+    },
+    {
+      "name": "Sanchez Elementary School  / Preschool",
+      "zip": "94114",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "325 SANCHEZ ST, San Francisco, CA 94114",
+      "coordinates": {
+        "lat": 37.763454,
+        "lon": -122.430359
+      }
+    },
+    {
+      "name": "Alta Plaza Preschool",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2140 PIERCE ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.790203,
+        "lon": -122.437195
+      }
+    },
+    {
+      "name": "Calvary Presbyterian Church - Calvary Nursery School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2515 FILLMORE ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.792713,
+        "lon": -122.435089
+      }
+    },
+    {
+      "name": "Chibi Chan Preschool",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2012 PINE ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.788784,
+        "lon": -122.429291
+      }
+    },
+    {
+      "name": "Cobb, Dr. William L. Cobb Elementary School / Preschool",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "2725 CALIFORNIA ST, San Francisco, CA 94115",
+      "coordinates": {
+        "lat": 37.787678,
+        "lon": -122.439552
+      }
+    },
+    {
+      "name": "Convent Of The Sacred Heart Elementary School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2222 BROADWAY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.794689,
+        "lon": -122.433876
+      }
+    },
+    {
+      "name": "Convent Of The Sacred Heart High School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "2222 BROADWAY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.794918,
+        "lon": -122.434059
+      }
+    },
+    {
+      "name": "Creative Arts Charter School",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "1601 TURK ST, San Francisco, CA 94115",
+      "coordinates": {
+        "lat": 37.779804,
+        "lon": -122.436073
+      }
+    },
+    {
+      "name": "Cross Cultural Family Center - Bertha E Flemming Center",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1901 OFARRELL ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.782711,
+        "lon": -122.436233
+      }
+    },
+    {
+      "name": "Cross Cultural Family Center - Marcus Garvey Center",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1630 EDDY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.781597,
+        "lon": -122.43486
+      }
+    },
+    {
+      "name": "Drew School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "2901 CALIFORNIA ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.787643,
+        "lon": -122.442322
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Western Addition Childcare",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1455 GOLDEN GATE AVE, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.778938,
+        "lon": -122.434433
+      }
+    },
+    {
+      "name": "Gateway High School / Kipp Sf Bay Academy",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1430 SCOTT ST, San Francisco, CA 94115",
+      "coordinates": {
+        "lat": 37.783264,
+        "lon": -122.436691
+      }
+    },
+    {
+      "name": "Gateway Middle School",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD Charter School; PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "1512 GOLDEN GATE AVE, SAN FRANCISCO CA 94115",
+      "coordinates": {
+        "lat": 37.779419,
+        "lon": -122.435921
+      }
+    },
+    {
+      "name": "Golden Gate Guppies Preschool",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2426 CALIFORNIA ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.789124,
+        "lon": -122.434509
+      }
+    },
+    {
+      "name": "Hamlin School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2120 BROADWAY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.7948,
+        "lon": -122.432495
+      }
+    },
+    {
+      "name": "Hearing & Speech Center Of Northern California",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "1234 DIVISADERO ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.781174,
+        "lon": -122.438728
+      }
+    },
+    {
+      "name": "Hillwood Academic Day School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "1-8",
+      "address": "2521 SCOTT ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.793324,
+        "lon": -122.440117
+      }
+    },
+    {
+      "name": "Jewish Community High School Of The Bay",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "1835 ELLIS ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.781651,
+        "lon": -122.436676
+      }
+    },
+    {
+      "name": "Laguna Golden Gate Child Care Center",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD PreK",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1025 LAGUNA ST, SAN FRANCISCO CA 94115",
+      "coordinates": {
+        "lat": 37.780636,
+        "lon": -122.42733
+      }
+    },
+    {
+      "name": "Little Childrens Developmental Center",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1223 WEBSTER ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.781956,
+        "lon": -122.431045
+      }
+    },
+    {
+      "name": "Little School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1520 LYON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.785137,
+        "lon": -122.444717
+      }
+    },
+    {
+      "name": "Marin Day School - Congregation Sherith Israel",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2664 CALIFORNIA ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.788647,
+        "lon": -122.438248
+      }
+    },
+    {
+      "name": "Montessori School Of The Bay Area",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1530 EDDY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.78159,
+        "lon": -122.433311
+      }
+    },
+    {
+      "name": "Nihonmachi Little Friends - After School Program",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1700 SUTTER ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.786919,
+        "lon": -122.428688
+      }
+    },
+    {
+      "name": "Nihonmachi Little Friends - Bush St",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2031 BUSH ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.78709,
+        "lon": -122.430588
+      }
+    },
+    {
+      "name": "Nihonmachi Little Friends - Sutter St",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1830 SUTTER ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.786717,
+        "lon": -122.430557
+      }
+    },
+    {
+      "name": "Parks, Rosa Parks Japanese Bilingual Bicultural Program / Weill, Raphael Weill  Early Education",
+      "zip": "94115",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5, PreK-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1501 OFARRELL ST, San Francisco, CA 94115",
+      "coordinates": {
+        "lat": 37.783009,
+        "lon": -122.429504
+      }
+    },
+    {
+      "name": "Russian Hill School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2026 DIVISADERO ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.788521,
+        "lon": -122.440193
+      }
+    },
+    {
+      "name": "San Francisco Expeditionary School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "3-8",
+      "address": "2960 BROADWAY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.793186,
+        "lon": -122.445892
+      }
+    },
+    {
+      "name": "San Francisco Public Montessori",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-5",
+      "address": "2340 JACKSON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.792866,
+        "lon": -122.433601
+      }
+    },
+    {
+      "name": "San Francisco University High School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "3065 JACKSON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.790657,
+        "lon": -122.445351
+      }
+    },
+    {
+      "name": "San Francisco Waldorf School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-8",
+      "address": "2938 WASHINGTON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.790783,
+        "lon": -122.44191
+      }
+    },
+    {
+      "name": "Sterne School",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "5-12",
+      "address": "2690 JACKSON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.792057,
+        "lon": -122.439354
+      }
+    },
+    {
+      "name": "Stretch The Imagination Child Care Center",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2509 BUSH ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.786095,
+        "lon": -122.438888
+      }
+    },
+    {
+      "name": "Stuart Hall For Boys",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2222 BROADWAY ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.794617,
+        "lon": -122.434288
+      }
+    },
+    {
+      "name": "Town School For Boys",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2750 JACKSON ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.792034,
+        "lon": -122.440132
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Westside",
+      "zip": "94115",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2400 POST ST, SAN FRANCISCO, CA 94115",
+      "coordinates": {
+        "lat": 37.784466,
+        "lon": -122.442268
+      }
+    },
+    {
+      "name": "Ark Christian Preschool",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3141 VICENTE ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.73803,
+        "lon": -122.500786
+      }
+    },
+    {
+      "name": "Edgewood Center For Children And Families",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "2-12",
+      "address": "1801 VICENTE ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.737984,
+        "lon": -122.486259
+      }
+    },
+    {
+      "name": "Feinstein, Dianne Feinstein Elementary School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "2550 25TH AVE, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.739685,
+        "lon": -122.481369
+      }
+    },
+    {
+      "name": "Giannini, A.P. Giannini Middle School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "3151 ORTEGA ST, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.750301,
+        "lon": -122.496666
+      }
+    },
+    {
+      "name": "Grace Lutheran Church - Grace Infant Care Center",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "INF",
+      "address": "3201 ULLOA ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.740261,
+        "lon": -122.490852
+      }
+    },
+    {
+      "name": "Happy Day Preschool",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "809 TARAVAL ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.742836,
+        "lon": -122.474892
+      }
+    },
+    {
+      "name": "Happy Times Nursery School",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1090 QUINTARA ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.748856,
+        "lon": -122.476791
+      }
+    },
+    {
+      "name": "Hearst, Phoebe Apperson Hearst Home",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "3045 SANTIAGO ST, SAN FRANCISCO 94116",
+      "coordinates": {
+        "lat": 37.74363,
+        "lon": -122.500053
+      }
+    },
+    {
+      "name": "Hoover, Herbert Hoover Middle School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "2290 14TH AVE, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.745556,
+        "lon": -122.468964
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Sunset Center",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2800 TARAVAL ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.742394,
+        "lon": -122.496277
+      }
+    },
+    {
+      "name": "Lincoln, Abraham Lincoln High School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "2162 24TH AVE, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.746594,
+        "lon": -122.48024
+      }
+    },
+    {
+      "name": "Little Footprints Preschool",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2201 VICENTE ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.738415,
+        "lon": -122.4907
+      }
+    },
+    {
+      "name": "Little People Preschool ",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "3595 TARAVAL ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.741543,
+        "lon": -122.504295
+      }
+    },
+    {
+      "name": "Little Star Preschool",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2540 TARAVAL ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.742508,
+        "lon": -122.493668
+      }
+    },
+    {
+      "name": "Little Star Preschool Too",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1105 QUINTARA ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.748341,
+        "lon": -122.47757
+      }
+    },
+    {
+      "name": "Parkside Preschool & Kindergarten",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "2425 19TH AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.742615,
+        "lon": -122.47625
+      }
+    },
+    {
+      "name": "Playmates Cooperative Nursery School",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2342 42ND AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.743015,
+        "lon": -122.500076
+      }
+    },
+    {
+      "name": "Rainbow Montessori Of San Francisco",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2354 24TH AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.743538,
+        "lon": -122.480759
+      }
+    },
+    {
+      "name": "Saint Cecilia School",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "600 VICENTE ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.739872,
+        "lon": -122.473602
+      }
+    },
+    {
+      "name": "Saint Gabriel Catholic School",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2550 41ST AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.739563,
+        "lon": -122.498634
+      }
+    },
+    {
+      "name": "Saint Ignatius College Preparatory",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "2001 37TH AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.748863,
+        "lon": -122.495819
+      }
+    },
+    {
+      "name": "Starlight Christian Preschool 2",
+      "zip": "94116",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3155 VICENTE ST, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.738022,
+        "lon": -122.500977
+      }
+    },
+    {
+      "name": "Stevenson, Robert Louis Stevenson Elementary School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "2051 34TH AVE, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.748844,
+        "lon": -122.49276
+      }
+    },
+    {
+      "name": "Sunset Elementary School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1920 41ST AVE, SAN FRANCISCO, CA 94116",
+      "coordinates": {
+        "lat": 37.750523,
+        "lon": -122.499153
+      }
+    },
+    {
+      "name": "Ulloa Elementary School",
+      "zip": "94116",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "2650 42ND AVE, San Francisco, CA 94116",
+      "coordinates": {
+        "lat": 37.737316,
+        "lon": -122.499397
+      }
+    },
+    {
+      "name": "Alt School - Alamo Square",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-5",
+      "address": "735 FELL ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.774788,
+        "lon": -122.430206
+      }
+    },
+    {
+      "name": "Chinese Immersion School At Deavila",
+      "zip": "94117",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-4",
+      "general_type": "PS",
+      "grades": "K-4",
+      "address": "1250 WALLER ST, San Francisco, CA 94117",
+      "coordinates": {
+        "lat": 37.769829,
+        "lon": -122.444275
+      }
+    },
+    {
+      "name": "City College of San Francisco John Adams Center",
+      "zip": "94117",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "1860 HAYES ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.774086,
+        "lon": -122.447189
+      }
+    },
+    {
+      "name": "Discovery Center School",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1442 FULTON ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.776836,
+        "lon": -122.440605
+      }
+    },
+    {
+      "name": "Faces Sf Child Development Program - Haight Ashbury/Masonic",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1101 MASONIC AVE, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.770889,
+        "lon": -122.445869
+      }
+    },
+    {
+      "name": "Fei Tian Academy Of The Arts California",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1950 PAGE ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.770477,
+        "lon": -122.453003
+      }
+    },
+    {
+      "name": "Grattan Elementary / Early Education",
+      "zip": "94117",
+      "ownership": "SFUSD",
+      "category": "USD PreK-4, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "165 GRATTAN ST, San Francisco, CA 94117",
+      "coordinates": {
+        "lat": 37.763493,
+        "lon": -122.450424
+      }
+    },
+    {
+      "name": "Haight Ashbury Community Nursery School",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1180 STANYAN ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.762451,
+        "lon": -122.451889
+      }
+    },
+    {
+      "name": "La Scuola International School",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "735 FELL ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.774921,
+        "lon": -122.430046
+      }
+    },
+    {
+      "name": "Lycee Francais De San Francisco",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-5",
+      "address": "755 ASHBURY ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.767971,
+        "lon": -122.446968
+      }
+    },
+    {
+      "name": "Milk, Harvey Milk Childrens Center",
+      "zip": "94117",
+      "ownership": "SFUSD",
+      "category": "USD PreK",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "841 ELLIS ST, SAN FRANCISCO CA 94117",
+      "coordinates": {
+        "lat": 37.783802,
+        "lon": -122.420105
+      }
+    },
+    {
+      "name": "New Traditions Elementary School",
+      "zip": "94117",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "2049 GROVE ST, San Francisco, CA 94117",
+      "coordinates": {
+        "lat": 37.773884,
+        "lon": -122.450264
+      }
+    },
+    {
+      "name": "Our Victorian Schoolhouse",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "823 DIVISIDERO ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.777241,
+        "lon": -122.438637
+      }
+    },
+    {
+      "name": "Pacific Primary - Orange Sun School",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1501 GROVE ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.775284,
+        "lon": -122.441605
+      }
+    },
+    {
+      "name": "Pacific Primary - Yellow Sun School",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1500 GROVE ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.775658,
+        "lon": -122.441734
+      }
+    },
+    {
+      "name": "Urban School Of San Francisco",
+      "zip": "94117",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "1563 PAGE ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.770832,
+        "lon": -122.44635
+      }
+    },
+    {
+      "name": "Wells, Ida B. Wells High School",
+      "zip": "94117",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1099 HAYES ST, SAN FRANCISCO, CA 94117",
+      "coordinates": {
+        "lat": 37.775013,
+        "lon": -122.433899
+      }
+    },
+    {
+      "name": "Angelas Children Center",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "775 07TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.773998,
+        "lon": -122.465179
+      }
+    },
+    {
+      "name": "Argonne Early Education School",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK",
+      "general_type": "PS",
+      "grades": "PK-TK",
+      "address": "750 16TH AVE, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.773968,
+        "lon": -122.47406
+      }
+    },
+    {
+      "name": "Balboa Preschool",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "527 BALBOA ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.776932,
+        "lon": -122.464477
+      }
+    },
+    {
+      "name": "Claire Lilienthal Alternative School - Madison Campus",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-2",
+      "address": "3950 SACRAMENTO ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.78722,
+        "lon": -122.458076
+      }
+    },
+    {
+      "name": "Claire Lilienthal Alternative School - Scott Campus",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "3-8",
+      "address": "3630 DIVISADERO ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.803036,
+        "lon": -122.442665
+      }
+    },
+    {
+      "name": "Congregation Beth Sholom Family Preschool",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "301 14TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.782387,
+        "lon": -122.473381
+      }
+    },
+    {
+      "name": "Congregation Emanu-El Preschool",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2 LAKE ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.787338,
+        "lon": -122.459793
+      }
+    },
+    {
+      "name": "Jewish Community Center San Francisco - Helen Diller Family Preschool",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3200 CALIFORNIA ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.787365,
+        "lon": -122.44722
+      }
+    },
+    {
+      "name": "Jewish Community Center San Francisco - Rosenberg Early Childhood Center",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "325 ARGUELLO BLVD, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.784588,
+        "lon": -122.459488
+      }
+    },
+    {
+      "name": "Laurel Hill Nursery School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "401 EUCLID AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.783798,
+        "lon": -122.452728
+      }
+    },
+    {
+      "name": "Laurel School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "350 09TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.781941,
+        "lon": -122.467331
+      }
+    },
+    {
+      "name": "Lilienthal, Claire Lilienthal (K-2 Madison Campus)",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "3950 SACRAMENTO ST, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.787201,
+        "lon": -122.458015
+      }
+    },
+    {
+      "name": "Lisa Kampner Hebrew Academy",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "645 14TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.767643,
+        "lon": -122.42762
+      }
+    },
+    {
+      "name": "Mccoppin, Frank Mccoppin Elementary / Early Education",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "651 06TH AVE, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.77631,
+        "lon": -122.464477
+      }
+    },
+    {
+      "name": "Montessori Childrens House Of The West Coast",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "25 LAKE ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.786671,
+        "lon": -122.459686
+      }
+    },
+    {
+      "name": "One Fifty Parker Ave School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "150 PARKER AVENUE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.782818,
+        "lon": -122.454094
+      }
+    },
+    {
+      "name": "Peabody, George Peabody Elementary School",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "251 06TH AVE, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.783855,
+        "lon": -122.465027
+      }
+    },
+    {
+      "name": "Peters Place Nursery School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "227 BALBOA ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.777092,
+        "lon": -122.461357
+      }
+    },
+    {
+      "name": "Presidio Hill School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-8",
+      "address": "3839 WASHINGTON ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.788582,
+        "lon": -122.456062
+      }
+    },
+    {
+      "name": "Presidio Preschool",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "143 CLEMENT ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.782864,
+        "lon": -122.460831
+      }
+    },
+    {
+      "name": "Roosevelt, Theodore Roosevelt Middle School",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "460 ARGUELLO BLVD, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.78228,
+        "lon": -122.458351
+      }
+    },
+    {
+      "name": "Saint James Preschool (Episcopal Church)",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "4620 CALIFORNIA ST, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.784939,
+        "lon": -122.467201
+      }
+    },
+    {
+      "name": "San Francisco Day School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "350 MASONIC AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.778042,
+        "lon": -122.446281
+      }
+    },
+    {
+      "name": "San Francisco Schoolhouse (Congregation Beth Shalom)",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "301 14TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.782391,
+        "lon": -122.473167
+      }
+    },
+    {
+      "name": "Star Of The Sea School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "360 09TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.781563,
+        "lon": -122.467285
+      }
+    },
+    {
+      "name": "Sutro Elementary / Early Education",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "235 12TH AVE, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.783604,
+        "lon": -122.471451
+      }
+    },
+    {
+      "name": "Ucsf - University Child Care Center - Laurel Heights",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3333 CALIFORNIA ST STE 220, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.786099,
+        "lon": -122.448387
+      }
+    },
+    {
+      "name": "Wallenberg, Raoul Wallenberg High School",
+      "zip": "94118",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "40 VEGA ST, San Francisco, CA 94118",
+      "coordinates": {
+        "lat": 37.780647,
+        "lon": -122.445953
+      }
+    },
+    {
+      "name": "Zion Lutheran School",
+      "zip": "94118",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "495 09TH AVE, SAN FRANCISCO, CA 94118",
+      "coordinates": {
+        "lat": 37.77924,
+        "lon": -122.467636
+      }
+    },
+    {
+      "name": "ABC Preschool",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "426 33RD AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.781139,
+        "lon": -122.493042
+      }
+    },
+    {
+      "name": "Alamo Elementary School",
+      "zip": "94121",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "250 23RD AVE, San Francisco, CA 94121",
+      "coordinates": {
+        "lat": 37.783005,
+        "lon": -122.4823
+      }
+    },
+    {
+      "name": "Angelinas School Day Care",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "4635 CABRILLO ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.77309,
+        "lon": -122.5084
+      }
+    },
+    {
+      "name": "Argonne Elementary School",
+      "zip": "94121",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "680 18TH AVE, San Francisco, CA 94121",
+      "coordinates": {
+        "lat": 37.775307,
+        "lon": -122.476311
+      }
+    },
+    {
+      "name": "Bais Menachem Yeshiva Day School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "834 28TH AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.773613,
+        "lon": -122.487152
+      }
+    },
+    {
+      "name": "Cross Cultural Family Center - Richmond I And Ii",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "750 31ST AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.775101,
+        "lon": -122.49028
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Geary Center",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "6221 GEARY BLVD, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.77972,
+        "lon": -122.486191
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - Richmond Center",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "426 33RD AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.781128,
+        "lon": -122.493202
+      }
+    },
+    {
+      "name": "Katherine Delmar Burke School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "7070 CALIFORNIA ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.784283,
+        "lon": -122.493324
+      }
+    },
+    {
+      "name": "Kittredge School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2355 LAKE ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.785507,
+        "lon": -122.484955
+      }
+    },
+    {
+      "name": "Lafayette Elementary School",
+      "zip": "94121",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "4545 ANZA ST, San Francisco, CA 94121",
+      "coordinates": {
+        "lat": 37.777069,
+        "lon": -122.496887
+      }
+    },
+    {
+      "name": "Lands End School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "4150 CLEMENT ST BLDG T35, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.782593,
+        "lon": -122.504578
+      }
+    },
+    {
+      "name": "Mother Goose School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "334 28TH AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.783024,
+        "lon": -122.487839
+      }
+    },
+    {
+      "name": "Munchkinland Preschool And Family Daycare",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "4710 CABRILLO ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.773445,
+        "lon": -122.509254
+      }
+    },
+    {
+      "name": "My Little Learning Tree",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2118 CLEMENT ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.782394,
+        "lon": -122.482086
+      }
+    },
+    {
+      "name": "Presidio Middle School",
+      "zip": "94121",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "450 30TH AVE, San Francisco, CA 94121",
+      "coordinates": {
+        "lat": 37.780865,
+        "lon": -122.489624
+      }
+    },
+    {
+      "name": "Saint John Of San Francisco Orthodox Academy",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "6210 GEARY BLVD, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.780327,
+        "lon": -122.486336
+      }
+    },
+    {
+      "name": "Saint Monica School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "476 24TH AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.780613,
+        "lon": -122.483337
+      }
+    },
+    {
+      "name": "Saint Thomas The Apostle Elementary School",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "3801 BALBOA ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.775097,
+        "lon": -122.499771
+      }
+    },
+    {
+      "name": "San Francisco Pacific Academy",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "3301 BALBOA ST, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.775639,
+        "lon": -122.494286
+      }
+    },
+    {
+      "name": "Starlight Christian Preschool 1",
+      "zip": "94121",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "750 26TH AVE, SAN FRANCISCO, CA 94121",
+      "coordinates": {
+        "lat": 37.775311,
+        "lon": -122.484924
+      }
+    },
+    {
+      "name": "Washington, George Washington High School",
+      "zip": "94121",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "600 32ND AVE, San Francisco, CA 94121",
+      "coordinates": {
+        "lat": 37.777905,
+        "lon": -122.491013
+      }
+    },
+    {
+      "name": "Angelinas Preschool",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1851 NORIEGA ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.753666,
+        "lon": -122.483765
+      }
+    },
+    {
+      "name": "Holy Name Elementary School",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1560 40TH AVE, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.75761,
+        "lon": -122.498878
+      }
+    },
+    {
+      "name": "Independence High School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1350 07TH AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.763226,
+        "lon": -122.463585
+      }
+    },
+    {
+      "name": "Jefferson Early Education School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD PreK",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1350 25TH AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.76236,
+        "lon": -122.483162
+      }
+    },
+    {
+      "name": "Jefferson Elementary School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1725 IRVING ST, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.763065,
+        "lon": -122.47673
+      }
+    },
+    {
+      "name": "Jefferson Out Of School (OST) Program",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1325 18TH AVE, SAN FRANCISCO CA 94122",
+      "coordinates": {
+        "lat": 37.763062,
+        "lon": -122.476318
+      }
+    },
+    {
+      "name": "Key, Francis Scott Key Elementary/Early Education",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1530 43RD AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.758099,
+        "lon": -122.501999
+      }
+    },
+    {
+      "name": "Kids Kollege Preschool",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3939 LAWTON ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.756462,
+        "lon": -122.505241
+      }
+    },
+    {
+      "name": "Lawton Alternative School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "1570 31ST AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.758049,
+        "lon": -122.489098
+      }
+    },
+    {
+      "name": "Learning Bridge Preschool",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1050 KIRKHAM ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.760243,
+        "lon": -122.472206
+      }
+    },
+    {
+      "name": "Little Angels Japanese Preschool",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK",
+      "address": "1457 09TH AVE, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.761131,
+        "lon": -122.466431
+      }
+    },
+    {
+      "name": "Lycee Francais De San Francisco",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-12",
+      "address": "1201 ORTEGA ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.751988,
+        "lon": -122.476829
+      }
+    },
+    {
+      "name": "Noriega Early Education School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "1775 44TH AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.753834,
+        "lon": -122.503654
+      }
+    },
+    {
+      "name": "Saint Anne Elementary School",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1320 14TH AVE, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.763023,
+        "lon": -122.471283
+      }
+    },
+    {
+      "name": "San Francisco Montessori Academy",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1566 32ND AVE, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.757992,
+        "lon": -122.490379
+      }
+    },
+    {
+      "name": "Sunset Cooperative Nursery School",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "4245 LAWTON ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.756386,
+        "lon": -122.508499
+      }
+    },
+    {
+      "name": "Wah Mei School",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1400 JUDAH ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.76186,
+        "lon": -122.477371
+      }
+    },
+    {
+      "name": "Woodside International School",
+      "zip": "94122",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "1555 IRVING ST, SAN FRANCISCO, CA 94122",
+      "coordinates": {
+        "lat": 37.763432,
+        "lon": -122.474747
+      }
+    },
+    {
+      "name": "Yu, Alice Fong Yu Alternative School",
+      "zip": "94122",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "1541 12TH AVE, San Francisco, CA 94122",
+      "coordinates": {
+        "lat": 37.758965,
+        "lon": -122.469681
+      }
+    },
+    {
+      "name": "Alt School - Fort Mason",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "3741 BUCHANAN ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.804562,
+        "lon": -122.433907
+      }
+    },
+    {
+      "name": "Amici World School",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "1-6",
+      "address": "3627 BRODERICK ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.803875,
+        "lon": -122.445717
+      }
+    },
+    {
+      "name": "City College of San Francisco Fort Mason Site",
+      "zip": "94123",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "2 MARINA BLVD, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.80677,
+        "lon": -122.431824
+      }
+    },
+    {
+      "name": "Cross Cultural Family Center - Mary Lane Infant And Toddler Center",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1 WEBSTER ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.769699,
+        "lon": -122.428474
+      }
+    },
+    {
+      "name": "Hergl School",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1570 GREENWICH ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.800377,
+        "lon": -122.42572
+      }
+    },
+    {
+      "name": "Lilienthal, Claire Lilienthal (3-8 Winfield Scott Campus)",
+      "zip": "94123",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-8",
+      "general_type": "PS",
+      "grades": "K-8",
+      "address": "3630 DIVISADERO ST, San Francisco, CA 94123",
+      "coordinates": {
+        "lat": 37.80336,
+        "lon": -122.443237
+      }
+    },
+    {
+      "name": "Marina Childrens Center",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "3219 LAGUNA ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.800774,
+        "lon": -122.431488
+      }
+    },
+    {
+      "name": "Marina Middle School",
+      "zip": "94123",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "3500 FILLMORE ST, San Francisco, CA 94123",
+      "coordinates": {
+        "lat": 37.801827,
+        "lon": -122.435478
+      }
+    },
+    {
+      "name": "Saint Vincent De Paul School",
+      "zip": "94123",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "2350 GREEN ST, SAN FRANCISCO, CA 94123",
+      "coordinates": {
+        "lat": 37.796112,
+        "lon": -122.437851
+      }
+    },
+    {
+      "name": "Sherman Elementary School",
+      "zip": "94123",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1651 UNION ST, San Francisco, CA 94123",
+      "coordinates": {
+        "lat": 37.797802,
+        "lon": -122.426117
+      }
+    },
+    {
+      "name": "Tule Elk Park Early Education School",
+      "zip": "94123",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "2110 GREENWICH ST, San Francisco, CA 94123",
+      "coordinates": {
+        "lat": 37.799419,
+        "lon": -122.434563
+      }
+    },
+    {
+      "name": "Big City Montessori School",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "240 INDUSTRIAL ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.738655,
+        "lon": -122.405312
+      }
+    },
+    {
+      "name": "Brown, Willie Brown Jr Middle School",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "2055 SILVER AVE, San Francisco, CA 94124",
+      "coordinates": {
+        "lat": 37.736477,
+        "lon": -122.399574
+      }
+    },
+    {
+      "name": "Carver, Dr. George Washington Carver Elementary School",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1360 OAKDALE AVE, San Francisco, CA 94124",
+      "coordinates": {
+        "lat": 37.731667,
+        "lon": -122.385338
+      }
+    },
+    {
+      "name": "City College of San Francisco Evans Center",
+      "zip": "94124",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "1400 EVANS AVE, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.741859,
+        "lon": -122.384682
+      }
+    },
+    {
+      "name": "City College of San Francisco Southeast Center",
+      "zip": "94124",
+      "ownership": "SFCCD",
+      "category": "Community College District",
+      "general_type": "CC",
+      "grades": "13-14",
+      "address": "1800 OAKDALE AVE, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.737148,
+        "lon": -122.394096
+      }
+    },
+    {
+      "name": "Drew, Dr. Charles R. Drew Elementary / Early Education",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "50 POMONA ST, San Francisco, CA 94124",
+      "coordinates": {
+        "lat": 37.731796,
+        "lon": -122.39389
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Martin Luther King Childcare",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "200 CASHMERE ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.737042,
+        "lon": -122.386047
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Sojourner Truth Childcare",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1 CASHMERE ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.735832,
+        "lon": -122.381874
+      }
+    },
+    {
+      "name": "Faces Sf Child Development Program - Bayview-Hunters Point",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-6",
+      "address": "100 WHITNEY YOUNG CIR, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.734039,
+        "lon": -122.384216
+      }
+    },
+    {
+      "name": "Harte, Bret Harte Elementary / Early Education",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "1035 GILMAN AVE, San Francisco, CA 94124",
+      "coordinates": {
+        "lat": 37.717899,
+        "lon": -122.389221
+      }
+    },
+    {
+      "name": "Havard, Leola M. Havard Early Education School",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "1520 OAKDALE AVE, SAN FRANCISCO CA 94124",
+      "coordinates": {
+        "lat": 37.734085,
+        "lon": -122.388588
+      }
+    },
+    {
+      "name": "Kinderhaus - German International Preschool",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "198 WATERVILLE ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.732529,
+        "lon": -122.402496
+      }
+    },
+    {
+      "name": "Kipp Bayview Academy",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "5-8",
+      "address": "1060 KEY AVE, SAN FRANCISCO CA 94124",
+      "coordinates": {
+        "lat": 37.719532,
+        "lon": -122.396561
+      }
+    },
+    {
+      "name": "Malcolm X Elementary School",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "350 HARBOR RD, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.734238,
+        "lon": -122.380966
+      }
+    },
+    {
+      "name": "Marshall, Thurgood Marshall High School",
+      "zip": "94124",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "45 CONKLING ST, San Francisco, CA 94124",
+      "coordinates": {
+        "lat": 37.736309,
+        "lon": -122.401649
+      }
+    },
+    {
+      "name": "Martha Hills Learning Center",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1042 JAMESTOWN AVE, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.719162,
+        "lon": -122.394241
+      }
+    },
+    {
+      "name": "Mission Neighborhood Centers - Southeast Families United Childcare",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1337 EVANS AVE, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.739754,
+        "lon": -122.383591
+      }
+    },
+    {
+      "name": "Rise Institute",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1760 CESAR CHAVEZ STE R, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.750324,
+        "lon": -122.394058
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Bayview",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1601 LANE ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.731804,
+        "lon": -122.38958
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Hunters Point/Kirkwood",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "729 KIRKWOOD AVE, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.72887,
+        "lon": -122.374405
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - South East",
+      "zip": "94124",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1300 PHELPS ST, SAN FRANCISCO, CA 94124",
+      "coordinates": {
+        "lat": 37.737419,
+        "lon": -122.393837
+      }
+    },
+    {
+      "name": "Aptos Middle School",
+      "zip": "94127",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "105 APTOS AVE, San Francisco, CA 94127",
+      "coordinates": {
+        "lat": 37.729672,
+        "lon": -122.465782
+      }
+    },
+    {
+      "name": "Little Angels Daycare",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "2135 OCEAN AVE, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.726673,
+        "lon": -122.466423
+      }
+    },
+    {
+      "name": "Maria Montessori School Of The Golden Gate",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "62 LENOX WAY, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.7426,
+        "lon": -122.46521
+      }
+    },
+    {
+      "name": "Miraloma Cooperative Nursery School",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "443 FOERSTER ST, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.732193,
+        "lon": -122.449142
+      }
+    },
+    {
+      "name": "Miraloma Elementary School",
+      "zip": "94127",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "175 OMAR WAY, San Francisco, CA 94127",
+      "coordinates": {
+        "lat": 37.738636,
+        "lon": -122.450188
+      }
+    },
+    {
+      "name": "Saint Brendan School",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "940 LAGUNA HONDA BLVD, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.742855,
+        "lon": -122.455925
+      }
+    },
+    {
+      "name": "San Francisco Waldorf High School",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "470 WEST PORTAL AVE, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.736015,
+        "lon": -122.471199
+      }
+    },
+    {
+      "name": "Scandanavian School",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "20 WOODSIDE AVE, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.746582,
+        "lon": -122.457878
+      }
+    },
+    {
+      "name": "Sloat, Commodore Sloat Elementary School",
+      "zip": "94127",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "50 DARIEN WAY, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.731258,
+        "lon": -122.470482
+      }
+    },
+    {
+      "name": "Voice Of Pentecost Academy",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-12",
+      "address": "1970 OCEAN AVE, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.726364,
+        "lon": -122.463974
+      }
+    },
+    {
+      "name": "West Portal Elementary School",
+      "zip": "94127",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "5 LENOX WAY, San Francisco, CA 94127",
+      "coordinates": {
+        "lat": 37.742874,
+        "lon": -122.464348
+      }
+    },
+    {
+      "name": "Wind In The Willows Early Learning Center",
+      "zip": "94127",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "713 MONTEREY BLVD, SAN FRANCISCO, CA 94127",
+      "coordinates": {
+        "lat": 37.731258,
+        "lon": -122.451462
+      }
+    },
+    {
+      "name": "Bay School Of San Francisco",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "35 KEYES AVE, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.800579,
+        "lon": -122.455818
+      }
+    },
+    {
+      "name": "Bright Horizons - Letterman Digital Arts Child Care Center",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-4",
+      "address": "1 LETTERMAN DR BLDG B, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.799175,
+        "lon": -122.4505
+      }
+    },
+    {
+      "name": "Cow Hollow Kindergarten",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "65 FUNSTON AVE, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.799049,
+        "lon": -122.455528
+      }
+    },
+    {
+      "name": "German International School Of Silicon Valley - San Francisco Campus",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "4 FUNSTION AVE, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.800007,
+        "lon": -122.455566
+      }
+    },
+    {
+      "name": "Lone Mountain Childrens Center",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1806 BELLES ST, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.788681,
+        "lon": -122.473633
+      }
+    },
+    {
+      "name": "Presidio Early Education School",
+      "zip": "94129",
+      "ownership": "SFUSD",
+      "category": "USD PreK-4",
+      "general_type": "PS",
+      "grades": "PK-4",
+      "address": "387 MORAGA AVE, San Francisco, CA 94129",
+      "coordinates": {
+        "lat": 37.79752,
+        "lon": -122.461105
+      }
+    },
+    {
+      "name": "Serra Preschool",
+      "zip": "94129",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "7 FUNSTON AVE, SAN FRANCISCO, CA 94129",
+      "coordinates": {
+        "lat": 37.799297,
+        "lon": -122.456116
+      }
+    },
+    {
+      "name": "Life Learning Academy Charter School",
+      "zip": "94130",
+      "ownership": "SFUSD",
+      "category": "USD Charter School",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "651 8TH TI ST, SAN FRANCISCO, CA 94130",
+      "coordinates": {
+        "lat": 37.825512,
+        "lon": -122.367996
+      }
+    },
+    {
+      "name": "Treasure Island Child Development Center",
+      "zip": "94130",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "850 AVE D, SAN FRANCISCO, CA 94130",
+      "coordinates": {
+        "lat": 37.825985,
+        "lon": -122.372505
+      }
+    },
+    {
+      "name": "Asawa, Ruth Asawa San Francisco School Of The Arts\n\n / Academy Of Arts And Sciences",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "555 PORTOLA DR, SAN FRANCISCO CA, 94131",
+      "coordinates": {
+        "lat": 37.745316,
+        "lon": -122.44883
+      }
+    },
+    {
+      "name": "Clarendon Elementary School",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "500 CLARENDON AVE, San Francisco, CA 94131",
+      "coordinates": {
+        "lat": 37.753754,
+        "lon": -122.456268
+      }
+    },
+    {
+      "name": "Fairmount Elementary School / Preschool",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD PreK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "65 CHENERY ST, San Francisco, CA 94131",
+      "coordinates": {
+        "lat": 37.740433,
+        "lon": -122.425011
+      }
+    },
+    {
+      "name": "Glen Park Elementary School",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "151 LIPPARD AVE, San Francisco, CA 94131",
+      "coordinates": {
+        "lat": 37.733131,
+        "lon": -122.435623
+      }
+    },
+    {
+      "name": "Glen Park Montessori Preschool",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "649 CHENERY ST, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.734295,
+        "lon": -122.432915
+      }
+    },
+    {
+      "name": "Glenridge Cooperative Nursery School",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "70 ELK ST, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.736191,
+        "lon": -122.440033
+      }
+    },
+    {
+      "name": "Kangaroos Preschool",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "298 MONTEREY BLVD, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.731812,
+        "lon": -122.441833
+      }
+    },
+    {
+      "name": "Kellys Family Day Care",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "309 30TH ST, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.741787,
+        "lon": -122.427292
+      }
+    },
+    {
+      "name": "Mission Education Center Elementary School",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "1670 NOE ST, San Francisco, CA 94131",
+      "coordinates": {
+        "lat": 37.742203,
+        "lon": -122.431435
+      }
+    },
+    {
+      "name": "Noe Valley Nursery School",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "5210 DIAMOND HEIGHTS BLVD, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.743469,
+        "lon": -122.440552
+      }
+    },
+    {
+      "name": "Rooftop (K-4 Burnett Campus)",
+      "zip": "94131",
+      "ownership": "SFUSD",
+      "category": "USD Grades PK-8",
+      "general_type": "PS",
+      "grades": "PK-8",
+      "address": "443 BURNETT AVE, San Francisco, CA 94131",
+      "coordinates": {
+        "lat": 37.75481,
+        "lon": -122.443222
+      }
+    },
+    {
+      "name": "Saint John Catholic School",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "925 CHENERY ST, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.734886,
+        "lon": -122.43753
+      }
+    },
+    {
+      "name": "Saint Nicholas Day Care And Preschool",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "5200 DIAMOND HEIGHTS BLVD, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.744923,
+        "lon": -122.440422
+      }
+    },
+    {
+      "name": "Saint Pauls Littlest Angel Preparatory",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "221 VALLEY ST STE X, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.74419,
+        "lon": -122.427742
+      }
+    },
+    {
+      "name": "Saint Pauls School",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "1690 CHURCH ST, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.743923,
+        "lon": -122.426926
+      }
+    },
+    {
+      "name": "Second Community Child Care Center",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-5",
+      "address": "500 CLARENDON AVE, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.753712,
+        "lon": -122.456131
+      }
+    },
+    {
+      "name": "Sweet Peas Preschool - West",
+      "zip": "94131",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "87 MELROSE AVE, SAN FRANCISCO, CA 94131",
+      "coordinates": {
+        "lat": 37.733597,
+        "lon": -122.444008
+      }
+    },
+    {
+      "name": "Brandeis Hillel School Of San Francisco",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "655 BROTHERHOOD WAY, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.713421,
+        "lon": -122.475639
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Omi Childcare",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "306 RANDOLPH ST, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.714497,
+        "lon": -122.465576
+      }
+    },
+    {
+      "name": "Everyday Magic Child Development Center",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "220 MIDDLEFIELD DR, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.730572,
+        "lon": -122.485817
+      }
+    },
+    {
+      "name": "Jewish Community Center San Francisco - Brotherhood Way Preschool",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "655 BROTHERHOOD WAY, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.713123,
+        "lon": -122.475296
+      }
+    },
+    {
+      "name": "Kzv Armenian School - Krouzian Zekarian Armenian School",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-8",
+      "address": "825 BROTHERHOOD WAY, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.713841,
+        "lon": -122.478317
+      }
+    },
+    {
+      "name": "Lakeshore Elementary School",
+      "zip": "94132",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "220 MIDDLEFIELD DR, San Francisco, CA 94132",
+      "coordinates": {
+        "lat": 37.730324,
+        "lon": -122.48542
+      }
+    },
+    {
+      "name": "Lakeside Presbyterian Center For Children",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-K",
+      "address": "201 EUCALYPTUS DR, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.730774,
+        "lon": -122.475197
+      }
+    },
+    {
+      "name": "Lowell High School",
+      "zip": "94132",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "1101 EUCALYPTUS DR, San Francisco, CA 94132",
+      "coordinates": {
+        "lat": 37.729435,
+        "lon": -122.483055
+      }
+    },
+    {
+      "name": "Mercy High School",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "9-12",
+      "address": "3250 19TH AVE, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.7295,
+        "lon": -122.473587
+      }
+    },
+    {
+      "name": "Montessori Childrens Center",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "80 JUAN BAUTISTA CIR, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.718266,
+        "lon": -122.480911
+      }
+    },
+    {
+      "name": "Ortega, Jose Ortega Elementary School",
+      "zip": "94132",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "400 SARGENT ST, San Francisco, CA 94132",
+      "coordinates": {
+        "lat": 37.716782,
+        "lon": -122.466675
+      }
+    },
+    {
+      "name": "Pomeroy Recreation And Rehabilitation Center",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "PK-12",
+      "address": "207 SKYLINE BLVD, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.729641,
+        "lon": -122.501846
+      }
+    },
+    {
+      "name": "Saint Stephen School",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "473 EUCALYPTUS DR, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.730911,
+        "lon": -122.477684
+      }
+    },
+    {
+      "name": "Saint Thomas More",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "50 THOMAS MORE WAY, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.712299,
+        "lon": -122.473389
+      }
+    },
+    {
+      "name": "West Portal Lutheran School",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "200 SLOAT BLVD, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.735092,
+        "lon": -122.473999
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Omi (Ocean View,Merced Heights,Ingleside)",
+      "zip": "94132",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1111 JUNIPERO SERRA BLVD, SAN FRANCISCO, CA 94132",
+      "coordinates": {
+        "lat": 37.717464,
+        "lon": -122.47197
+      }
+    },
+    {
+      "name": "Chin, John Yehall Chin Elementary School",
+      "zip": "94133",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "350 BROADWAY, San Francisco, CA 94133",
+      "coordinates": {
+        "lat": 37.798611,
+        "lon": -122.403221
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Rainbow Preschool",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "795 PACIFIC AVE, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.796528,
+        "lon": -122.407638
+      }
+    },
+    {
+      "name": "Francisco Middle School",
+      "zip": "94133",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "2190 POWELL ST, San Francisco, CA 94133",
+      "coordinates": {
+        "lat": 37.804569,
+        "lon": -122.410965
+      }
+    },
+    {
+      "name": "Fusion Academy San Francisco",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-12",
+      "address": "535 PACIFIC AVE FL 3, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.797028,
+        "lon": -122.404182
+      }
+    },
+    {
+      "name": "Garfield Elementary / Early Education",
+      "zip": "94133",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "420 FILBERT ST, San Francisco, CA 94133",
+      "coordinates": {
+        "lat": 37.802036,
+        "lon": -122.406692
+      }
+    },
+    {
+      "name": "Kai Ming Head Start - North Beach Center",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1188 COLUMBUS AVE, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.804852,
+        "lon": -122.41642
+      }
+    },
+    {
+      "name": "Parker, Jean Parker Out-Of-School (OST) / Early Education",
+      "zip": "94133",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "840 BROADWAY, San Francisco, CA 94133",
+      "coordinates": {
+        "lat": 37.797619,
+        "lon": -122.411041
+      }
+    },
+    {
+      "name": "Saints Peter And Paul Elementary School",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "660 FILBERT ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.801598,
+        "lon": -122.410217
+      }
+    },
+    {
+      "name": "Teaching Tots Preschool",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "728 PACIFIC AVE STE 706, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.797092,
+        "lon": -122.407471
+      }
+    },
+    {
+      "name": "Telegraph Hill Neighborhood Center Child Development Preschool",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "660 LOMBARD ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.803444,
+        "lon": -122.412537
+      }
+    },
+    {
+      "name": "Telegraph Hill Parent Participation Nursery School",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "922 JACKSON ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.795681,
+        "lon": -122.410377
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Chinatown Little Sprouts",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "831 BROADWAY ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.797012,
+        "lon": -122.410713
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - Generations",
+      "zip": "94133",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1010 MONTGOMERY ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.798492,
+        "lon": -122.403709
+      }
+    },
+    {
+      "name": "Yick Wo Elementary School",
+      "zip": "94133",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "2245 JONES ST, SAN FRANCISCO, CA 94133",
+      "coordinates": {
+        "lat": 37.80196,
+        "lon": -122.416611
+      }
+    },
+    {
+      "name": "Alta Vista School",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-5",
+      "address": "413 SOMERSET ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.726391,
+        "lon": -122.407196
+      }
+    },
+    {
+      "name": "Burton, Phillip And Sala Burton High School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades 9-12",
+      "general_type": "PS",
+      "grades": "9-12",
+      "address": "400 MANSELL ST, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.721546,
+        "lon": -122.406555
+      }
+    },
+    {
+      "name": "Cornerstone Academy",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-5",
+      "address": "801 SILVER AVE, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.729584,
+        "lon": -122.418327
+      }
+    },
+    {
+      "name": "Cornerstone Academy",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "6-12",
+      "address": "501 CAMBRIDGE ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.724953,
+        "lon": -122.416847
+      }
+    },
+    {
+      "name": "Cornerstone Academy",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1925 LAWTON ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.75742,
+        "lon": -122.483665
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Chinatown Childcare",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "715 CHESTNUT ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.803215,
+        "lon": -122.41523
+      }
+    },
+    {
+      "name": "Economic Opportunity Council Sf - Delta Preschool",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "300 LELAND AVE, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.713379,
+        "lon": -122.409553
+      }
+    },
+    {
+      "name": "El Dorado Elementary School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "70 DELTA ST, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.718658,
+        "lon": -122.407852
+      }
+    },
+    {
+      "name": "Hillcrest Elementary School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "810 SILVER AVE, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.728413,
+        "lon": -122.418686
+      }
+    },
+    {
+      "name": "King, Dr. Martin Luther King Jr. Middle School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "350 GIRARD ST, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.727741,
+        "lon": -122.405807
+      }
+    },
+    {
+      "name": "Mclaren, John Mclaren Early Education School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD PreK/TK-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "2055 SUNNYDALE AVE, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.713131,
+        "lon": -122.423187
+      }
+    },
+    {
+      "name": "Our Lady Of The Visitacion School",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "785 SUNNYDALE AVE, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.709122,
+        "lon": -122.409546
+      }
+    },
+    {
+      "name": "San Francisco School",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "IND",
+      "grades": "K-8",
+      "address": "300 GAVEN ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.732781,
+        "lon": -122.411697
+      }
+    },
+    {
+      "name": "Taylor, E. R. Taylor Elementary School / Preschool",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD PreK, Grades K-5",
+      "general_type": "PS",
+      "grades": "PK-5",
+      "address": "423 BURROWS ST, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.727329,
+        "lon": -122.40731
+      }
+    },
+    {
+      "name": "Visitacion Valley Elementary School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades K-5",
+      "general_type": "PS",
+      "grades": "K-5",
+      "address": "55 SCHWERIN ST, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.712524,
+        "lon": -122.409897
+      }
+    },
+    {
+      "name": "Visitacion Valley Middle School",
+      "zip": "94134",
+      "ownership": "SFUSD",
+      "category": "USD Grades 6-8",
+      "general_type": "PS",
+      "grades": "6-8",
+      "address": "450 RAYMOND AVE, San Francisco, CA 94134",
+      "coordinates": {
+        "lat": 37.715744,
+        "lon": -122.412079
+      }
+    },
+    {
+      "name": "Wu Yee Child Development Center - New Generation",
+      "zip": "94134",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "700 VELASCO AVE, SAN FRANCISCO, CA 94134",
+      "coordinates": {
+        "lat": 37.710182,
+        "lon": -122.418098
+      }
+    },
+    {
+      "name": "Ucsf - Marilyn Reed Lucia Child Care Study Center",
+      "zip": "94143",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "610 PARNASSUS AVE, SAN FRANCISCO, CA 94143",
+      "coordinates": {
+        "lat": 37.7631,
+        "lon": -122.460121
+      }
+    },
+    {
+      "name": "Ucsf - Parnassus-Kirkham Child Development Center",
+      "zip": "94143",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "10 KIRKHAM ST, SAN FRANCISCO, CA 94143",
+      "coordinates": {
+        "lat": 37.761524,
+        "lon": -122.461166
+      }
+    },
+    {
+      "name": "Ucsf - University Child Care Center - Mission Bay",
+      "zip": "94158",
+      "ownership": "Private",
+      "category": "Independent / Private",
+      "general_type": "CDC",
+      "grades": "PK",
+      "address": "1555 6TH ST, SAN FRANCISCO, CA 94158",
+      "coordinates": {
+        "lat": 37.768677,
+        "lon": -122.393967
+      }
+    }
+  ]
+}

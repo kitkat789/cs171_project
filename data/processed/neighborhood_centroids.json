@@ -1,0 +1,375 @@
+{
+  "entries": [
+    {
+      "neighborhood": "McLaren Park, Visitacion Valley",
+      "centroid": {
+        "lat": 37.713505,
+        "lon": -122.416596
+      }
+    },
+    {
+      "neighborhood": "Tenderloin",
+      "centroid": {
+        "lat": 37.781916,
+        "lon": -122.416084
+      }
+    },
+    {
+      "neighborhood": "West of Twin Peaks",
+      "centroid": {
+        "lat": 37.734553,
+        "lon": -122.455794
+      }
+    },
+    {
+      "neighborhood": "Pacific Heights",
+      "centroid": {
+        "lat": 37.788765,
+        "lon": -122.437021
+      }
+    },
+    {
+      "neighborhood": "Castro/Upper Market",
+      "centroid": {
+        "lat": 37.763595,
+        "lon": -122.435723
+      }
+    },
+    {
+      "neighborhood": "Outer Richmond",
+      "centroid": {
+        "lat": 37.779565,
+        "lon": -122.489239
+      }
+    },
+    {
+      "neighborhood": "Oceanview/Merced/Ingleside",
+      "centroid": {
+        "lat": 37.715969,
+        "lon": -122.464196
+      }
+    },
+    {
+      "neighborhood": "Twin Peaks",
+      "centroid": {
+        "lat": 37.756195,
+        "lon": -122.443079
+      }
+    },
+    {
+      "neighborhood": "Bernal Heights",
+      "centroid": {
+        "lat": 37.740909,
+        "lon": -122.415984
+      }
+    },
+    {
+      "neighborhood": "Marina",
+      "centroid": {
+        "lat": 37.798974,
+        "lon": -122.43519
+      }
+    },
+    {
+      "neighborhood": "Noe Valley",
+      "centroid": {
+        "lat": 37.747134,
+        "lon": -122.43522
+      }
+    },
+    {
+      "neighborhood": "Glen Park",
+      "centroid": {
+        "lat": 37.740065,
+        "lon": -122.43466
+      }
+    },
+    {
+      "neighborhood": "Lincoln Park, Outer Richmond, Seacliff",
+      "centroid": {
+        "lat": 37.784245,
+        "lon": -122.498328
+      }
+    },
+    {
+      "neighborhood": "Russian Hill",
+      "centroid": {
+        "lat": 37.800799,
+        "lon": -122.419072
+      }
+    },
+    {
+      "neighborhood": "Potrero Hill",
+      "centroid": {
+        "lat": 37.759676,
+        "lon": -122.396959
+      }
+    },
+    {
+      "neighborhood": "Financial District/South Beach",
+      "centroid": {
+        "lat": 37.790663,
+        "lon": -122.398802
+      }
+    },
+    {
+      "neighborhood": "Sunset/Parkside, Lakeshore, Golden Gate Park, Outer Richmond",
+      "centroid": {
+        "lat": 37.751031,
+        "lon": -122.508628
+      }
+    },
+    {
+      "neighborhood": "Outer Mission",
+      "centroid": {
+        "lat": 37.719748,
+        "lon": -122.445914
+      }
+    },
+    {
+      "neighborhood": "Hayes Valley",
+      "centroid": {
+        "lat": 37.775446,
+        "lon": -122.426793
+      }
+    },
+    {
+      "neighborhood": "Nob Hill",
+      "centroid": {
+        "lat": 37.793752,
+        "lon": -122.411885
+      }
+    },
+    {
+      "neighborhood": "Bayview Hunters Point",
+      "centroid": {
+        "lat": 37.729469,
+        "lon": -122.386913
+      }
+    },
+    {
+      "neighborhood": "Inner Sunset",
+      "centroid": {
+        "lat": 37.755411,
+        "lon": -122.466577
+      }
+    },
+    {
+      "neighborhood": "South of Market",
+      "centroid": {
+        "lat": 37.777636,
+        "lon": -122.407387
+      }
+    },
+    {
+      "neighborhood": "Japantown",
+      "centroid": {
+        "lat": 37.784622,
+        "lon": -122.434453
+      }
+    },
+    {
+      "neighborhood": "Lakeshore, Sunset/Parkside",
+      "centroid": {
+        "lat": 37.731594,
+        "lon": -122.503822
+      }
+    },
+    {
+      "neighborhood": "Western Addition, Hayes Valley",
+      "centroid": {
+        "lat": 37.779514,
+        "lon": -122.428581
+      }
+    },
+    {
+      "neighborhood": "McLaren Park, Visitacion Valley, Excelsior, Portola",
+      "centroid": {
+        "lat": 37.718097,
+        "lon": -122.41908
+      }
+    },
+    {
+      "neighborhood": "McLaren Park",
+      "centroid": {
+        "lat": 37.72248,
+        "lon": -122.413933
+      }
+    },
+    {
+      "neighborhood": "Lakeshore",
+      "centroid": {
+        "lat": 37.726238,
+        "lon": -122.486468
+      }
+    },
+    {
+      "neighborhood": "Sunset/Parkside",
+      "centroid": {
+        "lat": 37.742066,
+        "lon": -122.485956
+      }
+    },
+    {
+      "neighborhood": "Mission",
+      "centroid": {
+        "lat": 37.759506,
+        "lon": -122.414647
+      }
+    },
+    {
+      "neighborhood": "North Beach, Chinatown",
+      "centroid": {
+        "lat": 37.800836,
+        "lon": -122.410053
+      }
+    },
+    {
+      "neighborhood": "Western Addition",
+      "centroid": {
+        "lat": 37.7813,
+        "lon": -122.43169
+      }
+    },
+    {
+      "neighborhood": "Excelsior",
+      "centroid": {
+        "lat": 37.715086,
+        "lon": -122.43995
+      }
+    },
+    {
+      "neighborhood": "Haight Ashbury",
+      "centroid": {
+        "lat": 37.766023,
+        "lon": -122.442974
+      }
+    },
+    {
+      "neighborhood": "North Beach",
+      "centroid": {
+        "lat": 37.803311,
+        "lon": -122.40838
+      }
+    },
+    {
+      "neighborhood": "Visitacion Valley",
+      "centroid": {
+        "lat": 37.711905,
+        "lon": -122.409458
+      }
+    },
+    {
+      "neighborhood": "Glen Park, West of Twin Peaks",
+      "centroid": {
+        "lat": 37.74017,
+        "lon": -122.442681
+      }
+    },
+    {
+      "neighborhood": "Inner Sunset, Twin Peaks",
+      "centroid": {
+        "lat": 37.759347,
+        "lon": -122.453771
+      }
+    },
+    {
+      "neighborhood": "Noe Valley, Twin Peaks",
+      "centroid": {
+        "lat": 37.747079,
+        "lon": -122.444073
+      }
+    },
+    {
+      "neighborhood": "Golden Gate Park",
+      "centroid": {
+        "lat": 37.769387,
+        "lon": -122.470479
+      }
+    },
+    {
+      "neighborhood": "Golden Gate Park, Outer Richmond",
+      "centroid": {
+        "lat": 37.76773,
+        "lon": -122.504238
+      }
+    },
+    {
+      "neighborhood": "Mission Bay",
+      "centroid": {
+        "lat": 37.771608,
+        "lon": -122.394087
+      }
+    },
+    {
+      "neighborhood": "Presidio, Presidio Heights",
+      "centroid": {
+        "lat": 37.791318,
+        "lon": -122.453986
+      }
+    },
+    {
+      "neighborhood": "Outer Richmond, Inner Richmond, Seacliff, Presidio",
+      "centroid": {
+        "lat": 37.78014,
+        "lon": -122.472301
+      }
+    },
+    {
+      "neighborhood": "Marina, Presidio",
+      "centroid": {
+        "lat": 37.805485,
+        "lon": -122.44485
+      }
+    },
+    {
+      "neighborhood": "Inner Richmond",
+      "centroid": {
+        "lat": 37.780959,
+        "lon": -122.46658
+      }
+    },
+    {
+      "neighborhood": "Presidio Heights",
+      "centroid": {
+        "lat": 37.786228,
+        "lon": -122.450276
+      }
+    },
+    {
+      "neighborhood": "Chinatown",
+      "centroid": {
+        "lat": 37.794761,
+        "lon": -122.407628
+      }
+    },
+    {
+      "neighborhood": "Portola",
+      "centroid": {
+        "lat": 37.729347,
+        "lon": -122.409793
+      }
+    },
+    {
+      "neighborhood": "Excelsior, McLaren Park",
+      "centroid": {
+        "lat": 37.714042,
+        "lon": -122.429288
+      }
+    },
+    {
+      "neighborhood": "Lone Mountain/USF",
+      "centroid": {
+        "lat": 37.77875,
+        "lon": -122.457496
+      }
+    },
+    {
+      "neighborhood": "Inner Richmond, Presidio",
+      "centroid": {
+        "lat": 37.787242,
+        "lon": -122.469103
+      }
+    }
+  ]
+}

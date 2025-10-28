@@ -1,0 +1,482 @@
+{
+  "entries": [
+    {
+      "zip": "94102",
+      "total": 23,
+      "public": 4,
+      "private": 19,
+      "types": {
+        "Independent / Private": 18,
+        "USD County School": 2,
+        "Community College District": 1,
+        "USD PreK-5, Grades K-5": 1,
+        "USD PreK, Grades K-5": 1
+      },
+      "grades": {
+        "CDC": 11,
+        "PS": 4,
+        "CC": 1,
+        "IND": 7
+      }
+    },
+    {
+      "zip": "94103",
+      "total": 14,
+      "public": 2,
+      "private": 12,
+      "types": {
+        "Independent / Private": 10,
+        "USD Grades K-8": 1,
+        "Community College District": 2,
+        "USD Grades K-5": 1
+      },
+      "grades": {
+        "IND": 5,
+        "PS": 2,
+        "CDC": 5,
+        "CC": 2
+      }
+    },
+    {
+      "zip": "94105",
+      "total": 6,
+      "public": 0,
+      "private": 6,
+      "types": {
+        "Independent / Private": 6
+      },
+      "grades": {
+        "CDC": 3,
+        "IND": 3
+      }
+    },
+    {
+      "zip": "94107",
+      "total": 20,
+      "public": 7,
+      "private": 13,
+      "types": {
+        "Independent / Private": 13,
+        "USD Grades 6-8": 1,
+        "USD Grades 6-12": 2,
+        "USD Charter School": 1,
+        "USD Grades 9-12": 1,
+        "USD PreK, Grades K-5": 1,
+        "USD Grades K-5": 1
+      },
+      "grades": {
+        "CDC": 7,
+        "PS": 7,
+        "IND": 6
+      }
+    },
+    {
+      "zip": "94108",
+      "total": 12,
+      "public": 2,
+      "private": 10,
+      "types": {
+        "USD PreK, Grades K-5": 1,
+        "USD PreK/TK-4": 1,
+        "Independent / Private": 9,
+        "Community College District": 1
+      },
+      "grades": {
+        "PS": 2,
+        "CDC": 5,
+        "IND": 4,
+        "CC": 1
+      }
+    },
+    {
+      "zip": "94109",
+      "total": 10,
+      "public": 3,
+      "private": 7,
+      "types": {
+        "Independent / Private": 7,
+        "USD Grades K-5": 2,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "IND": 4,
+        "PS": 3,
+        "CDC": 3
+      }
+    },
+    {
+      "zip": "94110",
+      "total": 41,
+      "public": 11,
+      "private": 30,
+      "types": {
+        "USD Grades K-5": 2,
+        "Independent / Private": 29,
+        "USD PreK-5, Grades K-5": 1,
+        "USD County School": 1,
+        "USD PreK-5": 2,
+        "USD Grades K-8": 1,
+        "USD PreK/TK": 1,
+        "Community College District": 1,
+        "USD Grades 9-12": 2,
+        "USD PreK-8": 1
+      },
+      "grades": {
+        "PS": 11,
+        "IND": 15,
+        "CDC": 14,
+        "CC": 1
+      }
+    },
+    {
+      "zip": "94111",
+      "total": 2,
+      "public": 1,
+      "private": 1,
+      "types": {
+        "Independent / Private": 1,
+        "USD Grades K-5": 1
+      },
+      "grades": {
+        "CDC": 1,
+        "PS": 1
+      }
+    },
+    {
+      "zip": "94112",
+      "total": 28,
+      "public": 12,
+      "private": 16,
+      "types": {
+        "USD PreK, Grades K-5": 1,
+        "Independent / Private": 15,
+        "USD PreK-5": 2,
+        "USD Grades 9-12": 3,
+        "Community College District": 1,
+        "USD Grades K-8": 1,
+        "USD Grades K-5": 4,
+        "USD Grades 6-8": 1
+      },
+      "grades": {
+        "PS": 12,
+        "CDC": 6,
+        "IND": 9,
+        "CC": 1
+      }
+    },
+    {
+      "zip": "94114",
+      "total": 20,
+      "public": 10,
+      "private": 10,
+      "types": {
+        "USD Grades K-5": 3,
+        "Independent / Private": 10,
+        "USD PreK-5": 1,
+        "USD Grades 6-8": 2,
+        "USD Grades PK-8": 1,
+        "USD Charter School": 1,
+        "USD PreK": 1,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "PS": 9,
+        "CDC": 5,
+        "IND": 6
+      }
+    },
+    {
+      "zip": "94115",
+      "total": 37,
+      "public": 6,
+      "private": 31,
+      "types": {
+        "Independent / Private": 31,
+        "USD PreK-5": 1,
+        "USD Charter School": 2,
+        "USD PreK": 1,
+        "USD Charter School; PreK-5": 1,
+        "USD Grades K-5, PreK-5": 1
+      },
+      "grades": {
+        "IND": 14,
+        "CDC": 18,
+        "PS": 5
+      }
+    },
+    {
+      "zip": "94116",
+      "total": 25,
+      "public": 8,
+      "private": 17,
+      "types": {
+        "Independent / Private": 17,
+        "USD Grades 6-8": 2,
+        "USD Grades 9-12": 2,
+        "USD Grades K-5": 4
+      },
+      "grades": {
+        "CDC": 11,
+        "IND": 6,
+        "PS": 8
+      }
+    },
+    {
+      "zip": "94117",
+      "total": 17,
+      "public": 5,
+      "private": 12,
+      "types": {
+        "USD PreK": 1,
+        "Community College District": 1,
+        "Independent / Private": 11,
+        "USD Grades K-5": 1,
+        "USD PreK-4, Grades K-5": 1,
+        "USD Grades K-4": 1,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "CDC": 6,
+        "CC": 1,
+        "PS": 4,
+        "IND": 6
+      }
+    },
+    {
+      "zip": "94118",
+      "total": 29,
+      "public": 7,
+      "private": 22,
+      "types": {
+        "Independent / Private": 22,
+        "USD Grades K-5": 3,
+        "USD PreK/TK": 1,
+        "USD Grades 9-12": 1,
+        "USD Grades 6-8": 1,
+        "USD Grades K-8": 1
+      },
+      "grades": {
+        "CDC": 12,
+        "PS": 7,
+        "IND": 10
+      }
+    },
+    {
+      "zip": "94121",
+      "total": 22,
+      "public": 5,
+      "private": 17,
+      "types": {
+        "Independent / Private": 17,
+        "USD Grades K-5": 2,
+        "USD Grades 9-12": 1,
+        "USD Grades 6-8": 1,
+        "USD PreK-5": 1
+      },
+      "grades": {
+        "IND": 8,
+        "PS": 5,
+        "CDC": 9
+      }
+    },
+    {
+      "zip": "94122",
+      "total": 19,
+      "public": 8,
+      "private": 11,
+      "types": {
+        "USD PreK/TK-5": 1,
+        "USD Grades K-5": 3,
+        "Independent / Private": 11,
+        "USD Grades K-8": 2,
+        "USD PreK": 1,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "PS": 7,
+        "IND": 5,
+        "CDC": 7
+      }
+    },
+    {
+      "zip": "94123",
+      "total": 11,
+      "public": 4,
+      "private": 7,
+      "types": {
+        "USD Grades K-5": 1,
+        "Independent / Private": 6,
+        "Community College District": 1,
+        "USD Grades 6-8": 1,
+        "USD PreK/TK-5": 1,
+        "USD Grades K-8": 1
+      },
+      "grades": {
+        "PS": 4,
+        "IND": 4,
+        "CC": 1,
+        "CDC": 2
+      }
+    },
+    {
+      "zip": "94124",
+      "total": 21,
+      "public": 8,
+      "private": 13,
+      "types": {
+        "USD Grades 9-12": 1,
+        "Independent / Private": 11,
+        "USD Grades K-5": 2,
+        "USD Charter School": 1,
+        "USD PreK/TK-5": 1,
+        "Community College District": 2,
+        "USD PreK-5": 2,
+        "USD Grades 6-8": 1
+      },
+      "grades": {
+        "PS": 8,
+        "CDC": 8,
+        "IND": 3,
+        "CC": 2
+      }
+    },
+    {
+      "zip": "94127",
+      "total": 12,
+      "public": 4,
+      "private": 8,
+      "types": {
+        "USD Grades K-5": 3,
+        "Independent / Private": 8,
+        "USD Grades 6-8": 1
+      },
+      "grades": {
+        "PS": 4,
+        "CDC": 5,
+        "IND": 3
+      }
+    },
+    {
+      "zip": "94129",
+      "total": 7,
+      "public": 1,
+      "private": 6,
+      "types": {
+        "Independent / Private": 6,
+        "USD PreK-4": 1
+      },
+      "grades": {
+        "IND": 3,
+        "CDC": 3,
+        "PS": 1
+      }
+    },
+    {
+      "zip": "94130",
+      "total": 2,
+      "public": 1,
+      "private": 1,
+      "types": {
+        "Independent / Private": 1,
+        "USD Charter School": 1
+      },
+      "grades": {
+        "CDC": 1,
+        "PS": 1
+      }
+    },
+    {
+      "zip": "94131",
+      "total": 17,
+      "public": 6,
+      "private": 11,
+      "types": {
+        "Independent / Private": 11,
+        "USD Grades PK-8": 1,
+        "USD Grades K-5": 3,
+        "USD PreK-5": 1,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "CDC": 6,
+        "IND": 5,
+        "PS": 6
+      }
+    },
+    {
+      "zip": "94132",
+      "total": 16,
+      "public": 3,
+      "private": 13,
+      "types": {
+        "Independent / Private": 13,
+        "USD Grades K-5": 2,
+        "USD Grades 9-12": 1
+      },
+      "grades": {
+        "IND": 8,
+        "PS": 3,
+        "CDC": 5
+      }
+    },
+    {
+      "zip": "94133",
+      "total": 14,
+      "public": 5,
+      "private": 9,
+      "types": {
+        "Independent / Private": 9,
+        "USD Grades 6-8": 1,
+        "USD Grades K-5": 4
+      },
+      "grades": {
+        "CDC": 7,
+        "PS": 5,
+        "IND": 2
+      }
+    },
+    {
+      "zip": "94134",
+      "total": 17,
+      "public": 8,
+      "private": 9,
+      "types": {
+        "Independent / Private": 9,
+        "USD Grades 6-8": 2,
+        "USD Grades K-5": 3,
+        "USD Grades 9-12": 1,
+        "USD PreK, Grades K-5": 1,
+        "USD PreK/TK-5": 1
+      },
+      "grades": {
+        "CDC": 4,
+        "PS": 8,
+        "IND": 5
+      }
+    },
+    {
+      "zip": "94143",
+      "total": 2,
+      "public": 0,
+      "private": 2,
+      "types": {
+        "Independent / Private": 2
+      },
+      "grades": {
+        "CDC": 2
+      }
+    },
+    {
+      "zip": "94158",
+      "total": 1,
+      "public": 0,
+      "private": 1,
+      "types": {
+        "Independent / Private": 1
+      },
+      "grades": {
+        "CDC": 1
+      }
+    }
+  ]
+}

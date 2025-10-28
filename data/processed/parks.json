@@ -1,0 +1,3195 @@
+{
+  "entries": [
+    {
+      "name": "Herz Playground",
+      "acres": 7.0,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71350451,
+        "lon": -122.41659553
+      }
+    },
+    {
+      "name": "City Hall",
+      "acres": 0.81,
+      "category": "Mini Park (<10 acres)",
+      "type": "Other Non-Park Property",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77914173,
+        "lon": -122.41926539
+      }
+    },
+    {
+      "name": "Merced Branch Library",
+      "acres": 0.31,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.72661671,
+        "lon": -122.47449444
+      }
+    },
+    {
+      "name": "Presidio Library Mini Park",
+      "acres": 0.68,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78892984,
+        "lon": -122.4448619
+      }
+    },
+    {
+      "name": "Eureka Valley Branch Library",
+      "acres": 0.43,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76401373,
+        "lon": -122.43197454
+      }
+    },
+    {
+      "name": "Joost & Baden Mini Park",
+      "acres": 0.14,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73273784,
+        "lon": -122.4408549
+      }
+    },
+    {
+      "name": "Fulton Playground",
+      "acres": 0.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77338725,
+        "lon": -122.48694726
+      }
+    },
+    {
+      "name": "Randolph & Bright Mini Park",
+      "acres": 0.13,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.7145015,
+        "lon": -122.463681
+      }
+    },
+    {
+      "name": "Seward Mini Park",
+      "acres": 0.42,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.7576254,
+        "lon": -122.44006548
+      }
+    },
+    {
+      "name": "Dogpatch - Miller Memorial Garden",
+      "acres": 0.3,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74504697,
+        "lon": -122.40717609
+      }
+    },
+    {
+      "name": "Cow Hollow Playground",
+      "acres": 0.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.79734341,
+        "lon": -122.44486464
+      }
+    },
+    {
+      "name": "Peixotto Playground",
+      "acres": 0.82,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76580342,
+        "lon": -122.43792203
+      }
+    },
+    {
+      "name": "Precita Park",
+      "acres": 2.25,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74706609,
+        "lon": -122.41205957
+      }
+    },
+    {
+      "name": "Clipper Terr Comm. Garden",
+      "acres": 0.47,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74784807,
+        "lon": -122.4431957
+      }
+    },
+    {
+      "name": "Crags Court Garden",
+      "acres": 0.44,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74142764,
+        "lon": -122.44067677
+      }
+    },
+    {
+      "name": "Lincoln Park",
+      "acres": 112.82,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78424485,
+        "lon": -122.49832821
+      }
+    },
+    {
+      "name": "Hyde & Vallejo Mini Park",
+      "acres": 0.11,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79764436,
+        "lon": -122.41909195
+      }
+    },
+    {
+      "name": "Kite Hill",
+      "acres": 2.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75824558,
+        "lon": -122.44167469
+      }
+    },
+    {
+      "name": "McKinley Square",
+      "acres": 2.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.75916375,
+        "lon": -122.40469672
+      }
+    },
+    {
+      "name": "Maritime Plaza",
+      "acres": 2.01,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79561019,
+        "lon": -122.39925209
+      }
+    },
+    {
+      "name": "Broadway Tunnel W. Mini Park",
+      "acres": 0.12,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.7964406,
+        "lon": -122.41743636
+      }
+    },
+    {
+      "name": "Sunset Dunes",
+      "acres": 77.01,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Parkway",
+      "districts": [
+        "4",
+        "7",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.75103138,
+        "lon": -122.50862838
+      }
+    },
+    {
+      "name": "Ogden Terrace Community Garden",
+      "acres": 0.17,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.73580862,
+        "lon": -122.41204731
+      }
+    },
+    {
+      "name": "Park Street Garden",
+      "acres": 0.05,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73647569,
+        "lon": -122.42578986
+      }
+    },
+    {
+      "name": "O'Shaughnessy Hollow",
+      "acres": 10.98,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.73918097,
+        "lon": -122.44389046
+      }
+    },
+    {
+      "name": "Lakeview & Ashton Mini Park",
+      "acres": 0.51,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71809649,
+        "lon": -122.46258591
+      }
+    },
+    {
+      "name": "Cayuga & Lamartine Mini Park",
+      "acres": 0.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.73034855,
+        "lon": -122.4329585
+      }
+    },
+    {
+      "name": "War Memorial & Opera House",
+      "acres": 0.77,
+      "category": "Mini Park (<10 acres)",
+      "type": "Other Non-Park Property",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77911127,
+        "lon": -122.42088424
+      }
+    },
+    {
+      "name": "San Francisco Main Library",
+      "acres": 0.09,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77928802,
+        "lon": -122.41620254
+      }
+    },
+    {
+      "name": "Bernal Heights Park",
+      "acres": 26.34,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74313673,
+        "lon": -122.41426524
+      }
+    },
+    {
+      "name": "Hooker Alley Community Garden",
+      "acres": 0.06,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79043858,
+        "lon": -122.41018584
+      }
+    },
+    {
+      "name": "India Basin - Shoreline Park",
+      "acres": 11.78,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73366807,
+        "lon": -122.37378414
+      }
+    },
+    {
+      "name": "Grand View Open Space",
+      "acres": 0.79,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75504478,
+        "lon": -122.47234138
+      }
+    },
+    {
+      "name": "Howard & Langton Mini Park",
+      "acres": 0.28,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77726009,
+        "lon": -122.40983188
+      }
+    },
+    {
+      "name": "Western Addition Branch Library",
+      "acres": 0.9,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78422288,
+        "lon": -122.43757876
+      }
+    },
+    {
+      "name": "San Francisco Zoo",
+      "acres": 131.54,
+      "category": "Regional Park (100+ acres)",
+      "type": "Zoological Garden",
+      "districts": [
+        "7",
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73159432,
+        "lon": -122.50382176
+      }
+    },
+    {
+      "name": "Rowing Club - Dolphin Club",
+      "acres": 1.11,
+      "category": "Mini Park (<10 acres)",
+      "type": "Concession",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.8079655,
+        "lon": -122.42127697
+      }
+    },
+    {
+      "name": "Holly Park",
+      "acres": 8.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.73721401,
+        "lon": -122.41995329
+      }
+    },
+    {
+      "name": "Golden Gate Heights Park",
+      "acres": 6.96,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.749991,
+        "lon": -122.46941641
+      }
+    },
+    {
+      "name": "Billy Goat Hill",
+      "acres": 3.67,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74141293,
+        "lon": -122.43321192
+      }
+    },
+    {
+      "name": "Bay View Park",
+      "acres": 46.64,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71518495,
+        "lon": -122.39251458
+      }
+    },
+    {
+      "name": "Hawk Hill",
+      "acres": 4.85,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.74659138,
+        "lon": -122.46874625
+      }
+    },
+    {
+      "name": "Joseph L. Alioto Performing Arts Piazza",
+      "acres": 5.38,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77948576,
+        "lon": -122.41761127
+      }
+    },
+    {
+      "name": "Wash. & Hyde MP",
+      "acres": 0.16,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79400105,
+        "lon": -122.41741052
+      }
+    },
+    {
+      "name": "Geneva Carbarn",
+      "acres": 0.35,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.72021667,
+        "lon": -122.44674949
+      }
+    },
+    {
+      "name": "Buchanan St Mall",
+      "acres": 1.97,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77951424,
+        "lon": -122.42858096
+      }
+    },
+    {
+      "name": "John McLaren Park",
+      "acres": 313.7,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "10",
+        "9",
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71809698,
+        "lon": -122.41908038
+      }
+    },
+    {
+      "name": "Mullen & Peralta Mini Park",
+      "acres": 0.45,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74608143,
+        "lon": -122.40882028
+      }
+    },
+    {
+      "name": "Tank Hill",
+      "acres": 3.02,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.7599425,
+        "lon": -122.44768322
+      }
+    },
+    {
+      "name": "Louis Sutter Playground",
+      "acres": 14.34,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.7224796,
+        "lon": -122.41393339
+      }
+    },
+    {
+      "name": "Coso & Precita Mini Park",
+      "acres": 0.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74624859,
+        "lon": -122.41813353
+      }
+    },
+    {
+      "name": "Rolph Nicol Playground",
+      "acres": 3.62,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73063451,
+        "lon": -122.48054619
+      }
+    },
+    {
+      "name": "Pine Lake Park",
+      "acres": 30.77,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73631415,
+        "lon": -122.48593875
+      }
+    },
+    {
+      "name": "Potrero del Sol",
+      "acres": 4.68,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75060722,
+        "lon": -122.40509795
+      }
+    },
+    {
+      "name": "St. Mary's Rec Center",
+      "acres": 13.6,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.73367487,
+        "lon": -122.42067123
+      }
+    },
+    {
+      "name": "Sunnyside Conservatory",
+      "acres": 0.25,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.73192942,
+        "lon": -122.44078012
+      }
+    },
+    {
+      "name": "Topaz Open Space",
+      "acres": 0.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74171232,
+        "lon": -122.43616701
+      }
+    },
+    {
+      "name": "Alice Marble Courts",
+      "acres": 0.84,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80146337,
+        "lon": -122.42009519
+      }
+    },
+    {
+      "name": "Dorothy Erskine Park",
+      "acres": 1.6,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73391837,
+        "lon": -122.43945927
+      }
+    },
+    {
+      "name": "Aptos Playground",
+      "acres": 4.99,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.72852771,
+        "lon": -122.46657164
+      }
+    },
+    {
+      "name": "Connecticut Friendship Garden",
+      "acres": 0.14,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.75740481,
+        "lon": -122.39730975
+      }
+    },
+    {
+      "name": "Arkansas Friendship Garden",
+      "acres": 0.13,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.75736361,
+        "lon": -122.39765273
+      }
+    },
+    {
+      "name": "Potrero Hill Mini Park",
+      "acres": 0.22,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.75740062,
+        "lon": -122.3966674
+      }
+    },
+    {
+      "name": "Duncan & Castro Open Space",
+      "acres": 0.65,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74597219,
+        "lon": -122.43340907
+      }
+    },
+    {
+      "name": "Head & Brotherood Mini Park",
+      "acres": 0.52,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71263119,
+        "lon": -122.46423249
+      }
+    },
+    {
+      "name": "Balboa Park",
+      "acres": 24.86,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.72495974,
+        "lon": -122.44462514
+      }
+    },
+    {
+      "name": "Bernal Heights Rec Center",
+      "acres": 0.83,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.73845177,
+        "lon": -122.41617543
+      }
+    },
+    {
+      "name": "Cabrillo Playground",
+      "acres": 1.01,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77287238,
+        "lon": -122.49871358
+      }
+    },
+    {
+      "name": "Turk & Hyde Mini Park",
+      "acres": 0.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78273207,
+        "lon": -122.4159536
+      }
+    },
+    {
+      "name": "Upper Noe Rec Center",
+      "acres": 2.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74243925,
+        "lon": -122.42784323
+      }
+    },
+    {
+      "name": "Fallen Bridge Mini Park",
+      "acres": 0.32,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.76232205,
+        "lon": -122.40606709
+      }
+    },
+    {
+      "name": "Washington Square",
+      "acres": 2.75,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80083622,
+        "lon": -122.41005302
+      }
+    },
+    {
+      "name": "Everson & Digby Lots",
+      "acres": 1.27,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73809212,
+        "lon": -122.43179489
+      }
+    },
+    {
+      "name": "Joseph Lee Rec Center",
+      "acres": 0.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73473606,
+        "lon": -122.3897433
+      }
+    },
+    {
+      "name": "Selby & Palou Mini Park",
+      "acres": 0.42,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73887303,
+        "lon": -122.40039427
+      }
+    },
+    {
+      "name": "Saturn Street Steps",
+      "acres": 0.19,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76272603,
+        "lon": -122.44054696
+      }
+    },
+    {
+      "name": "Little Hollywood Park",
+      "acres": 1.47,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.70999032,
+        "lon": -122.39823747
+      }
+    },
+    {
+      "name": "Rocky Outcrop",
+      "acres": 1.67,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75384715,
+        "lon": -122.47087844
+      }
+    },
+    {
+      "name": "Ridgetop Plaza",
+      "acres": 0.75,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73391458,
+        "lon": -122.38350986
+      }
+    },
+    {
+      "name": "Adam Rodgers Park",
+      "acres": 2.77,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73101787,
+        "lon": -122.38386381
+      }
+    },
+    {
+      "name": "Alioto Mini Park",
+      "acres": 0.21,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75888932,
+        "lon": -122.41821465
+      }
+    },
+    {
+      "name": "Michelangelo Playground",
+      "acres": 0.48,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80112112,
+        "lon": -122.41691652
+      }
+    },
+    {
+      "name": "Allyne Park",
+      "acres": 0.88,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.79744847,
+        "lon": -122.42758433
+      }
+    },
+    {
+      "name": "Hilltop Park",
+      "acres": 3.83,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73293151,
+        "lon": -122.38350381
+      }
+    },
+    {
+      "name": "Richmond Rec Center",
+      "acres": 0.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78327503,
+        "lon": -122.47798997
+      }
+    },
+    {
+      "name": "Richmond Playground",
+      "acres": 0.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78513522,
+        "lon": -122.4781249
+      }
+    },
+    {
+      "name": "McCoppin Square",
+      "acres": 7.91,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.7438434,
+        "lon": -122.48009851
+      }
+    },
+    {
+      "name": "Coleridge Mini Park",
+      "acres": 0.23,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74441806,
+        "lon": -122.41965561
+      }
+    },
+    {
+      "name": "Cottage Row Mini Park",
+      "acres": 0.17,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78656476,
+        "lon": -122.43232104
+      }
+    },
+    {
+      "name": "Jefferson Square",
+      "acres": 6.43,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78180437,
+        "lon": -122.42567952
+      }
+    },
+    {
+      "name": "Esprit Park",
+      "acres": 2.23,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.76099117,
+        "lon": -122.39100688
+      }
+    },
+    {
+      "name": "Excelsior Playground",
+      "acres": 1.91,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.72034899,
+        "lon": -122.43324049
+      }
+    },
+    {
+      "name": "Father Alfred Boeddeker Park",
+      "acres": 1.09,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78438652,
+        "lon": -122.41208747
+      }
+    },
+    {
+      "name": "Ina Coolbrith Park",
+      "acres": 0.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.7981701,
+        "lon": -122.41339661
+      }
+    },
+    {
+      "name": "J.P. Murphy Playground",
+      "acres": 1.33,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75180377,
+        "lon": -122.4650326
+      }
+    },
+    {
+      "name": "Fay Park",
+      "acres": 0.33,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80291182,
+        "lon": -122.41788656
+      }
+    },
+    {
+      "name": "Palou & Phelps Park",
+      "acres": 2.79,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73552432,
+        "lon": -122.39474893
+      }
+    },
+    {
+      "name": "Eugene Friend Rec Center",
+      "acres": 1.16,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77863923,
+        "lon": -122.40634866
+      }
+    },
+    {
+      "name": "Gilman Playground",
+      "acres": 4.86,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71722092,
+        "lon": -122.38806931
+      }
+    },
+    {
+      "name": "Golden Gate & Steiner Mini Park",
+      "acres": 0.12,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77957209,
+        "lon": -122.43348704
+      }
+    },
+    {
+      "name": "Japantown Peace Plaza",
+      "acres": 0.8,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78522059,
+        "lon": -122.42976491
+      }
+    },
+    {
+      "name": "Brooks Park",
+      "acres": 3.79,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71728548,
+        "lon": -122.46679189
+      }
+    },
+    {
+      "name": "Grattan Playground",
+      "acres": 1.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76259819,
+        "lon": -122.45148972
+      }
+    },
+    {
+      "name": "Chestnut & Kearny Open Space",
+      "acres": 0.05,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80464044,
+        "lon": -122.40711737
+      }
+    },
+    {
+      "name": "Hamilton Rec Center",
+      "acres": 3.65,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78442364,
+        "lon": -122.43601635
+      }
+    },
+    {
+      "name": "Hayes Valley Playground",
+      "acres": 0.75,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77606887,
+        "lon": -122.42740647
+      }
+    },
+    {
+      "name": "Helen Wills PG",
+      "acres": 0.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79579519,
+        "lon": -122.42065279
+      }
+    },
+    {
+      "name": "Jackson Playground",
+      "acres": 4.94,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.76431708,
+        "lon": -122.39962279
+      }
+    },
+    {
+      "name": "Jose Coronado Playground",
+      "acres": 0.97,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75753089,
+        "lon": -122.41511679
+      }
+    },
+    {
+      "name": "Junipero Serra Playground",
+      "acres": 1.75,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.72481504,
+        "lon": -122.47386448
+      }
+    },
+    {
+      "name": "Kelloch & Velasco Mini Park",
+      "acres": 1.96,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.70853932,
+        "lon": -122.41315618
+      }
+    },
+    {
+      "name": "Kid Power Park",
+      "acres": 0.26,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.76415832,
+        "lon": -122.42031034
+      }
+    },
+    {
+      "name": "Koshland Park",
+      "acres": 0.96,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77327033,
+        "lon": -122.42677179
+      }
+    },
+    {
+      "name": "White Crane Springs",
+      "acres": 0.46,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75662603,
+        "lon": -122.46316869
+      }
+    },
+    {
+      "name": "Cayuga Playground",
+      "acres": 3.56,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71389148,
+        "lon": -122.45035425
+      }
+    },
+    {
+      "name": "Joe DiMaggio Playground",
+      "acres": 2.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80249695,
+        "lon": -122.41216884
+      }
+    },
+    {
+      "name": "Shoreview Park",
+      "acres": 0.95,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73186263,
+        "lon": -122.38106567
+      }
+    },
+    {
+      "name": "Heron's Head Park",
+      "acres": 0.58,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73986494,
+        "lon": -122.375717
+      }
+    },
+    {
+      "name": "Douglass Playground",
+      "acres": 7.89,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74729064,
+        "lon": -122.43892205
+      }
+    },
+    {
+      "name": "Lafayette Park",
+      "acres": 12.48,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.79155487,
+        "lon": -122.42768677
+      }
+    },
+    {
+      "name": "Glen Canyon Park",
+      "acres": 70.7,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8",
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.74017042,
+        "lon": -122.44268074
+      }
+    },
+    {
+      "name": "States Street Playground",
+      "acres": 2.91,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76379644,
+        "lon": -122.43786447
+      }
+    },
+    {
+      "name": "Interior Greenbelt",
+      "acres": 19.46,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7",
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75934728,
+        "lon": -122.4537706
+      }
+    },
+    {
+      "name": "Parkside Square",
+      "acres": 8.85,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73797859,
+        "lon": -122.48393354
+      }
+    },
+    {
+      "name": "James Rolph Jr. Playground",
+      "acres": 2.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74973246,
+        "lon": -122.40624443
+      }
+    },
+    {
+      "name": "Portola Open Space",
+      "acres": 0.81,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74707923,
+        "lon": -122.44407264
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 7",
+      "acres": 102.23,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7",
+        "5",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.76845534,
+        "lon": -122.46075895
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 5",
+      "acres": 224.1,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "4",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.76940891,
+        "lon": -122.49130313
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 1",
+      "acres": 115.88,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "1",
+        "5",
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.77139097,
+        "lon": -122.45529391
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 2",
+      "acres": 81.27,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77090391,
+        "lon": -122.46603321
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 3",
+      "acres": 52.73,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.76726835,
+        "lon": -122.47039125
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 4",
+      "acres": 243.52,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "4",
+        "7",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.76889364,
+        "lon": -122.4790922
+      }
+    },
+    {
+      "name": "Golden Gate Park - Section 6",
+      "acres": 212.13,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "4",
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.7677299,
+        "lon": -122.50423848
+      }
+    },
+    {
+      "name": "Juri Commons",
+      "acres": 0.32,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74950897,
+        "lon": -122.42200565
+      }
+    },
+    {
+      "name": "South Park",
+      "acres": 1.12,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.78158458,
+        "lon": -122.39396542
+      }
+    },
+    {
+      "name": "Geneva Community Garden",
+      "acres": 0.29,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.72044701,
+        "lon": -122.44546095
+      }
+    },
+    {
+      "name": "Mission Creek Park",
+      "acres": 17.17,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77251887,
+        "lon": -122.39540704
+      }
+    },
+    {
+      "name": "Margaret S.Hayward PG",
+      "acres": 5.85,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78087014,
+        "lon": -122.42542743
+      }
+    },
+    {
+      "name": "49 S Van Ness Avenue",
+      "acres": 2.53,
+      "category": "Mini Park (<10 acres)",
+      "type": "Other Non-Park Property",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77419146,
+        "lon": -122.41813985
+      }
+    },
+    {
+      "name": "Camp Mather",
+      "acres": 338.0,
+      "category": "Regional Park (100+ acres)",
+      "type": "Family Camp",
+      "districts": [],
+      "coordinates": {
+        "lat": 37.88160756,
+        "lon": -119.85077279
+      }
+    },
+    {
+      "name": "Lake Merced Park",
+      "acres": 608.58,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.7218412,
+        "lon": -122.49239057
+      }
+    },
+    {
+      "name": "Union Square",
+      "acres": 2.6,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.78793628,
+        "lon": -122.40751369
+      }
+    },
+    {
+      "name": "Presidio Wall Playground",
+      "acres": 12.38,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.79131812,
+        "lon": -122.45398596
+      }
+    },
+    {
+      "name": "Twin Peaks",
+      "acres": 56.49,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7",
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75271359,
+        "lon": -122.44749601
+      }
+    },
+    {
+      "name": "Rochambeau Playground",
+      "acres": 0.91,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78484403,
+        "lon": -122.4845469
+      }
+    },
+    {
+      "name": "Berkeley Way Open Space",
+      "acres": 0.83,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73957202,
+        "lon": -122.43997224
+      }
+    },
+    {
+      "name": "Lessing & Sears Mini Park",
+      "acres": 0.17,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.70862323,
+        "lon": -122.45533612
+      }
+    },
+    {
+      "name": "Balboa Natural Area",
+      "acres": 1.84,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.7759179,
+        "lon": -122.51105271
+      }
+    },
+    {
+      "name": "Embarcadero Plaza",
+      "acres": 4.14,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79492396,
+        "lon": -122.39478498
+      }
+    },
+    {
+      "name": "Park Presidio Blvd",
+      "acres": 20.39,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Parkway",
+      "districts": [
+        "1",
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78013983,
+        "lon": -122.47230061
+      }
+    },
+    {
+      "name": "24th & York Mini Park",
+      "acres": 0.13,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75304904,
+        "lon": -122.40858706
+      }
+    },
+    {
+      "name": "Sharp Park",
+      "acres": 409.75,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [],
+      "coordinates": {
+        "lat": 37.62439947,
+        "lon": -122.48190638
+      }
+    },
+    {
+      "name": "Arlington Community Garden",
+      "acres": 0.13,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73704633,
+        "lon": -122.42638937
+      }
+    },
+    {
+      "name": "Bernal Heights Branch Library",
+      "acres": 0.21,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.73885485,
+        "lon": -122.41613392
+      }
+    },
+    {
+      "name": "Victoria Manalo Draves Park",
+      "acres": 2.7,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77700902,
+        "lon": -122.40597932
+      }
+    },
+    {
+      "name": "Yacht Harbor and Marina Green",
+      "acres": 165.47,
+      "category": "Regional Park (100+ acres)",
+      "type": "Regional Park",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.80796275,
+        "lon": -122.44119806
+      }
+    },
+    {
+      "name": "Tenderloin Rec Center",
+      "acres": 0.66,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78480948,
+        "lon": -122.41541208
+      }
+    },
+    {
+      "name": "West Sunset Playground",
+      "acres": 17.79,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.74902491,
+        "lon": -122.49809427
+      }
+    },
+    {
+      "name": "Walter Haas Playground",
+      "acres": 4.63,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74058745,
+        "lon": -122.43438377
+      }
+    },
+    {
+      "name": "St. Mary's Square",
+      "acres": 1.44,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79197897,
+        "lon": -122.40512268
+      }
+    },
+    {
+      "name": "Muriel Leff Mini Park",
+      "acres": 0.24,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78006853,
+        "lon": -122.46504709
+      }
+    },
+    {
+      "name": "Sunset Rec Center",
+      "acres": 3.88,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.75659386,
+        "lon": -122.48685659
+      }
+    },
+    {
+      "name": "Presidio Heights Playground",
+      "acres": 0.49,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78849618,
+        "lon": -122.4496145
+      }
+    },
+    {
+      "name": "South Sunset Playground",
+      "acres": 4.11,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73738883,
+        "lon": -122.49843918
+      }
+    },
+    {
+      "name": "Silver Terrace Playground",
+      "acres": 5.57,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73287274,
+        "lon": -122.4031744
+      }
+    },
+    {
+      "name": "Sigmund Stern Recreation Grove",
+      "acres": 34.77,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73609813,
+        "lon": -122.47829483
+      }
+    },
+    {
+      "name": "Prentiss Mini Park",
+      "acres": 0.07,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74022335,
+        "lon": -122.4118975
+      }
+    },
+    {
+      "name": "Sgt. John Macaulay Park",
+      "acres": 0.28,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78540076,
+        "lon": -122.41819118
+      }
+    },
+    {
+      "name": "Raymond Kimball Playground",
+      "acres": 6.02,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78294796,
+        "lon": -122.43512666
+      }
+    },
+    {
+      "name": "Portsmouth Square",
+      "acres": 1.48,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79484118,
+        "lon": -122.4053557
+      }
+    },
+    {
+      "name": "Parque Ninos Unidos",
+      "acres": 0.7,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75437961,
+        "lon": -122.41357025
+      }
+    },
+    {
+      "name": "Palega Playground",
+      "acres": 5.41,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.7293471,
+        "lon": -122.40979319
+      }
+    },
+    {
+      "name": "Franklin Square",
+      "acres": 5.6,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.76501382,
+        "lon": -122.40935317
+      }
+    },
+    {
+      "name": "Anza Branch Library",
+      "acres": 0.24,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77853641,
+        "lon": -122.4972188
+      }
+    },
+    {
+      "name": "Laurel Hill Playground",
+      "acres": 1.61,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78395928,
+        "lon": -122.45093716
+      }
+    },
+    {
+      "name": "Buena Vista Park",
+      "acres": 38.35,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76856416,
+        "lon": -122.44139746
+      }
+    },
+    {
+      "name": "Betty Ann Ong Rec Center",
+      "acres": 0.75,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79423135,
+        "lon": -122.41177669
+      }
+    },
+    {
+      "name": "Crocker Amazon Playground",
+      "acres": 57.52,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11",
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.7140419,
+        "lon": -122.42928813
+      }
+    },
+    {
+      "name": "Sue Bierman Park",
+      "acres": 4.47,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79592351,
+        "lon": -122.39657354
+      }
+    },
+    {
+      "name": "Sunnyside Playground",
+      "acres": 2.6,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.7336695,
+        "lon": -122.44747289
+      }
+    },
+    {
+      "name": "Grand View Park",
+      "acres": 4.14,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75646274,
+        "lon": -122.47181036
+      }
+    },
+    {
+      "name": "West Portal Playground",
+      "acres": 1.31,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.74183821,
+        "lon": -122.46507956
+      }
+    },
+    {
+      "name": "Ralph D. House Community Park",
+      "acres": 0.17,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71768972,
+        "lon": -122.3958265
+      }
+    },
+    {
+      "name": "Patricia's Green in Hayes Valley",
+      "acres": 0.48,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77622794,
+        "lon": -122.42442628
+      }
+    },
+    {
+      "name": "Roosevelt & Henry Stairs",
+      "acres": 0.39,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76656233,
+        "lon": -122.43734119
+      }
+    },
+    {
+      "name": "Noe Valley Town Square",
+      "acres": 0.28,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75138586,
+        "lon": -122.42898979
+      }
+    },
+    {
+      "name": "Guy Place Mini Park",
+      "acres": 0.09,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.78668187,
+        "lon": -122.39439836
+      }
+    },
+    {
+      "name": "SOMA West Skate Park",
+      "acres": 0.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6",
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.77018778,
+        "lon": -122.42104261
+      }
+    },
+    {
+      "name": "SOMA West Dog Park",
+      "acres": 0.62,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6",
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.7704551,
+        "lon": -122.42200356
+      }
+    },
+    {
+      "name": "Visitacion Valley Greenway",
+      "acres": 2.43,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71477443,
+        "lon": -122.40614491
+      }
+    },
+    {
+      "name": "Corona Heights Park",
+      "acres": 13.25,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76498176,
+        "lon": -122.43881015
+      }
+    },
+    {
+      "name": "In Chan Kaajal Park",
+      "acres": 0.86,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.76391619,
+        "lon": -122.4157528
+      }
+    },
+    {
+      "name": "Joseph Conrad Square",
+      "acres": 0.15,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.8066775,
+        "lon": -122.41907594
+      }
+    },
+    {
+      "name": "15th Avenue Steps",
+      "acres": 0.51,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.75956994,
+        "lon": -122.47228105
+      }
+    },
+    {
+      "name": "Ingleside Branch Library",
+      "acres": 0.36,
+      "category": "Mini Park (<10 acres)",
+      "type": "Library",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.72415838,
+        "lon": -122.45614197
+      }
+    },
+    {
+      "name": "900 Innes",
+      "acres": 2.98,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73273891,
+        "lon": -122.37539185
+      }
+    },
+    {
+      "name": "Mariposa Park",
+      "acres": 2.66,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.76462447,
+        "lon": -122.39177276
+      }
+    },
+    {
+      "name": "Mission Bay Park",
+      "acres": 11.62,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "6"
+      ],
+      "coordinates": {
+        "lat": 37.77069685,
+        "lon": -122.39276689
+      }
+    },
+    {
+      "name": "UN Plaza",
+      "acres": 2.66,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78008694,
+        "lon": -122.4139491
+      }
+    },
+    {
+      "name": "Telegraph Hill - Pioneer Park",
+      "acres": 4.82,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.80279531,
+        "lon": -122.40585296
+      }
+    },
+    {
+      "name": "10th Ave & Clement Mini Park",
+      "acres": 0.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78184902,
+        "lon": -122.46811226
+      }
+    },
+    {
+      "name": "Alice Chalmers Playground",
+      "acres": 1.82,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.70982341,
+        "lon": -122.44665863
+      }
+    },
+    {
+      "name": "Alamo Square",
+      "acres": 13.65,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77634695,
+        "lon": -122.43468604
+      }
+    },
+    {
+      "name": "29th & Diamond Open Space",
+      "acres": 0.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74358663,
+        "lon": -122.43526588
+      }
+    },
+    {
+      "name": "Alta Plaza Park",
+      "acres": 12.94,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.79117837,
+        "lon": -122.43768317
+      }
+    },
+    {
+      "name": "Angelo J. Rossi Playground",
+      "acres": 7.08,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77874981,
+        "lon": -122.45749604
+      }
+    },
+    {
+      "name": "Argonne Playground",
+      "acres": 0.92,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.77942003,
+        "lon": -122.47771293
+      }
+    },
+    {
+      "name": "Potrero Hill Rec Center",
+      "acres": 10.07,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.75614147,
+        "lon": -122.39693963
+      }
+    },
+    {
+      "name": "Bayview K.C. Jones Playground",
+      "acres": 3.91,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.72594209,
+        "lon": -122.39329981
+      }
+    },
+    {
+      "name": "Beideman & O'Farrell Mini Park",
+      "acres": 0.09,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78240944,
+        "lon": -122.43861159
+      }
+    },
+    {
+      "name": "Bush & Broderick Mini Park",
+      "acres": 0.2,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78559708,
+        "lon": -122.4425508
+      }
+    },
+    {
+      "name": "Carl Larsen Park",
+      "acres": 7.34,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "4"
+      ],
+      "coordinates": {
+        "lat": 37.73928981,
+        "lon": -122.4759929
+      }
+    },
+    {
+      "name": "Collis P. Huntington Park",
+      "acres": 1.3,
+      "category": "Mini Park (<10 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79216622,
+        "lon": -122.4121807
+      }
+    },
+    {
+      "name": "Diamond & Farnum Open Space",
+      "acres": 0.08,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.73880732,
+        "lon": -122.43432662
+      }
+    },
+    {
+      "name": "Duboce Park",
+      "acres": 4.79,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76961523,
+        "lon": -122.43345618
+      }
+    },
+    {
+      "name": "DuPont Tennis Courts",
+      "acres": 0.93,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1"
+      ],
+      "coordinates": {
+        "lat": 37.78269292,
+        "lon": -122.49084631
+      }
+    },
+    {
+      "name": "Edgehill Mountain",
+      "acres": 2.42,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.74203947,
+        "lon": -122.45978223
+      }
+    },
+    {
+      "name": "Eureka Valley Rec Center",
+      "acres": 2.25,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75977273,
+        "lon": -122.43648654
+      }
+    },
+    {
+      "name": "Fairmont Plaza",
+      "acres": 0.87,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.7385081,
+        "lon": -122.42912802
+      }
+    },
+    {
+      "name": "Fillmore & Turk Mini Park",
+      "acres": 0.26,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.78019554,
+        "lon": -122.43180917
+      }
+    },
+    {
+      "name": "Francisco Park",
+      "acres": 4.89,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.80397142,
+        "lon": -122.42087848
+      }
+    },
+    {
+      "name": "Garfield Square",
+      "acres": 3.46,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75020974,
+        "lon": -122.4122493
+      }
+    },
+    {
+      "name": "George Christopher Playground",
+      "acres": 6.97,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.74347991,
+        "lon": -122.44054794
+      }
+    },
+    {
+      "name": "Good Prospect Community Garden",
+      "acres": 0.05,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.74002734,
+        "lon": -122.42099278
+      }
+    },
+    {
+      "name": "Merced Heights Playground",
+      "acres": 1.23,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71752783,
+        "lon": -122.47029461
+      }
+    },
+    {
+      "name": "Minnie and Lovie Ward Rec Center",
+      "acres": 11.12,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "11"
+      ],
+      "coordinates": {
+        "lat": 37.71576894,
+        "lon": -122.45758848
+      }
+    },
+    {
+      "name": "Miraloma Playground",
+      "acres": 2.43,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.73864566,
+        "lon": -122.44931381
+      }
+    },
+    {
+      "name": "Mission Dolores Park",
+      "acres": 15.99,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75975462,
+        "lon": -122.42712797
+      }
+    },
+    {
+      "name": "Mission Playground",
+      "acres": 2.14,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75931092,
+        "lon": -122.42231703
+      }
+    },
+    {
+      "name": "Mission Rec Center",
+      "acres": 0.71,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "9"
+      ],
+      "coordinates": {
+        "lat": 37.75814215,
+        "lon": -122.41292683
+      }
+    },
+    {
+      "name": "Moscone Rec Center",
+      "acres": 12.73,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.80213066,
+        "lon": -122.4331224
+      }
+    },
+    {
+      "name": "Mountain Lake Park",
+      "acres": 12.96,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "1",
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.78724185,
+        "lon": -122.4691026
+      }
+    },
+    {
+      "name": "Mt. Davidson Park",
+      "acres": 40.72,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Regional Park",
+      "districts": [
+        "7"
+      ],
+      "coordinates": {
+        "lat": 37.73906794,
+        "lon": -122.45466691
+      }
+    },
+    {
+      "name": "Mt. Olympus",
+      "acres": 0.21,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76331267,
+        "lon": -122.44555372
+      }
+    },
+    {
+      "name": "Noe & Beaver Mini Park",
+      "acres": 0.11,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.76494425,
+        "lon": -122.43342899
+      }
+    },
+    {
+      "name": "Noe Valley Courts",
+      "acres": 1.1,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "8"
+      ],
+      "coordinates": {
+        "lat": 37.75141364,
+        "lon": -122.43891427
+      }
+    },
+    {
+      "name": "Page & Laguna Mini Park",
+      "acres": 0.18,
+      "category": "Mini Park (<10 acres)",
+      "type": "Mini Park",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77347729,
+        "lon": -122.42526321
+      }
+    },
+    {
+      "name": "Page Street Community Garden",
+      "acres": 0.09,
+      "category": "Mini Park (<10 acres)",
+      "type": "Community Garden",
+      "districts": [
+        "5"
+      ],
+      "coordinates": {
+        "lat": 37.77361752,
+        "lon": -122.4281125
+      }
+    },
+    {
+      "name": "Palace of Fine Arts",
+      "acres": 19.74,
+      "category": "Neighborhood Park (10-99 acres)",
+      "type": "Civic Plaza or Square",
+      "districts": [
+        "2"
+      ],
+      "coordinates": {
+        "lat": 37.80300818,
+        "lon": -122.44850174
+      }
+    },
+    {
+      "name": "Shipyard Parks",
+      "acres": 7.96,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.72763731,
+        "lon": -122.36708736
+      }
+    },
+    {
+      "name": "Youngblood-Coleman Playground",
+      "acres": 6.45,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.73877408,
+        "lon": -122.38450283
+      }
+    },
+    {
+      "name": "Yik Oi Huang Peace & Friendship Park Picnic Area",
+      "acres": 2.31,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "10"
+      ],
+      "coordinates": {
+        "lat": 37.71240228,
+        "lon": -122.40907319
+      }
+    },
+    {
+      "name": "Woh Hei Yuen Playground",
+      "acres": 0.36,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79585942,
+        "lon": -122.41033816
+      }
+    },
+    {
+      "name": "Willie Woo Woo Wong Playground",
+      "acres": 0.66,
+      "category": "Mini Park (<10 acres)",
+      "type": "Neighborhood Park or Playground",
+      "districts": [
+        "3"
+      ],
+      "coordinates": {
+        "lat": 37.79358112,
+        "lon": -122.40718879
+      }
+    }
+  ]
+}
