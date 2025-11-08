@@ -21,123 +21,57 @@
           services, and who shoulders the heaviest housing costs.
         </p>
         <div class="hero-actions">
-          <a class="cta" href="#hook-map">Jump to the maps</a>
-          <a class="ghost" href="#insight-business">See the first insight</a>
+          <a class="cta" href="#insight-business">Start with the story</a>
+          <a class="ghost" href="#open-explore">Jump to open exploration</a>
         </div>
       </header>
 
       <nav class="story-nav" aria-label="Section navigation">
-        <button type="button" data-target="#hook-map">Hook</button>
         <button type="button" data-target="#insight-business">Business Density</button>
         <button type="button" data-target="#insight-colocation">Resource Gaps</button>
         <button type="button" data-target="#insight-housing">Housing Pressure</button>
         <button type="button" data-target="#insight-rent">Rent Trends</button>
         <button type="button" data-target="#solutions">Solutions</button>
+        <button type="button" data-target="#open-explore">Open Exploration</button>
       </nav>
 
+      <section class="tour-banner" aria-label="Guided tour controls">
+        <div class="tour-copy">
+          <h2>Let the visuals walk you through</h2>
+          <p>
+            Press play to watch each insight highlight on the maps and charts automatically. Pause anytime, or stop to
+            take over manually.
+          </p>
+        </div>
+        <div class="tour-bar">
+          <div class="tour-actions" role="group" aria-label="Tour playback controls">
+            <button id="tour-play" class="btn-primary" type="button" disabled>Play tour</button>
+            <button id="tour-pause" class="btn-secondary" type="button" disabled>Pause</button>
+            <button id="tour-stop" class="btn-secondary" type="button" disabled>Stop</button>
+          </div>
+          <div class="tour-narration" aria-live="polite">
+            <p id="tour-status" class="tour-status">Preparing the guided tour…</p>
+            <p id="tour-script" class="tour-script">
+              This narration ticker summarizes each scene while the tour runs.
+            </p>
+            <div class="tour-audio">
+              <button id="tour-audio-toggle" type="button" class="btn-ghost" aria-pressed="false">
+                Enable narration audio
+              </button>
+              <label class="audio-voice" for="tour-voice">
+                <span>Voice</span>
+                <select id="tour-voice" disabled>
+                  <option>Loading voices…</option>
+                </select>
+              </label>
+              <p id="tour-audio-hint" class="audio-hint">Requires browser speech synthesis support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <main>
-        <section id="hook-map" class="story-section section-hook">
-          <div class="section-header">
-            <h2>Same City, Different Worlds</h2>
-            <p>
-              Parks sprawl along the western edge while businesses pack tightly into the downtown core. Toggle the
-              layers to see how Mission and Sunset residents experience two different San Franciscos.
-            </p>
-          </div>
-          <form class="zip-search" id="zip-search" aria-label="Look up a San Francisco ZIP code">
-            <label for="zip-input">Find your ZIP code</label>
-            <div class="zip-search-controls">
-              <input
-                id="zip-input"
-                name="zip"
-                type="text"
-                inputmode="numeric"
-                pattern="\d{5}"
-                maxlength="5"
-                placeholder="e.g., 94107"
-                list="zip-options"
-                aria-describedby="zip-hint"
-                required
-              />
-              <button type="submit" class="btn-primary">Show my insights</button>
-              <button type="button" class="btn-reset" id="zip-reset">Clear</button>
-            </div>
-            <p class="zip-search-hint" id="zip-hint">Enter any San Francisco ZIP code to spotlight its businesses, parks, and facilities.</p>
-            <datalist id="zip-options"></datalist>
-            <div class="address-divider" role="presentation"></div>
-            <label for="address-input">Or search an address</label>
-            <div class="zip-search-controls">
-              <input
-                id="address-input"
-                name="address"
-                type="text"
-                placeholder="e.g., 1 Dr Carlton B Goodlett Pl"
-                list="address-options"
-                aria-describedby="address-hint"
-              />
-              <button type="button" class="btn-secondary" id="address-search">Locate address</button>
-            </div>
-            <p class="zip-search-hint" id="address-hint">Matches use city datasets for parks and facilities. Partial names are fine.</p>
-            <datalist id="address-options"></datalist>
-          </form>
-          <div class="hook-grid">
-            <div class="map-panel">
-              <h3>Parks by Acreage</h3>
-              <div id="parks-map" class="map-frame" role="img" aria-label="Map of San Francisco parks sized by acreage"></div>
-            </div>
-            <div class="map-panel">
-              <h3>Business Concentration</h3>
-              <div
-                id="business-map"
-                class="map-frame"
-                role="img"
-                aria-label="Map of San Francisco business density by neighborhood"
-              ></div>
-            </div>
-            <article class="chart-card hook-chart">
-              <header>
-                <h3>Active businesses by ZIP code</h3>
-                <p class="chart-meta">Sorted by share of all San Francisco business locations</p>
-              </header>
-              <div class="controls-row" role="group" aria-label="Business chart view controls">
-                <label class="toggle">
-                  <input type="radio" name="business-sort" value="share" checked />
-                  <span>Share of city total</span>
-                </label>
-                <label class="toggle">
-                  <input type="radio" name="business-sort" value="count" />
-                  <span>Total businesses</span>
-                </label>
-              </div>
-              <p class="chart-hint">Hover a bar to spotlight its dominant neighborhoods on the maps.</p>
-              <p
-                class="chart-highlight"
-                id="business-highlight"
-                data-default="Hover a ZIP bar or a business bubble to see which neighborhoods are linked."
-                aria-live="polite"
-              >
-                Hover a ZIP bar or a business bubble to see which neighborhoods are linked.
-              </p>
-              <figure>
-                <svg id="business-zip-chart" aria-labelledby="business-zip-title business-zip-desc"></svg>
-                <figcaption id="business-zip-desc">
-                  Hover to reveal counts and dominant sectors for each ZIP code.
-                </figcaption>
-              </figure>
-            </article>
-          </div>
-          <aside class="callout">
-            <h4>Key takeaway</h4>
-            <p>
-              Regional parks over 100 acres cluster west of <span aria-hidden="true">-122.45°</span>, while 45% of the
-              city's businesses are located within five ZIP codes east of <span aria-hidden="true">-122.42°</span>.
-            </p>
-          </aside>
-          <article class="chart-card zip-summary" id="zip-summary" aria-live="polite">
-            <h3>ZIP-specific insight</h3>
-            <p>Select a ZIP code above to see business density, dominant sectors, and nearby neighborhoods highlighted on the maps.</p>
-          </article>
-        </section>
+        
 
         <section id="insight-business" class="story-section">
           <div class="section-header">
@@ -161,7 +95,7 @@
                 <li><span class="dot dot-park"></span>Patterns mirror park and facility gaps</li>
               </ul>
               <p class="chart-reference">
-                <a href="#hook-map">The chart to the right updates live with the maps.</a>
+                <a href="#open-explore">Jump to the open exploration maps to see these highlights update live.</a>
               </p>
             </aside>
             <aside class="story-card">
@@ -346,6 +280,112 @@
               </p>
             </article>
           </div>
+        </section>
+        <section id="open-explore" class="story-section section-hook">
+          <div class="section-header">
+            <h2>Curious what the story looks like on your block?</h2>
+            <p>
+              Everything above shows the arc for the whole city. Use the same maps and chart to test the narrative
+              against your ZIP code or a specific address, then toggle layers to see where the patterns hold or break.
+            </p>
+          </div>
+          <form class="zip-search" id="zip-search" aria-label="Look up a San Francisco ZIP code">
+            <label for="zip-input">Find your ZIP code</label>
+            <div class="zip-search-controls">
+              <input
+                id="zip-input"
+                name="zip"
+                type="text"
+                inputmode="numeric"
+                pattern="\d{5}"
+                maxlength="5"
+                placeholder="e.g., 94107"
+                list="zip-options"
+                aria-describedby="zip-hint"
+                required
+              />
+              <button type="submit" class="btn-primary">Show my insights</button>
+              <button type="button" class="btn-reset" id="zip-reset">Clear</button>
+            </div>
+            <p class="zip-search-hint" id="zip-hint">
+              Enter any San Francisco ZIP code to spotlight its businesses, parks, and facilities.
+            </p>
+            <datalist id="zip-options"></datalist>
+            <div class="address-divider" role="presentation"></div>
+            <label for="address-input">Or search an address</label>
+            <div class="zip-search-controls">
+              <input
+                id="address-input"
+                name="address"
+                type="text"
+                placeholder="e.g., 1 Dr Carlton B Goodlett Pl"
+                list="address-options"
+                aria-describedby="address-hint"
+              />
+              <button type="button" class="btn-secondary" id="address-search">Locate address</button>
+            </div>
+            <p class="zip-search-hint" id="address-hint">
+              Matches use city datasets for parks and facilities. Partial names are fine.
+            </p>
+            <datalist id="address-options"></datalist>
+          </form>
+          <div class="hook-grid">
+            <div class="map-panel">
+              <h3>Parks by Acreage</h3>
+              <div id="parks-map" class="map-frame" role="img" aria-label="Map of San Francisco parks sized by acreage"></div>
+            </div>
+            <div class="map-panel">
+              <h3>Business Concentration</h3>
+              <div
+                id="business-map"
+                class="map-frame"
+                role="img"
+                aria-label="Map of San Francisco business density by neighborhood"
+              ></div>
+            </div>
+            <article class="chart-card hook-chart">
+              <header>
+                <h3>Active businesses by ZIP code</h3>
+                <p class="chart-meta">Sorted by share of all San Francisco business locations</p>
+              </header>
+              <div class="controls-row" role="group" aria-label="Business chart view controls">
+                <label class="toggle">
+                  <input type="radio" name="business-sort" value="share" checked />
+                  <span>Share of city total</span>
+                </label>
+                <label class="toggle">
+                  <input type="radio" name="business-sort" value="count" />
+                  <span>Total businesses</span>
+                </label>
+              </div>
+              <p class="chart-hint">Hover a bar to spotlight its dominant neighborhoods on the maps.</p>
+              <p
+                class="chart-highlight"
+                id="business-highlight"
+                data-default="Hover a ZIP bar or a business bubble to see which neighborhoods are linked."
+                aria-live="polite"
+              >
+                Hover a ZIP bar or a business bubble to see which neighborhoods are linked.
+              </p>
+              <figure>
+                <svg id="business-zip-chart" aria-labelledby="business-zip-title business-zip-desc"></svg>
+                <figcaption id="business-zip-desc">
+                  Hover to reveal counts and dominant sectors for each ZIP code.
+                </figcaption>
+              </figure>
+            </article>
+          </div>
+          <aside class="callout">
+            <h4>Key takeaway</h4>
+            <p>
+              Regional parks over 100 acres cluster west of <span aria-hidden="true">-122.45°</span>, while 45% of the
+              city's businesses are located within five ZIP codes east of <span aria-hidden="true">-122.42°</span>.
+            </p>
+          </aside>
+          <article class="chart-card zip-summary" id="zip-summary" aria-live="polite">
+            <h3>ZIP-specific insight</h3>
+            <p>Select a ZIP code above to see business density, dominant sectors, and nearby neighborhoods highlighted on the maps.</p>
+          </article>
         </section>
       </main>
 

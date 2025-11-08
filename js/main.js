@@ -23,8 +23,74 @@ const DATA_PATHS = {
   schoolCounts: "data/processed/school_counts_by_zip.json",
 };
 
+const TOUR_STEPS = [
+  {
+    id: "business-core",
+    neighborhoods: ["Financial District/South Beach", "Mission"],
+    status: "Business density piles up along the eastern spine.",
+    message: "Financial District/South Beach and Mission alone host over 65,000 listings—nearly a third of all records.",
+    narration:
+      "Scene 1: The tour opens downtown where Financial District/South Beach and Mission together hold nearly one-third of all listings.",
+    scrollTo: "#insight-business",
+    duration: 6500,
+  },
+  {
+    id: "resource-gap",
+    neighborhoods: ["South of Market", "Sunset/Parkside"],
+    status: "Layered resources show downtown saturation versus Sunset scarcity.",
+    message: "SOMA stacks jobs next to mini parks while Sunset/Parkside trades jobs for green space.",
+    narration:
+      "Scene 2: SOMA glows with jobs yet only mini parks, while Sunset/Parkside flips the script with acreage but fewer services.",
+    scrollTo: "#insight-colocation",
+    duration: 6500,
+  },
+  {
+    id: "housing-pressure",
+    neighborhoods: ["Tenderloin", "Bayview Hunters Point"],
+    status: "Housing cost burdens mirror the resource deserts.",
+    message: "Tenderloin and Bayview Hunters Point lead on severe renter burdens while civic facilities lag.",
+    narration:
+      "Scene 3: Housing charts reveal Tenderloin and Bayview Hunters Point bearing the heaviest renter burdens where services lag.",
+    scrollTo: "#insight-housing",
+    duration: 6500,
+  },
+  {
+    id: "rent-trend",
+    neighborhoods: ["Mission", "Outer Richmond"],
+    status: "Rents rebound citywide after the 2020 dip.",
+    message: "Mission and Outer Richmond both climb back toward pre-pandemic rents, keeping pressure high.",
+    narration:
+      "Scene 4: The rent timeline shows Mission and Outer Richmond both climbing back toward pre-pandemic peaks.",
+    scrollTo: "#insight-rent",
+    duration: 6500,
+  },
+  {
+    id: "explore",
+    neighborhoods: [],
+    status: "Now try the Open Exploration tools with your ZIP or address.",
+    message: "Ready to explore? Scroll to Open Exploration and plug in your own location.",
+    narration:
+      "Final scene: Take the controls—scroll to Open Exploration and plug in your ZIP or an address to keep investigating.",
+    scrollTo: "#open-explore",
+    duration: 6000,
+  },
+];
+
+const TOUR_STATUS_DEFAULT = "Press play to watch each insight highlight automatically.";
+const TOUR_NARRATION_DEFAULT = "This narration ticker summarizes each scene while the tour runs.";
+const SPEECH_SUPPORTED = typeof window !== "undefined" && "speechSynthesis" in window;
+const NARRATION_GAP_MS = 900;
+
 const tooltipEl = document.getElementById("tooltip");
 const highlightEl = document.getElementById("business-highlight");
+const tourPlayBtn = document.getElementById("tour-play");
+const tourPauseBtn = document.getElementById("tour-pause");
+const tourStopBtn = document.getElementById("tour-stop");
+const tourStatusEl = document.getElementById("tour-status");
+const tourNarrationEl = document.getElementById("tour-script");
+const tourAudioToggle = document.getElementById("tour-audio-toggle");
+const tourAudioHint = document.getElementById("tour-audio-hint");
+const tourVoiceSelect = document.getElementById("tour-voice");
 const highlightDefaultMessage =
   (highlightEl && highlightEl.dataset && highlightEl.dataset.default) ||
   "Hover a ZIP bar or a business bubble to see which neighborhoods are linked.";
@@ -48,12 +114,31 @@ const sharedState = {
   facilities: [],
   schools: [],
   schoolCountsByZip: new Map(),
+  citywideBusinessStats: null,
+  shareRanking: [],
+  tourTimeoutId: null,
+  tourStepIndex: -1,
+  tourActive: false,
+  dataReady: false,
+  tourPaused: false,
+  tourPendingStepDuration: 0,
+  tourRemainingDuration: 0,
+  tourStepTimestamp: 0,
+  narrationSupported: SPEECH_SUPPORTED,
+  narrationAudioEnabled: false,
+  currentTourNarration: "",
+  awaitingNarrationEnd: false,
+  availableVoices: [],
+  selectedVoiceURI: null,
+  pausedDuringNarration: false,
+  currentUtterance: null,
 };
 
 init();
 
 async function init() {
   attachNavListeners();
+  initTourControls();
 
   try {
     const [
@@ -92,6 +177,7 @@ async function init() {
     sharedState.facilities = facilities.entries || [];
     sharedState.schools = schools.entries || [];
     sharedState.schoolCountsByZip = new Map((schoolCounts.entries || []).map((entry) => [entry.zip, entry]));
+    sharedState.dataReady = true;
 
     createHookMaps(parks.entries, businessNeighborhoods.entries, centroidLookup, businessZip.total_businesses);
     createResourceMap(parks.entries, businessNeighborhoods.entries, centroidLookup, facilities.entries);
@@ -100,9 +186,14 @@ async function init() {
     renderRentTrendChart(rentTrend.entries);
     initLayerToggles();
     initializeZipSearch();
+    setTourButtonState(false);
+    updateTourStatus(TOUR_STATUS_DEFAULT);
+    updateTourNarration(TOUR_NARRATION_DEFAULT);
   } catch (error) {
     console.error(error);
     showTooltip(window.innerWidth / 2, window.innerHeight / 2, "Failed to load the data. Refresh to try again.");
+    updateTourStatus("Guided tour unavailable until the data loads successfully.");
+    updateTourNarration("Reload the page once data loads to enable the guided narration.");
   }
 }
 
@@ -234,7 +325,7 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
     marker.on("mouseover", () =>
       highlightNeighborhoods([entry.neighborhood], {
         type: "neighborhood",
-        source: "hook-map",
+        source: "open-explore",
         neighborhoods: [entry.neighborhood],
       })
     );
@@ -406,6 +497,19 @@ function renderBusinessZipChart(data) {
   const yScale = d3.scaleBand().range([0, chartHeight]).padding(0.2);
 
   let currentSort = "share";
+  const citywideShareAvg = d3.mean(data.entries, (d) => d.share_of_city) || 0;
+  const citywideShareMedian = d3.median(data.entries, (d) => d.share_of_city) || 0;
+  const citywideCountMedian = d3.median(data.entries, (d) => d.business_count) || 0;
+  sharedState.citywideBusinessStats = {
+    shareAvg: citywideShareAvg,
+    shareMedian: citywideShareMedian,
+    countMedian: citywideCountMedian,
+    totalZips: data.entries.length,
+  };
+  sharedState.shareRanking = data.entries
+    .slice()
+    .sort((a, b) => d3.descending(a.share_of_city, b.share_of_city))
+    .map((d) => d.zip);
 
   function update(sortKey = "share") {
     currentSort = sortKey;
@@ -423,6 +527,8 @@ function renderBusinessZipChart(data) {
     }
 
     chart.selectAll(".axis").remove();
+    chart.selectAll(".reference-line").remove();
+    chart.selectAll(".reference-label").remove();
 
     chart
       .append("g")
@@ -445,6 +551,50 @@ function renderBusinessZipChart(data) {
       .selectAll("text")
       .attr("fill", COLOR.text)
       .style("font-size", "0.8rem");
+
+    const stats = sharedState.citywideBusinessStats || {};
+    if (sortKey === "share" && stats.shareAvg) {
+      const x = xScale(stats.shareAvg);
+      chart
+        .append("line")
+        .attr("class", "reference-line")
+        .attr("x1", x)
+        .attr("x2", x)
+        .attr("y1", 0)
+        .attr("y2", chartHeight)
+        .attr("stroke", COLOR.text)
+        .attr("stroke-opacity", 0.3)
+        .attr("stroke-dasharray", "4,6");
+      chart
+        .append("text")
+        .attr("class", "reference-label")
+        .attr("x", x + 6)
+        .attr("y", -8)
+        .text(`City avg ${((stats.shareAvg || 0) * 100).toFixed(1)}%`)
+        .attr("fill", COLOR.text)
+        .style("font-size", "0.7rem");
+    }
+    if (sortKey === "count" && stats.countMedian) {
+      const x = xScale(stats.countMedian);
+      chart
+        .append("line")
+        .attr("class", "reference-line")
+        .attr("x1", x)
+        .attr("x2", x)
+        .attr("y1", 0)
+        .attr("y2", chartHeight)
+        .attr("stroke", COLOR.text)
+        .attr("stroke-opacity", 0.3)
+        .attr("stroke-dasharray", "4,6");
+      chart
+        .append("text")
+        .attr("class", "reference-label")
+        .attr("x", x + 6)
+        .attr("y", -8)
+        .text(`Median ${d3.format(",")(Math.round(stats.countMedian))}`)
+        .attr("fill", COLOR.text)
+        .style("font-size", "0.7rem");
+    }
 
     const bars = chart.selectAll(".bar").data(sorted, (d) => d.zip);
 
@@ -535,7 +685,6 @@ function renderBusinessZipChart(data) {
       );
 
     sharedState.businessBarNodes = new Map();
-    sharedState.businessZipLookup = new Map(sorted.map((d) => [d.zip, d]));
     chart.selectAll(".bar").each(function (d) {
       const rectNode = d3.select(this).select("rect").node();
       if (rectNode) {
@@ -1084,7 +1233,426 @@ function updateBarStyles() {
   });
 }
 
+function initNarrationControl() {
+  if (!tourAudioToggle || !tourAudioHint) {
+    return;
+  }
+  if (!sharedState.narrationSupported) {
+    tourAudioToggle.disabled = true;
+    tourAudioToggle.setAttribute("aria-pressed", "false");
+    tourAudioToggle.textContent = "Audio narration unavailable";
+    tourAudioHint.textContent = "Your browser does not support speech synthesis.";
+    return;
+  }
+
+  tourAudioToggle.addEventListener("click", () => {
+    const nextState = !sharedState.narrationAudioEnabled;
+    setNarrationAudioEnabled(nextState);
+  });
+  tourAudioToggle.disabled = false;
+  tourAudioHint.textContent = "Headphones recommended; uses your device voice.";
+  if (tourVoiceSelect) {
+    tourVoiceSelect.disabled = true;
+    tourVoiceSelect.innerHTML = `<option>Loading voices…</option>`;
+  }
+  loadVoiceOptions();
+  if (tourVoiceSelect) {
+    tourVoiceSelect.addEventListener("change", (event) => {
+      sharedState.selectedVoiceURI = event.target.value;
+      if (sharedState.narrationAudioEnabled && sharedState.currentTourNarration && sharedState.tourActive && !sharedState.tourPaused) {
+        speakNarrationText(sharedState.currentTourNarration);
+      }
+    });
+  }
+}
+
+function setNarrationAudioEnabled(enabled) {
+  if (!sharedState.narrationSupported) {
+    return;
+  }
+  sharedState.narrationAudioEnabled = enabled;
+  if (tourAudioToggle) {
+    tourAudioToggle.setAttribute("aria-pressed", enabled ? "true" : "false");
+    tourAudioToggle.textContent = enabled ? "Disable narration audio" : "Enable narration audio";
+  }
+  if (tourAudioHint) {
+    tourAudioHint.textContent = enabled
+      ? "Narration audio on – start the tour to hear it."
+      : "Narration audio muted.";
+  }
+  if (enabled) {
+    if (sharedState.tourActive && !sharedState.tourPaused && sharedState.currentTourNarration) {
+      speakNarrationText(sharedState.currentTourNarration);
+    }
+  } else {
+    const wasAwaiting = sharedState.awaitingNarrationEnd;
+    cancelNarrationSpeech();
+    if (wasAwaiting && sharedState.tourActive && !sharedState.tourPaused) {
+      sharedState.awaitingNarrationEnd = false;
+      scheduleTourAdvance(sharedState.tourPendingStepDuration || NARRATION_GAP_MS);
+    }
+  }
+}
+
+function speakNarrationText(text) {
+  if (!sharedState.narrationSupported || !sharedState.narrationAudioEnabled || !text) {
+    return;
+  }
+  cancelNarrationSpeech();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.rate = 1;
+  utterance.pitch = 1;
+  utterance.lang = "en-US";
+  const voice = sharedState.availableVoices.find((item) => item.voiceURI === sharedState.selectedVoiceURI);
+  if (voice) {
+    utterance.voice = voice;
+  }
+  sharedState.awaitingNarrationEnd = true;
+  utterance.onend = () => {
+    if (sharedState.currentUtterance === utterance) {
+      sharedState.currentUtterance = null;
+      handleNarrationComplete();
+    }
+  };
+  utterance.onerror = () => {
+    if (sharedState.currentUtterance === utterance) {
+      sharedState.currentUtterance = null;
+      handleNarrationComplete();
+    }
+  };
+  sharedState.currentUtterance = utterance;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
+function cancelNarrationSpeech() {
+  if (!sharedState.narrationSupported) {
+    return;
+  }
+  if (sharedState.currentUtterance) {
+    window.speechSynthesis.cancel();
+    sharedState.currentUtterance = null;
+  }
+  sharedState.awaitingNarrationEnd = false;
+  window.speechSynthesis.cancel();
+}
+
+function handleNarrationComplete() {
+  const wasAwaiting = sharedState.awaitingNarrationEnd;
+  sharedState.awaitingNarrationEnd = false;
+  if (wasAwaiting && sharedState.tourActive && !sharedState.tourPaused) {
+    scheduleTourAdvance(sharedState.tourPendingStepDuration || NARRATION_GAP_MS);
+  }
+}
+
+function loadVoiceOptions() {
+  if (!sharedState.narrationSupported || !window.speechSynthesis) {
+    return;
+  }
+  const assignVoices = () => {
+    const voices = window.speechSynthesis.getVoices() || [];
+    if (!voices.length) {
+      return;
+    }
+    sharedState.availableVoices = voices;
+    sharedState.selectedVoiceURI =
+      sharedState.selectedVoiceURI || (pickPreferredVoice(voices)?.voiceURI || voices[0].voiceURI);
+    renderVoiceOptions();
+  };
+
+  const voices = window.speechSynthesis.getVoices();
+  if (voices.length) {
+    assignVoices();
+  } else {
+    if (typeof window.speechSynthesis.addEventListener === "function") {
+      window.speechSynthesis.addEventListener("voiceschanged", assignVoices, { once: true });
+    } else {
+      window.speechSynthesis.onvoiceschanged = assignVoices;
+    }
+    window.speechSynthesis.getVoices();
+  }
+}
+
+function pickPreferredVoice(voices) {
+  const priority = ["Neural", "Natural", "Jenny", "Guy", "Emma", "Salli", "Aria", "Google", "Microsoft"];
+  for (const keyword of priority) {
+    const found = voices.find((voice) => voice.name.includes(keyword) || voice.voiceURI.includes(keyword));
+    if (found) return found;
+  }
+  return voices[0];
+}
+
+function renderVoiceOptions() {
+  if (!tourVoiceSelect) {
+    return;
+  }
+  const voices = sharedState.availableVoices;
+  if (!voices.length) {
+    tourVoiceSelect.disabled = true;
+    tourVoiceSelect.innerHTML = `<option>No voices available</option>`;
+    return;
+  }
+  if (!voices.some((voice) => voice.voiceURI === sharedState.selectedVoiceURI)) {
+    sharedState.selectedVoiceURI = voices[0].voiceURI;
+  }
+  tourVoiceSelect.innerHTML = voices
+    .map((voice) => `<option value="${voice.voiceURI}">${voice.name}${voice.lang ? ` (${voice.lang})` : ""}</option>`)
+    .join("");
+  tourVoiceSelect.value = sharedState.selectedVoiceURI;
+  tourVoiceSelect.disabled = false;
+  if (sharedState.narrationAudioEnabled && sharedState.currentTourNarration && sharedState.tourActive && !sharedState.tourPaused) {
+    speakNarrationText(sharedState.currentTourNarration);
+  }
+}
+
+function initTourControls() {
+  if (!tourPlayBtn || !tourStopBtn || !tourPauseBtn) {
+    return;
+  }
+  tourPlayBtn.addEventListener("click", startGuidedTour);
+  tourPauseBtn.addEventListener("click", () => {
+    if (!sharedState.tourActive) return;
+    if (sharedState.tourPaused) {
+      resumeGuidedTour();
+    } else {
+      pauseGuidedTour();
+    }
+  });
+  tourStopBtn.addEventListener("click", () => stopGuidedTour());
+  initNarrationControl();
+  setTourButtonState(false);
+  updateTourStatus(tourStatusEl?.textContent || TOUR_STATUS_DEFAULT);
+  updateTourNarration(tourNarrationEl?.textContent || TOUR_NARRATION_DEFAULT);
+}
+
+function startGuidedTour() {
+  if (!sharedState.dataReady || sharedState.tourActive || !TOUR_STEPS.length) {
+    return;
+  }
+  stopGuidedTour({ silent: true, skipHighlightReset: true });
+  sharedState.tourActive = true;
+  sharedState.tourStepIndex = -1;
+  sharedState.tourTimeoutId = null;
+  sharedState.tourPaused = false;
+  sharedState.tourPendingStepDuration = 0;
+  sharedState.tourRemainingDuration = 0;
+  sharedState.tourStepTimestamp = 0;
+  sharedState.currentTourNarration = "";
+  sharedState.pausedDuringNarration = false;
+  cancelNarrationSpeech();
+  setTourButtonState(true);
+  updateTourStatus("Playing citywide highlights…");
+  updateTourNarration("Scene 1 is loading…");
+  runNextTourStep();
+}
+
+function runNextTourStep() {
+  if (!sharedState.tourActive || sharedState.tourPaused) {
+    return;
+  }
+  const nextIndex = sharedState.tourStepIndex + 1;
+  if (nextIndex >= TOUR_STEPS.length) {
+    finishGuidedTour();
+    return;
+  }
+
+  sharedState.tourStepIndex = nextIndex;
+  const step = TOUR_STEPS[nextIndex];
+  if (step.scrollTo) {
+    const target = document.querySelector(step.scrollTo);
+    target?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  const neighborhoods = Array.isArray(step.neighborhoods) ? step.neighborhoods : [];
+  highlightNeighborhoods(neighborhoods, {
+    type: "tour",
+    message: step.message,
+    source: "guided-tour",
+    stepId: step.id,
+  });
+
+  const narrationText = step.narration || step.message || step.status;
+  sharedState.currentTourNarration = narrationText;
+  updateTourStatus(`Step ${nextIndex + 1}/${TOUR_STEPS.length}: ${step.status}`);
+  updateTourNarration(narrationText);
+  const audioActive = sharedState.narrationSupported && sharedState.narrationAudioEnabled;
+  if (audioActive) {
+    sharedState.tourPendingStepDuration = NARRATION_GAP_MS;
+    sharedState.tourRemainingDuration = NARRATION_GAP_MS;
+    sharedState.tourStepTimestamp = performance.now();
+    speakNarrationText(narrationText);
+  } else {
+    const duration = Math.max(500, step.duration || 6000);
+    sharedState.tourPendingStepDuration = duration;
+    sharedState.tourRemainingDuration = duration;
+    sharedState.tourStepTimestamp = performance.now();
+    scheduleTourAdvance(duration);
+  }
+}
+
+function scheduleTourAdvance(delay) {
+  if (!sharedState.tourActive) {
+    return;
+  }
+  const safeDelay = Math.max(500, delay || 0);
+  if (sharedState.tourTimeoutId) {
+    clearTimeout(sharedState.tourTimeoutId);
+    sharedState.tourTimeoutId = null;
+  }
+  sharedState.tourTimeoutId = window.setTimeout(() => {
+    sharedState.tourTimeoutId = null;
+    if (!sharedState.tourPaused) {
+      runNextTourStep();
+    }
+  }, safeDelay);
+}
+
+function finishGuidedTour() {
+  if (sharedState.tourTimeoutId) {
+    clearTimeout(sharedState.tourTimeoutId);
+    sharedState.tourTimeoutId = null;
+  }
+  sharedState.tourActive = false;
+  sharedState.tourStepIndex = -1;
+  sharedState.tourPaused = false;
+  sharedState.tourPendingStepDuration = 0;
+  sharedState.tourRemainingDuration = 0;
+  sharedState.tourStepTimestamp = 0;
+  sharedState.awaitingNarrationEnd = false;
+  sharedState.pausedDuringNarration = false;
+  cancelNarrationSpeech();
+  setTourButtonState(false);
+  const completionText = "Tour complete. Try the Open Exploration controls to continue.";
+  updateTourStatus("Tour complete. Scroll to Open Exploration to dig deeper.");
+  sharedState.currentTourNarration = completionText;
+  updateTourNarration(completionText);
+}
+
+function stopGuidedTour(options = {}) {
+  const { silent = false, skipHighlightReset = false, reason } = options;
+  if (sharedState.tourTimeoutId) {
+    clearTimeout(sharedState.tourTimeoutId);
+    sharedState.tourTimeoutId = null;
+  }
+  const wasActive = sharedState.tourActive;
+  sharedState.tourActive = false;
+  sharedState.tourStepIndex = -1;
+  sharedState.tourPaused = false;
+  sharedState.tourPendingStepDuration = 0;
+  sharedState.tourRemainingDuration = 0;
+  sharedState.tourStepTimestamp = 0;
+  sharedState.awaitingNarrationEnd = false;
+  sharedState.pausedDuringNarration = false;
+  cancelNarrationSpeech();
+  sharedState.currentTourNarration = "";
+  setTourButtonState(false);
+  if (wasActive && !skipHighlightReset) {
+    clearNeighborhoodHighlight();
+  }
+  if (wasActive && !silent) {
+    const statusMessage =
+      reason === "interrupt"
+        ? "Tour paused so you can explore manually."
+        : "Tour stopped. Press play to watch again.";
+    updateTourStatus(statusMessage);
+    sharedState.currentTourNarration = "";
+    updateTourNarration(TOUR_NARRATION_DEFAULT);
+  } else if (!silent) {
+    updateTourStatus(TOUR_STATUS_DEFAULT);
+    sharedState.currentTourNarration = "";
+    updateTourNarration(TOUR_NARRATION_DEFAULT);
+  }
+}
+
+function pauseGuidedTour() {
+  if (!sharedState.tourActive || sharedState.tourPaused) {
+    return;
+  }
+  sharedState.pausedDuringNarration = sharedState.awaitingNarrationEnd || !!sharedState.currentUtterance;
+  if (sharedState.tourTimeoutId) {
+    clearTimeout(sharedState.tourTimeoutId);
+    sharedState.tourTimeoutId = null;
+  }
+  const now = performance.now();
+  const elapsed = Math.max(0, now - (sharedState.tourStepTimestamp || now));
+  const duration = sharedState.tourPendingStepDuration || 0;
+  const remaining = Math.max(500, duration - elapsed);
+  sharedState.tourRemainingDuration = remaining;
+  sharedState.tourPaused = true;
+  cancelNarrationSpeech();
+  setTourButtonState(true);
+  const currentStep = TOUR_STEPS[sharedState.tourStepIndex];
+  const pauseNarration =
+    currentStep?.narration || currentStep?.message || "Paused—resume the tour when you're ready.";
+  updateTourStatus("Tour paused. Press resume to keep watching.");
+  updateTourNarration(pauseNarration);
+}
+
+function resumeGuidedTour() {
+  if (!sharedState.tourActive || !sharedState.tourPaused) {
+    return;
+  }
+  sharedState.tourPaused = false;
+  setTourButtonState(true);
+  updateTourStatus("Resuming tour…");
+  if (sharedState.currentTourNarration) {
+    updateTourNarration(sharedState.currentTourNarration);
+  }
+  const audioActive = sharedState.narrationSupported && sharedState.narrationAudioEnabled;
+  if (sharedState.pausedDuringNarration && audioActive) {
+    sharedState.pausedDuringNarration = false;
+    sharedState.tourPendingStepDuration = NARRATION_GAP_MS;
+    sharedState.tourRemainingDuration = NARRATION_GAP_MS;
+    sharedState.tourStepTimestamp = performance.now();
+    speakNarrationText(sharedState.currentTourNarration);
+    return;
+  }
+  sharedState.pausedDuringNarration = false;
+  const delay = Math.max(500, sharedState.tourRemainingDuration || sharedState.tourPendingStepDuration || 4000);
+  sharedState.tourPendingStepDuration = delay;
+  sharedState.tourRemainingDuration = delay;
+  sharedState.tourStepTimestamp = performance.now();
+  scheduleTourAdvance(delay);
+  if (audioActive && sharedState.currentTourNarration && !sharedState.awaitingNarrationEnd) {
+    speakNarrationText(sharedState.currentTourNarration);
+  }
+}
+
+function setTourButtonState(isRunning) {
+  if (tourPlayBtn) {
+    tourPlayBtn.disabled = isRunning || !sharedState.dataReady;
+  }
+  if (tourPauseBtn) {
+    tourPauseBtn.disabled = !isRunning;
+    tourPauseBtn.textContent = sharedState.tourPaused ? "Resume" : "Pause";
+  }
+  if (tourStopBtn) {
+    tourStopBtn.disabled = !isRunning;
+  }
+}
+
+function updateTourStatus(message) {
+  if (!tourStatusEl || !message) {
+    return;
+  }
+  if (tourStatusEl.textContent !== message) {
+    tourStatusEl.textContent = message;
+  }
+}
+
+function updateTourNarration(message) {
+  if (!tourNarrationEl || !message) {
+    return;
+  }
+  if (tourNarrationEl.textContent !== message) {
+    tourNarrationEl.textContent = message;
+  }
+}
+
 function highlightNeighborhoods(neighborhoods, context = {}) {
+  if (sharedState.tourActive && context.source !== "guided-tour") {
+    stopGuidedTour({ reason: "interrupt", skipHighlightReset: true });
+  }
   const names = Array.isArray(neighborhoods) ? neighborhoods.filter(Boolean) : [];
   sharedState.activeNeighborhoods = new Set(names);
   sharedState.highlightContext = { ...context, neighborhoods: names };
@@ -1404,6 +1972,10 @@ function renderZipSummary(entry, options = {}) {
   const neighborhoodNames = (entry.top_neighborhoods || []).map((item) => `${item.neighborhood} (${item.count.toLocaleString()})`);
   const addressCtx = options.addressContext;
   const schoolStats = sharedState.schoolCountsByZip.get(entry.zip);
+  const stats = sharedState.citywideBusinessStats || {};
+  const shareDiff = stats.shareAvg ? entry.share_of_city - stats.shareAvg : null;
+  const countDiff = stats.countMedian ? entry.business_count - stats.countMedian : null;
+  const shareRank = sharedState.shareRanking ? sharedState.shareRanking.indexOf(entry.zip) + 1 : null;
 
   let schoolHtml = "";
   if (schoolStats) {
@@ -1442,17 +2014,35 @@ function renderZipSummary(entry, options = {}) {
         )})</li>`
       );
     }
-    if (addressCtx.nearestSchool?.item) {
-      lines.push(
-        `<li><strong>Nearest school:</strong> ${addressCtx.nearestSchool.item.name || "School"} (${formatDistance(
-          addressCtx.nearestSchool.distanceKm
-        )})</li>`
-      );
-    }
     addressHtml = `
       <div class="address-insight">
         <h4>Address insight</h4>
         <ul>${lines.join("")}</ul>
+      </div>
+    `;
+  }
+
+  let compareHtml = "";
+  if (stats.shareAvg) {
+    const shareDeltaLabel = shareDiff !== null ? formatSignedPercent(shareDiff * 100) : "N/A";
+    const countDeltaLabel = countDiff !== null ? formatSignedNumber(countDiff) : "N/A";
+    const rankLabel = shareRank && shareRank > 0 ? `#${shareRank} of ${stats.totalZips}` : "N/A";
+    const shareClass = shareDiff === null ? "neutral" : shareDiff >= 0 ? "positive" : "negative";
+    const countClass = countDiff === null ? "neutral" : countDiff >= 0 ? "positive" : "negative";
+    compareHtml = `
+      <div class="zip-compare">
+        <div>
+          <p class="label">Share vs city avg (${(stats.shareAvg * 100).toFixed(1)}%)</p>
+          <p class="delta ${shareClass}">${shareDeltaLabel}</p>
+        </div>
+        <div>
+          <p class="label">Business count vs median (${d3.format(",")(Math.round(stats.countMedian || 0))})</p>
+          <p class="delta ${countClass}">${countDeltaLabel}</p>
+        </div>
+        <div>
+          <p class="label">Citywide ranking</p>
+          <p class="delta neutral">${rankLabel}</p>
+        </div>
       </div>
     `;
   }
@@ -1465,6 +2055,7 @@ function renderZipSummary(entry, options = {}) {
       <li><strong>Dominant neighborhoods:</strong> ${neighborhoodNames.length ? formatList(neighborhoodNames) : "Data not available"}</li>
       ${schoolHtml}
     </ul>
+    ${compareHtml}
     <p class="chart-reference">Maps and charts now spotlight ZIP ${entry.zip}. Hover elsewhere to compare.</p>
     ${addressHtml}
   `;
@@ -1586,6 +2177,18 @@ function formatDistance(km) {
   return `${miles.toFixed(1)} mi`;
 }
 
+function formatSignedPercent(value) {
+  if (value === null || value === undefined || Number.isNaN(value)) return "N/A";
+  const rounded = value.toFixed(1);
+  return `${value >= 0 ? "+" : ""}${rounded}%`;
+}
+
+function formatSignedNumber(value) {
+  if (value === null || value === undefined || Number.isNaN(value)) return "N/A";
+  const rounded = Math.round(value);
+  return `${value >= 0 ? "+" : ""}${d3.format(",")(rounded)}`;
+}
+
 function updateHighlightMessage() {
   if (!highlightEl) return;
   const names = [...sharedState.activeNeighborhoods];
@@ -1598,6 +2201,10 @@ function updateHighlightMessage() {
       if (highlightEl.textContent !== addressMsg) {
         highlightEl.textContent = addressMsg;
       }
+    } else if (context.type === "tour" && context.message) {
+      if (highlightEl.textContent !== context.message) {
+        highlightEl.textContent = context.message;
+      }
     } else if (highlightEl.textContent !== highlightDefaultMessage) {
       highlightEl.textContent = highlightDefaultMessage;
     }
@@ -1605,7 +2212,9 @@ function updateHighlightMessage() {
   }
 
   let message;
-  if (context.type === "zip" && context.zip) {
+  if (context.type === "tour" && context.message) {
+    message = context.message;
+  } else if (context.type === "zip" && context.zip) {
     message = `ZIP ${context.zip} lights up ${formatList(names)} on both maps.`;
   } else if (context.type === "neighborhood") {
     message = `${formatList(names)} highlighted on both maps.`;

@@ -163,6 +163,138 @@ body {
   outline: none;
 }
 
+.tour-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--bg-panel);
+  border-radius: 28px;
+  border: 1px solid var(--stroke);
+  padding: clamp(20px, 4vw, 32px);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.tour-copy h2 {
+  font-size: clamp(1.3rem, 2.6vw, 1.8rem);
+  margin-bottom: 8px;
+}
+
+.tour-copy p {
+  color: var(--text-subtle);
+  max-width: 60ch;
+}
+
+.tour-bar {
+  display: grid;
+  grid-template-columns: minmax(200px, 0.55fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.tour-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tour-actions button {
+  min-width: 120px;
+}
+
+.tour-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tour-narration {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tour-status {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.tour-script {
+  color: var(--text-subtle);
+  font-size: 0.95rem;
+}
+
+.tour-banner .btn-secondary {
+  border-color: rgba(148, 163, 184, 0.4);
+}
+
+.tour-banner .btn-secondary:disabled {
+  border-color: rgba(148, 163, 184, 0.25);
+}
+
+.btn-ghost {
+  border: 1px dashed rgba(148, 163, 184, 0.4);
+  color: var(--text);
+  background: transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}
+
+.btn-ghost[aria-pressed="true"] {
+  border-style: solid;
+  background: rgba(42, 157, 143, 0.16);
+  color: var(--accent);
+}
+
+.tour-audio {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.audio-voice {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+}
+
+.audio-voice select {
+  min-width: 160px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: rgba(15, 23, 42, 0.6);
+  color: var(--text);
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+
+.audio-voice select:disabled {
+  opacity: 0.6;
+}
+
+.audio-hint {
+  font-size: 0.78rem;
+  color: rgba(203, 213, 225, 0.75);
+  margin: 0;
+}
+
 .story-section {
   background: var(--bg-panel);
   border-radius: 32px;
@@ -389,6 +521,15 @@ body {
   overflow: hidden;
 }
 
+.reference-line {
+  pointer-events: none;
+}
+
+.reference-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .controls-row {
   display: flex;
   gap: 12px;
@@ -519,6 +660,44 @@ body {
   gap: 6px;
   font-size: 0.8rem;
   color: rgba(248, 250, 252, 0.9);
+}
+
+.zip-compare {
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(15, 23, 42, 0.55);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.zip-compare .label {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-subtle);
+  margin-bottom: 4px;
+}
+
+.zip-compare .delta {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.zip-compare .delta.positive {
+  color: #65d6a0;
+}
+
+.zip-compare .delta.negative {
+  color: #f47070;
+}
+
+.zip-compare .delta.neutral {
+  color: var(--text);
+  font-size: 1rem;
 }
 
 .btn-reset {
@@ -720,6 +899,16 @@ figcaption {
 
   .map-frame.tall {
     height: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tour-actions {
+    justify-content: flex-start;
+  }
+
+  .tour-bar {
+    grid-template-columns: 1fr;
   }
 }
 
