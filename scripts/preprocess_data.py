@@ -41,6 +41,31 @@ def load_neighborhood_centroid_lookup() -> Dict[str, Dict[str, float]]:
     return lookup
 
 
+def load_business_centroids() -> Dict[str, Dict[str, float]]:
+    """Return mapping of ZIP code to centroid coordinates from processed businesses."""
+    biz_path = PROCESSED_DIR / "business_by_zip.json"
+    if not biz_path.exists():
+        return {}
+    try:
+        payload = json.loads(biz_path.read_text())
+    except json.JSONDecodeError:
+        return {}
+    lookup: Dict[str, Dict[str, float]] = {}
+    for entry in payload.get("entries", []):
+        centroid = entry.get("centroid")
+        zip_code = entry.get("zip")
+        if not centroid or not zip_code:
+            continue
+        try:
+            lookup[zip_code] = {
+                "lat": float(centroid["lat"]),
+                "lon": float(centroid["lon"]),
+            }
+        except (TypeError, ValueError, KeyError):
+            continue
+    return lookup
+
+
 def load_csv(path: Path) -> Iterable[Dict[str, str]]:
     with path.open(newline="") as fh:
         reader = csv.DictReader(fh)
@@ -437,6 +462,102 @@ def preprocess_rent_trend() -> None:
     (PROCESSED_DIR / "rent_trend.json").write_text(json.dumps({"entries": entries}, indent=2))
 
 
+def preprocess_zip_rent() -> None:
+    path = DATA_DIR / "Zip_zori_uc_sfrcondomfr_sm_month.csv"
+    if not path.exists():
+        return
+
+    csv.field_size_limit(15_000_000)
+    date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    centroids = load_business_centroids()
+    entries: List[Dict[str, Any]] = []
+    latest_values: List[float] = []
+    change_values: List[float] = []
+    yoy_values: List[float] = []
+    latest_month_seen = None
+
+    with path.open(newline="") as fh:
+        reader = csv.DictReader(fh)
+        for row in reader:
+            if row.get("City") != "San Francisco" or row.get("RegionType") != "zip":
+                continue
+            zip_code = (row.get("RegionName") or "").strip()
+            if not zip_code:
+                continue
+
+            history = []
+            for key, value in row.items():
+                key_clean = (key or "").strip()
+                if not date_pattern.match(key_clean) or not value:
+                    continue
+                try:
+                    val = float(value)
+                except ValueError:
+                    continue
+                history.append({"date": key_clean, "zori": val})
+
+            if not history:
+                continue
+
+            history.sort(key=lambda x: x["date"])
+            latest_entry = history[-1]
+            latest_values.append(latest_entry["zori"])
+            latest_month_seen = max(latest_month_seen or latest_entry["date"], latest_entry["date"])
+
+            date_lookup = {item["date"]: item["zori"] for item in history}
+            yoy_index = len(history) - 13  # 12 months back relative to latest entry
+            yoy_change_abs = yoy_change_pct = None
+            if yoy_index >= 0:
+                yoy_value = history[yoy_index]["zori"]
+                if yoy_value:
+                    yoy_change_abs = round(latest_entry["zori"] - yoy_value, 2)
+                    yoy_change_pct = round((yoy_change_abs / yoy_value) * 100, 1)
+                    yoy_values.append(yoy_change_pct)
+
+            baseline_value = date_lookup.get("2020-01-31")
+            change_since_2020_abs = change_since_2020_pct = None
+            if baseline_value:
+                change_since_2020_abs = round(latest_entry["zori"] - baseline_value, 2)
+                if baseline_value:
+                    change_since_2020_pct = round((change_since_2020_abs / baseline_value) * 100, 1)
+                    change_values.append(change_since_2020_pct)
+
+            entry_payload: Dict[str, Any] = {
+                "zip": zip_code,
+                "latest": latest_entry,
+                "history": history[-60:],  # retain last five years
+            }
+            centroid = centroids.get(zip_code)
+            if centroid:
+                entry_payload["centroid"] = centroid
+            if yoy_change_pct is not None:
+                entry_payload["yoy_change_pct"] = yoy_change_pct
+                entry_payload["yoy_change_abs"] = yoy_change_abs
+            if change_since_2020_pct is not None:
+                entry_payload["change_since_2020_pct"] = change_since_2020_pct
+                entry_payload["change_since_2020_abs"] = change_since_2020_abs
+
+            entries.append(entry_payload)
+
+    if not entries:
+        return
+
+    entries.sort(key=lambda x: x["zip"])
+    payload = {
+        "latest_month": latest_month_seen,
+        "entries": entries,
+        "stats": {
+            "latest_min": min(latest_values) if latest_values else None,
+            "latest_max": max(latest_values) if latest_values else None,
+            "change_pct_min": min(change_values) if change_values else None,
+            "change_pct_max": max(change_values) if change_values else None,
+            "yoy_pct_min": min(yoy_values) if yoy_values else None,
+            "yoy_pct_max": max(yoy_values) if yoy_values else None,
+        },
+    }
+    (PROCESSED_DIR / "rent_by_zip.json").write_text(json.dumps(payload, indent=2))
+
+
 def main() -> None:
     park_points = preprocess_parks() or []
     preprocess_businesses()
@@ -460,6 +581,7 @@ def main() -> None:
         (PROCESSED_DIR / "school_counts_by_zip.json").write_text(json.dumps({"entries": school_counts_output}, indent=2))
     preprocess_housing()
     preprocess_rent_trend()
+    preprocess_zip_rent()
     combined_points = park_points + facility_points + (school_points or [])
     if combined_points:
         (PROCESSED_DIR / "address_points.json").write_text(json.dumps({"entries": combined_points}, indent=2))

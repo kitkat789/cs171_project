@@ -469,6 +469,12 @@ body {
   gap: clamp(20px, 4vw, 36px);
 }
 
+.story-stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 3vw, 24px);
+}
+
 .viz-layout.stacked {
   grid-template-columns: minmax(0, 1fr);
 }
@@ -519,6 +525,61 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
+}
+
+.chart-note {
+  font-size: 0.78rem;
+  color: var(--text-subtle);
+}
+
+.business-compare figure {
+  margin: 0;
+}
+
+#business-zip-compare {
+  width: 100%;
+  max-width: 100%;
+}
+
+.rent-map-card .map-frame {
+  height: 420px;
+}
+
+.map-legend {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 12px;
+  padding: 10px 14px;
+  color: var(--text);
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+
+.map-legend p {
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  color: var(--text-subtle);
+}
+
+.legend-gradient {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-gradient::before {
+  content: "";
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #a50026 0%, #fee08b 50%, #006837 100%);
+}
+
+.legend-gradient span {
+  font-size: 0.7rem;
+  color: var(--text);
 }
 
 .reference-line {

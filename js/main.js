@@ -18,6 +18,7 @@ const DATA_PATHS = {
   facilityCounts: "data/processed/facility_counts_by_district.json",
   housing: "data/processed/housing_burden.json",
   rentTrend: "data/processed/rent_trend.json",
+  rentZip: "data/processed/rent_by_zip.json",
   addressPoints: "data/processed/address_points.json",
   schools: "data/processed/schools.json",
   schoolCounts: "data/processed/school_counts_by_zip.json",
@@ -91,6 +92,7 @@ const tourNarrationEl = document.getElementById("tour-script");
 const tourAudioToggle = document.getElementById("tour-audio-toggle");
 const tourAudioHint = document.getElementById("tour-audio-hint");
 const tourVoiceSelect = document.getElementById("tour-voice");
+const rentMapNoteEl = document.getElementById("rent-map-note");
 const highlightDefaultMessage =
   (highlightEl && highlightEl.dataset && highlightEl.dataset.default) ||
   "Hover a ZIP bar or a business bubble to see which neighborhoods are linked.";
@@ -103,6 +105,7 @@ const sharedState = {
   highlightContext: null,
   rentEntries: [],
   rentControls: null,
+  rentZipEntries: [],
   maps: {},
   activeZip: null,
   zipFocusMarkers: {},
@@ -134,6 +137,11 @@ const sharedState = {
   currentUtterance: null,
 };
 
+const SF_VIEW_BOUNDS = {
+  lat: [37.55, 37.92],
+  lon: [-122.58, -122.28],
+};
+
 init();
 
 async function init() {
@@ -149,6 +157,7 @@ async function init() {
       facilities,
       housing,
       rentTrend,
+      rentZip,
       addressPoints,
       schools,
       schoolCounts,
@@ -160,6 +169,7 @@ async function init() {
       fetchJSON(DATA_PATHS.facilities),
       fetchJSON(DATA_PATHS.housing),
       fetchJSON(DATA_PATHS.rentTrend),
+      fetchJSON(DATA_PATHS.rentZip),
       fetchJSON(DATA_PATHS.addressPoints),
       fetchJSON(DATA_PATHS.schools),
       fetchJSON(DATA_PATHS.schoolCounts),
@@ -182,8 +192,10 @@ async function init() {
     createHookMaps(parks.entries, businessNeighborhoods.entries, centroidLookup, businessZip.total_businesses);
     createResourceMap(parks.entries, businessNeighborhoods.entries, centroidLookup, facilities.entries);
     renderBusinessZipChart(businessZip);
+    renderBusinessZipComparison();
     renderHousingBurdenChart(housing);
     renderRentTrendChart(rentTrend.entries);
+    renderRentZipMap(rentZip);
     initLayerToggles();
     initializeZipSearch();
     setTourButtonState(false);
@@ -257,6 +269,7 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
   };
 
   const parkMarkers = [];
+  const parkLatLngs = [];
   parks
     .filter((park) => park.coordinates?.lat && park.coordinates?.lon)
     .forEach((park) => {
@@ -274,11 +287,15 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
       );
       marker.addTo(parksMap);
       parkMarkers.push(marker);
+      const latlng = L.latLng(park.coordinates.lat, park.coordinates.lon);
+      if (isWithinSFBounds(latlng.lat, latlng.lng)) {
+        parkLatLngs.push(latlng);
+      }
     });
 
   if (parkMarkers.length) {
-    const group = L.featureGroup(parkMarkers);
-    parksMap.fitBounds(group.getBounds().pad(0.15));
+    const fitPoints = parkLatLngs.length ? parkLatLngs : parkMarkers.map((marker) => marker.getLatLng());
+    parksMap.fitBounds(L.latLngBounds(fitPoints).pad(0.15));
   }
 
   const businessEntries = businessNeighborhoods
@@ -451,15 +468,136 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   Object.values(layers).forEach((layer) => layer.addTo(map));
 
   const bounds = [];
-  layers.parks.eachLayer((layer) => bounds.push(layer.getLatLng()));
-  layers.businesses.eachLayer((layer) => bounds.push(layer.getLatLng()));
-  layers.facilities.eachLayer((layer) => bounds.push(layer.getLatLng()));
-  layers.schools.eachLayer((layer) => bounds.push(layer.getLatLng()));
-  if (bounds.length) {
-    map.fitBounds(L.latLngBounds(bounds), { padding: [36, 36] });
+  const cityBounds = [];
+  const recordLatLng = (latlng) => {
+    bounds.push(latlng);
+    if (isWithinSFBounds(latlng.lat, latlng.lng)) {
+      cityBounds.push(latlng);
+    }
+  };
+
+  layers.parks.eachLayer((layer) => recordLatLng(layer.getLatLng()));
+  layers.businesses.eachLayer((layer) => recordLatLng(layer.getLatLng()));
+  layers.facilities.eachLayer((layer) => recordLatLng(layer.getLatLng()));
+  layers.schools.eachLayer((layer) => recordLatLng(layer.getLatLng()));
+
+  const fitTargets = cityBounds.length ? cityBounds : bounds;
+  if (fitTargets.length) {
+    map.fitBounds(L.latLngBounds(fitTargets), { padding: [36, 36] });
   }
 
   map._customLayers = layers;
+}
+
+function renderRentZipMap(rentZipData) {
+  const container = document.getElementById("rent-map");
+  if (!container) return;
+
+  const entries = (rentZipData?.entries || []).filter(
+    (entry) =>
+      entry?.centroid &&
+      typeof entry.centroid.lat === "number" &&
+      typeof entry.centroid.lon === "number" &&
+      entry.latest?.zori
+  );
+
+  if (!entries.length) {
+    container.innerHTML = '<p class="map-empty">ZIP-level rent data unavailable.</p>';
+    if (rentMapNoteEl) {
+      rentMapNoteEl.textContent = "ZIP-level rent data unavailable.";
+    }
+    return;
+  }
+
+  sharedState.rentZipEntries = entries;
+  const map = createLeafletMap("rent-map", { zoom: 12 });
+  sharedState.maps.rent = map;
+
+  const maxRent = d3.max(entries, (entry) => entry.latest?.zori) || 1;
+  const changeExtent = d3.extent(entries, (entry) =>
+    typeof entry.change_since_2020_pct === "number" ? entry.change_since_2020_pct : 0
+  );
+  const domainMin = changeExtent[0] ?? 0;
+  const domainMax = changeExtent[1] ?? 0;
+  const colorScale = d3.scaleSequential(d3.interpolateRdYlGn).domain([domainMax, domainMin]);
+  const formatCurrency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+  const formatDate = d3.timeFormat("%b %Y");
+  const parseDate = d3.timeParse("%Y-%m-%d");
+
+  const updateNote = (entry) => {
+    if (!rentMapNoteEl || !entry) return;
+    const parsedDate = entry.latest?.date ? parseDate(entry.latest.date) : null;
+    const dateLabel = parsedDate ? formatDate(parsedDate) : entry.latest?.date || "Latest";
+    const rentLabel = typeof entry.latest?.zori === "number" ? formatCurrency.format(entry.latest.zori) : "n/a";
+    const changeLabel =
+      typeof entry.change_since_2020_pct === "number"
+        ? `${entry.change_since_2020_pct >= 0 ? "+" : ""}${entry.change_since_2020_pct.toFixed(1)}% since Jan 2020`
+        : "Change data unavailable";
+    rentMapNoteEl.textContent = `ZIP ${entry.zip}: ${dateLabel} rent ${rentLabel} (${changeLabel})`;
+  };
+
+  const defaultNote = () => {
+    if (!rentMapNoteEl) return;
+    const leader = [...entries]
+      .filter((entry) => typeof entry.change_since_2020_pct === "number")
+      .sort((a, b) => d3.descending(a.change_since_2020_pct ?? 0, b.change_since_2020_pct ?? 0))[0];
+    if (leader) {
+      const change = leader.change_since_2020_pct ?? 0;
+      rentMapNoteEl.textContent = `Largest rent jump: ZIP ${leader.zip} (${change >= 0 ? "+" : ""}${change.toFixed(
+        1
+      )}% since Jan 2020).`;
+    } else {
+      rentMapNoteEl.textContent = "Hover a ZIP to see rent details.";
+    }
+  };
+
+  const markers = [];
+  entries.forEach((entry) => {
+    const radius = 8 + ((entry.latest?.zori || 0) / maxRent) * 18;
+    const changeValue = typeof entry.change_since_2020_pct === "number" ? entry.change_since_2020_pct : 0;
+    const marker = L.circleMarker([entry.centroid.lat, entry.centroid.lon], {
+      radius,
+      color: colorScale(changeValue),
+      fillColor: colorScale(changeValue),
+      fillOpacity: 0.85,
+      weight: 1,
+    })
+      .bindTooltip(
+        `<strong>ZIP ${entry.zip}</strong><br>${formatCurrency.format(entry.latest?.zori || 0)} (latest)<br>${
+          typeof entry.change_since_2020_pct === "number"
+            ? `${entry.change_since_2020_pct >= 0 ? "+" : ""}${entry.change_since_2020_pct.toFixed(1)}% since Jan 2020`
+            : "Change data unavailable"
+        }`,
+        { direction: "top" }
+      )
+      .addTo(map);
+    marker.on("mouseover", () => updateNote(entry));
+    marker.on("mouseout", defaultNote);
+    markers.push(marker);
+  });
+
+  if (markers.length) {
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.12));
+  }
+
+  const legend = L.control({ position: "bottomright" });
+  legend.onAdd = () => {
+    const div = L.DomUtil.create("div", "map-legend rent-legend");
+    const minLabel = `${domainMin >= 0 ? "+" : ""}${(domainMin || 0).toFixed(0)}%`;
+    const maxLabel = `${domainMax >= 0 ? "+" : ""}${(domainMax || 0).toFixed(0)}%`;
+    div.innerHTML = `
+      <p>Change since Jan 2020</p>
+      <div class="legend-gradient">
+        <span>${minLabel}</span>
+        <span>${maxLabel}</span>
+      </div>
+    `;
+    return div;
+  };
+  legend.addTo(map);
+
+  defaultNote();
 }
 
 function initLayerToggles() {
@@ -701,13 +839,155 @@ function renderBusinessZipChart(data) {
   });
 }
 
+function renderBusinessZipComparison() {
+  const container = d3.select("#business-zip-compare");
+  if (container.empty()) return;
+  container.selectAll("*").remove();
+
+  const focusZips = [
+    { zip: "94110", label: "94110 · Mission", color: COLOR.business },
+    { zip: "94112", label: "94112 · Excelsior / Outer Mission", color: COLOR.facility },
+  ];
+
+  const dataset = focusZips
+    .map((meta) => {
+      const entry = sharedState.businessZipLookup.get(meta.zip);
+      if (!entry) return null;
+      return {
+        ...meta,
+        share: entry.share_of_city || 0,
+        count: entry.business_count || 0,
+        neighborhoods: (entry.top_neighborhoods || []).map((item) => item.neighborhood),
+        sectors: (entry.top_sectors || []).map((item) => item.sector),
+      };
+    })
+    .filter(Boolean);
+
+  if (!dataset.length) {
+    const fallbackWidth = container.node()?.getBoundingClientRect().width || 520;
+    container.attr("width", fallbackWidth).attr("height", 80);
+    container
+      .append("text")
+      .attr("x", 12)
+      .attr("y", 24)
+      .attr("fill", COLOR.text)
+      .style("font-size", "0.85rem")
+      .text("Mission vs. Excelsior comparison unavailable.");
+    return;
+  }
+
+  const width = container.node().getBoundingClientRect().width || 520;
+  const height = 200;
+  const margin = { top: 24, right: 32, bottom: 32, left: 170 };
+  const svg = container.attr("width", width).attr("height", height);
+  const chart = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
+  const chartWidth = width - margin.left - margin.right;
+  const chartHeight = height - margin.top - margin.bottom;
+
+  const labels = dataset.map((d) => d.label);
+  const xScale = d3
+    .scaleLinear()
+    .domain([0, (d3.max(dataset, (d) => d.share) || 0.1) * 1.2])
+    .range([0, chartWidth]);
+  const yScale = d3.scaleBand().domain(labels).range([0, chartHeight]).padding(0.4);
+
+  chart
+    .append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", `translate(0, ${chartHeight})`)
+    .call(
+      d3
+        .axisBottom(xScale)
+        .ticks(5)
+        .tickFormat((d) => `${(d * 100).toFixed(0)}%`)
+    )
+    .selectAll("text")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.8rem");
+
+  chart
+    .append("g")
+    .attr("class", "axis axis--y")
+    .call(d3.axisLeft(yScale).tickSize(0))
+    .selectAll("text")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.85rem");
+
+  const bars = chart
+    .selectAll(".compare-bar")
+    .data(dataset)
+    .join("g")
+    .attr("class", "compare-bar")
+    .attr("transform", (d) => `translate(0, ${yScale(d.label)})`);
+
+  bars
+    .append("rect")
+    .attr("rx", 8)
+    .attr("height", yScale.bandwidth())
+    .attr("width", (d) => xScale(d.share))
+    .attr("fill", (d) => d.color)
+    .on("mouseenter", (event, d) => {
+      const message = `${d.label.split(" · ")[1] || d.label} holds ${(d.share * 100).toFixed(1)}% of listings.`;
+      const source = `business-compare-${d.zip}`;
+      event.currentTarget.dataset.highlightSource = source;
+      highlightNeighborhoods(d.neighborhoods.slice(0, 3), {
+        type: "neighborhood",
+        source,
+        message,
+      });
+      const sectors = d.sectors.slice(0, 2).join(", ");
+      const hoverLabel = d3.select(event.currentTarget.parentNode).select(".bar-hover-count");
+      hoverLabel
+        .text(`${d3.format(",")(d.count)} businesses`)
+        .attr("x", xScale(d.share) + 12)
+        .attr("y", yScale.bandwidth() / 2)
+        .attr("alignment-baseline", "middle")
+        .style("opacity", 1);
+      showTooltip(
+        event.pageX,
+        event.pageY,
+        `<strong>ZIP ${d.zip}</strong><br>${(d.share * 100).toFixed(1)}% of listings<br>${d3.format(",")(d.count)} businesses${
+          sectors ? `<br><em>Top sectors:</em> ${sectors}` : ""
+        }`
+      );
+    })
+    .on("mouseleave", (event) => {
+      hideTooltip();
+      const source = event.currentTarget.dataset.highlightSource;
+      d3.select(event.currentTarget.parentNode).select(".bar-hover-count").style("opacity", 0);
+      if (source && sharedState.highlightContext?.source === source) {
+        clearNeighborhoodHighlight();
+      }
+    });
+
+  bars
+    .append("text")
+    .attr("class", "bar-hover-count")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.8rem")
+    .style("font-weight", 600)
+    .style("opacity", 0);
+
+  if (dataset.length === 2) {
+    const diff = Math.abs(dataset[0].share - dataset[1].share) * 100;
+    chart
+      .append("text")
+      .attr("x", chartWidth - 4)
+      .attr("y", -8)
+      .attr("text-anchor", "end")
+      .attr("fill", COLOR.text)
+      .style("font-size", "0.75rem")
+      .text(`${diff.toFixed(1)} percentage-point gap`);
+  }
+}
+
 function renderHousingBurdenChart(data) {
   const container = d3.select("#housing-burden-chart");
   container.selectAll("*").remove();
 
   const width = container.node().getBoundingClientRect().width || 520;
   const height = 360;
-  const margin = { top: 24, right: 48, bottom: 48, left: 80 };
+  const margin = { top: 24, right: 140, bottom: 48, left: 80 };
   const svg = container.attr("width", width).attr("height", height);
   const chart = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -721,10 +1001,15 @@ function renderHousingBurdenChart(data) {
     total: "All households",
   };
 
+  const moderateCounts = data.moderate_burden || {};
+  const severeCounts = data.severe_burden || {};
+
   const dataset = groups.map((group) => ({
     group,
     moderate: (data.moderate_burden_share?.[group] || 0) * 100,
     severe: (data.severe_burden_share?.[group] || 0) * 100,
+    moderateCount: moderateCounts[group] || 0,
+    severeCount: severeCounts[group] || 0,
   }));
 
   const stack = d3
@@ -779,10 +1064,13 @@ function renderHousingBurdenChart(data) {
     .on("mouseenter", (event, d) => {
       const category = event.currentTarget.parentNode.__data__.key;
       const percentage = (d.data[category]).toFixed(1);
+      const count =
+        category === "moderate" ? d.data.moderateCount : d.data.severeCount;
+      const label = category === "moderate" ? "Moderate burden" : "Severe burden";
       showTooltip(
         event.pageX,
         event.pageY,
-        `<strong>${displayNames[d.data.group]}</strong><br>${category === "moderate" ? "Moderate burden" : "Severe burden"}<br>${percentage}% of households`
+        `<strong>${displayNames[d.data.group]}</strong><br>${label}<br>${percentage}% of households<br>${d3.format(",")(count)} households`
       );
     })
     .on("mouseleave", hideTooltip);
@@ -799,11 +1087,11 @@ function renderHousingBurdenChart(data) {
     .style("font-size", "0.75rem")
     .text((d) => `${(d.moderate + d.severe).toFixed(1)}% total burden`);
 
-  // Legend
-  const legend = chart.append("g").attr("transform", `translate(${chartWidth - 120}, ${12})`);
+  // Legend positioned in bottom margin
+  const legend = svg.append("g").attr("transform", `translate(${margin.left}, ${height - margin.bottom + 20})`);
   ["Moderate burden (>30-<=50%)", "Severe burden (>50%)"].forEach((label, idx) => {
     const key = idx === 0 ? "moderate" : "severe";
-    const row = legend.append("g").attr("transform", `translate(0, ${idx * 22})`);
+    const row = legend.append("g").attr("transform", `translate(${idx * 220}, 0)`);
     row
       .append("rect")
       .attr("width", 14)
@@ -959,11 +1247,16 @@ function updateRentTrendVisualization() {
     .map((d) => ({
       date: d.date,
       value: mode === "change" ? d.yoy : d.value,
-      original: d,
+      rentLevel: d.value,
+      yoy: d.yoy,
     }));
 
   const container = d3.select(containerNode);
   container.selectAll("*").remove();
+  const readoutEl = document.getElementById("rent-readout");
+  if (readoutEl) {
+    readoutEl.textContent = "Hover the line to see monthly rent level.";
+  }
 
   if (!prepared.length) {
     const fallbackWidth = containerNode.getBoundingClientRect().width || 720;
@@ -1109,10 +1402,69 @@ function updateRentTrendVisualization() {
     .attr("stroke-width", 1.2)
     .style("opacity", 0);
 
+  const hoverGroup = chart
+    .append("g")
+    .attr("class", "rent-hover-label")
+    .style("pointer-events", "none")
+    .style("opacity", 0);
+  const hoverBg = hoverGroup
+    .append("rect")
+    .attr("rx", 8)
+    .attr("ry", 8)
+    .attr("fill", "rgba(15, 23, 42, 0.92)")
+    .attr("stroke", "rgba(148, 163, 184, 0.4)")
+    .attr("stroke-width", 1);
+  const hoverText = hoverGroup
+    .append("text")
+    .attr("fill", COLOR.text)
+    .attr("font-size", "0.75rem")
+    .attr("font-weight", 500);
+
   const bisect = d3.bisector((d) => d.date).center;
 
   const overlay = svg.append("rect").attr("fill", "transparent").attr("width", width).attr("height", height);
-  overlay.on("mousemove", (event) => {
+  const rentHighlightNames = ["Mission", "Outer Richmond"];
+  const rentHighlightContext = {
+    type: "neighborhood",
+    source: "rent-chart",
+  };
+
+  const updateHoverLabel = (point, rentValueText, yoyValueText) => {
+    const lines = [
+      d3.timeFormat("%b %Y")(point.date),
+      `Rent ${rentValueText || "n/a"}`,
+    ];
+    if (yoyValueText) {
+      lines.push(`YoY ${yoyValueText}`);
+    }
+    const tspans = hoverText.selectAll("tspan").data(lines);
+    tspans
+      .join("tspan")
+      .attr("x", 8)
+      .attr("dy", (d, idx) => (idx === 0 ? "1.1em" : "1.2em"))
+      .text((d) => d);
+
+    const bbox = hoverText.node().getBBox();
+    hoverBg
+      .attr("width", bbox.width + 16)
+      .attr("height", bbox.height + 12)
+      .attr("x", 0)
+      .attr("y", 0);
+
+    const anchorX = xScale(point.date);
+    const anchorY = yScale(point.value);
+    let offsetX = 12;
+    if (anchorX + offsetX + bbox.width + 24 > chartWidth) {
+      offsetX = -(bbox.width + 24);
+    }
+    let offsetY = -(bbox.height + 24);
+    if (anchorY + offsetY < 0) {
+      offsetY = 12;
+    }
+    hoverGroup.attr("transform", `translate(${anchorX + offsetX}, ${anchorY + offsetY})`).style("opacity", 1);
+  };
+
+  const handlePointerMove = (event) => {
     const [pointerX] = d3.pointer(event);
     const date = xScale.invert(pointerX - margin.left);
     let idx = bisect(prepared, date);
@@ -1123,17 +1475,36 @@ function updateRentTrendVisualization() {
       .attr("cy", yScale(point.value))
       .style("opacity", 1);
 
-    const valueLabel =
-      mode === "change"
-        ? `${point.value >= 0 ? "+" : ""}${point.value.toFixed(2)}% YoY`
-        : `$${d3.format(",.0f")(point.value)}`;
+    const rentValue = typeof point.rentLevel === "number" ? `$${d3.format(",.0f")(point.rentLevel)}` : null;
+    const yoyValue =
+      typeof point.yoy === "number" && Number.isFinite(point.yoy)
+        ? `${point.yoy >= 0 ? "+" : ""}${point.yoy.toFixed(2)}%`
+        : null;
 
-    showTooltip(event.pageX, event.pageY, `${d3.timeFormat("%B %Y")(point.date)}<br><strong>${valueLabel}</strong>`);
-  });
-  overlay.on("mouseleave", () => {
-    focusCircle.style("opacity", 0);
-    hideTooltip();
-  });
+    if (readoutEl) {
+      const monthLabel = d3.timeFormat("%B %Y")(point.date);
+      readoutEl.textContent = yoyValue ? `${monthLabel}: ${rentValue} (${yoyValue} YoY)` : `${monthLabel}: ${rentValue}`;
+    }
+
+    updateHoverLabel(point, rentValue, yoyValue);
+  };
+
+  overlay
+    .on("mouseenter", (event) => {
+      highlightNeighborhoods(rentHighlightNames, rentHighlightContext);
+      handlePointerMove(event);
+    })
+    .on("mousemove", handlePointerMove)
+    .on("mouseleave", () => {
+      focusCircle.style("opacity", 0);
+      hoverGroup.style("opacity", 0);
+      if (readoutEl) {
+        readoutEl.textContent = "Hover the line to see monthly rent level.";
+      }
+      if (sharedState.highlightContext?.source === rentHighlightContext.source) {
+        clearNeighborhoodHighlight();
+      }
+    });
 }
 
 function updateRentModeLabel() {
@@ -2194,16 +2565,16 @@ function updateHighlightMessage() {
   const names = [...sharedState.activeNeighborhoods];
   const context = sharedState.highlightContext || {};
   if (!names.length) {
-    if (context.type === "address" && context.addressLabel) {
+    if (context.message) {
+      if (highlightEl.textContent !== context.message) {
+        highlightEl.textContent = context.message;
+      }
+    } else if (context.type === "address" && context.addressLabel) {
       const addressMsg = context.zip
         ? `${context.addressLabel} highlighted within ZIP ${context.zip}.`
         : `${context.addressLabel} pinpointed on the map.`;
       if (highlightEl.textContent !== addressMsg) {
         highlightEl.textContent = addressMsg;
-      }
-    } else if (context.type === "tour" && context.message) {
-      if (highlightEl.textContent !== context.message) {
-        highlightEl.textContent = context.message;
       }
     } else if (highlightEl.textContent !== highlightDefaultMessage) {
       highlightEl.textContent = highlightDefaultMessage;
@@ -2212,7 +2583,7 @@ function updateHighlightMessage() {
   }
 
   let message;
-  if (context.type === "tour" && context.message) {
+  if (context.message) {
     message = context.message;
   } else if (context.type === "zip" && context.zip) {
     message = `ZIP ${context.zip} lights up ${formatList(names)} on both maps.`;
@@ -2244,6 +2615,18 @@ function showTooltip(x, y, html) {
 
 function hideTooltip() {
   tooltipEl.classList.remove("is-visible");
+}
+
+function isWithinSFBounds(lat, lon) {
+  if (typeof lat !== "number" || typeof lon !== "number") {
+    return false;
+  }
+  return (
+    lat >= SF_VIEW_BOUNDS.lat[0] &&
+    lat <= SF_VIEW_BOUNDS.lat[1] &&
+    lon >= SF_VIEW_BOUNDS.lon[0] &&
+    lon <= SF_VIEW_BOUNDS.lon[1]
+  );
 }
 
 function getCssVar(name) {
