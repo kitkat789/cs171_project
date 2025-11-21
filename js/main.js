@@ -135,6 +135,7 @@ const sharedState = {
   selectedVoiceURI: null,
   pausedDuringNarration: false,
   currentUtterance: null,
+  tourHintShown: false,
 };
 
 const SF_VIEW_BOUNDS = {
@@ -147,6 +148,11 @@ init();
 async function init() {
   attachNavListeners();
   initTourControls();
+  initSectionObserver();
+  const firstNav = document.querySelector(".story-nav button");
+  if (firstNav) {
+    setActiveNav(firstNav.dataset.target);
+  }
 
   try {
     const [
@@ -201,6 +207,7 @@ async function init() {
     setTourButtonState(false);
     updateTourStatus(TOUR_STATUS_DEFAULT);
     updateTourNarration(TOUR_NARRATION_DEFAULT);
+    showTourHint();
   } catch (error) {
     console.error(error);
     showTooltip(window.innerWidth / 2, window.innerHeight / 2, "Failed to load the data. Refresh to try again.");
@@ -215,9 +222,34 @@ function attachNavListeners() {
       const target = document.querySelector(button.dataset.target);
       if (target) {
         target.scrollIntoView({ behavior: "smooth" });
+        setActiveNav(button.dataset.target);
       }
     });
   });
+}
+
+function setActiveNav(targetSelector) {
+  document.querySelectorAll(".story-nav button").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.target === targetSelector);
+  });
+}
+
+function initSectionObserver() {
+  const observerTargets = document.querySelectorAll(".story-section");
+  if (!observerTargets.length) return;
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        const selector = `#${entry.target.id}`;
+        if (!selector) return;
+        if (entry.isIntersecting && entry.intersectionRatio > 0.35) {
+          setActiveNav(selector.startsWith("#") ? selector : `#${selector}`);
+        }
+      });
+    },
+    { threshold: [0.35, 0.6, 0.9], rootMargin: "-10% 0px -55% 0px" }
+  );
+  observerTargets.forEach((target) => observer.observe(target));
 }
 
 async function fetchJSON(url) {
@@ -230,12 +262,12 @@ function createLeafletMap(containerId, options = {}) {
   const defaultOptions = {
     center: [37.76, -122.44],
     zoom: 12,
-    scrollWheelZoom: false,
+    scrollWheelZoom: true,
     zoomControl: false,
   };
   const map = L.map(containerId, { ...defaultOptions, ...options });
 
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
     subdomains: "abcd",
     maxZoom: 19,
@@ -253,6 +285,20 @@ function createLeafletMap(containerId, options = {}) {
   }
 
   return map;
+}
+
+function buildMapLinks(lat, lon) {
+  if (typeof lat !== "number" || typeof lon !== "number") return "";
+  const query = `${lat},${lon}`;
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  const streetUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${encodeURIComponent(query)}`;
+  return `
+    <div class="popup-links">
+      <a href="${mapsUrl}" target="_blank" rel="noreferrer">Open in Google Maps</a>
+      <span aria-hidden="true">·</span>
+      <a href="${streetUrl}" target="_blank" rel="noreferrer">Street View</a>
+    </div>
+  `;
 }
 
 function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusinesses) {
@@ -273,18 +319,24 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
   parks
     .filter((park) => park.coordinates?.lat && park.coordinates?.lon)
     .forEach((park) => {
-      const radius = Math.min(30, 6 + Math.sqrt(park.acres || 0) * 1.6);
+      const radius = Math.min(32, 8 + Math.sqrt(park.acres || 0) * 1.8);
       const marker = L.circleMarker([park.coordinates.lat, park.coordinates.lon], {
         radius: radius || 4,
-        color: parkCategoryColor(park.category),
+        color: "#0f172a",
         fillColor: parkCategoryColor(park.category),
-        fillOpacity: 0.7,
-        weight: 1,
+        fillOpacity: 0.8,
+        weight: 1.3,
       });
-      marker.bindTooltip(
-        `<strong>${park.name}</strong><br>${park.category}<br>${park.acres.toLocaleString()} acres`,
-        { direction: "top" }
-      );
+      const mapLinks = buildMapLinks(park.coordinates.lat, park.coordinates.lon);
+      marker
+        .bindTooltip(
+          `<strong>${park.name}</strong><br>${park.category}<br>${park.acres.toLocaleString()} acres`,
+          { direction: "top" }
+        )
+        .bindPopup(
+          `<strong>${park.name}</strong><br>${park.category}<br>${park.acres.toLocaleString()} acres${mapLinks}`,
+          { maxWidth: 260 }
+        );
       marker.addTo(parksMap);
       parkMarkers.push(marker);
       const latlng = L.latLng(park.coordinates.lat, park.coordinates.lon);
@@ -315,14 +367,15 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
 
   businessEntries.forEach((entry) => {
     const share = entry.business_count / totalBusinesses;
-    const radius = Math.max(6, (entry.business_count / maxBusiness) * 28);
+    const radius = Math.max(9, (entry.business_count / maxBusiness) * 32);
     const marker = L.circleMarker([entry.centroid.lat, entry.centroid.lon], {
       radius,
-      color: COLOR.business,
+      color: "#0f172a",
       fillColor: COLOR.business,
-      fillOpacity: 0.75,
-      weight: 1,
+      fillOpacity: 0.85,
+      weight: 1.4,
     });
+    const mapLinks = buildMapLinks(entry.centroid.lat, entry.centroid.lon);
     marker._baseStyle = {
       radius: marker.options.radius,
       fillOpacity: marker.options.fillOpacity ?? 0.75,
@@ -336,6 +389,12 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
           share * 100
         ).toFixed(1)}% of city total`,
         { direction: "top" }
+      )
+      .bindPopup(
+        `<strong>${entry.neighborhood}</strong><br>${entry.business_count.toLocaleString()} businesses<br>${(
+          share * 100
+        ).toFixed(1)}% of city total${mapLinks}`,
+        { maxWidth: 260 }
       )
       .addTo(businessMap);
 
@@ -365,17 +424,18 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   parks
     .filter((park) => park.coordinates?.lat && park.coordinates?.lon)
     .forEach((park) => {
-      const radius = Math.min(24, 4 + Math.sqrt(park.acres || 0) * 1.2);
+      const radius = Math.min(26, 6 + Math.sqrt(park.acres || 0) * 1.4);
+      const mapLinks = buildMapLinks(park.coordinates.lat, park.coordinates.lon);
       L.circleMarker([park.coordinates.lat, park.coordinates.lon], {
         radius: radius || 3,
-        color: COLOR.park,
+        color: "#0f172a",
         fillColor: COLOR.park,
-        fillOpacity: 0.55,
-        weight: 0.8,
+        fillOpacity: 0.75,
+        weight: 1.2,
       })
         .bindPopup(
-          `<strong>${park.name}</strong><br>${park.category}<br>${park.acres.toLocaleString()} acres`,
-          { maxWidth: 220 }
+          `<strong>${park.name}</strong><br>${park.category}<br>${park.acres.toLocaleString()} acres${mapLinks}`,
+          { maxWidth: 260 }
         )
         .addTo(layers.parks);
     });
@@ -396,18 +456,20 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   const maxBusiness = d3.max(businessEntries, (d) => d.business_count) || 1;
 
   businessEntries.forEach((entry) => {
-    const radius = Math.max(6, (entry.business_count / maxBusiness) * 24);
+    const radius = Math.max(9, (entry.business_count / maxBusiness) * 28);
     const marker = L.circleMarker([entry.centroid.lat, entry.centroid.lon], {
       radius,
-      color: COLOR.business,
+      color: "#0f172a",
       fillColor: COLOR.business,
-      fillOpacity: 0.5,
-      weight: 1,
-      dashArray: "2,4",
+      fillOpacity: 0.78,
+      weight: 1.4,
     })
       .bindPopup(
-        `<strong>${entry.neighborhood}</strong><br>${entry.business_count.toLocaleString()} active businesses`,
-        { maxWidth: 240 }
+        `<strong>${entry.neighborhood}</strong><br>${entry.business_count.toLocaleString()} active businesses${buildMapLinks(
+          entry.centroid.lat,
+          entry.centroid.lon
+        )}`,
+        { maxWidth: 260 }
       )
       .addTo(layers.businesses);
 
@@ -432,18 +494,19 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   facilities
     .filter((facility) => facility.coordinates?.lat && facility.coordinates?.lon)
     .forEach((facility) => {
+      const mapLinks = buildMapLinks(facility.coordinates.lat, facility.coordinates.lon);
       L.circleMarker([facility.coordinates.lat, facility.coordinates.lon], {
-        radius: 4,
-        color: COLOR.facility,
+        radius: 5,
+        color: "#0f172a",
         fillColor: COLOR.facility,
         fillOpacity: 0.75,
-        weight: 0.5,
+        weight: 1.1,
       })
         .bindPopup(
           `<strong>${facility.name}</strong><br>${facility.address || "Address not provided"}<br>District ${
             facility.district || "N/A"
-          }`,
-          { maxWidth: 260 }
+          }${mapLinks}`,
+          { maxWidth: 280 }
         )
         .addTo(layers.facilities);
     });
@@ -451,16 +514,19 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   (sharedState.schools || [])
     .filter((school) => school.coordinates?.lat && school.coordinates?.lon)
     .forEach((school) => {
+      const mapLinks = buildMapLinks(school.coordinates.lat, school.coordinates.lon);
       L.circleMarker([school.coordinates.lat, school.coordinates.lon], {
-        radius: 4,
-        color: "#e9c46a",
+        radius: 5,
+        color: "#0f172a",
         fillColor: "#e9c46a",
         fillOpacity: 0.8,
-        weight: 0.6,
+        weight: 1.1,
       })
         .bindPopup(
-          `<strong>${school.name}</strong><br>${school.address || "Address not provided"}<br>${school.ownership || "School"}`,
-          { maxWidth: 260 }
+          `<strong>${school.name}</strong><br>${school.address || "Address not provided"}<br>${
+            school.ownership || "School"
+          }${mapLinks}`,
+          { maxWidth: 280 }
         )
         .addTo(layers.schools);
     });
@@ -555,12 +621,18 @@ function renderRentZipMap(rentZipData) {
   entries.forEach((entry) => {
     const radius = 8 + ((entry.latest?.zori || 0) / maxRent) * 18;
     const changeValue = typeof entry.change_since_2020_pct === "number" ? entry.change_since_2020_pct : 0;
+    const popupHtml = `<strong>ZIP ${entry.zip}</strong><br>${formatCurrency.format(entry.latest?.zori || 0)} (latest)<br>${
+      typeof entry.change_since_2020_pct === "number"
+        ? `${entry.change_since_2020_pct >= 0 ? "+" : ""}${entry.change_since_2020_pct.toFixed(1)}% since Jan 2020`
+        : "Change data unavailable"
+    }${buildMapLinks(entry.centroid.lat, entry.centroid.lon)}`;
+
     const marker = L.circleMarker([entry.centroid.lat, entry.centroid.lon], {
       radius,
-      color: colorScale(changeValue),
+      color: "#0f172a",
       fillColor: colorScale(changeValue),
-      fillOpacity: 0.85,
-      weight: 1,
+      fillOpacity: 0.9,
+      weight: 1.4,
     })
       .bindTooltip(
         `<strong>ZIP ${entry.zip}</strong><br>${formatCurrency.format(entry.latest?.zori || 0)} (latest)<br>${
@@ -569,6 +641,14 @@ function renderRentZipMap(rentZipData) {
             : "Change data unavailable"
         }`,
         { direction: "top" }
+      )
+      .bindPopup(
+        `<strong>ZIP ${entry.zip}</strong><br>${formatCurrency.format(entry.latest?.zori || 0)} (latest)<br>${
+          typeof entry.change_since_2020_pct === "number"
+            ? `${entry.change_since_2020_pct >= 0 ? "+" : ""}${entry.change_since_2020_pct.toFixed(1)}% since Jan 2020`
+            : "Change data unavailable"
+        }${buildMapLinks(entry.centroid.lat, entry.centroid.lon)}`,
+        { maxWidth: 260 }
       )
       .addTo(map);
     marker.on("mouseover", () => updateNote(entry));
@@ -1257,6 +1337,15 @@ function updateRentTrendVisualization() {
   if (readoutEl) {
     readoutEl.textContent = "Hover the line to see monthly rent level.";
   }
+  const latestPoint = prepared[prepared.length - 1];
+  if (latestPoint && readoutEl) {
+    const formatDate = d3.timeFormat("%b %Y");
+    const latestValue =
+      mode === "change"
+        ? `${latestPoint.value >= 0 ? "+" : ""}${latestPoint.value.toFixed(1)}% year-over-year`
+        : `$${d3.format(",.0f")(latestPoint.rentLevel)}`;
+    readoutEl.textContent = `${formatDate(latestPoint.date)} latest: ${latestValue}. Hover for more detail.`;
+  }
 
   if (!prepared.length) {
     const fallbackWidth = containerNode.getBoundingClientRect().width || 720;
@@ -1796,6 +1885,16 @@ function initTourControls() {
   updateTourNarration(tourNarrationEl?.textContent || TOUR_NARRATION_DEFAULT);
 }
 
+function showTourHint() {
+  if (sharedState.tourHintShown || !tourPlayBtn) return;
+  sharedState.tourHintShown = true;
+  const rect = tourPlayBtn.getBoundingClientRect();
+  const x = rect.left + rect.width / 2 + window.scrollX;
+  const y = rect.top + window.scrollY - 10;
+  showTooltip(x, y, "Press Play to auto-run the storyboard. Narration will sync with each highlight.");
+  window.setTimeout(hideTooltip, 2600);
+}
+
 function startGuidedTour() {
   if (!sharedState.dataReady || sharedState.tourActive || !TOUR_STEPS.length) {
     return;
@@ -1812,9 +1911,13 @@ function startGuidedTour() {
   sharedState.pausedDuringNarration = false;
   cancelNarrationSpeech();
   setTourButtonState(true);
-  updateTourStatus("Playing citywide highlights…");
-  updateTourNarration("Scene 1 is loading…");
-  runNextTourStep();
+  updateTourStatus("Starting the guided tour…");
+  updateTourNarration("Get ready—highlights begin in a moment.");
+  const leadIn = 1200;
+  sharedState.tourPendingStepDuration = leadIn;
+  sharedState.tourRemainingDuration = leadIn;
+  sharedState.tourStepTimestamp = performance.now();
+  scheduleTourAdvance(leadIn);
 }
 
 function runNextTourStep() {
