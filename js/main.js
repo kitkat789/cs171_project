@@ -1,3 +1,4 @@
+// Core color palette sourced from CSS variables with fallbacks for standalone runs.
 const COLOR = {
   park: getCssVar("--accent") || "#2a9d8f",
   parkMedium: "#43aa8b",
@@ -8,6 +9,7 @@ const COLOR = {
   text: getCssVar("--text") || "#f8fafc",
 };
 
+// Data endpoints (all local JSON produced by scripts/preprocess_data.py).
 const DATA_PATHS = {
   businessZip: "data/processed/business_by_zip.json",
   businessNeighborhoods: "data/processed/business_neighborhoods.json",
@@ -24,6 +26,7 @@ const DATA_PATHS = {
   schoolCounts: "data/processed/school_counts_by_zip.json",
 };
 
+// Scripted “guided tour” scenes that drive auto-highlights and narration.
 const TOUR_STEPS = [
   {
     id: "business-core",
@@ -82,6 +85,7 @@ const TOUR_NARRATION_DEFAULT = "This narration ticker summarizes each scene whil
 const SPEECH_SUPPORTED = typeof window !== "undefined" && "speechSynthesis" in window;
 const NARRATION_GAP_MS = 900;
 
+// Cached DOM references for fast updates.
 const tooltipEl = document.getElementById("tooltip");
 const highlightEl = document.getElementById("business-highlight");
 const tourPlayBtn = document.getElementById("tour-play");
@@ -99,6 +103,7 @@ const rentMapNoteEl = document.getElementById("rent-map-note");
 const highlightDefaultMessage =
   (highlightEl && highlightEl.dataset && highlightEl.dataset.default) ||
   "Hover a ZIP bar or a business bubble to see which neighborhoods are linked.";
+// Shared, mutable state used across map/chart renderers and tour controls.
 const sharedState = {
   businessMarkers: new Map(),
   resourceBusinessMarkers: new Map(),
@@ -142,6 +147,7 @@ const sharedState = {
   tourHintShown: false,
 };
 
+// Bounding box used to keep map fits within San Francisco.
 const SF_VIEW_BOUNDS = {
   lat: [37.55, 37.92],
   lon: [-122.58, -122.28],
@@ -150,6 +156,7 @@ const SF_VIEW_BOUNDS = {
 init();
 
 async function init() {
+  // Bootstrap UI interactions, then load all datasets in parallel.
   attachNavListeners();
   initTourControls();
   initSectionObserver();
@@ -222,6 +229,7 @@ async function init() {
 }
 
 function attachNavListeners() {
+  // Smooth-scroll to sections and sync nav button active state.
   document.querySelectorAll(".story-nav button").forEach((button) => {
     button.addEventListener("click", () => {
       const target = document.querySelector(button.dataset.target);
@@ -240,6 +248,7 @@ function setActiveNav(targetSelector) {
 }
 
 function initSectionObserver() {
+  // Keep nav highlighting aligned with scroll position.
   const observerTargets = document.querySelectorAll(".story-section");
   if (!observerTargets.length) return;
   const observer = new IntersectionObserver(
@@ -264,6 +273,7 @@ async function fetchJSON(url) {
 }
 
 function createLeafletMap(containerId, options = {}) {
+  // Factory to create a map with consistent tiles/controls and reuse the element for later fits.
   const defaultOptions = {
     center: [37.76, -122.44],
     zoom: 12,
@@ -306,6 +316,7 @@ function buildMapLinks(lat, lon) {
   `;
 }
 
+// Build side-by-side hook maps for parks and business density, and wire hover highlights.
 function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusinesses) {
   sharedState.businessMarkers.clear();
   const parksMap = createLeafletMap("parks-map", { zoom: 12 });
@@ -415,6 +426,7 @@ function createHookMaps(parks, businessNeighborhoods, centroidLookup, totalBusin
   });
 }
 
+// Composite resource map that layers parks, businesses, facilities, and schools with toggles.
 function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilities) {
   sharedState.resourceBusinessMarkers.clear();
   const map = createLeafletMap("resource-map", { zoom: 12 });
@@ -560,6 +572,7 @@ function createResourceMap(parks, businessNeighborhoods, centroidLookup, facilit
   map._customLayers = layers;
 }
 
+// Rent-by-ZIP bubble map with color ramp for change since 2020 and radius for current rent.
 function renderRentZipMap(rentZipData) {
   const container = document.getElementById("rent-map");
   if (!container) return;
@@ -702,6 +715,7 @@ function initLayerToggles() {
   });
 }
 
+// Horizontal bar view of top ZIPs with sort controls and reference lines.
 function renderBusinessZipChart(data) {
   const container = d3.select("#business-zip-chart");
   container.selectAll("*").remove();
@@ -924,6 +938,7 @@ function renderBusinessZipChart(data) {
   });
 }
 
+// Lollipop/scatter hybrid showing concentration and sector tilt for leading ZIPs.
 function renderBusinessZipLollipop(data) {
   const container = d3.select("#business-zip-lollipop");
   if (container.empty()) return;
@@ -1296,6 +1311,7 @@ function renderBusinessZipLollipop(data) {
   updateBarStyles();
 }
 
+// Side-by-side cards comparing focused ZIPs against city averages.
 function renderBusinessZipComparison() {
   const container = d3.select("#business-zip-compare");
   if (container.empty()) return;
@@ -1438,6 +1454,7 @@ function renderBusinessZipComparison() {
   }
 }
 
+// Stacked bars for moderate vs severe cost burden across owners/renters.
 function renderHousingBurdenChart(data) {
   const container = d3.select("#housing-burden-chart");
   container.selectAll("*").remove();
@@ -1565,6 +1582,7 @@ function renderHousingBurdenChart(data) {
   });
 }
 
+// Citywide rent trend line with rolling highlight for pandemic dip and recovery.
 function renderRentTrendChart(entries) {
   const parsed = (entries || [])
     .map((d) => ({
@@ -1686,6 +1704,7 @@ function renderRentTrendChart(entries) {
   updateRentTrendVisualization();
 }
 
+// Toggle rent trend view between absolute ZORI and percent change since 2020.
 function updateRentTrendVisualization() {
   const entries = sharedState.rentEntries;
   const controls = sharedState.rentControls;
@@ -1973,6 +1992,7 @@ function updateRentTrendVisualization() {
     });
 }
 
+// Keep the mode label in sync with the selected rent trend view.
 function updateRentModeLabel() {
   const labelEl = sharedState.rentControls?.elements?.modeLabel;
   if (!labelEl) return;
@@ -1982,6 +2002,7 @@ function updateRentModeLabel() {
       : "Viewing rent level ($)";
 }
 
+// Track markers by name and keep their baseline styles for later resets.
 function addMarkerReference(store, name, marker) {
   if (!store.has(name)) {
     store.set(name, []);
@@ -1989,6 +2010,7 @@ function addMarkerReference(store, name, marker) {
   store.get(name).push(marker);
 }
 
+// Apply highlight/lowlight styling to map markers based on active neighborhoods.
 function updateMarkerStyles() {
   const active = sharedState.activeNeighborhoods;
   const hasActive = active && active.size > 0;
@@ -2037,6 +2059,7 @@ function updateMarkerStyles() {
   apply(sharedState.resourceBusinessMarkers);
 }
 
+// Dim or emphasize bar/lollipop elements according to the current highlight context.
 function updateBarStyles() {
   const active = sharedState.activeNeighborhoods;
   const hasActive = active && active.size > 0;
@@ -2076,6 +2099,7 @@ function updateBarStyles() {
   });
 }
 
+// Wire up narration audio toggle and populate voices when supported.
 function initNarrationControl() {
   if (!tourAudioToggle || !tourAudioHint) {
     return;
@@ -2109,6 +2133,7 @@ function initNarrationControl() {
   }
 }
 
+// Flip narration state and load voices on-demand to avoid slow startup.
 function setNarrationAudioEnabled(enabled) {
   if (!sharedState.narrationSupported) {
     return;
@@ -2137,6 +2162,7 @@ function setNarrationAudioEnabled(enabled) {
   }
 }
 
+// Speak the provided text with the selected voice; silently bail if unsupported.
 function speakNarrationText(text) {
   if (!sharedState.narrationSupported || !sharedState.narrationAudioEnabled || !text) {
     return;
@@ -2168,6 +2194,7 @@ function speakNarrationText(text) {
   window.speechSynthesis.speak(utterance);
 }
 
+// Stop any active utterance and clear flags so tours can proceed.
 function cancelNarrationSpeech() {
   if (!sharedState.narrationSupported) {
     return;
@@ -2180,6 +2207,7 @@ function cancelNarrationSpeech() {
   window.speechSynthesis.cancel();
 }
 
+// Tour helper: resume after speech ends when we were waiting on narration.
 function handleNarrationComplete() {
   const wasAwaiting = sharedState.awaitingNarrationEnd;
   sharedState.awaitingNarrationEnd = false;
@@ -2188,6 +2216,7 @@ function handleNarrationComplete() {
   }
 }
 
+// Pull available speech synthesis voices, preferring non-defaults when possible.
 function loadVoiceOptions() {
   if (!sharedState.narrationSupported || !window.speechSynthesis) {
     return;
@@ -2216,6 +2245,7 @@ function loadVoiceOptions() {
   }
 }
 
+// Choose a reasonable default voice with a bias toward US English if available.
 function pickPreferredVoice(voices) {
   const priority = ["Neural", "Natural", "Jenny", "Guy", "Emma", "Salli", "Aria", "Google", "Microsoft"];
   for (const keyword of priority) {
@@ -2225,6 +2255,7 @@ function pickPreferredVoice(voices) {
   return voices[0];
 }
 
+// Populate the narration voice picker and show device support hints.
 function renderVoiceOptions() {
   if (!tourVoiceSelect) {
     return;
@@ -2248,6 +2279,7 @@ function renderVoiceOptions() {
   }
 }
 
+// Initialize play/pause/stop controls for the guided tour and floating mini bar.
 function initTourControls() {
   if (!tourPlayBtn || !tourStopBtn || !tourPauseBtn) {
     return;
@@ -2280,6 +2312,7 @@ function initTourControls() {
   updateTourNarration(tourNarrationEl?.textContent || TOUR_NARRATION_DEFAULT);
 }
 
+// One-time hint bubble explaining how to start the guided tour.
 function showTourHint() {
   if (sharedState.tourHintShown || !tourPlayBtn) return;
   sharedState.tourHintShown = true;
@@ -2290,6 +2323,7 @@ function showTourHint() {
   window.setTimeout(hideTooltip, 2600);
 }
 
+// Kick off the scripted tour, reset state, and begin autoplay.
 function startGuidedTour() {
   if (!sharedState.dataReady || sharedState.tourActive || !TOUR_STEPS.length) {
     return;
@@ -2315,6 +2349,7 @@ function startGuidedTour() {
   scheduleTourAdvance(leadIn);
 }
 
+// Advance to the next tour scene, highlight neighborhoods, and set narration.
 function runNextTourStep() {
   if (!sharedState.tourActive || sharedState.tourPaused) {
     return;
@@ -2359,6 +2394,7 @@ function runNextTourStep() {
   }
 }
 
+// Helper to schedule the next scene while tracking remaining time for pause/resume.
 function scheduleTourAdvance(delay) {
   if (!sharedState.tourActive) {
     return;
@@ -2376,6 +2412,7 @@ function scheduleTourAdvance(delay) {
   }, safeDelay);
 }
 
+// End-of-tour cleanup that preserves the final highlight.
 function finishGuidedTour() {
   if (sharedState.tourTimeoutId) {
     clearTimeout(sharedState.tourTimeoutId);
@@ -2397,6 +2434,7 @@ function finishGuidedTour() {
   updateTourNarration(completionText);
 }
 
+// Full stop: cancel timers, narration, and clear highlights.
 function stopGuidedTour(options = {}) {
   const { silent = false, skipHighlightReset = false, reason } = options;
   if (sharedState.tourTimeoutId) {
@@ -2433,6 +2471,7 @@ function stopGuidedTour(options = {}) {
   }
 }
 
+// Pause timers and narration; remember remaining duration for resume.
 function pauseGuidedTour() {
   if (!sharedState.tourActive || sharedState.tourPaused) {
     return;
@@ -2457,6 +2496,7 @@ function pauseGuidedTour() {
   updateTourNarration(pauseNarration);
 }
 
+// Resume from a paused tour, including narration playback.
 function resumeGuidedTour() {
   if (!sharedState.tourActive || !sharedState.tourPaused) {
     return;
@@ -2487,6 +2527,7 @@ function resumeGuidedTour() {
   }
 }
 
+// Enable/disable tour controls across both the main bar and floating bar.
 function setTourButtonState(isRunning) {
   if (tourPlayBtn) {
     tourPlayBtn.disabled = isRunning || !sharedState.dataReady;
@@ -2518,6 +2559,7 @@ function setTourButtonState(isRunning) {
   }
 }
 
+// Update UI copy for tour status and keep the floating chip in sync.
 function updateTourStatus(message) {
   if (!tourStatusEl || !message) {
     return;
@@ -2527,6 +2569,7 @@ function updateTourStatus(message) {
   }
 }
 
+// Update narration text and trigger audio when enabled.
 function updateTourNarration(message) {
   if (!tourNarrationEl || !message) {
     return;
@@ -2536,6 +2579,7 @@ function updateTourNarration(message) {
   }
 }
 
+// Centralized highlighter: records active neighborhoods and origin (maps/bars).
 function highlightNeighborhoods(neighborhoods, context = {}) {
   const names = Array.isArray(neighborhoods) ? neighborhoods.filter(Boolean) : [];
   sharedState.activeNeighborhoods = new Set(names);
@@ -2545,6 +2589,7 @@ function highlightNeighborhoods(neighborhoods, context = {}) {
   updateHighlightMessage();
 }
 
+// Reset highlight state after hover/interaction ends.
 function clearNeighborhoodHighlight() {
   sharedState.activeNeighborhoods = new Set();
   sharedState.highlightContext = null;
@@ -2553,6 +2598,7 @@ function clearNeighborhoodHighlight() {
   updateHighlightMessage();
 }
 
+// Autocomplete/lookup for ZIPs or address labels; drives open-exploration cards.
 function initializeZipSearch() {
   const form = document.getElementById("zip-search");
   const input = document.getElementById("zip-input");
@@ -2664,6 +2710,7 @@ function normalizeZipInput(value) {
   return digits;
 }
 
+// Exact/substring match across address_points to support quick lookup.
 function findAddressPoint(query) {
   if (!query) return null;
   const normalized = query.toLowerCase();
@@ -2695,6 +2742,7 @@ function findAddressPoint(query) {
   return bestScore > 0 ? bestPoint : null;
 }
 
+// Pan both resource and rent maps to a chosen address and drop a marker.
 function focusOnAddressPoint(point) {
   if (!point?.coordinates?.lat || !point?.coordinates?.lon) {
     renderZipSummary(null, { error: "Unable to locate that address." });
@@ -2756,6 +2804,7 @@ function focusOnAddressPoint(point) {
   });
 }
 
+// Activate a ZIP across charts/maps, update summary card, and adjust markers.
 function focusOnZip(entry, options = {}) {
   const { addressContext, suppressHighlight, skipMapPan, source = "zip-search", clearAddressMarker: shouldClearAddress = true } = options;
   if (shouldClearAddress) {
@@ -2792,6 +2841,7 @@ function focusOnZip(entry, options = {}) {
   }
 }
 
+// Clear ZIP/address focus and restore default highlights/markers.
 function resetZipSelection() {
   sharedState.activeZip = null;
   clearNeighborhoodHighlight();
@@ -2807,6 +2857,7 @@ function resetZipSelection() {
   });
 }
 
+// Update the ZIP summary card and linked highlight context for open exploration.
 function renderZipSummary(entry, options = {}) {
   const summaryEl = document.getElementById("zip-summary");
   if (!summaryEl) return;
@@ -2945,6 +2996,7 @@ function renderZipSummary(entry, options = {}) {
   `;
 }
 
+// Fallback centroid: prefer precomputed centroid, else average linked neighborhoods.
 function getZipCentroid(entry, neighborhoods) {
   if (entry?.centroid?.lat && entry?.centroid?.lon) {
     return entry.centroid;
@@ -2969,6 +3021,7 @@ function getZipCentroid(entry, neighborhoods) {
   };
 }
 
+// Drop or move a single focus marker on the requested map.
 function updateZipFocusMarker(mapKey, coords) {
   const map = sharedState.maps[mapKey];
   if (!map || !coords) return;
@@ -2992,6 +3045,7 @@ function updateZipFocusMarker(mapKey, coords) {
   sharedState.zipFocusMarkers[mapKey] = marker;
 }
 
+// Remove all focus markers from every map.
 function clearZipFocusMarkers() {
   Object.entries(sharedState.zipFocusMarkers || {}).forEach(([mapKey, marker]) => {
     if (marker && marker.remove) {
@@ -3001,6 +3055,7 @@ function clearZipFocusMarkers() {
   });
 }
 
+// Dedicated marker for address lookups to differentiate from ZIP markers.
 function updateAddressMarker(coords, label) {
   const map = sharedState.maps.resource;
   if (!map || !coords) return;
@@ -3020,6 +3075,7 @@ function updateAddressMarker(coords, label) {
   }
 }
 
+// Remove the address marker and associated state.
 function clearAddressMarker() {
   if (sharedState.addressMarker && sharedState.addressMarker.remove) {
     sharedState.addressMarker.remove();
@@ -3027,6 +3083,7 @@ function clearAddressMarker() {
   sharedState.addressMarker = null;
 }
 
+// Simple nearest-neighbor search by haversine distance; returns sorted subset.
 function findNearest(entries, coords, limit = 1) {
   if (!entries?.length || !coords) return [];
   const results = [];
@@ -3040,6 +3097,7 @@ function findNearest(entries, coords, limit = 1) {
   return results.slice(0, limit);
 }
 
+// Distance in kilometers between two lat/lon points.
 function haversineDistance(lat1, lon1, lat2, lon2) {
   const toRad = (v) => (v * Math.PI) / 180;
   const R = 6371;
@@ -3052,6 +3110,7 @@ function haversineDistance(lat1, lon1, lat2, lon2) {
   return R * c;
 }
 
+// Friendly distance string for small numbers.
 function formatDistance(km) {
   if (km === undefined || km === null || Number.isNaN(km)) return "N/A";
   const miles = km * 0.621371;
