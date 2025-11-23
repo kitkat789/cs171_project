@@ -87,6 +87,9 @@ const highlightEl = document.getElementById("business-highlight");
 const tourPlayBtn = document.getElementById("tour-play");
 const tourPauseBtn = document.getElementById("tour-pause");
 const tourStopBtn = document.getElementById("tour-stop");
+const tourFloatingPanel = document.getElementById("tour-floating-controls");
+const tourFloatingPauseBtn = document.getElementById("tour-floating-pause");
+const tourFloatingStopBtn = document.getElementById("tour-floating-stop");
 const tourStatusEl = document.getElementById("tour-status");
 const tourNarrationEl = document.getElementById("tour-script");
 const tourAudioToggle = document.getElementById("tour-audio-toggle");
@@ -100,6 +103,7 @@ const sharedState = {
   businessMarkers: new Map(),
   resourceBusinessMarkers: new Map(),
   businessBarNodes: new Map(),
+  businessLollipopNodes: new Map(),
   businessZipLookup: new Map(),
   activeNeighborhoods: new Set(),
   highlightContext: null,
@@ -198,6 +202,7 @@ async function init() {
     createHookMaps(parks.entries, businessNeighborhoods.entries, centroidLookup, businessZip.total_businesses);
     createResourceMap(parks.entries, businessNeighborhoods.entries, centroidLookup, facilities.entries);
     renderBusinessZipChart(businessZip);
+    renderBusinessZipLollipop(businessZip);
     renderBusinessZipComparison();
     renderHousingBurdenChart(housing);
     renderRentTrendChart(rentTrend.entries);
@@ -917,6 +922,378 @@ function renderBusinessZipChart(data) {
   document.querySelectorAll('input[name="business-sort"]').forEach((input) => {
     input.addEventListener("change", () => update(input.value));
   });
+}
+
+function renderBusinessZipLollipop(data) {
+  const container = d3.select("#business-zip-lollipop");
+  if (container.empty()) return;
+  container.selectAll("*").remove();
+
+  const entries = data.entries
+    .slice()
+    .sort((a, b) => d3.descending(a.share_of_city, b.share_of_city))
+    .slice(0, 12);
+
+  if (!entries.length) {
+    const fallbackWidth = container.node()?.getBoundingClientRect().width || 480;
+    container.attr("width", fallbackWidth).attr("height", 60);
+    container
+      .append("text")
+      .attr("x", 12)
+      .attr("y", 28)
+      .attr("fill", COLOR.text)
+      .style("font-size", "0.85rem")
+      .text("Business concentration chart unavailable.");
+    return;
+  }
+
+  const width = container.node().getBoundingClientRect().width || 920;
+  const height = 640;
+  const margin = { top: 44, right: 360, bottom: 68, left: 200 };
+
+  const svg = container.attr("width", width).attr("height", height);
+  const chart = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  const chartWidth = width - margin.left - margin.right;
+  const chartHeight = height - margin.top - margin.bottom;
+
+  const topSectorShare = (entry) => {
+    if (!entry.top_sectors || !entry.top_sectors.length || !entry.business_count) return 0;
+    return (entry.top_sectors[0].count || 0) / entry.business_count;
+  };
+  const secondSectorShare = (entry) => {
+    if (!entry.top_sectors || entry.top_sectors.length < 2 || !entry.business_count) return 0;
+    return (entry.top_sectors[1].count || 0) / entry.business_count;
+  };
+
+  const xDomainMax = (d3.max(entries, (d) => d.share_of_city) || 0.08) * 1.15;
+  const stackWidth = 150;
+  const stackGap = 32;
+  const sizeScale = d3
+    .scaleSqrt()
+    .domain([d3.min(entries, (d) => d.business_count) || 1, d3.max(entries, (d) => d.business_count) || 1])
+    .range([8, 20]);
+  const maxRadius = sizeScale(d3.max(entries, (d) => d.business_count) || 1);
+  const mainWidth = Math.max(220, chartWidth - stackWidth - stackGap - maxRadius - 16);
+  const xScale = d3.scaleLinear().domain([0, xDomainMax]).range([0, mainWidth]);
+  const topPad = 16;
+  const bottomPad = 32;
+  const yScale = d3
+    .scaleBand()
+    .domain(entries.map((d) => d.zip))
+    .range([topPad, chartHeight - bottomPad])
+    .padding(0.6);
+
+  const palette = ["#ef476f", "#ffd166", "#06d6a0", "#118ab2", "#9b5de5", "#f4a261", "#e9c46a", "#577590", "#ff9f1c"];
+  const uniqueSectors = Array.from(new Set(entries.map((entry) => entry.top_sectors?.[0]?.sector).filter(Boolean)));
+  const sectorColor = (sector) => {
+    if (!sector) return COLOR.business;
+    const idx = uniqueSectors.indexOf(sector);
+    return palette[idx % palette.length] || COLOR.business;
+  };
+
+  chart
+    .append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", `translate(0,${chartHeight})`)
+    .call(
+      d3
+        .axisBottom(xScale)
+        .ticks(6)
+        .tickFormat((d) => `${(d * 100).toFixed(0)}%`)
+    )
+    .selectAll("text")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.8rem");
+
+  chart
+    .append("line")
+    .attr("x1", xScale(0))
+    .attr("x2", xScale(0))
+    .attr("y1", topPad)
+    .attr("y2", chartHeight - bottomPad)
+    .attr("stroke", COLOR.text)
+    .attr("stroke-opacity", 0.4)
+    .attr("stroke-dasharray", "3,6");
+
+  chart
+    .append("text")
+    .attr("class", "axis-label")
+    .attr("x", chartWidth / 2)
+    .attr("y", chartHeight + 34)
+    .attr("fill", COLOR.text)
+    .attr("text-anchor", "middle")
+    .style("font-size", "0.9rem")
+    .text("Share of all SF business listings");
+
+  const stats = sharedState.citywideBusinessStats || {};
+  const referenceLines = [
+    { value: stats.shareAvg, label: "City avg share", axis: "x", dash: "4,6" },
+    { value: stats.shareMedian, label: "Median ZIP share", axis: "x", dash: "2,4" },
+  ];
+
+  referenceLines.forEach((ref, idx) => {
+    const x = xScale(ref.value);
+    chart
+      .append("line")
+      .attr("class", "reference-line")
+      .attr("x1", x)
+      .attr("x2", x)
+      .attr("y1", -6)
+      .attr("y2", chartHeight + 6)
+      .attr("stroke", COLOR.text)
+      .attr("stroke-opacity", 0.25)
+      .attr("stroke-dasharray", ref.dash);
+    chart
+      .append("text")
+      .attr("class", "reference-label")
+      .attr("x", x + 6)
+      .attr("y", topPad - 10 - idx * 14)
+      .text(`${ref.label} ${(ref.value * 100).toFixed(1)}%`)
+      .attr("fill", COLOR.text)
+      .style("font-size", "0.7rem");
+  });
+
+  const labelZipX = -145;
+  const labelShareX = -30;
+
+  const rows = chart
+    .selectAll(".zip-row")
+    .data(entries, (d) => d.zip)
+    .join("g")
+    .attr("class", "zip-row")
+    .attr("transform", (d) => `translate(0,${yScale(d.zip)})`);
+
+  const handleHover = (event, d) => {
+    const neighborhoods = (d.top_neighborhoods || []).map((item) => item.neighborhood);
+    const sectors =
+      d.top_sectors && d.top_sectors.length
+        ? d.top_sectors.map((sector) => `${sector.sector} (${sector.count.toLocaleString()})`).join("<br>")
+        : "No sector detail available";
+    const concentrationShare = topSectorShare(d);
+    const bounds = event?.target?.getBoundingClientRect?.();
+    const x = event.pageX || (bounds ? bounds.x + bounds.width / 2 + window.scrollX : 0);
+    const y = event.pageY || (bounds ? bounds.y + window.scrollY : 0);
+    highlightNeighborhoods(neighborhoods, {
+      type: "zip",
+      source: "lollipop",
+      zip: d.zip,
+      neighborhoods,
+    });
+    showTooltip(
+      x,
+      y,
+      `<strong>ZIP ${d.zip}</strong><br>${(d.share_of_city * 100).toFixed(1)}% of listings<br>${d3.format(",")(
+        d.business_count
+      )} businesses<br>Top sector concentration: ${(concentrationShare * 100).toFixed(1)}%<br><em>Leading sectors</em><br>${sectors}`
+    );
+  };
+
+  const handleLeave = () => {
+    hideTooltip();
+    clearNeighborhoodHighlight();
+  };
+
+  rows
+    .append("text")
+    .attr("class", "row-zip")
+    .attr("x", labelZipX)
+    .attr("y", yScale.bandwidth() * 0.5 + 4)
+    .attr("text-anchor", "start")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.95rem")
+    .style("font-weight", 700)
+    .text((d) => `ZIP ${d.zip}`);
+
+  rows
+    .append("text")
+    .attr("class", "row-share")
+    .attr("x", labelShareX)
+    .attr("y", yScale.bandwidth() * 0.5 + 4)
+    .attr("text-anchor", "end")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.9rem")
+    .style("font-weight", 700)
+    .text((d) => `${(d.share_of_city * 100).toFixed(1)}%`);
+
+  rows
+    .append("rect")
+    .attr("class", "share-bar")
+    .attr("x", 0)
+    .attr("y", yScale.bandwidth() * 0.25)
+    .attr("height", yScale.bandwidth() * 0.5)
+    .attr("width", (d) => xScale(d.share_of_city))
+    .attr("rx", 8)
+    .attr("fill", COLOR.business)
+    .attr("opacity", 0.9)
+    .on("mouseenter", handleHover)
+    .on("mouseleave", handleLeave);
+
+  rows
+    .append("circle")
+    .attr("class", "share-dot")
+    .attr("cx", (d) => xScale(d.share_of_city))
+    .attr("cy", yScale.bandwidth() * 0.5)
+    .attr("r", (d) => sizeScale(d.business_count))
+    .attr("fill", COLOR.business)
+    .attr("stroke", "#0b1224")
+    .attr("stroke-width", 1.4)
+    .attr("tabindex", 0)
+    .on("mouseenter", handleHover)
+    .on("mouseleave", handleLeave)
+    .on("focus", handleHover)
+    .on("blur", handleLeave);
+
+  const stackX = mainWidth + stackGap;
+  const stackHeadingBaseline = topPad - 12;
+  chart
+    .append("text")
+    .attr("class", "stack-heading")
+    .attr("x", stackX + stackWidth / 2)
+    .attr("y", stackHeadingBaseline)
+    .attr("fill", COLOR.text)
+    .attr("text-anchor", "middle")
+    .style("font-size", "0.82rem")
+    .style("font-weight", 700)
+    .text("Leading sector mix");
+
+  rows
+    .append("rect")
+    .attr("class", "sector-bar")
+    .attr("x", stackX)
+    .attr("y", yScale.bandwidth() * 0.25)
+    .attr("height", yScale.bandwidth() * 0.5)
+    .attr("width", stackWidth)
+    .attr("rx", 8)
+    .attr("fill", "rgba(255,255,255,0.06)");
+
+  rows
+    .append("rect")
+    .attr("class", "sector-bar-top")
+    .attr("x", stackX)
+    .attr("y", yScale.bandwidth() * 0.25)
+    .attr("height", yScale.bandwidth() * 0.5)
+    .attr("width", (d) => stackWidth * topSectorShare(d))
+    .attr("rx", 8)
+    .attr("fill", (d) => sectorColor(d.top_sectors?.[0]?.sector))
+    .on("mouseenter", handleHover)
+    .on("mouseleave", handleLeave);
+
+  rows
+    .append("rect")
+    .attr("class", "sector-bar-second")
+    .attr("x", (d) => stackX + stackWidth * topSectorShare(d))
+    .attr("y", yScale.bandwidth() * 0.25)
+    .attr("height", yScale.bandwidth() * 0.5)
+    .attr("width", (d) => stackWidth * secondSectorShare(d))
+    .attr("fill", (d) => sectorColor(d.top_sectors?.[1]?.sector))
+    .on("mouseenter", handleHover)
+    .on("mouseleave", handleLeave);
+
+  const legendGap = Math.max(24, maxRadius + 28);
+  const maxMiniBarX = stackX + stackWidth;
+  const legendColumnX = maxMiniBarX + legendGap;
+  const legendColumnY = stackHeadingBaseline + 32;
+  const legend = chart.append("g").attr("class", "lollipop-legend").attr("transform", `translate(${legendColumnX}, ${legendColumnY})`);
+
+  const colorLegend = legend.append("g").attr("class", "sector-legend");
+  colorLegend
+    .append("text")
+    .attr("fill", COLOR.text)
+    .style("font-size", "0.78rem")
+    .style("font-weight", 600)
+    .text("Sector colors");
+
+  const swatches = [...uniqueSectors.slice(0, 3), "Other sectors"]; // top sectors + remainder
+  const maxLabelWidth = 210;
+
+  const wrapText = (selection) => {
+    selection.each(function () {
+      const text = d3.select(this);
+      const words = text.text().split(/\s+/);
+      let line = [];
+      let lineNumber = 0;
+      const lineHeight = 12;
+      const x = text.attr("x");
+      const y = text.attr("y");
+      text.text(null);
+      let tspan = text.append("tspan").attr("x", x).attr("y", y);
+      words.forEach((word) => {
+        line.push(word);
+        tspan.text(line.join(" "));
+        if (tspan.node().getComputedTextLength() > maxLabelWidth) {
+          line.pop();
+          tspan.text(line.join(" "));
+          line = [word];
+          tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", `${++lineNumber * lineHeight}px`).text(word);
+        }
+      });
+    });
+  };
+
+  colorLegend
+    .selectAll("g")
+    .data(swatches)
+    .join("g")
+    .attr("transform", (d, i) => `translate(0, ${i * 26 + 18})`)
+    .call((g) => {
+      g.append("rect")
+        .attr("width", 16)
+        .attr("height", 10)
+        .attr("rx", 4)
+        .attr("fill", (d) => (d === "Other sectors" ? "rgba(255,255,255,0.06)" : sectorColor(d)));
+      g.append("text")
+        .attr("x", 22)
+        .attr("y", 10)
+        .attr("fill", COLOR.text)
+        .style("font-size", "0.72rem")
+        .text((d) => (d === "Other sectors" ? "Other sectors" : d))
+        .call(wrapText);
+    });
+
+  const howToReadY = swatches.length * 26 + 52;
+  legend
+    .append("text")
+    .attr("class", "how-to-read-label")
+    .attr("x", 0)
+    .attr("y", howToReadY)
+    .attr("fill", COLOR.text)
+    .attr("text-anchor", "start")
+    .style("font-size", "0.82rem")
+    .style("font-weight", 700)
+    .text("How to read");
+
+  const sizeLegend = legend.append("g").attr("transform", `translate(0, ${howToReadY + 14})`);
+  const sampleSizes = [entries[0], entries[Math.min(5, entries.length - 1)], entries[entries.length - 1]]
+    .map((d) => d.business_count)
+    .sort((a, b) => a - b);
+
+  const maxLegendRadius = Math.min(16, sizeScale(d3.max(sampleSizes)));
+
+  sampleSizes.forEach((count, i) => {
+    sizeLegend
+      .append("circle")
+      .attr("cx", maxLegendRadius + 4)
+      .attr("cy", i * 24)
+      .attr("r", Math.min(maxLegendRadius, sizeScale(count)))
+      .attr("fill", COLOR.business)
+      .attr("opacity", 0.35)
+      .attr("stroke", COLOR.text)
+      .attr("stroke-width", 0.6);
+    sizeLegend
+      .append("text")
+      .attr("x", maxLegendRadius * 2 + 12)
+      .attr("y", i * 24 + 4)
+      .attr("fill", COLOR.text)
+      .style("font-size", "0.72rem")
+      .text(`${d3.format(",")(Math.round(count))} businesses`);
+  });
+
+  sharedState.businessLollipopNodes = new Map();
+  rows.each(function (d) {
+    sharedState.businessLollipopNodes.set(d.zip, this);
+  });
+  updateBarStyles();
 }
 
 function renderBusinessZipComparison() {
@@ -1663,24 +2040,30 @@ function updateMarkerStyles() {
 function updateBarStyles() {
   const active = sharedState.activeNeighborhoods;
   const hasActive = active && active.size > 0;
+  const collections = [sharedState.businessBarNodes, sharedState.businessLollipopNodes];
+
   if (!hasActive) {
-    sharedState.businessBarNodes.forEach((node) => {
-      if (!node) return;
-      const selection = d3.select(node);
-      selection.classed("is-active", false).classed("is-dim", false);
-    });
+    collections.forEach((map) =>
+      map.forEach((node) => {
+        if (!node) return;
+        const selection = d3.select(node);
+        selection.classed("is-active", false).classed("is-dim", false);
+      })
+    );
     return;
   }
 
   let matchedCount = 0;
-  const results = new Map();
-  sharedState.businessBarNodes.forEach((node, zip) => {
-    const entry = sharedState.businessZipLookup.get(zip);
-    if (!entry || !node) return;
-    const neighborhoods = (entry.top_neighborhoods || []).map((item) => item.neighborhood);
-    const matches = neighborhoods.some((name) => active.has(name));
-    if (matches) matchedCount += 1;
-    results.set(zip, { node, matches });
+  const results = [];
+  collections.forEach((map) => {
+    map.forEach((node, zip) => {
+      const entry = sharedState.businessZipLookup.get(zip);
+      if (!entry || !node) return;
+      const neighborhoods = (entry.top_neighborhoods || []).map((item) => item.neighborhood);
+      const matches = neighborhoods.some((name) => active.has(name));
+      if (matches) matchedCount += 1;
+      results.push({ node, matches });
+    });
   });
 
   results.forEach(({ node, matches }) => {
@@ -1879,6 +2262,18 @@ function initTourControls() {
     }
   });
   tourStopBtn.addEventListener("click", () => stopGuidedTour());
+
+  if (tourFloatingPauseBtn && tourFloatingStopBtn) {
+    tourFloatingPauseBtn.addEventListener("click", () => {
+      if (!sharedState.tourActive) return;
+      if (sharedState.tourPaused) {
+        resumeGuidedTour();
+      } else {
+        pauseGuidedTour();
+      }
+    });
+    tourFloatingStopBtn.addEventListener("click", () => stopGuidedTour());
+  }
   initNarrationControl();
   setTourButtonState(false);
   updateTourStatus(tourStatusEl?.textContent || TOUR_STATUS_DEFAULT);
@@ -2103,6 +2498,24 @@ function setTourButtonState(isRunning) {
   if (tourStopBtn) {
     tourStopBtn.disabled = !isRunning;
   }
+  if (tourFloatingPanel) {
+    tourFloatingPanel.hidden = !isRunning;
+  }
+  if (tourFloatingPauseBtn) {
+    tourFloatingPauseBtn.textContent = sharedState.tourPaused ? "Resume" : "Pause";
+  }
+  const chip = document.getElementById("tour-chip-status");
+  if (chip) {
+    if (!sharedState.dataReady) {
+      chip.textContent = "Loading…";
+    } else if (!sharedState.tourActive) {
+      chip.textContent = "Ready";
+    } else if (sharedState.tourPaused) {
+      chip.textContent = "Paused";
+    } else {
+      chip.textContent = "Playing";
+    }
+  }
 }
 
 function updateTourStatus(message) {
@@ -2124,9 +2537,6 @@ function updateTourNarration(message) {
 }
 
 function highlightNeighborhoods(neighborhoods, context = {}) {
-  if (sharedState.tourActive && context.source !== "guided-tour") {
-    stopGuidedTour({ reason: "interrupt", skipHighlightReset: true });
-  }
   const names = Array.isArray(neighborhoods) ? neighborhoods.filter(Boolean) : [];
   sharedState.activeNeighborhoods = new Set(names);
   sharedState.highlightContext = { ...context, neighborhoods: names };

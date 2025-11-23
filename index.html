@@ -37,17 +37,20 @@
 
       <section class="tour-banner" aria-label="Guided tour controls">
         <div class="tour-copy">
-          <h2>Let the visuals walk you through</h2>
+          <h2>Guided tour</h2>
           <p>
-            Press play to watch each insight highlight on the maps and charts automatically. Pause anytime, or stop to
-            take over manually.
+            Let the visuals run like a short video—press play to watch highlights update automatically, pause to inspect,
+            or stop to take over manually.
           </p>
         </div>
         <div class="tour-bar">
           <div class="tour-actions" role="group" aria-label="Tour playback controls">
-            <button id="tour-play" class="btn-primary" type="button" disabled>Play tour</button>
-            <button id="tour-pause" class="btn-secondary" type="button" disabled>Pause</button>
-            <button id="tour-stop" class="btn-secondary" type="button" disabled>Stop</button>
+            <div class="tour-actions-row">
+              <button id="tour-play" class="btn-primary" type="button" disabled>Play tour</button>
+              <button id="tour-pause" class="btn-secondary" type="button" disabled>Pause</button>
+              <button id="tour-stop" class="btn-secondary" type="button" disabled>Stop</button>
+              <span class="tour-chip" id="tour-chip-status">Ready</span>
+            </div>
           </div>
           <div class="tour-narration" aria-live="polite">
             <p id="tour-status" class="tour-status">Preparing the guided tour…</p>
@@ -69,6 +72,10 @@
           </div>
         </div>
       </section>
+      <div id="tour-floating-controls" class="tour-floating-controls" hidden>
+        <button id="tour-floating-pause" type="button" aria-label="Pause tour">Pause</button>
+        <button id="tour-floating-stop" type="button" aria-label="Stop tour">Stop</button>
+      </div>
 
       <main>
         
@@ -81,31 +88,36 @@
               out of day-to-day commerce and job growth.
             </p>
           </div>
-          <div class="viz-layout">
-            <article class="chart-card business-compare">
-              <header>
-                <h3>Mission vs. Outer Sunset business share</h3>
-                <p class="chart-meta">Share of all San Francisco business listings</p>
-              </header>
-              <p class="chart-hint">Hover a bar to see linked neighborhoods on the maps.</p>
-              <figure>
-                <svg
-                  id="business-zip-compare"
-                  aria-labelledby="business-zip-compare-desc"
-                ></svg>
-                <figcaption id="business-zip-compare-desc">
-                  Mission (94110) carries roughly twice the business presence of Excelsior/Outer Mission (94112) despite
-                  similar population counts.
-                </figcaption>
-              </figure>
-            </article>
+          <div class="viz-layout stacked">
+            <div class="chart-stack">
+              <article class="chart-card business-mix">
+                <header>
+                  <h3>Top business ZIP mix</h3>
+                  <p class="chart-meta">
+                    Share of all listings · circle size = businesses · color = how concentrated the leading sector is
+                  </p>
+                </header>
+                <p class="chart-hint">Hover a circle to surface linked neighborhoods and dominant sectors.</p>
+                <figure>
+                  <svg
+                    id="business-zip-lollipop"
+                    aria-labelledby="business-zip-lollipop-desc"
+                  ></svg>
+                  <figcaption id="business-zip-lollipop-desc">
+                    Downtown ZIPs dominate volume and specialization: 94110 and 94107 pull the largest bubbles while
+                    94103’s warmer hue shows a heavy tilt toward one sector.
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
             <div class="story-stack">
               <aside class="story-card">
-                <h3 id="business-zip-title">Mission vs. Outer Sunset</h3>
+                <h3 id="business-zip-title">Mission vs. Excelsior</h3>
                 <p>
                   ZIP <strong>94110 (Mission)</strong> alone hosts nearly <strong>8%</strong> of all listings, dominated
                   by professional and food services. In contrast, <strong>94112 (Excelsior)</strong> supports less than
-                  <strong>4%</strong>, limiting nearby employment and services for residents.
+                  <strong>4%</strong>, limiting nearby employment and services for residents. The lollipop view shows
+                  which ZIPs lean heavily on one sector versus those with more diverse mixes.
                 </p>
                 <ul>
                   <li><span class="dot dot-business"></span>Top five ZIPs = 45% of businesses</li>
@@ -219,7 +231,7 @@
                 eviction hotspots across Mission, Bayview, and Tenderloin. These are also neighborhoods with limited
                 park acreage and scarce city facilities.
               </p>
-              <p class="note">Hover bars to compare moderate (30–50% of income) vs. severe (>50%) loads. Data: HUD CHAS 2017-2021 5-year estimates.</p>
+              <p class="note">Data: HUD CHAS 2017-2021 5-year estimates.</p>
             </aside>
           </div>
         </section>
